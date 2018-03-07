@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 456 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_456{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="203" 
+y="73" 
+class="s1_456"
+>Strings</text>
+
+<text 
+x="203" 
+y="121" 
+class="s1_456"
+>Exceptions</text>
+
+<text 
+x="203" 
+y="168" 
+class="s1_456"
+>Lists</text>
+
+<text 
+x="203" 
+y="215" 
+dx="0,-0.8,0,0,0,0" 
+class="s1_456"
+>Tuples</text>
+
+<text 
+x="203" 
+y="262" 
+class="s1_456"
+>Dictionaries</text>
+
+<text 
+x="203" 
+y="310" 
+class="s1_456"
+>Sets</text>
+
+<text 
+x="203" 
+y="357" 
+class="s1_456"
+>Control Flow</text>
+
+<text 
+x="203" 
+y="404" 
+dx="0,-0.8,0,0,0,0,0,0,0,0" 
+class="s1_456"
+>Truthiness</text>
+
+<text 
+x="153" 
+y="452" 
+class="s1_456"
+>The Not-So-Basics</text>
+
+<text 
+x="203" 
+y="486" 
+class="s1_456"
+>Sorting</text>
+
+<text 
+x="203" 
+y="533" 
+class="s1_456"
+>List Comprehensions</text>
+
+<text 
+x="203" 
+y="580" 
+class="s1_456"
+>Generators and Iterators</text>
+
+<text 
+x="203" 
+y="628" 
+class="s1_456"
+>Randomness</text>
+
+<text 
+x="203" 
+y="675" 
+class="s1_456"
+>Regular Expressions</text>
+
+<text 
+x="203" 
+y="722" 
+class="s1_456"
+>Object-Oriented Programming</text>
+
+<text 
+x="203" 
+y="770" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0" 
+class="s1_456"
+>Functional Tools</text>
+
+<text 
+x="203" 
+y="817" 
+class="s1_456"
+>enumerate</text>
+
+<text 
+x="203" 
+y="864" 
+dx="0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_456"
+>zip and Argument Unpacking</text>
+
+<text 
+x="203" 
+y="912" 
+dx="0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s1_456"
+>args and kwargs</text>
+
+<text 
+x="203" 
+y="959" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_456"
+>Welcome to DataSciencester!</text>
+
+<text 
+x="153" 
+y="1006" 
+class="s1_456"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="1054" 
+dx="0,0,0,0,-1.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_456"
+>3. Visualizing Data</text>
+
+<text 
+x="153" 
+y="1088" 
+class="s1_456"
+>matplotlib</text>
+
+<text 
+x="153" 
+y="1135" 
+class="s1_456"
+>Bar Charts</text>
+
+<text 
+x="153" 
+y="1182" 
+class="s1_456"
+>Line Charts</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

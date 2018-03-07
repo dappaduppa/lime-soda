@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 427 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_427{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_427{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="75" 
+class="s1_427"
+>example, clustering colors,</text>
+
+<text 
+x="331" 
+y="75" 
+class="s2_427"
+>Example: Clustering Colors</text>
+
+<text 
+x="76" 
+y="128" 
+class="s1_427"
+>example, meetups,</text>
+
+<text 
+x="255" 
+y="128" 
+class="s2_427"
+>Example: Meetups</text>
+
+<text 
+x="431" 
+y="128" 
+class="s1_427"
+>-</text>
+
+<text 
+x="439" 
+y="128" 
+class="s2_427"
+>Example: Meetups</text>
+
+<text 
+x="76" 
+y="181" 
+class="s1_427"
+>k-means clustering,</text>
+
+<text 
+x="265" 
+y="181" 
+class="s2_427"
+>The Model</text>
+
+<text 
+x="55" 
+y="234" 
+class="s1_427"
+>clusters,</text>
+
+<text 
+x="138" 
+y="234" 
+class="s2_427"
+>Rescaling</text>
+
+<text 
+x="228" 
+y="234" 
+class="s1_427"
+>,</text>
+
+<text 
+x="239" 
+y="234" 
+class="s2_427"
+>The Idea</text>
+
+<text 
+x="76" 
+y="273" 
+class="s1_427"
+>distance between,</text>
+
+<text 
+x="247" 
+y="273" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_427"
+>Bottom-up Hierarchical Clustering</text>
+
+<text 
+x="55" 
+y="326" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_427"
+>code examples from this book,</text>
+
+<text 
+x="344" 
+y="326" 
+class="s2_427"
+>Using Code Examples</text>
+
+<text 
+x="55" 
+y="379" 
+class="s1_427"
+>coefficient of determination,</text>
+
+<text 
+x="324" 
+y="379" 
+class="s2_427"
+>The Model</text>
+
+<text 
+x="55" 
+y="432" 
+class="s1_427"
+>combiners (in MapReduce),</text>
+
+<text 
+x="321" 
+y="432" 
+class="s2_427"
+>An Aside: Combiners</text>
+
+<text 
+x="55" 
+y="485" 
+class="s1_427"
+>comma-separated values files,</text>
+
+<text 
+x="340" 
+y="485" 
+class="s2_427"
+>Delimited Files</text>
+
+<text 
+x="76" 
+y="524" 
+class="s1_427"
+>cleaning comma-delimited stock prices,</text>
+
+<text 
+x="451" 
+y="524" 
+class="s2_427"
+>Cleaning and Munging</text>
+
+<text 
+x="55" 
+y="577" 
+class="s1_427"
+>command line, running Python scripts at,</text>
+
+<text 
+x="449" 
+y="577" 
+class="s2_427"
+>stdin and stdout</text>
+
+<text 
+x="55" 
+y="630" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s1_427"
+>conditional probability,</text>
+
+<text 
+x="281" 
+y="630" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s2_427"
+>Conditional Probability</text>
+
+<text 
+x="76" 
+y="670" 
+class="s1_427"
+>random variables and,</text>
+
+<text 
+x="294" 
+y="670" 
+dx="0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0" 
+class="s2_427"
+>Random Variables</text>
+
+<text 
+x="55" 
+y="722" 
+class="s1_427"
+>confidence intervals,</text>
+
+<text 
+x="253" 
+y="722" 
+class="s2_427"
+>Confidence Intervals</text>
+
+<text 
+x="55" 
+y="775" 
+class="s1_427"
+>confounding variables,</text>
+
+<text 
+x="274" 
+y="775" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s2_427"
+>Simpson’s Paradox</text>
+
+<text 
+x="55" 
+y="828" 
+class="s1_427"
+>confusion matrix,</text>
+
+<text 
+x="225" 
+y="828" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_427"
+>Correctness</text>
+
+<text 
+x="55" 
+y="881" 
+class="s1_427"
+>continue statement (Python),</text>
+
+<text 
+x="330" 
+y="881" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_427"
+>Control Flow</text>
+
+<text 
+x="55" 
+y="934" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_427"
+>continuity correction,</text>
+
+<text 
+x="262" 
+y="934" 
+class="s2_427"
+>Example: Flipping a Coin</text>
+
+<text 
+x="55" 
+y="986" 
+class="s1_427"
+>continuous distributions,</text>
+
+<text 
+x="293" 
+y="986" 
+class="s2_427"
+>Continuous Distributions</text>
+
+<text 
+x="55" 
+y="1039" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_427"
+>control flow (in Python),</text>
+
+<text 
+x="289" 
+y="1039" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_427"
+>Control Flow</text>
+
+<text 
+x="55" 
+y="1092" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_427"
+>correctness,</text>
+
+<text 
+x="171" 
+y="1092" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_427"
+>Correctness</text>
+
+<text 
+x="55" 
+y="1145" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_427"
+>correlation,</text>
+
+<text 
+x="169" 
+y="1145" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_427"
+>Correlation</text>
+
+<text 
+x="76" 
+y="1184" 
+class="s1_427"
+>and causation,</text>
+
+<text 
+x="218" 
+y="1184" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_427"
+>Correlation and Causation</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 445 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_445{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_445{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="75" 
+class="s1_445"
+>conditioned on events,</text>
+
+<text 
+x="290" 
+y="75" 
+dx="0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0" 
+class="s2_445"
+>Random Variables</text>
+
+<text 
+x="76" 
+y="128" 
+class="s1_445"
+>expected value,</text>
+
+<text 
+x="225" 
+y="128" 
+dx="0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0" 
+class="s2_445"
+>Random Variables</text>
+
+<text 
+x="76" 
+y="181" 
+class="s1_445"
+>normal,</text>
+
+<text 
+x="156" 
+y="181" 
+class="s2_445"
+>The Normal Distribution</text>
+
+<text 
+x="390" 
+y="181" 
+class="s1_445"
+>-</text>
+
+<text 
+x="398" 
+y="181" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_445"
+>The Central Limit Theorem</text>
+
+<text 
+x="76" 
+y="234" 
+class="s1_445"
+>uniform,</text>
+
+<text 
+x="164" 
+y="234" 
+class="s2_445"
+>Continuous Distributions</text>
+
+<text 
+x="55" 
+y="287" 
+class="s1_445"
+>range,</text>
+
+<text 
+x="119" 
+y="287" 
+class="s2_445"
+>Dispersion</text>
+
+<text 
+x="55" 
+y="339" 
+class="s1_445"
+>range function (Python),</text>
+
+<text 
+x="290" 
+y="339" 
+class="s2_445"
+>Generators and Iterators</text>
+
+<text 
+x="55" 
+y="392" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_445"
+>reading files (see files, reading)</text>
+
+<text 
+x="55" 
+y="445" 
+dx="0,-0.4,0,0,0,0,0" 
+class="s1_445"
+>recall,</text>
+
+<text 
+x="118" 
+y="445" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_445"
+>Correctness</text>
+
+<text 
+x="55" 
+y="498" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>recommendations,</text>
+
+<text 
+x="232" 
+y="498" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_445"
+>Recommender Systems</text>
+
+<text 
+x="55" 
+y="551" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_445"
+>recommender systems,</text>
+
+<text 
+x="273" 
+y="551" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_445"
+>Recommender Systems</text>
+
+<text 
+x="490" 
+y="551" 
+class="s1_445"
+>-</text>
+
+<text 
+x="498" 
+y="551" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_445"
+>For Further Exploration</text>
+
+<text 
+x="76" 
+y="590" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>Data Scientists You May Know (example),</text>
+
+<text 
+x="476" 
+y="590" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_445"
+>Data Scientists You May Know</text>
+
+<text 
+x="76" 
+y="643" 
+class="s1_445"
+>item-based collaborative filtering,</text>
+
+<text 
+x="399" 
+y="643" 
+class="s2_445"
+>Item-Based Collaborative Filtering</text>
+
+<text 
+x="727" 
+y="643" 
+class="s1_445"
+>-</text>
+
+<text 
+x="735" 
+y="643" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_445"
+>For Further</text>
+
+<text 
+x="76" 
+y="674" 
+class="s2_445"
+>Exploration</text>
+
+<text 
+x="76" 
+y="727" 
+class="s1_445"
+>manual curation,</text>
+
+<text 
+x="243" 
+y="727" 
+class="s2_445"
+>Manual Curation</text>
+
+<text 
+x="76" 
+y="780" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>recommendations based on popularity,</text>
+
+<text 
+x="447" 
+y="780" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s2_445"
+>Recommending What’s Popular</text>
+
+<text 
+x="76" 
+y="832" 
+dx="0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>user-based collaborative filtering,</text>
+
+<text 
+x="397" 
+y="832" 
+dx="0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_445"
+>User-Based Collaborative Filtering</text>
+
+<text 
+x="724" 
+y="832" 
+class="s1_445"
+>-</text>
+
+<text 
+x="732" 
+y="832" 
+dx="0,0,0,0,-0.8,0,0,0,0,0" 
+class="s2_445"
+>User-Based</text>
+
+<text 
+x="76" 
+y="863" 
+class="s2_445"
+>Collaborative Filtering</text>
+
+<text 
+x="55" 
+y="916" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>reduce function (Python),</text>
+
+<text 
+x="300" 
+y="916" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0" 
+class="s2_445"
+>Functional Tools</text>
+
+<text 
+x="76" 
+y="956" 
+class="s1_445"
+>using with vectors,</text>
+
+<text 
+x="257" 
+y="956" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_445"
+>Vectors</text>
+
+<text 
+x="55" 
+y="1008" 
+dx="0,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_445"
+>regression (see linear regression; logistic regression)</text>
+
+<text 
+x="55" 
+y="1061" 
+dx="0,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,-0.4,0,0,0" 
+class="s1_445"
+>regression trees,</text>
+
+<text 
+x="211" 
+y="1061" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,-0.4,0,0" 
+class="s2_445"
+>What Is a Decision Tree?</text>
+
+<text 
+x="55" 
+y="1114" 
+dx="0,-0.4,0,0,0,0,0,0,-0.4,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_445"
+>regular expressions,</text>
+
+<text 
+x="247" 
+y="1114" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_445"
+>Regular Expressions</text>
+
+<text 
+x="55" 
+y="1167" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>regularization,</text>
+
+<text 
+x="198" 
+y="1167" 
+class="s2_445"
+>Regularization</text>
+
+<text 
+x="55" 
+y="1220" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_445"
+>relational databases,</text>
+
+<text 
+x="253" 
+y="1220" 
+class="s2_445"
+>Databases and SQL</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

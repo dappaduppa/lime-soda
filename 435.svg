@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 435 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_435{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_435{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+class="s1_435"
+>if statements (Python),</text>
+
+<text 
+x="272" 
+y="75" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_435"
+>Control Flow</text>
+
+<text 
+x="55" 
+y="128" 
+class="s1_435"
+>if-then-else statements (Python),</text>
+
+<text 
+x="362" 
+y="128" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_435"
+>Control Flow</text>
+
+<text 
+x="55" 
+y="181" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_435"
+>in operator (Python),</text>
+
+<text 
+x="258" 
+y="181" 
+class="s2_435"
+>Lists</text>
+
+<text 
+x="303" 
+y="181" 
+class="s1_435"
+>,</text>
+
+<text 
+x="314" 
+y="181" 
+class="s2_435"
+>Dictionaries</text>
+
+<text 
+x="76" 
+y="221" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s1_435"
+>in for loops,</text>
+
+<text 
+x="193" 
+y="221" 
+dx="0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_435"
+>Control Flow</text>
+
+<text 
+x="76" 
+y="273" 
+class="s1_435"
+>using on sets,</text>
+
+<text 
+x="206" 
+y="273" 
+class="s2_435"
+>Sets</text>
+
+<text 
+x="55" 
+y="326" 
+class="s1_435"
+>independence,</text>
+
+<text 
+x="194" 
+y="326" 
+class="s2_435"
+>Dependence and Independence</text>
+
+<text 
+x="55" 
+y="379" 
+class="s1_435"
+>indexes (database tables),</text>
+
+<text 
+x="299" 
+y="379" 
+class="s2_435"
+>Indexes</text>
+
+<text 
+x="55" 
+y="432" 
+dx="0,0,0,0,0,-0.4,0,0,0" 
+class="s1_435"
+>inference</text>
+
+<text 
+x="76" 
+y="472" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0" 
+class="s1_435"
+>Bayesian Inference,</text>
+
+<text 
+x="266" 
+y="472" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0" 
+class="s2_435"
+>Bayesian Inference</text>
+
+<text 
+x="76" 
+y="524" 
+class="s1_435"
+>statistical, in A/B test,</text>
+
+<text 
+x="287" 
+y="524" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0" 
+class="s2_435"
+>Example: Running an A/B Test</text>
+
+<text 
+x="55" 
+y="577" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s1_435"
+>inner joins,</text>
+
+<text 
+x="166" 
+y="577" 
+class="s2_435"
+>JOIN</text>
+
+<text 
+x="55" 
+y="630" 
+dx="0,0,0,0,0,-0.8,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_435"
+>INSERT statement (SQL),</text>
+
+<text 
+x="307" 
+y="630" 
+dx="0,0,0,0,-1.6,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8" 
+class="s2_435"
+>CREATE TABLE and INSERT</text>
+
+<text 
+x="55" 
+y="683" 
+class="s1_435"
+>interactive visualizations,</text>
+
+<text 
+x="298" 
+y="683" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_435"
+>Visualization</text>
+
+<text 
+x="55" 
+y="736" 
+class="s1_435"
+>inverse normal cumulative distribution function,</text>
+
+<text 
+x="516" 
+y="736" 
+class="s2_435"
+>The Normal Distribution</text>
+
+<text 
+x="55" 
+y="788" 
+class="s1_435"
+>IPython,</text>
+
+<text 
+x="141" 
+y="788" 
+class="s2_435"
+>Getting Python</text>
+
+<text 
+x="285" 
+y="788" 
+class="s1_435"
+>,</text>
+
+<text 
+x="296" 
+y="788" 
+class="s2_435"
+>IPython</text>
+
+<text 
+x="55" 
+y="841" 
+class="s1_435"
+>item-based collaborative filtering,</text>
+
+<text 
+x="377" 
+y="841" 
+class="s2_435"
+>Item-Based Collaborative Filtering</text>
+
+<text 
+x="705" 
+y="841" 
+class="s1_435"
+>-</text>
+
+<text 
+x="713" 
+y="841" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_435"
+>For Further</text>
+
+<text 
+x="55" 
+y="872" 
+class="s2_435"
+>Exploration</text>
+
+<text 
+x="55" 
+y="923" 
+class="s1_435"
+>J</text>
+
+<text 
+x="55" 
+y="959" 
+class="s1_435"
+>JavaScript, D3.js library,</text>
+
+<text 
+x="298" 
+y="959" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_435"
+>Visualization</text>
+
+<text 
+x="55" 
+y="1012" 
+class="s1_435"
+>JOIN statement (SQL),</text>
+
+<text 
+x="279" 
+y="1012" 
+class="s2_435"
+>JOIN</text>
+
+<text 
+x="55" 
+y="1065" 
+class="s1_435"
+>JSON (JavaScript Object Notation),</text>
+
+<text 
+x="399" 
+y="1065" 
+class="s2_435"
+>JSON (and XML)</text>
+
+<text 
+x="55" 
+y="1115" 
+class="s1_435"
+>K</text>
+
+<text 
+x="55" 
+y="1151" 
+class="s1_435"
+>k-means clustering,</text>
+
+<text 
+x="243" 
+y="1151" 
+class="s2_435"
+>The Model</text>
+
+<text 
+x="76" 
+y="1191" 
+class="s1_435"
+>choosing k,</text>
+
+<text 
+x="187" 
+y="1191" 
+class="s2_435"
+>Choosing k</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

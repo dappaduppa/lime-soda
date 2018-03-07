@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 463 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_463{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="153" 
+y="73" 
+class="s1_463"
+>Subqueries</text>
+
+<text 
+x="153" 
+y="121" 
+class="s1_463"
+>Indexes</text>
+
+<text 
+x="153" 
+y="168" 
+class="s1_463"
+>Query Optimization</text>
+
+<text 
+x="153" 
+y="215" 
+class="s1_463"
+>NoSQL</text>
+
+<text 
+x="153" 
+y="262" 
+class="s1_463"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="310" 
+class="s1_463"
+>24. MapReduce</text>
+
+<text 
+x="153" 
+y="344" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0" 
+class="s1_463"
+>Example: Word Count</text>
+
+<text 
+x="153" 
+y="391" 
+class="s1_463"
+>Why MapReduce?</text>
+
+<text 
+x="153" 
+y="439" 
+class="s1_463"
+>MapReduce More Generally</text>
+
+<text 
+x="153" 
+y="486" 
+class="s1_463"
+>Example: Analyzing Status Updates</text>
+
+<text 
+x="153" 
+y="533" 
+class="s1_463"
+>Example: Matrix Multiplication</text>
+
+<text 
+x="153" 
+y="580" 
+class="s1_463"
+>An Aside: Combiners</text>
+
+<text 
+x="153" 
+y="628" 
+class="s1_463"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="675" 
+class="s1_463"
+>25. Go Forth and Do Data Science</text>
+
+<text 
+x="153" 
+y="709" 
+class="s1_463"
+>IPython</text>
+
+<text 
+x="153" 
+y="756" 
+class="s1_463"
+>Mathematics</text>
+
+<text 
+x="153" 
+y="804" 
+class="s1_463"
+>Not from Scratch</text>
+
+<text 
+x="203" 
+y="838" 
+class="s1_463"
+>NumPy</text>
+
+<text 
+x="203" 
+y="885" 
+class="s1_463"
+>pandas</text>
+
+<text 
+x="203" 
+y="933" 
+class="s1_463"
+>scikit-learn</text>
+
+<text 
+x="203" 
+y="980" 
+dx="0,-1.3,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_463"
+>Visualization</text>
+
+<text 
+x="203" 
+y="1027" 
+class="s1_463"
+>R</text>
+
+<text 
+x="153" 
+y="1074" 
+class="s1_463"
+>Find Data</text>
+
+<text 
+x="153" 
+y="1122" 
+class="s1_463"
+>Do Data Science</text>
+
+<text 
+x="203" 
+y="1156" 
+class="s1_463"
+>Hacker News</text>
+
+<text 
+x="203" 
+y="1203" 
+dx="0,0,0,0,0,0,-0.8,0,0,0,0" 
+class="s1_463"
+>Fire Trucks</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

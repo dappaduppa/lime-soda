@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 439 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_439{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_439{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="75" 
+class="s1_439"
+>matrix multiplication,</text>
+
+<text 
+x="288" 
+y="75" 
+class="s2_439"
+>Matrix Multiplication</text>
+
+<text 
+x="98" 
+y="115" 
+class="s1_439"
+>using MapReduce,</text>
+
+<text 
+x="279" 
+y="115" 
+class="s2_439"
+>Example: Matrix Multiplication</text>
+
+<text 
+x="580" 
+y="115" 
+class="s1_439"
+>-</text>
+
+<text 
+x="588" 
+y="115" 
+class="s2_439"
+>Example: Matrix</text>
+
+<text 
+x="98" 
+y="146" 
+class="s2_439"
+>Multiplication</text>
+
+<text 
+x="76" 
+y="199" 
+class="s1_439"
+>scatterplot matrix,</text>
+
+<text 
+x="257" 
+y="199" 
+class="s2_439"
+>Many Dimensions</text>
+
+<text 
+x="55" 
+y="251" 
+class="s1_439"
+>maximum likelihood estimation,</text>
+
+<text 
+x="362" 
+y="251" 
+class="s2_439"
+>Maximum Likelihood Estimation</text>
+
+<text 
+x="55" 
+y="304" 
+class="s1_439"
+>maximum, finding using gradient descent,</text>
+
+<text 
+x="454" 
+y="304" 
+class="s2_439"
+>The Idea Behind Gradient Descent</text>
+
+<text 
+x="780" 
+y="304" 
+class="s1_439"
+>,</text>
+
+<text 
+x="55" 
+y="335" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0" 
+class="s2_439"
+>Putting It All Together</text>
+
+<text 
+x="55" 
+y="388" 
+class="s1_439"
+>mean</text>
+
+<text 
+x="76" 
+y="428" 
+class="s1_439"
+>computing,</text>
+
+<text 
+x="188" 
+y="428" 
+dx="0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0" 
+class="s2_439"
+>Central Tendencies</text>
+
+<text 
+x="76" 
+y="480" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,-1.2,0,0,0,0" 
+class="s1_439"
+>removing from PCA data,</text>
+
+<text 
+x="324" 
+y="480" 
+class="s2_439"
+>Dimensionality Reduction</text>
+
+<text 
+x="55" 
+y="533" 
+class="s1_439"
+>median,</text>
+
+<text 
+x="135" 
+y="533" 
+dx="0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0" 
+class="s2_439"
+>Central Tendencies</text>
+
+<text 
+x="55" 
+y="586" 
+class="s1_439"
+>meetups (example),</text>
+
+<text 
+x="242" 
+y="586" 
+class="s2_439"
+>Example: Meetups</text>
+
+<text 
+x="418" 
+y="586" 
+class="s1_439"
+>-</text>
+
+<text 
+x="426" 
+y="586" 
+class="s2_439"
+>Example: Meetups</text>
+
+<text 
+x="55" 
+y="639" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s1_439"
+>member functions,</text>
+
+<text 
+x="235" 
+y="639" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s2_439"
+>Object-Oriented Programming</text>
+
+<text 
+x="55" 
+y="692" 
+class="s1_439"
+>merged clusters,</text>
+
+<text 
+x="214" 
+y="692" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_439"
+>Bottom-up Hierarchical Clustering</text>
+
+<text 
+x="55" 
+y="744" 
+class="s1_439"
+>minimum, finding using gradient descent,</text>
+
+<text 
+x="451" 
+y="744" 
+class="s2_439"
+>The Idea Behind Gradient Descent</text>
+
+<text 
+x="55" 
+y="797" 
+class="s1_439"
+>mode,</text>
+
+<text 
+x="117" 
+y="797" 
+dx="0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0" 
+class="s2_439"
+>Central Tendencies</text>
+
+<text 
+x="55" 
+y="850" 
+class="s1_439"
+>models,</text>
+
+<text 
+x="131" 
+y="850" 
+class="s2_439"
+>Modeling</text>
+
+<text 
+x="76" 
+y="890" 
+class="s1_439"
+>bias-variance trade-off,</text>
+
+<text 
+x="302" 
+y="890" 
+dx="0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0" 
+class="s2_439"
+>The Bias-Variance Trade-off</text>
+
+<text 
+x="76" 
+y="942" 
+class="s1_439"
+>in machine learning,</text>
+
+<text 
+x="274" 
+y="942" 
+class="s2_439"
+>What Is Machine Learning?</text>
+
+<text 
+x="55" 
+y="995" 
+class="s1_439"
+>modules (Python),</text>
+
+<text 
+x="231" 
+y="995" 
+class="s2_439"
+>Modules</text>
+
+<text 
+x="55" 
+y="1048" 
+class="s1_439"
+>multiple assignment (Python),</text>
+
+<text 
+x="341" 
+y="1048" 
+dx="0,-2,0,0,0,0" 
+class="s2_439"
+>Tuples</text>
+
+<text 
+x="55" 
+y="1099" 
+class="s1_439"
+>N</text>
+
+<text 
+x="55" 
+y="1135" 
+class="s1_439"
+>n-gram models,</text>
+
+<text 
+x="207" 
+y="1135" 
+class="s2_439"
+>n-gram Models</text>
+
+<text 
+x="350" 
+y="1135" 
+class="s1_439"
+>-</text>
+
+<text 
+x="357" 
+y="1135" 
+class="s2_439"
+>n-gram Models</text>
+
+<text 
+x="76" 
+y="1175" 
+class="s1_439"
+>bigram,</text>
+
+<text 
+x="156" 
+y="1175" 
+class="s2_439"
+>n-gram Models</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

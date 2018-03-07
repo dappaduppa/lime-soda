@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 450 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_450{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_450{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+class="s1_450"
+>whitespace in Python code,</text>
+
+<text 
+x="313" 
+y="75" 
+class="s2_450"
+>Whitespace Formatting</text>
+
+<text 
+x="55" 
+y="128" 
+class="s1_450"
+>word clouds,</text>
+
+<text 
+x="180" 
+y="128" 
+dx="0,-1.2,0,0,0,0,0,0,0,0,0" 
+class="s2_450"
+>Word Clouds</text>
+
+<text 
+x="305" 
+y="128" 
+class="s1_450"
+>-</text>
+
+<text 
+x="312" 
+y="128" 
+dx="0,-1.2,0,0,0,0,0,0,0,0,0" 
+class="s2_450"
+>Word Clouds</text>
+
+<text 
+x="55" 
+y="179" 
+class="s1_450"
+>X</text>
+
+<text 
+x="55" 
+y="215" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_450"
+>XML data from APIs,</text>
+
+<text 
+x="266" 
+y="215" 
+class="s2_450"
+>JSON (and XML)</text>
+
+<text 
+x="55" 
+y="268" 
+class="s1_450"
+>xrange function (Python),</text>
+
+<text 
+x="301" 
+y="268" 
+class="s2_450"
+>Generators and Iterators</text>
+
+<text 
+x="55" 
+y="319" 
+class="s1_450"
+>Y</text>
+
+<text 
+x="55" 
+y="355" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_450"
+>yield operator (Python),</text>
+
+<text 
+x="285" 
+y="355" 
+class="s2_450"
+>Generators and Iterators</text>
+
+<text 
+x="55" 
+y="405" 
+class="s1_450"
+>Z</text>
+
+<text 
+x="55" 
+y="442" 
+class="s1_450"
+>zip function (Python),</text>
+
+<text 
+x="265" 
+y="442" 
+class="s2_450"
+>zip and Argument Unpacking</text>
+
+<text 
+x="76" 
+y="481" 
+class="s1_450"
+>using with vectors,</text>
+
+<text 
+x="257" 
+y="481" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_450"
+>Vectors</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

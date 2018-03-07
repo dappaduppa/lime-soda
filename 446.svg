@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 446 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_446{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_446{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_446"
+>rescaling data,</text>
+
+<text 
+x="196" 
+y="75" 
+class="s2_446"
+>Rescaling</text>
+
+<text 
+x="287" 
+y="75" 
+class="s1_446"
+>-</text>
+
+<text 
+x="294" 
+y="75" 
+class="s2_446"
+>Rescaling</text>
+
+<text 
+x="384" 
+y="75" 
+class="s1_446"
+>,</text>
+
+<text 
+x="395" 
+y="75" 
+class="s2_446"
+>Regularization</text>
+
+<text 
+x="55" 
+y="128" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_446"
+>ridge regression,</text>
+
+<text 
+x="216" 
+y="128" 
+class="s2_446"
+>Regularization</text>
+
+<text 
+x="55" 
+y="181" 
+class="s1_446"
+>right joins,</text>
+
+<text 
+x="163" 
+y="181" 
+class="s2_446"
+>JOIN</text>
+
+<text 
+x="55" 
+y="232" 
+class="s1_446"
+>S</text>
+
+<text 
+x="55" 
+y="268" 
+class="s1_446"
+>scalars,</text>
+
+<text 
+x="130" 
+y="268" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_446"
+>Vectors</text>
+
+<text 
+x="55" 
+y="321" 
+class="s1_446"
+>scale of data,</text>
+
+<text 
+x="182" 
+y="321" 
+class="s2_446"
+>Rescaling</text>
+
+<text 
+x="55" 
+y="374" 
+class="s1_446"
+>scatterplot matrices,</text>
+
+<text 
+x="252" 
+y="374" 
+class="s2_446"
+>Many Dimensions</text>
+
+<text 
+x="55" 
+y="426" 
+class="s1_446"
+>scatterplots,</text>
+
+<text 
+x="174" 
+y="426" 
+class="s2_446"
+>Scatterplots</text>
+
+<text 
+x="286" 
+y="426" 
+class="s1_446"
+>-</text>
+
+<text 
+x="294" 
+y="426" 
+class="s2_446"
+>Scatterplots</text>
+
+<text 
+x="55" 
+y="479" 
+class="s1_446"
+>schema,</text>
+
+<text 
+x="135" 
+y="479" 
+dx="0,0,0,0,-1.6,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8" 
+class="s2_446"
+>CREATE TABLE and INSERT</text>
+
+<text 
+x="55" 
+y="532" 
+class="s1_446"
+>scikit-learn,</text>
+
+<text 
+x="172" 
+y="532" 
+class="s2_446"
+>scikit-learn</text>
+
+<text 
+x="55" 
+y="585" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_446"
+>scraping data from web pages,</text>
+
+<text 
+x="346" 
+y="585" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0" 
+class="s2_446"
+>Scraping the Web</text>
+
+<text 
+x="513" 
+y="585" 
+class="s1_446"
+>-</text>
+
+<text 
+x="521" 
+y="585" 
+class="s2_446"
+>Example: O’Reilly Books About</text>
+
+<text 
+x="55" 
+y="616" 
+class="s2_446"
+>Data</text>
+
+<text 
+x="76" 
+y="655" 
+class="s1_446"
+>HTML, parsing,</text>
+
+<text 
+x="236" 
+y="655" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0" 
+class="s2_446"
+>HTML and the Parsing Thereof</text>
+
+<text 
+x="98" 
+y="695" 
+class="s1_446"
+>example, O’Reilly books about data,</text>
+
+<text 
+x="445" 
+y="695" 
+class="s2_446"
+>Example: O’Reilly Books About Data</text>
+
+<text 
+x="798" 
+y="695" 
+class="s1_446"
+>-</text>
+
+<text 
+x="98" 
+y="726" 
+class="s2_446"
+>Example: O’Reilly Books About Data</text>
+
+<text 
+x="55" 
+y="778" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_446"
+>SELECT statement (SQL),</text>
+
+<text 
+x="313" 
+y="778" 
+class="s2_446"
+>SELECT</text>
+
+<text 
+x="400" 
+y="778" 
+class="s1_446"
+>-</text>
+
+<text 
+x="407" 
+y="778" 
+class="s2_446"
+>SELECT</text>
+
+<text 
+x="55" 
+y="831" 
+class="s1_446"
+>sets (Python),</text>
+
+<text 
+x="187" 
+y="831" 
+class="s2_446"
+>Sets</text>
+
+<text 
+x="55" 
+y="884" 
+class="s1_446"
+>sigmoid function,</text>
+
+<text 
+x="222" 
+y="884" 
+class="s2_446"
+>Feed-Forward Neural Networks</text>
+
+<text 
+x="55" 
+y="937" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0" 
+class="s1_446"
+>Simpson’s Paradox,</text>
+
+<text 
+x="246" 
+y="937" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s2_446"
+>Simpson’s Paradox</text>
+
+<text 
+x="55" 
+y="990" 
+class="s1_446"
+>smooth functions,</text>
+
+<text 
+x="226" 
+y="990" 
+class="s2_446"
+>Feed-Forward Neural Networks</text>
+
+<text 
+x="55" 
+y="1043" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s1_446"
+>social network analysis (fire trucks),</text>
+
+<text 
+x="400" 
+y="1043" 
+dx="0,0,0,-0.4,0,0,-1.6,0,0,0,0" 
+class="s2_446"
+>Fire Trucks</text>
+
+<text 
+x="55" 
+y="1095" 
+class="s1_446"
+>sorting (in Python),</text>
+
+<text 
+x="243" 
+y="1095" 
+class="s2_446"
+>Sorting</text>
+
+<text 
+x="55" 
+y="1148" 
+class="s1_446"
+>spam filters (see Naive Bayes algorithm)</text>
+
+<text 
+x="55" 
+y="1201" 
+class="s1_446"
+>sparse matrices,</text>
+
+<text 
+x="211" 
+y="1201" 
+class="s2_446"
+>Example: Matrix Multiplication</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

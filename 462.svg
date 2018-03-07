@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 462 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_462{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="153" 
+y="73" 
+class="s1_462"
+>n-gram Models</text>
+
+<text 
+x="153" 
+y="121" 
+class="s1_462"
+>Grammars</text>
+
+<text 
+x="153" 
+y="168" 
+class="s1_462"
+>An Aside: Gibbs Sampling</text>
+
+<text 
+x="153" 
+y="215" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_462"
+>Topic Modeling</text>
+
+<text 
+x="153" 
+y="262" 
+class="s1_462"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="310" 
+class="s1_462"
+>21. Network Analysis</text>
+
+<text 
+x="153" 
+y="344" 
+class="s1_462"
+>Betweenness Centrality</text>
+
+<text 
+x="153" 
+y="391" 
+class="s1_462"
+>Eigenvector Centrality</text>
+
+<text 
+x="203" 
+y="425" 
+class="s1_462"
+>Matrix Multiplication</text>
+
+<text 
+x="203" 
+y="473" 
+class="s1_462"
+>Centrality</text>
+
+<text 
+x="153" 
+y="520" 
+class="s1_462"
+>Directed Graphs and PageRank</text>
+
+<text 
+x="153" 
+y="567" 
+class="s1_462"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="615" 
+class="s1_462"
+>22. Recommender Systems</text>
+
+<text 
+x="153" 
+y="649" 
+class="s1_462"
+>Manual Curation</text>
+
+<text 
+x="153" 
+y="696" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0" 
+class="s1_462"
+>Recommending What’s Popular</text>
+
+<text 
+x="153" 
+y="743" 
+dx="0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_462"
+>User-Based Collaborative Filtering</text>
+
+<text 
+x="153" 
+y="791" 
+class="s1_462"
+>Item-Based Collaborative Filtering</text>
+
+<text 
+x="153" 
+y="838" 
+class="s1_462"
+>For Further Exploration</text>
+
+<text 
+x="104" 
+y="885" 
+class="s1_462"
+>23. Databases and SQL</text>
+
+<text 
+x="153" 
+y="919" 
+dx="0,0,0,0,-2.4,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.3" 
+class="s1_462"
+>CREATE TABLE and INSERT</text>
+
+<text 
+x="153" 
+y="967" 
+dx="0,0,0,0,-2.4,0" 
+class="s1_462"
+>UPDATE</text>
+
+<text 
+x="153" 
+y="1014" 
+class="s1_462"
+>DELETE</text>
+
+<text 
+x="153" 
+y="1061" 
+class="s1_462"
+>SELECT</text>
+
+<text 
+x="153" 
+y="1109" 
+dx="0,0,0,0,0,0,-0.8,0" 
+class="s1_462"
+>GROUP BY</text>
+
+<text 
+x="153" 
+y="1156" 
+class="s1_462"
+>ORDER BY</text>
+
+<text 
+x="153" 
+y="1203" 
+class="s1_462"
+>JOIN</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

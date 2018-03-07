@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 428 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_428{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_428{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="75" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_428"
+>in simple linear regression,</text>
+
+<text 
+x="334" 
+y="75" 
+class="s2_428"
+>The Model</text>
+
+<text 
+x="76" 
+y="128" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_428"
+>other caveats,</text>
+
+<text 
+x="211" 
+y="128" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>Some Other Correlational Caveats</text>
+
+<text 
+x="76" 
+y="181" 
+class="s1_428"
+>outliers and,</text>
+
+<text 
+x="199" 
+y="181" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_428"
+>Correlation</text>
+
+<text 
+x="76" 
+y="234" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>Simpson’s Paradox and,</text>
+
+<text 
+x="309" 
+y="234" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>Simpson’s Paradox</text>
+
+<text 
+x="55" 
+y="287" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>correlation function,</text>
+
+<text 
+x="253" 
+y="287" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_428"
+>Simple Linear Regression</text>
+
+<text 
+x="55" 
+y="339" 
+class="s1_428"
+>cosine similarity,</text>
+
+<text 
+x="219" 
+y="339" 
+dx="0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>User-Based Collaborative Filtering</text>
+
+<text 
+x="546" 
+y="339" 
+class="s1_428"
+>,</text>
+
+<text 
+x="557" 
+y="339" 
+class="s2_428"
+>Item-Based Collaborative</text>
+
+<text 
+x="55" 
+y="370" 
+class="s2_428"
+>Filtering</text>
+
+<text 
+x="55" 
+y="423" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>Counter (Python),</text>
+
+<text 
+x="231" 
+y="423" 
+class="s2_428"
+>Counter</text>
+
+<text 
+x="55" 
+y="476" 
+class="s1_428"
+>covariance,</text>
+
+<text 
+x="167" 
+y="476" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_428"
+>Correlation</text>
+
+<text 
+x="55" 
+y="529" 
+dx="0,0,0,0,-1.6,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>CREATE TABLE statement (SQL),</text>
+
+<text 
+x="395" 
+y="529" 
+dx="0,0,0,0,-1.6,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8" 
+class="s2_428"
+>CREATE TABLE and INSERT</text>
+
+<text 
+x="55" 
+y="582" 
+class="s1_428"
+>cumulative distribution function (cdf),</text>
+
+<text 
+x="419" 
+y="582" 
+class="s2_428"
+>Continuous Distributions</text>
+
+<text 
+x="55" 
+y="634" 
+class="s1_428"
+>currying (Python),</text>
+
+<text 
+x="235" 
+y="634" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0" 
+class="s2_428"
+>Functional Tools</text>
+
+<text 
+x="55" 
+y="687" 
+class="s1_428"
+>curse of dimensionality,</text>
+
+<text 
+x="283" 
+y="687" 
+class="s2_428"
+>The Curse of Dimensionality</text>
+
+<text 
+x="552" 
+y="687" 
+class="s1_428"
+>-</text>
+
+<text 
+x="559" 
+y="687" 
+class="s2_428"
+>The Curse of Dimensionality</text>
+
+<text 
+x="829" 
+y="687" 
+class="s1_428"
+>,</text>
+
+<text 
+x="55" 
+y="718" 
+dx="0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>User-Based Collaborative Filtering</text>
+
+<text 
+x="55" 
+y="769" 
+class="s1_428"
+>D</text>
+
+<text 
+x="55" 
+y="805" 
+class="s1_428"
+>D3.js library,</text>
+
+<text 
+x="185" 
+y="805" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>Visualization</text>
+
+<text 
+x="55" 
+y="858" 
+class="s1_428"
+>data</text>
+
+<text 
+x="76" 
+y="897" 
+class="s1_428"
+>cleaning and munging,</text>
+
+<text 
+x="295" 
+y="897" 
+class="s2_428"
+>Cleaning and Munging</text>
+
+<text 
+x="76" 
+y="950" 
+class="s1_428"
+>exploring,</text>
+
+<text 
+x="177" 
+y="950" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-2.4,0,0,0,-0.4,0,0,0" 
+class="s2_428"
+>Exploring Your Data</text>
+
+<text 
+x="373" 
+y="950" 
+class="s1_428"
+>-</text>
+
+<text 
+x="380" 
+y="950" 
+class="s2_428"
+>Many Dimensions</text>
+
+<text 
+x="76" 
+y="1003" 
+class="s1_428"
+>finding,</text>
+
+<text 
+x="155" 
+y="1003" 
+class="s2_428"
+>Find Data</text>
+
+<text 
+x="76" 
+y="1056" 
+class="s1_428"
+>getting,</text>
+
+<text 
+x="152" 
+y="1056" 
+class="s2_428"
+>Getting Data</text>
+
+<text 
+x="274" 
+y="1056" 
+class="s1_428"
+>-</text>
+
+<text 
+x="281" 
+y="1056" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_428"
+>For Further Exploration</text>
+
+<text 
+x="98" 
+y="1095" 
+dx="0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>reading files,</text>
+
+<text 
+x="224" 
+y="1095" 
+class="s2_428"
+>Reading Files</text>
+
+<text 
+x="352" 
+y="1095" 
+class="s1_428"
+>-</text>
+
+<text 
+x="359" 
+y="1095" 
+class="s2_428"
+>Delimited Files</text>
+
+<text 
+x="98" 
+y="1148" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_428"
+>scraping from web pages,</text>
+
+<text 
+x="343" 
+y="1148" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0" 
+class="s2_428"
+>Scraping the Web</text>
+
+<text 
+x="510" 
+y="1148" 
+class="s1_428"
+>-</text>
+
+<text 
+x="518" 
+y="1148" 
+class="s2_428"
+>Example: O’Reilly Books About</text>
+
+<text 
+x="98" 
+y="1179" 
+class="s2_428"
+>Data</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

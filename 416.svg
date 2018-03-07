@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 416 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_416{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_416{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_416{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_416{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_416"
+>R</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_416"
+>Although you can totally get away with not learning</text>
+
+<text 
+x="519" 
+y="115" 
+class="s3_416"
+>R</text>
+
+<text 
+x="534" 
+y="115" 
+class="s2_416"
+>, a lot of data scientists and data</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_416"
+>science projects use it, so it’s worth getting at least familiar with it.</text>
+
+<text 
+x="55" 
+y="181" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_416"
+>In part, this is so that you can understand people’s R-based blog posts and examples and</text>
+
+<text 
+x="55" 
+y="209" 
+class="s2_416"
+>code; in part, this is to help you better appreciate the (comparatively) clean elegance of</text>
+
+<text 
+x="55" 
+y="236" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0" 
+class="s2_416"
+>Python; and in part, this is to help you be a more informed participant in the never-ending</text>
+
+<text 
+x="55" 
+y="264" 
+class="s2_416"
+>“R versus Python” flamewars.</text>
+
+<text 
+x="55" 
+y="302" 
+class="s2_416"
+>The world has no shortage of R tutorials, R courses, and R books. I hear good things about</text>
+
+<text 
+x="55" 
+y="330" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s4_416"
+>Hands-On Programming with R</text>
+
+<text 
+x="336" 
+y="330" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_416"
+>, and not just because it’s also an O’Reilly book. (OK,</text>
+
+<text 
+x="55" 
+y="357" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_416"
+>mostly because it’s also an O’Reilly book.)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

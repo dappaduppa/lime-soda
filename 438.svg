@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 438 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_438{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_438{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="84" 
+class="s1_438"
+>machine learning,</text>
+
+<text 
+x="228" 
+y="84" 
+class="s2_438"
+>Machine Learning</text>
+
+<text 
+x="403" 
+y="84" 
+class="s1_438"
+>-</text>
+
+<text 
+x="410" 
+y="84" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_438"
+>For Further Exploration</text>
+
+<text 
+x="76" 
+y="124" 
+class="s1_438"
+>bias-variance trade-off,</text>
+
+<text 
+x="302" 
+y="124" 
+dx="0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0" 
+class="s2_438"
+>The Bias-Variance Trade-off</text>
+
+<text 
+x="76" 
+y="177" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_438"
+>correctness,</text>
+
+<text 
+x="193" 
+y="177" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_438"
+>Correctness</text>
+
+<text 
+x="76" 
+y="229" 
+class="s1_438"
+>defined,</text>
+
+<text 
+x="157" 
+y="229" 
+class="s2_438"
+>What Is Machine Learning?</text>
+
+<text 
+x="76" 
+y="282" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_438"
+>feature extraction and selection,</text>
+
+<text 
+x="382" 
+y="282" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_438"
+>Feature Extraction and Selection</text>
+
+<text 
+x="76" 
+y="335" 
+class="s1_438"
+>modeling data,</text>
+
+<text 
+x="221" 
+y="335" 
+class="s2_438"
+>Modeling</text>
+
+<text 
+x="76" 
+y="388" 
+class="s1_438"
+>overfitting and underfitting,</text>
+
+<text 
+x="346" 
+y="388" 
+class="s2_438"
+>Overfitting and Underfitting</text>
+
+<text 
+x="76" 
+y="441" 
+class="s1_438"
+>scikit-learn library for,</text>
+
+<text 
+x="299" 
+y="441" 
+class="s2_438"
+>scikit-learn</text>
+
+<text 
+x="55" 
+y="494" 
+class="s1_438"
+>magnitude of a vector,</text>
+
+<text 
+x="270" 
+y="494" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_438"
+>Vectors</text>
+
+<text 
+x="55" 
+y="546" 
+class="s1_438"
+>manipulating data,</text>
+
+<text 
+x="238" 
+y="546" 
+class="s2_438"
+>Manipulating Data</text>
+
+<text 
+x="417" 
+y="546" 
+class="s1_438"
+>-</text>
+
+<text 
+x="425" 
+y="546" 
+class="s2_438"
+>Manipulating Data</text>
+
+<text 
+x="55" 
+y="599" 
+class="s1_438"
+>map function (Python),</text>
+
+<text 
+x="278" 
+y="599" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0" 
+class="s2_438"
+>Functional Tools</text>
+
+<text 
+x="55" 
+y="652" 
+class="s1_438"
+>MapReduce,</text>
+
+<text 
+x="179" 
+y="652" 
+class="s2_438"
+>MapReduce</text>
+
+<text 
+x="293" 
+y="652" 
+class="s1_438"
+>-</text>
+
+<text 
+x="300" 
+y="652" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_438"
+>For Further Exploration</text>
+
+<text 
+x="76" 
+y="692" 
+class="s1_438"
+>basic algorithm,</text>
+
+<text 
+x="233" 
+y="692" 
+class="s2_438"
+>MapReduce</text>
+
+<text 
+x="76" 
+y="744" 
+class="s1_438"
+>benefits of using,</text>
+
+<text 
+x="240" 
+y="744" 
+class="s2_438"
+>Why MapReduce?</text>
+
+<text 
+x="76" 
+y="797" 
+class="s1_438"
+>combiners,</text>
+
+<text 
+x="185" 
+y="797" 
+class="s2_438"
+>An Aside: Combiners</text>
+
+<text 
+x="76" 
+y="850" 
+class="s1_438"
+>example, analyzing status updates,</text>
+
+<text 
+x="406" 
+y="850" 
+class="s2_438"
+>Example: Analyzing Status Updates</text>
+
+<text 
+x="76" 
+y="903" 
+class="s1_438"
+>example, matrix multiplication,</text>
+
+<text 
+x="377" 
+y="903" 
+class="s2_438"
+>Example: Matrix Multiplication</text>
+
+<text 
+x="679" 
+y="903" 
+class="s1_438"
+>-</text>
+
+<text 
+x="686" 
+y="903" 
+class="s2_438"
+>Example: Matrix</text>
+
+<text 
+x="76" 
+y="934" 
+class="s2_438"
+>Multiplication</text>
+
+<text 
+x="76" 
+y="986" 
+class="s1_438"
+>example, word count,</text>
+
+<text 
+x="283" 
+y="986" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0" 
+class="s2_438"
+>Example: Word Count</text>
+
+<text 
+x="497" 
+y="986" 
+class="s1_438"
+>-</text>
+
+<text 
+x="505" 
+y="986" 
+class="s2_438"
+>Why MapReduce?</text>
+
+<text 
+x="55" 
+y="1039" 
+class="s1_438"
+>math.erf function (Python),</text>
+
+<text 
+x="318" 
+y="1039" 
+class="s2_438"
+>The Normal Distribution</text>
+
+<text 
+x="55" 
+y="1092" 
+class="s1_438"
+>matplotlib,</text>
+
+<text 
+x="163" 
+y="1092" 
+class="s2_438"
+>matplotlib</text>
+
+<text 
+x="261" 
+y="1092" 
+class="s1_438"
+>,</text>
+
+<text 
+x="272" 
+y="1092" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_438"
+>Visualization</text>
+
+<text 
+x="55" 
+y="1145" 
+class="s1_438"
+>matrices,</text>
+
+<text 
+x="146" 
+y="1145" 
+class="s2_438"
+>Matrices</text>
+
+<text 
+x="229" 
+y="1145" 
+class="s1_438"
+>-</text>
+
+<text 
+x="236" 
+y="1145" 
+class="s2_438"
+>Matrices</text>
+
+<text 
+x="76" 
+y="1184" 
+class="s1_438"
+>importance of,</text>
+
+<text 
+x="219" 
+y="1184" 
+class="s2_438"
+>Matrices</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

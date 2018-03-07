@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 455 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_455{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="104" 
+y="82" 
+class="s1_455"
+>Preface</text>
+
+<text 
+x="153" 
+y="116" 
+class="s1_455"
+>Data Science</text>
+
+<text 
+x="153" 
+y="163" 
+class="s1_455"
+>From Scratch</text>
+
+<text 
+x="153" 
+y="211" 
+class="s1_455"
+>Conventions Used in This Book</text>
+
+<text 
+x="153" 
+y="258" 
+class="s1_455"
+>Using Code Examples</text>
+
+<text 
+x="153" 
+y="305" 
+class="s1_455"
+>Safari® Books Online</text>
+
+<text 
+x="153" 
+y="353" 
+class="s1_455"
+>How to Contact Us</text>
+
+<text 
+x="153" 
+y="400" 
+class="s1_455"
+>Acknowledgments</text>
+
+<text 
+x="104" 
+y="447" 
+class="s1_455"
+>1. Introduction</text>
+
+<text 
+x="153" 
+y="481" 
+class="s1_455"
+>The Ascendance of Data</text>
+
+<text 
+x="153" 
+y="529" 
+class="s1_455"
+>What Is Data Science?</text>
+
+<text 
+x="153" 
+y="576" 
+class="s1_455"
+>Motivating Hypothetical: DataSciencester</text>
+
+<text 
+x="203" 
+y="610" 
+class="s1_455"
+>Finding Key Connectors</text>
+
+<text 
+x="203" 
+y="657" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0" 
+class="s1_455"
+>Data Scientists You May Know</text>
+
+<text 
+x="203" 
+y="705" 
+class="s1_455"
+>Salaries and Experience</text>
+
+<text 
+x="203" 
+y="752" 
+class="s1_455"
+>Paid Accounts</text>
+
+<text 
+x="203" 
+y="799" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_455"
+>Topics of Interest</text>
+
+<text 
+x="203" 
+y="847" 
+class="s1_455"
+>Onward</text>
+
+<text 
+x="104" 
+y="894" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_455"
+>2. A Crash Course in Python</text>
+
+<text 
+x="153" 
+y="928" 
+class="s1_455"
+>The Basics</text>
+
+<text 
+x="203" 
+y="962" 
+class="s1_455"
+>Getting Python</text>
+
+<text 
+x="203" 
+y="1010" 
+class="s1_455"
+>The Zen of Python</text>
+
+<text 
+x="203" 
+y="1057" 
+class="s1_455"
+>Whitespace Formatting</text>
+
+<text 
+x="203" 
+y="1104" 
+class="s1_455"
+>Modules</text>
+
+<text 
+x="203" 
+y="1151" 
+class="s1_455"
+>Arithmetic</text>
+
+<text 
+x="203" 
+y="1199" 
+class="s1_455"
+>Functions</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

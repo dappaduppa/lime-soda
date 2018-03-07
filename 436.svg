@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 436 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_436{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_436{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_436"
+>k-nearest neighbors classification (see nearest neighbors classification)</text>
+
+<text 
+x="55" 
+y="128" 
+class="s1_436"
+>kernel trick,</text>
+
+<text 
+x="176" 
+y="128" 
+dx="0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s2_436"
+>Support Vector Machines</text>
+
+<text 
+x="55" 
+y="181" 
+class="s1_436"
+>key/value pairs (in Python dictionaries),</text>
+
+<text 
+x="434" 
+y="181" 
+class="s2_436"
+>Dictionaries</text>
+
+<text 
+x="55" 
+y="234" 
+class="s1_436"
+>kwargs (Python),</text>
+
+<text 
+x="221" 
+y="234" 
+class="s2_436"
+>args and kwargs</text>
+
+<text 
+x="55" 
+y="284" 
+class="s1_436"
+>L</text>
+
+<text 
+x="55" 
+y="321" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_436"
+>Lasso regression,</text>
+
+<text 
+x="220" 
+y="321" 
+class="s2_436"
+>Regularization</text>
+
+<text 
+x="55" 
+y="374" 
+class="s1_436"
+>Latent Dirichlet Analysis (LDA),</text>
+
+<text 
+x="368" 
+y="374" 
+dx="0,-2,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_436"
+>Topic Modeling</text>
+
+<text 
+x="55" 
+y="426" 
+class="s1_436"
+>layers (neural network),</text>
+
+<text 
+x="286" 
+y="426" 
+class="s2_436"
+>Feed-Forward Neural Networks</text>
+
+<text 
+x="55" 
+y="479" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_436"
+>least squares model</text>
+
+<text 
+x="76" 
+y="519" 
+class="s1_436"
+>assumptions,</text>
+
+<text 
+x="204" 
+y="519" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s2_436"
+>Further Assumptions of the Least Squares Model</text>
+
+<text 
+x="76" 
+y="572" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_436"
+>in simple linear regression,</text>
+
+<text 
+x="334" 
+y="572" 
+class="s2_436"
+>The Model</text>
+
+<text 
+x="55" 
+y="624" 
+class="s1_436"
+>left joins,</text>
+
+<text 
+x="147" 
+y="624" 
+class="s2_436"
+>JOIN</text>
+
+<text 
+x="55" 
+y="677" 
+class="s1_436"
+>likelihood,</text>
+
+<text 
+x="158" 
+y="677" 
+class="s2_436"
+>Maximum Likelihood Estimation</text>
+
+<text 
+x="471" 
+y="677" 
+class="s1_436"
+>,</text>
+
+<text 
+x="482" 
+y="677" 
+class="s2_436"
+>The Logistic Function</text>
+
+<text 
+x="55" 
+y="730" 
+class="s1_436"
+>line charts</text>
+
+<text 
+x="76" 
+y="770" 
+dx="0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_436"
+>creating with matplotlib,</text>
+
+<text 
+x="314" 
+y="770" 
+class="s2_436"
+>matplotlib</text>
+
+<text 
+x="76" 
+y="822" 
+dx="0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0" 
+class="s1_436"
+>showing trends,</text>
+
+<text 
+x="229" 
+y="822" 
+class="s2_436"
+>Line Charts</text>
+
+<text 
+x="55" 
+y="875" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_436"
+>linear algebra,</text>
+
+<text 
+x="196" 
+y="875" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_436"
+>Linear Algebra</text>
+
+<text 
+x="341" 
+y="875" 
+class="s1_436"
+>-</text>
+
+<text 
+x="348" 
+y="875" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_436"
+>For Further Exploration</text>
+
+<text 
+x="579" 
+y="875" 
+class="s1_436"
+>,</text>
+
+<text 
+x="590" 
+y="875" 
+class="s2_436"
+>Mathematics</text>
+
+<text 
+x="76" 
+y="915" 
+class="s1_436"
+>matrices,</text>
+
+<text 
+x="168" 
+y="915" 
+class="s2_436"
+>Matrices</text>
+
+<text 
+x="251" 
+y="915" 
+class="s1_436"
+>-</text>
+
+<text 
+x="258" 
+y="915" 
+class="s2_436"
+>Matrices</text>
+
+<text 
+x="76" 
+y="968" 
+class="s1_436"
+>vectors,</text>
+
+<text 
+x="155" 
+y="968" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_436"
+>Vectors</text>
+
+<text 
+x="225" 
+y="968" 
+class="s1_436"
+>-</text>
+
+<text 
+x="232" 
+y="968" 
+dx="0,-2,0,0,0,0,0" 
+class="s2_436"
+>Vectors</text>
+
+<text 
+x="55" 
+y="1021" 
+dx="0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0" 
+class="s1_436"
+>linear regression</text>
+
+<text 
+x="76" 
+y="1060" 
+class="s1_436"
+>multiple,</text>
+
+<text 
+x="166" 
+y="1060" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_436"
+>Multiple Regression</text>
+
+<text 
+x="354" 
+y="1060" 
+class="s1_436"
+>-</text>
+
+<text 
+x="361" 
+y="1060" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_436"
+>For Further Exploration</text>
+
+<text 
+x="98" 
+y="1100" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_436"
+>assumptions of least squares model,</text>
+
+<text 
+x="438" 
+y="1100" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_436"
+>Further Assumptions of the Least Squares</text>
+
+<text 
+x="98" 
+y="1131" 
+class="s2_436"
+>Model</text>
+
+<text 
+x="98" 
+y="1183" 
+class="s1_436"
+>bootstrapping new data sets,</text>
+
+<text 
+x="371" 
+y="1183" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_436"
+>Digression: The Bootstrap</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

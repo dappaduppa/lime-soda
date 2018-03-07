@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 441 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_441{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_441{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+class="s1_441"
+>neural networks,</text>
+
+<text 
+x="219" 
+y="75" 
+class="s2_441"
+>Neural Networks</text>
+
+<text 
+x="379" 
+y="75" 
+class="s1_441"
+>-</text>
+
+<text 
+x="387" 
+y="75" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_441"
+>For Further Exploration</text>
+
+<text 
+x="76" 
+y="115" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s1_441"
+>backpropagation,</text>
+
+<text 
+x="247" 
+y="115" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s2_441"
+>Backpropagation</text>
+
+<text 
+x="76" 
+y="168" 
+class="s1_441"
+>example, defeating a CAPTCHA,</text>
+
+<text 
+x="394" 
+y="168" 
+class="s2_441"
+>Example: Defeating a CAPTCHA</text>
+
+<text 
+x="711" 
+y="168" 
+class="s1_441"
+>-</text>
+
+<text 
+x="718" 
+y="168" 
+class="s2_441"
+>Example:</text>
+
+<text 
+x="76" 
+y="199" 
+class="s2_441"
+>Defeating a CAPTCHA</text>
+
+<text 
+x="76" 
+y="251" 
+class="s1_441"
+>feed-forward,</text>
+
+<text 
+x="211" 
+y="251" 
+class="s2_441"
+>Feed-Forward Neural Networks</text>
+
+<text 
+x="76" 
+y="304" 
+dx="0,0,0,-0.4,0,0,0,0,-0.4,0,0,0" 
+class="s1_441"
+>perceptrons,</text>
+
+<text 
+x="199" 
+y="304" 
+dx="0,0,0,-0.4,0,0,0,0,-0.4,0,0" 
+class="s2_441"
+>Perceptrons</text>
+
+<text 
+x="55" 
+y="357" 
+dx="0,0,0,0,-0.4,0,0,0" 
+class="s1_441"
+>neurons,</text>
+
+<text 
+x="141" 
+y="357" 
+class="s2_441"
+>Neural Networks</text>
+
+<text 
+x="55" 
+y="410" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_441"
+>NLP (see natural language processing)</text>
+
+<text 
+x="55" 
+y="463" 
+class="s1_441"
+>nodes,</text>
+
+<text 
+x="119" 
+y="463" 
+class="s2_441"
+>Network Analysis</text>
+
+<text 
+x="55" 
+y="516" 
+class="s1_441"
+>noise,</text>
+
+<text 
+x="113" 
+y="516" 
+class="s2_441"
+>Rescaling</text>
+
+<text 
+x="76" 
+y="555" 
+class="s1_441"
+>in machine learning,</text>
+
+<text 
+x="274" 
+y="555" 
+class="s2_441"
+>Overfitting and Underfitting</text>
+
+<text 
+x="55" 
+y="608" 
+class="s1_441"
+>None (Python),</text>
+
+<text 
+x="202" 
+y="608" 
+dx="0,-1.6,0,0,0,0,0,0,0,0" 
+class="s2_441"
+>Truthiness</text>
+
+<text 
+x="55" 
+y="661" 
+class="s1_441"
+>normal distribution,</text>
+
+<text 
+x="250" 
+y="661" 
+class="s2_441"
+>The Normal Distribution</text>
+
+<text 
+x="76" 
+y="700" 
+class="s1_441"
+>and p-value computation,</text>
+
+<text 
+x="322" 
+y="700" 
+class="s2_441"
+>Example: Flipping a Coin</text>
+
+<text 
+x="76" 
+y="753" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_441"
+>central limit theorem and,</text>
+
+<text 
+x="327" 
+y="753" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_441"
+>The Central Limit Theorem</text>
+
+<text 
+x="76" 
+y="806" 
+class="s1_441"
+>in coin flip example,</text>
+
+<text 
+x="271" 
+y="806" 
+class="s2_441"
+>Example: Flipping a Coin</text>
+
+<text 
+x="76" 
+y="859" 
+class="s1_441"
+>standard,</text>
+
+<text 
+x="172" 
+y="859" 
+class="s2_441"
+>The Normal Distribution</text>
+
+<text 
+x="55" 
+y="912" 
+class="s1_441"
+>normalized tables,</text>
+
+<text 
+x="232" 
+y="912" 
+class="s2_441"
+>JOIN</text>
+
+<text 
+x="55" 
+y="964" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0" 
+class="s1_441"
+>NoSQL databases,</text>
+
+<text 
+x="232" 
+y="964" 
+class="s2_441"
+>NoSQL</text>
+
+<text 
+x="55" 
+y="1017" 
+class="s1_441"
+>NotQuiteABase,</text>
+
+<text 
+x="212" 
+y="1017" 
+class="s2_441"
+>Databases and SQL</text>
+
+<text 
+x="55" 
+y="1070" 
+class="s1_441"
+>null hypothesis,</text>
+
+<text 
+x="207" 
+y="1070" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0" 
+class="s2_441"
+>Statistical Hypothesis Testing</text>
+
+<text 
+x="76" 
+y="1110" 
+class="s1_441"
+>testing in A/B test,</text>
+
+<text 
+x="254" 
+y="1110" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0" 
+class="s2_441"
+>Example: Running an A/B Test</text>
+
+<text 
+x="55" 
+y="1162" 
+class="s1_441"
+>NumPy,</text>
+
+<text 
+x="136" 
+y="1162" 
+class="s2_441"
+>NumPy</text>
+
+<text 
+x="55" 
+y="1213" 
+class="s1_441"
+>O</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

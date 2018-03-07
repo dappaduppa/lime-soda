@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 422 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_422{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_422{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_422{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+dx="0,0,0,0,0,-2.8,0,0" 
+class="s1_422"
+>And You?</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_422"
+>What interests you? What questions keep you up at night? Look for a data set (or scrape</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_422"
+>some websites) and do some data science.</text>
+
+<text 
+x="55" 
+y="181" 
+class="s2_422"
+>Let me know what you find! Email me at</text>
+
+<text 
+x="423" 
+y="181" 
+class="s3_422"
+>joelgrus@gmail.com</text>
+
+<text 
+x="613" 
+y="181" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0" 
+class="s2_422"
+>or find me on Twitter at</text>
+
+<text 
+x="55" 
+y="209" 
+class="s2_422"
+>@joelgrus.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

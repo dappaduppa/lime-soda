@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 432 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_432{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_432{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="75" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s1_432"
+>eigenvector centrality,</text>
+
+<text 
+x="268" 
+y="75" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>Eigenvector Centrality</text>
+
+<text 
+x="482" 
+y="75" 
+class="s1_432"
+>-</text>
+
+<text 
+x="490" 
+y="75" 
+class="s2_432"
+>Centrality</text>
+
+<text 
+x="55" 
+y="128" 
+class="s1_432"
+>ensemble learning,</text>
+
+<text 
+x="236" 
+y="128" 
+dx="0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0" 
+class="s2_432"
+>Random Forests</text>
+
+<text 
+x="55" 
+y="181" 
+dx="0,0,0,0,-0.4,0,0,0" 
+class="s1_432"
+>entropy,</text>
+
+<text 
+x="138" 
+y="181" 
+dx="0,0,0,0,-0.4,0,0" 
+class="s2_432"
+>Entropy</text>
+
+<text 
+x="76" 
+y="221" 
+class="s1_432"
+>of a partition,</text>
+
+<text 
+x="211" 
+y="221" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>The Entropy of a Partition</text>
+
+<text 
+x="55" 
+y="273" 
+class="s1_432"
+>enumerate function (Python),</text>
+
+<text 
+x="337" 
+y="273" 
+class="s2_432"
+>enumerate</text>
+
+<text 
+x="55" 
+y="326" 
+dx="0,0,0,-0.4,0,0" 
+class="s1_432"
+>errors</text>
+
+<text 
+x="76" 
+y="366" 
+class="s1_432"
+>in clustering,</text>
+
+<text 
+x="204" 
+y="366" 
+class="s2_432"
+>Choosing k</text>
+
+<text 
+x="76" 
+y="419" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_432"
+>in multiple linear regression model,</text>
+
+<text 
+x="414" 
+y="419" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_432"
+>Further Assumptions of the Least Squares</text>
+
+<text 
+x="76" 
+y="450" 
+class="s2_432"
+>Model</text>
+
+<text 
+x="76" 
+y="502" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_432"
+>in simple linear regression model,</text>
+
+<text 
+x="396" 
+y="502" 
+class="s2_432"
+>The Model</text>
+
+<text 
+x="498" 
+y="502" 
+class="s1_432"
+>,</text>
+
+<text 
+x="509" 
+y="502" 
+class="s2_432"
+>Maximum Likelihood Estimation</text>
+
+<text 
+x="76" 
+y="555" 
+class="s1_432"
+>minimizing in models,</text>
+
+<text 
+x="289" 
+y="555" 
+class="s2_432"
+>Gradient Descent</text>
+
+<text 
+x="453" 
+y="555" 
+class="s1_432"
+>-</text>
+
+<text 
+x="460" 
+y="555" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>For Further Exploration</text>
+
+<text 
+x="76" 
+y="608" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_432"
+>standard errors of regression coefficients,</text>
+
+<text 
+x="471" 
+y="608" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_432"
+>Standard Errors of Regression</text>
+
+<text 
+x="76" 
+y="639" 
+class="s2_432"
+>Coefficients</text>
+
+<text 
+x="188" 
+y="639" 
+class="s1_432"
+>-</text>
+
+<text 
+x="195" 
+y="639" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>Standard Errors of Regression Coefficients</text>
+
+<text 
+x="55" 
+y="692" 
+class="s1_432"
+>Euclidean distance function,</text>
+
+<text 
+x="326" 
+y="692" 
+class="s2_432"
+>Rescaling</text>
+
+<text 
+x="55" 
+y="744" 
+class="s1_432"
+>exceptions in Python,</text>
+
+<text 
+x="260" 
+y="744" 
+class="s2_432"
+>Exceptions</text>
+
+<text 
+x="55" 
+y="797" 
+class="s1_432"
+>experience optimization,</text>
+
+<text 
+x="290" 
+y="797" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0" 
+class="s2_432"
+>Example: Running an A/B Test</text>
+
+<text 
+x="55" 
+y="848" 
+class="s1_432"
+>F</text>
+
+<text 
+x="55" 
+y="884" 
+dx="0,0,0,0,0,0,0,-0.4,0" 
+class="s1_432"
+>F1 score,</text>
+
+<text 
+x="144" 
+y="884" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s2_432"
+>Correctness</text>
+
+<text 
+x="55" 
+y="937" 
+class="s1_432"
+>false positives,</text>
+
+<text 
+x="194" 
+y="937" 
+class="s2_432"
+>Example: Flipping a Coin</text>
+
+<text 
+x="55" 
+y="990" 
+class="s1_432"
+>farness,</text>
+
+<text 
+x="133" 
+y="990" 
+class="s2_432"
+>Betweenness Centrality</text>
+
+<text 
+x="55" 
+y="1043" 
+dx="0,0,0,0,0,0,-0.4,0,0" 
+class="s1_432"
+>features,</text>
+
+<text 
+x="141" 
+y="1043" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>Feature Extraction and Selection</text>
+
+<text 
+x="76" 
+y="1082" 
+class="s1_432"
+>choosing,</text>
+
+<text 
+x="169" 
+y="1082" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>Feature Extraction and Selection</text>
+
+<text 
+x="76" 
+y="1135" 
+class="s1_432"
+>extracting,</text>
+
+<text 
+x="183" 
+y="1135" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_432"
+>Feature Extraction and Selection</text>
+
+<text 
+x="55" 
+y="1188" 
+class="s1_432"
+>feed-forward neural networks,</text>
+
+<text 
+x="348" 
+y="1188" 
+class="s2_432"
+>Feed-Forward Neural Networks</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
