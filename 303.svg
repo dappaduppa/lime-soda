@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 303 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_303{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_303{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_303{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_303{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_303{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_303{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_303{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s8_303{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<image preserveAspectRatio="none" x="64" y="54" width="783" height="618" xlink:href="303/img/1.png" />
+<text 
+x="272" 
+y="698" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,-0.6,0" 
+class="s1_303"
+>Figure 18-1. Decision space for a two-input perceptron</text>
+
+<text 
+x="55" 
+y="740" 
+class="s2_303"
+>And we could build a</text>
+
+<text 
+x="249" 
+y="740" 
+dx="0,0,0,0,-0.4,0,0,0" 
+class="s3_303"
+>NOT gate</text>
+
+<text 
+x="340" 
+y="740" 
+class="s2_303"
+>(which has one input and converts 1 to 0 and 0 to 1) with:</text>
+
+<text 
+x="76" 
+y="785" 
+class="s4_303"
+>weights</text>
+
+<text 
+x="140" 
+y="785" 
+dx="0,0,4.6,0" 
+class="s5_303"
+>= [-</text>
+
+<text 
+x="171" 
+y="785" 
+class="s6_303"
+>2</text>
+
+<text 
+x="179" 
+y="785" 
+class="s5_303"
+>]</text>
+
+<text 
+x="76" 
+y="800" 
+class="s4_303"
+>bias</text>
+
+<text 
+x="116" 
+y="800" 
+class="s5_303"
+>=</text>
+
+<text 
+x="132" 
+y="800" 
+class="s6_303"
+>1</text>
+
+<text 
+x="55" 
+y="853" 
+dx="0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_303"
+>However, there are some problems that simply can’t be solved by a single perceptron. For</text>
+
+<text 
+x="55" 
+y="881" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_303"
+>example, no matter how hard you try, you cannot use a perceptron to build an</text>
+
+<text 
+x="741" 
+y="881" 
+class="s3_303"
+>XOR gate</text>
+
+<text 
+x="55" 
+y="908" 
+class="s2_303"
+>that outputs 1 if exactly one of its inputs is 1 and 0 otherwise. This is where we start</text>
+
+<text 
+x="55" 
+y="936" 
+class="s2_303"
+>needing more-complicated neural networks.</text>
+
+<text 
+x="55" 
+y="974" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_303"
+>Of course, you don’t need to approximate a neuron in order to build a logic gate:</text>
+
+<text 
+x="76" 
+y="1019" 
+class="s4_303"
+>and_gate</text>
+
+<text 
+x="148" 
+y="1019" 
+class="s5_303"
+>=</text>
+
+<text 
+x="163" 
+y="1019" 
+class="s7_303"
+>min</text>
+
+<text 
+x="76" 
+y="1035" 
+class="s4_303"
+>or_gate</text>
+
+<text 
+x="140" 
+y="1035" 
+class="s5_303"
+>=</text>
+
+<text 
+x="156" 
+y="1035" 
+class="s7_303"
+>max</text>
+
+<text 
+x="76" 
+y="1050" 
+class="s4_303"
+>xor_gate</text>
+
+<text 
+x="148" 
+y="1050" 
+class="s5_303"
+>=</text>
+
+<text 
+x="163" 
+y="1050" 
+class="s8_303"
+>lambda</text>
+
+<text 
+x="219" 
+y="1050" 
+class="s4_303"
+>x</text>
+
+<text 
+x="227" 
+y="1050" 
+class="s5_303"
+>,</text>
+
+<text 
+x="242" 
+y="1050" 
+class="s4_303"
+>y</text>
+
+<text 
+x="250" 
+y="1050" 
+class="s5_303"
+>:</text>
+
+<text 
+x="266" 
+y="1050" 
+class="s6_303"
+>0</text>
+
+<text 
+x="282" 
+y="1050" 
+class="s8_303"
+>if</text>
+
+<text 
+x="306" 
+y="1050" 
+class="s4_303"
+>x</text>
+
+<text 
+x="322" 
+y="1050" 
+class="s5_303"
+>==</text>
+
+<text 
+x="345" 
+y="1050" 
+class="s4_303"
+>y</text>
+
+<text 
+x="361" 
+y="1050" 
+class="s8_303"
+>else</text>
+
+<text 
+x="401" 
+y="1050" 
+class="s6_303"
+>1</text>
+
+<text 
+x="55" 
+y="1103" 
+class="s2_303"
+>Like real neurons, artificial neurons start getting more interesting when you start</text>
+
+<text 
+x="55" 
+y="1131" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_303"
+>connecting them together.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

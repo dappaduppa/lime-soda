@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 318 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_318{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_318{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s3_318{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_318{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_318{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s6_318{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s7_318{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="203" 
+y="64" 
+class="s1_318"
+>return</text>
+
+<text 
+x="171" 
+y="95" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_318"
+># Otherwise keep the new assignments,</text>
+
+<text 
+x="171" 
+y="111" 
+class="s3_318"
+>assignments</text>
+
+<text 
+x="266" 
+y="111" 
+class="s4_318"
+>=</text>
+
+<text 
+x="282" 
+y="111" 
+class="s3_318"
+>new_assignments</text>
+
+<text 
+x="171" 
+y="141" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s2_318"
+># And compute new means based on the new assignments</text>
+
+<text 
+x="171" 
+y="157" 
+class="s1_318"
+>for</text>
+
+<text 
+x="203" 
+y="157" 
+class="s3_318"
+>i</text>
+
+<text 
+x="219" 
+y="157" 
+class="s5_318"
+>in</text>
+
+<text 
+x="242" 
+y="157" 
+class="s6_318"
+>range</text>
+
+<text 
+x="282" 
+y="157" 
+class="s4_318"
+>(</text>
+
+<text 
+x="290" 
+y="157" 
+class="s6_318"
+>self</text>
+
+<text 
+x="322" 
+y="157" 
+class="s4_318"
+>.</text>
+
+<text 
+x="329" 
+y="157" 
+class="s3_318"
+>k</text>
+
+<text 
+x="337" 
+y="157" 
+class="s4_318"
+>):</text>
+
+<text 
+x="203" 
+y="172" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6" 
+class="s2_318"
+># find all the points assigned to cluster i</text>
+
+<text 
+x="203" 
+y="188" 
+class="s3_318"
+>i_points</text>
+
+<text 
+x="274" 
+y="188" 
+dx="0,0,4.6" 
+class="s4_318"
+>= [</text>
+
+<text 
+x="298" 
+y="188" 
+class="s3_318"
+>p</text>
+
+<text 
+x="314" 
+y="188" 
+class="s1_318"
+>for</text>
+
+<text 
+x="345" 
+y="188" 
+class="s3_318"
+>p</text>
+
+<text 
+x="353" 
+y="188" 
+class="s4_318"
+>,</text>
+
+<text 
+x="369" 
+y="188" 
+class="s3_318"
+>a</text>
+
+<text 
+x="385" 
+y="188" 
+class="s5_318"
+>in</text>
+
+<text 
+x="408" 
+y="188" 
+class="s6_318"
+>zip</text>
+
+<text 
+x="432" 
+y="188" 
+class="s4_318"
+>(</text>
+
+<text 
+x="440" 
+y="188" 
+class="s3_318"
+>inputs</text>
+
+<text 
+x="487" 
+y="188" 
+class="s4_318"
+>,</text>
+
+<text 
+x="503" 
+y="188" 
+class="s3_318"
+>assignments</text>
+
+<text 
+x="590" 
+y="188" 
+class="s4_318"
+>)</text>
+
+<text 
+x="606" 
+y="188" 
+class="s1_318"
+>if</text>
+
+<text 
+x="630" 
+y="188" 
+class="s3_318"
+>a</text>
+
+<text 
+x="646" 
+y="188" 
+class="s4_318"
+>==</text>
+
+<text 
+x="669" 
+y="188" 
+class="s3_318"
+>i</text>
+
+<text 
+x="677" 
+y="188" 
+class="s4_318"
+>]</text>
+
+<text 
+x="203" 
+y="218" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6" 
+class="s2_318"
+># make sure i_points is not empty so don't divide by 0</text>
+
+<text 
+x="203" 
+y="234" 
+class="s1_318"
+>if</text>
+
+<text 
+x="227" 
+y="234" 
+class="s3_318"
+>i_points</text>
+
+<text 
+x="290" 
+y="234" 
+class="s4_318"
+>:</text>
+
+<text 
+x="235" 
+y="249" 
+class="s6_318"
+>self</text>
+
+<text 
+x="266" 
+y="249" 
+class="s4_318"
+>.</text>
+
+<text 
+x="274" 
+y="249" 
+class="s3_318"
+>means</text>
+
+<text 
+x="314" 
+y="249" 
+class="s4_318"
+>[</text>
+
+<text 
+x="322" 
+y="249" 
+class="s3_318"
+>i</text>
+
+<text 
+x="329" 
+y="249" 
+dx="0,0,4.6" 
+class="s4_318"
+>] =</text>
+
+<text 
+x="361" 
+y="249" 
+class="s3_318"
+>vector_mean</text>
+
+<text 
+x="448" 
+y="249" 
+class="s4_318"
+>(</text>
+
+<text 
+x="456" 
+y="249" 
+class="s3_318"
+>i_points</text>
+
+<text 
+x="519" 
+y="249" 
+class="s4_318"
+>)</text>
+
+<text 
+x="55" 
+y="302" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_318"
+>Let’s take a look at how this works.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 343 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_343{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_343{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_343{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_343{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s5_343{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_343{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s7_343{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_343{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_343{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_343{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_343"
+>y</text>
+
+<text 
+x="70" 
+y="74" 
+class="s2_343"
+>with a random value picked conditional on</text>
+
+<text 
+x="451" 
+y="74" 
+class="s1_343"
+>x</text>
+
+<text 
+x="461" 
+y="74" 
+class="s2_343"
+>. After a number of iterations, the resulting</text>
+
+<text 
+x="55" 
+y="102" 
+class="s2_343"
+>values of</text>
+
+<text 
+x="140" 
+y="102" 
+class="s1_343"
+>x</text>
+
+<text 
+x="155" 
+y="102" 
+class="s2_343"
+>and</text>
+
+<text 
+x="192" 
+y="102" 
+class="s1_343"
+>y</text>
+
+<text 
+x="208" 
+y="102" 
+class="s2_343"
+>will represent a sample from the unconditional joint distribution:</text>
+
+<text 
+x="76" 
+y="147" 
+class="s3_343"
+>def</text>
+
+<text 
+x="108" 
+y="147" 
+class="s4_343"
+>gibbs_sample</text>
+
+<text 
+x="203" 
+y="147" 
+class="s5_343"
+>(</text>
+
+<text 
+x="211" 
+y="147" 
+class="s6_343"
+>num_iters</text>
+
+<text 
+x="282" 
+y="147" 
+class="s5_343"
+>=</text>
+
+<text 
+x="290" 
+y="147" 
+class="s7_343"
+>100</text>
+
+<text 
+x="314" 
+y="147" 
+class="s5_343"
+>):</text>
+
+<text 
+x="108" 
+y="162" 
+class="s6_343"
+>x</text>
+
+<text 
+x="116" 
+y="162" 
+class="s5_343"
+>,</text>
+
+<text 
+x="132" 
+y="162" 
+class="s6_343"
+>y</text>
+
+<text 
+x="148" 
+y="162" 
+class="s5_343"
+>=</text>
+
+<text 
+x="163" 
+y="162" 
+class="s7_343"
+>1</text>
+
+<text 
+x="171" 
+y="162" 
+class="s5_343"
+>,</text>
+
+<text 
+x="187" 
+y="162" 
+class="s7_343"
+>2</text>
+
+<text 
+x="203" 
+y="162" 
+dx="0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s8_343"
+># doesn't really matter</text>
+
+<text 
+x="108" 
+y="178" 
+class="s3_343"
+>for</text>
+
+<text 
+x="140" 
+y="178" 
+class="s6_343"
+>_</text>
+
+<text 
+x="156" 
+y="178" 
+class="s9_343"
+>in</text>
+
+<text 
+x="179" 
+y="178" 
+class="s10_343"
+>range</text>
+
+<text 
+x="219" 
+y="178" 
+class="s5_343"
+>(</text>
+
+<text 
+x="227" 
+y="178" 
+class="s6_343"
+>num_iters</text>
+
+<text 
+x="298" 
+y="178" 
+class="s5_343"
+>):</text>
+
+<text 
+x="140" 
+y="193" 
+class="s6_343"
+>x</text>
+
+<text 
+x="156" 
+y="193" 
+class="s5_343"
+>=</text>
+
+<text 
+x="171" 
+y="193" 
+class="s6_343"
+>random_x_given_y</text>
+
+<text 
+x="298" 
+y="193" 
+class="s5_343"
+>(</text>
+
+<text 
+x="306" 
+y="193" 
+class="s6_343"
+>y</text>
+
+<text 
+x="314" 
+y="193" 
+class="s5_343"
+>)</text>
+
+<text 
+x="140" 
+y="209" 
+class="s6_343"
+>y</text>
+
+<text 
+x="156" 
+y="209" 
+class="s5_343"
+>=</text>
+
+<text 
+x="171" 
+y="209" 
+class="s6_343"
+>random_y_given_x</text>
+
+<text 
+x="298" 
+y="209" 
+class="s5_343"
+>(</text>
+
+<text 
+x="306" 
+y="209" 
+class="s6_343"
+>x</text>
+
+<text 
+x="314" 
+y="209" 
+class="s5_343"
+>)</text>
+
+<text 
+x="108" 
+y="224" 
+class="s3_343"
+>return</text>
+
+<text 
+x="163" 
+y="224" 
+class="s6_343"
+>x</text>
+
+<text 
+x="171" 
+y="224" 
+class="s5_343"
+>,</text>
+
+<text 
+x="187" 
+y="224" 
+class="s6_343"
+>y</text>
+
+<text 
+x="55" 
+y="277" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_343"
+>You can check that this gives similar results to the direct sample:</text>
+
+<text 
+x="76" 
+y="322" 
+class="s3_343"
+>def</text>
+
+<text 
+x="108" 
+y="322" 
+class="s4_343"
+>compare_distributions</text>
+
+<text 
+x="274" 
+y="322" 
+class="s5_343"
+>(</text>
+
+<text 
+x="282" 
+y="322" 
+class="s6_343"
+>num_samples</text>
+
+<text 
+x="369" 
+y="322" 
+class="s5_343"
+>=</text>
+
+<text 
+x="377" 
+y="322" 
+class="s7_343"
+>1000</text>
+
+<text 
+x="408" 
+y="322" 
+class="s5_343"
+>):</text>
+
+<text 
+x="108" 
+y="337" 
+class="s6_343"
+>counts</text>
+
+<text 
+x="163" 
+y="337" 
+class="s5_343"
+>=</text>
+
+<text 
+x="179" 
+y="337" 
+class="s6_343"
+>defaultdict</text>
+
+<text 
+x="266" 
+y="337" 
+class="s5_343"
+>(</text>
+
+<text 
+x="274" 
+y="337" 
+class="s3_343"
+>lambda</text>
+
+<text 
+x="322" 
+y="337" 
+dx="0,0,4.6" 
+class="s5_343"
+>: [</text>
+
+<text 
+x="345" 
+y="337" 
+class="s7_343"
+>0</text>
+
+<text 
+x="353" 
+y="337" 
+class="s5_343"
+>,</text>
+
+<text 
+x="369" 
+y="337" 
+class="s7_343"
+>0</text>
+
+<text 
+x="377" 
+y="337" 
+class="s5_343"
+>])</text>
+
+<text 
+x="108" 
+y="353" 
+class="s3_343"
+>for</text>
+
+<text 
+x="140" 
+y="353" 
+class="s6_343"
+>_</text>
+
+<text 
+x="156" 
+y="353" 
+class="s9_343"
+>in</text>
+
+<text 
+x="179" 
+y="353" 
+class="s10_343"
+>range</text>
+
+<text 
+x="219" 
+y="353" 
+class="s5_343"
+>(</text>
+
+<text 
+x="227" 
+y="353" 
+class="s6_343"
+>num_samples</text>
+
+<text 
+x="314" 
+y="353" 
+class="s5_343"
+>):</text>
+
+<text 
+x="140" 
+y="368" 
+class="s6_343"
+>counts</text>
+
+<text 
+x="187" 
+y="368" 
+class="s5_343"
+>[</text>
+
+<text 
+x="195" 
+y="368" 
+class="s6_343"
+>gibbs_sample</text>
+
+<text 
+x="290" 
+y="368" 
+class="s5_343"
+>()][</text>
+
+<text 
+x="322" 
+y="368" 
+class="s7_343"
+>0</text>
+
+<text 
+x="329" 
+y="368" 
+dx="0,0,4.6,0" 
+class="s5_343"
+>] +=</text>
+
+<text 
+x="369" 
+y="368" 
+class="s7_343"
+>1</text>
+
+<text 
+x="140" 
+y="383" 
+class="s6_343"
+>counts</text>
+
+<text 
+x="187" 
+y="383" 
+class="s5_343"
+>[</text>
+
+<text 
+x="195" 
+y="383" 
+class="s6_343"
+>direct_sample</text>
+
+<text 
+x="298" 
+y="383" 
+class="s5_343"
+>()][</text>
+
+<text 
+x="329" 
+y="383" 
+class="s7_343"
+>1</text>
+
+<text 
+x="337" 
+y="383" 
+dx="0,0,4.6,0" 
+class="s5_343"
+>] +=</text>
+
+<text 
+x="377" 
+y="383" 
+class="s7_343"
+>1</text>
+
+<text 
+x="108" 
+y="399" 
+class="s3_343"
+>return</text>
+
+<text 
+x="163" 
+y="399" 
+class="s6_343"
+>counts</text>
+
+<text 
+x="55" 
+y="452" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_343"
+>We’ll use this technique in the next section.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

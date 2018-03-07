@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 320 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_320{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_320{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_320{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_320{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s5_320{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_320{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s7_320{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_320"
+>meetups.</text>
+
+<text 
+x="55" 
+y="113" 
+class="s1_320"
+>“No problem,” you say:</text>
+
+<text 
+x="76" 
+y="158" 
+class="s2_320"
+>random</text>
+
+<text 
+x="124" 
+y="158" 
+class="s3_320"
+>.</text>
+
+<text 
+x="132" 
+y="158" 
+class="s2_320"
+>seed</text>
+
+<text 
+x="163" 
+y="158" 
+class="s3_320"
+>(</text>
+
+<text 
+x="171" 
+y="158" 
+class="s4_320"
+>0</text>
+
+<text 
+x="179" 
+y="158" 
+class="s3_320"
+>)</text>
+
+<text 
+x="76" 
+y="173" 
+class="s2_320"
+>clusterer</text>
+
+<text 
+x="156" 
+y="173" 
+class="s3_320"
+>=</text>
+
+<text 
+x="171" 
+y="173" 
+class="s2_320"
+>KMeans</text>
+
+<text 
+x="219" 
+y="173" 
+class="s3_320"
+>(</text>
+
+<text 
+x="227" 
+y="173" 
+class="s4_320"
+>2</text>
+
+<text 
+x="235" 
+y="173" 
+class="s3_320"
+>)</text>
+
+<text 
+x="76" 
+y="189" 
+class="s2_320"
+>clusterer</text>
+
+<text 
+x="148" 
+y="189" 
+class="s3_320"
+>.</text>
+
+<text 
+x="156" 
+y="189" 
+class="s2_320"
+>train</text>
+
+<text 
+x="195" 
+y="189" 
+class="s3_320"
+>(</text>
+
+<text 
+x="203" 
+y="189" 
+class="s2_320"
+>inputs</text>
+
+<text 
+x="250" 
+y="189" 
+class="s3_320"
+>)</text>
+
+<text 
+x="76" 
+y="204" 
+class="s5_320"
+>print</text>
+
+<text 
+x="124" 
+y="204" 
+class="s2_320"
+>clusterer</text>
+
+<text 
+x="195" 
+y="204" 
+class="s3_320"
+>.</text>
+
+<text 
+x="203" 
+y="204" 
+class="s2_320"
+>means</text>
+
+<image preserveAspectRatio="none" x="67" y="237" width="776" height="618" xlink:href="320/img/1.png" />
+<text 
+x="272" 
+y="881" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0" 
+class="s6_320"
+>Figure 19-2. User locations grouped into three clusters</text>
+
+<text 
+x="55" 
+y="923" 
+class="s1_320"
+>As shown in</text>
+
+<text 
+x="170" 
+y="923" 
+class="s7_320"
+>Figure 19-3</text>
+
+<text 
+x="273" 
+y="923" 
+class="s1_320"
+>, one meetup should still be near [18, 20], but now the other</text>
+
+<text 
+x="55" 
+y="950" 
+class="s1_320"
+>should be near [-26, -5].</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 361 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_361{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_361{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_361{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_361{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_361{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>centrality. Being an eigenvector means that if you compute:</text>
+
+<text 
+x="76" 
+y="119" 
+class="s2_361"
+>matrix_operate</text>
+
+<text 
+x="187" 
+y="119" 
+class="s3_361"
+>(</text>
+
+<text 
+x="195" 
+y="119" 
+class="s2_361"
+>adjacency_matrix</text>
+
+<text 
+x="322" 
+y="119" 
+class="s3_361"
+>,</text>
+
+<text 
+x="337" 
+y="119" 
+class="s2_361"
+>eigenvector_centralities</text>
+
+<text 
+x="527" 
+y="119" 
+class="s3_361"
+>)</text>
+
+<text 
+x="55" 
+y="172" 
+class="s1_361"
+>the result is a scalar multiple of</text>
+
+<text 
+x="336" 
+y="172" 
+class="s4_361"
+>eigenvector_centralities</text>
+
+<text 
+x="589" 
+y="172" 
+class="s1_361"
+>.</text>
+
+<text 
+x="55" 
+y="213" 
+class="s1_361"
+>If you look at how matrix multiplication works,</text>
+
+<text 
+x="479" 
+y="213" 
+class="s4_361"
+>matrix_operate</text>
+
+<text 
+x="632" 
+y="213" 
+class="s1_361"
+>produces a vector whose</text>
+
+<text 
+x="55" 
+y="243" 
+class="s5_361"
+>i</text>
+
+<text 
+x="61" 
+y="243" 
+class="s1_361"
+>th element is:</text>
+
+<text 
+x="76" 
+y="288" 
+class="s2_361"
+>dot</text>
+
+<text 
+x="100" 
+y="288" 
+class="s3_361"
+>(</text>
+
+<text 
+x="108" 
+y="288" 
+class="s2_361"
+>get_row</text>
+
+<text 
+x="163" 
+y="288" 
+class="s3_361"
+>(</text>
+
+<text 
+x="171" 
+y="288" 
+class="s2_361"
+>adjacency_matrix</text>
+
+<text 
+x="298" 
+y="288" 
+class="s3_361"
+>,</text>
+
+<text 
+x="314" 
+y="288" 
+class="s2_361"
+>i</text>
+
+<text 
+x="322" 
+y="288" 
+class="s3_361"
+>),</text>
+
+<text 
+x="345" 
+y="288" 
+class="s2_361"
+>eigenvector_centralities</text>
+
+<text 
+x="535" 
+y="288" 
+class="s3_361"
+>)</text>
+
+<text 
+x="55" 
+y="341" 
+class="s1_361"
+>which is precisely the sum of the eigenvector centralities of the users connected to user</text>
+
+<text 
+x="826" 
+y="341" 
+class="s5_361"
+>i</text>
+
+<text 
+x="832" 
+y="341" 
+class="s1_361"
+>.</text>
+
+<text 
+x="55" 
+y="379" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2" 
+class="s1_361"
+>In other words, eigenvector centralities are numbers, one per user, such that each user’s</text>
+
+<text 
+x="55" 
+y="407" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>value is a constant multiple of the sum of his neighbors’ values. In this case centrality</text>
+
+<text 
+x="55" 
+y="434" 
+class="s1_361"
+>means being connected to people who themselves are central. The more centrality you are</text>
+
+<text 
+x="55" 
+y="462" 
+class="s1_361"
+>directly connected to, the more central you are. This is of course a circular definition —</text>
+
+<text 
+x="55" 
+y="489" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s1_361"
+>eigenvectors are the way of breaking out of the circularity.</text>
+
+<text 
+x="55" 
+y="528" 
+class="s1_361"
+>Another way of understanding this is by thinking about what</text>
+
+<text 
+x="594" 
+y="528" 
+class="s4_361"
+>find_eigenvector</text>
+
+<text 
+x="769" 
+y="528" 
+class="s1_361"
+>is doing</text>
+
+<text 
+x="55" 
+y="557" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>here. It starts by assigning each node a random centrality. It then repeats the following two</text>
+
+<text 
+x="55" 
+y="585" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0" 
+class="s1_361"
+>steps until the process converges:</text>
+
+<text 
+x="75" 
+y="622" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0" 
+class="s1_361"
+>1. Give each node a new centrality score that equals the sum of its neighbors’ (old)</text>
+
+<text 
+x="104" 
+y="648" 
+class="s1_361"
+>centrality scores.</text>
+
+<text 
+x="75" 
+y="695" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>2. Rescale the vector of centralities to have magnitude 1.</text>
+
+<text 
+x="55" 
+y="743" 
+class="s1_361"
+>Although the mathematics behind it may seem somewhat opaque at first, the calculation</text>
+
+<text 
+x="55" 
+y="771" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>itself is relatively straightforward (unlike, say, betweenness centrality) and is pretty easy</text>
+
+<text 
+x="55" 
+y="798" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0" 
+class="s1_361"
+>to perform on even very large graphs.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

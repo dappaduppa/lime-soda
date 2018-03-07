@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 355 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_355{
+fill: #BEBEBE;
+}
+
+.s1_355{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s3_355{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s4_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s7_355{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s8_355{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s9_355{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s10_355{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s11_355{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s12_355{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s13_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s14_355{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s15_355{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,497.3l722.5,0c3,0,5.5,2.5,5.5,5.5l0,77c0,3.1,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.4,-5.5,-5.5l0,-77c0,-3,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,2,4.4,4.4l0,77c0,2.5,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-1.9,-4.4,-4.4l0,-77c0,-2.4,2,-4.4,4.4,-4.4Z" class="g1_355" />
+<text 
+x="203" 
+y="64" 
+class="s1_355"
+>for</text>
+
+<text 
+x="235" 
+y="64" 
+class="s2_355"
+>id</text>
+
+<text 
+x="258" 
+y="64" 
+class="s3_355"
+>in</text>
+
+<text 
+x="282" 
+y="64" 
+class="s4_355"
+>path</text>
+
+<text 
+x="314" 
+y="64" 
+class="s5_355"
+>:</text>
+
+<text 
+x="235" 
+y="80" 
+class="s1_355"
+>if</text>
+
+<text 
+x="258" 
+y="80" 
+class="s2_355"
+>id</text>
+
+<text 
+x="282" 
+y="80" 
+dx="0,0,0,0,4.6,0" 
+class="s3_355"
+>not in</text>
+
+<text 
+x="337" 
+y="80" 
+class="s5_355"
+>[</text>
+
+<text 
+x="345" 
+y="80" 
+class="s4_355"
+>source_id</text>
+
+<text 
+x="416" 
+y="80" 
+class="s5_355"
+>,</text>
+
+<text 
+x="432" 
+y="80" 
+class="s4_355"
+>target_id</text>
+
+<text 
+x="503" 
+y="80" 
+class="s5_355"
+>]:</text>
+
+<text 
+x="266" 
+y="95" 
+class="s4_355"
+>users</text>
+
+<text 
+x="306" 
+y="95" 
+class="s5_355"
+>[</text>
+
+<text 
+x="314" 
+y="95" 
+class="s2_355"
+>id</text>
+
+<text 
+x="329" 
+y="95" 
+class="s5_355"
+>][</text>
+
+<text 
+x="345" 
+y="95" 
+class="s6_355"
+>"betweenness_centrality"</text>
+
+<text 
+x="535" 
+y="95" 
+dx="0,0,4.6,0" 
+class="s5_355"
+>] +=</text>
+
+<text 
+x="574" 
+y="95" 
+class="s4_355"
+>contrib</text>
+
+<image preserveAspectRatio="none" x="55" y="128" width="799" height="230" xlink:href="355/img/1.png" />
+<text 
+x="208" 
+y="382" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_355"
+>Figure 21-2. The DataSciencester network sized by betweenness centrality</text>
+
+<text 
+x="55" 
+y="424" 
+class="s8_355"
+>As shown in</text>
+
+<text 
+x="170" 
+y="424" 
+class="s9_355"
+>Figure 21-2</text>
+
+<text 
+x="273" 
+y="424" 
+class="s8_355"
+>, users 0 and 9 have centrality 0 (as neither is on any shortest path</text>
+
+<text 
+x="55" 
+y="452" 
+class="s8_355"
+>between other users), whereas 3, 4, and 5 all have high centralities (as all three lie on</text>
+
+<text 
+x="55" 
+y="479" 
+class="s8_355"
+>many shortest paths).</text>
+
+<text 
+x="421" 
+y="522" 
+dx="0,1.1,1.1,1.1" 
+class="s10_355"
+>NOTE</text>
+
+<text 
+x="97" 
+y="552" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s11_355"
+>Generally the centrality numbers aren’t that meaningful themselves. What we care about is how the</text>
+
+<text 
+x="97" 
+y="572" 
+class="s11_355"
+>numbers for each node compare to the numbers for other nodes.</text>
+
+<text 
+x="55" 
+y="617" 
+class="s8_355"
+>Another measure we can look at is</text>
+
+<text 
+x="364" 
+y="617" 
+class="s12_355"
+>closeness centrality</text>
+
+<text 
+x="537" 
+y="617" 
+class="s8_355"
+>. First, for each user we compute</text>
+
+<text 
+x="55" 
+y="644" 
+class="s8_355"
+>her</text>
+
+<text 
+x="88" 
+y="644" 
+class="s12_355"
+>farness</text>
+
+<text 
+x="152" 
+y="644" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0" 
+class="s8_355"
+>, which is the sum of the lengths of her shortest paths to each other user. Since</text>
+
+<text 
+x="55" 
+y="672" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_355"
+>we’ve already computed the shortest paths between each pair of nodes, it’s easy to add</text>
+
+<text 
+x="55" 
+y="699" 
+class="s8_355"
+>their lengths. (If there are multiple shortest paths, they all have the same length, so we can</text>
+
+<text 
+x="55" 
+y="727" 
+class="s8_355"
+>just look at the first one.)</text>
+
+<text 
+x="76" 
+y="772" 
+class="s1_355"
+>def</text>
+
+<text 
+x="108" 
+y="772" 
+class="s13_355"
+>farness</text>
+
+<text 
+x="163" 
+y="772" 
+class="s5_355"
+>(</text>
+
+<text 
+x="171" 
+y="772" 
+class="s4_355"
+>user</text>
+
+<text 
+x="203" 
+y="772" 
+class="s5_355"
+>):</text>
+
+<text 
+x="108" 
+y="787" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s14_355"
+>"""the sum of the lengths of the shortest paths to each other user"""</text>
+
+<text 
+x="108" 
+y="803" 
+class="s1_355"
+>return</text>
+
+<text 
+x="163" 
+y="803" 
+class="s2_355"
+>sum</text>
+
+<text 
+x="187" 
+y="803" 
+class="s5_355"
+>(</text>
+
+<text 
+x="195" 
+y="803" 
+class="s2_355"
+>len</text>
+
+<text 
+x="219" 
+y="803" 
+class="s5_355"
+>(</text>
+
+<text 
+x="227" 
+y="803" 
+class="s4_355"
+>paths</text>
+
+<text 
+x="266" 
+y="803" 
+class="s5_355"
+>[</text>
+
+<text 
+x="274" 
+y="803" 
+class="s15_355"
+>0</text>
+
+<text 
+x="282" 
+y="803" 
+class="s5_355"
+>])</text>
+
+<text 
+x="195" 
+y="818" 
+class="s1_355"
+>for</text>
+
+<text 
+x="227" 
+y="818" 
+class="s4_355"
+>paths</text>
+
+<text 
+x="274" 
+y="818" 
+class="s3_355"
+>in</text>
+
+<text 
+x="298" 
+y="818" 
+class="s4_355"
+>user</text>
+
+<text 
+x="329" 
+y="818" 
+class="s5_355"
+>[</text>
+
+<text 
+x="337" 
+y="818" 
+class="s6_355"
+>"shortest_paths"</text>
+
+<text 
+x="464" 
+y="818" 
+class="s5_355"
+>].</text>
+
+<text 
+x="480" 
+y="818" 
+class="s4_355"
+>values</text>
+
+<text 
+x="527" 
+y="818" 
+class="s5_355"
+>())</text>
+
+<text 
+x="55" 
+y="871" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_355"
+>after which it’s very little work to compute closeness centrality (</text>
+
+<text 
+x="621" 
+y="871" 
+class="s9_355"
+>Figure 21-3</text>
+
+<text 
+x="724" 
+y="871" 
+class="s8_355"
+>):</text>
+
+<text 
+x="76" 
+y="916" 
+class="s1_355"
+>for</text>
+
+<text 
+x="108" 
+y="916" 
+class="s4_355"
+>user</text>
+
+<text 
+x="148" 
+y="916" 
+class="s3_355"
+>in</text>
+
+<text 
+x="171" 
+y="916" 
+class="s4_355"
+>users</text>
+
+<text 
+x="211" 
+y="916" 
+class="s5_355"
+>:</text>
+
+<text 
+x="108" 
+y="931" 
+class="s4_355"
+>user</text>
+
+<text 
+x="140" 
+y="931" 
+class="s5_355"
+>[</text>
+
+<text 
+x="148" 
+y="931" 
+class="s6_355"
+>"closeness_centrality"</text>
+
+<text 
+x="322" 
+y="931" 
+dx="0,0,4.6" 
+class="s5_355"
+>] =</text>
+
+<text 
+x="353" 
+y="931" 
+class="s15_355"
+>1</text>
+
+<text 
+x="369" 
+y="931" 
+class="s5_355"
+>/</text>
+
+<text 
+x="385" 
+y="931" 
+class="s4_355"
+>farness</text>
+
+<text 
+x="440" 
+y="931" 
+class="s5_355"
+>(</text>
+
+<text 
+x="448" 
+y="931" 
+class="s4_355"
+>user</text>
+
+<text 
+x="480" 
+y="931" 
+class="s5_355"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

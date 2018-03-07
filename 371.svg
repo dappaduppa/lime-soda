@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 371 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_371{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s2_371{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_371{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s4_371{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s5_371{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_371{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s7_371{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s8_371{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s9_371{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s10_371{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s11_371{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="274" 
+y="64" 
+class="s1_371"
+>reverse</text>
+
+<text 
+x="329" 
+y="64" 
+class="s2_371"
+>=</text>
+
+<text 
+x="337" 
+y="64" 
+class="s3_371"
+>True</text>
+
+<text 
+x="369" 
+y="64" 
+class="s2_371"
+>)</text>
+
+<text 
+x="108" 
+y="95" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s4_371"
+># and (maybe) exclude already-interests</text>
+
+<text 
+x="108" 
+y="111" 
+class="s5_371"
+>if</text>
+
+<text 
+x="132" 
+y="111" 
+class="s1_371"
+>include_current_interests</text>
+
+<text 
+x="329" 
+y="111" 
+class="s2_371"
+>:</text>
+
+<text 
+x="140" 
+y="126" 
+class="s5_371"
+>return</text>
+
+<text 
+x="195" 
+y="126" 
+class="s1_371"
+>suggestions</text>
+
+<text 
+x="108" 
+y="141" 
+class="s5_371"
+>else</text>
+
+<text 
+x="140" 
+y="141" 
+class="s2_371"
+>:</text>
+
+<text 
+x="140" 
+y="157" 
+class="s5_371"
+>return</text>
+
+<text 
+x="195" 
+y="157" 
+class="s2_371"
+>[(</text>
+
+<text 
+x="211" 
+y="157" 
+class="s1_371"
+>suggestion</text>
+
+<text 
+x="290" 
+y="157" 
+class="s2_371"
+>,</text>
+
+<text 
+x="306" 
+y="157" 
+class="s1_371"
+>weight</text>
+
+<text 
+x="353" 
+y="157" 
+class="s2_371"
+>)</text>
+
+<text 
+x="203" 
+y="172" 
+class="s5_371"
+>for</text>
+
+<text 
+x="235" 
+y="172" 
+class="s1_371"
+>suggestion</text>
+
+<text 
+x="314" 
+y="172" 
+class="s2_371"
+>,</text>
+
+<text 
+x="329" 
+y="172" 
+class="s1_371"
+>weight</text>
+
+<text 
+x="385" 
+y="172" 
+class="s6_371"
+>in</text>
+
+<text 
+x="408" 
+y="172" 
+class="s1_371"
+>suggestions</text>
+
+<text 
+x="203" 
+y="188" 
+class="s5_371"
+>if</text>
+
+<text 
+x="227" 
+y="188" 
+class="s1_371"
+>suggestion</text>
+
+<text 
+x="314" 
+y="188" 
+dx="0,0,0,0,4.6,0" 
+class="s6_371"
+>not in</text>
+
+<text 
+x="369" 
+y="188" 
+class="s1_371"
+>users_interests</text>
+
+<text 
+x="487" 
+y="188" 
+class="s2_371"
+>[</text>
+
+<text 
+x="495" 
+y="188" 
+class="s1_371"
+>user_id</text>
+
+<text 
+x="551" 
+y="188" 
+class="s2_371"
+>]]</text>
+
+<text 
+x="55" 
+y="240" 
+class="s7_371"
+>If we call</text>
+
+<text 
+x="143" 
+y="240" 
+class="s8_371"
+>user_based_suggestions(0)</text>
+
+<text 
+x="407" 
+y="240" 
+class="s7_371"
+>, the first several suggested interests are:</text>
+
+<text 
+x="76" 
+y="288" 
+class="s2_371"
+>[(</text>
+
+<text 
+x="92" 
+y="288" 
+class="s9_371"
+>'MapReduce'</text>
+
+<text 
+x="179" 
+y="288" 
+class="s2_371"
+>,</text>
+
+<text 
+x="195" 
+y="288" 
+class="s10_371"
+>0.5669467095138409</text>
+
+<text 
+x="337" 
+y="288" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="303" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="303" 
+class="s9_371"
+>'MongoDB'</text>
+
+<text 
+x="163" 
+y="303" 
+class="s2_371"
+>,</text>
+
+<text 
+x="179" 
+y="303" 
+class="s10_371"
+>0.50709255283711</text>
+
+<text 
+x="306" 
+y="303" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="319" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="319" 
+class="s9_371"
+>'Postgres'</text>
+
+<text 
+x="171" 
+y="319" 
+class="s2_371"
+>,</text>
+
+<text 
+x="187" 
+y="319" 
+class="s10_371"
+>0.50709255283711</text>
+
+<text 
+x="314" 
+y="319" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="334" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="334" 
+class="s9_371"
+>'NoSQL'</text>
+
+<text 
+x="148" 
+y="334" 
+class="s2_371"
+>,</text>
+
+<text 
+x="163" 
+y="334" 
+class="s10_371"
+>0.3380617018914066</text>
+
+<text 
+x="306" 
+y="334" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="349" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="349" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s9_371"
+>'neural networks'</text>
+
+<text 
+x="227" 
+y="349" 
+class="s2_371"
+>,</text>
+
+<text 
+x="242" 
+y="349" 
+class="s10_371"
+>0.1889822365046136</text>
+
+<text 
+x="385" 
+y="349" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="365" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="365" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s9_371"
+>'deep learning'</text>
+
+<text 
+x="211" 
+y="365" 
+class="s2_371"
+>,</text>
+
+<text 
+x="227" 
+y="365" 
+class="s10_371"
+>0.1889822365046136</text>
+
+<text 
+x="369" 
+y="365" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="380" 
+class="s2_371"
+>(</text>
+
+<text 
+x="92" 
+y="380" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s9_371"
+>'artificial intelligence'</text>
+
+<text 
+x="290" 
+y="380" 
+class="s2_371"
+>,</text>
+
+<text 
+x="306" 
+y="380" 
+class="s10_371"
+>0.1889822365046136</text>
+
+<text 
+x="448" 
+y="380" 
+class="s2_371"
+>),</text>
+
+<text 
+x="84" 
+y="396" 
+class="s4_371"
+>#...</text>
+
+<text 
+x="76" 
+y="411" 
+class="s2_371"
+>]</text>
+
+<text 
+x="55" 
+y="464" 
+class="s7_371"
+>These seem like pretty decent suggestions for someone whose stated interests are “Big</text>
+
+<text 
+x="55" 
+y="491" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>Data” and database-related. (The weights aren’t intrinsically meaningful; we just use them</text>
+
+<text 
+x="55" 
+y="519" 
+class="s7_371"
+>for ordering.)</text>
+
+<text 
+x="55" 
+y="557" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>This approach doesn’t work as well when the number of items gets very large. Recall the</text>
+
+<text 
+x="55" 
+y="585" 
+class="s7_371"
+>curse of dimensionality from</text>
+
+<text 
+x="315" 
+y="585" 
+class="s11_371"
+>Chapter 12</text>
+
+<text 
+x="417" 
+y="585" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>— in large-dimensional vector spaces most</text>
+
+<text 
+x="55" 
+y="612" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>vectors are very far apart (and therefore point in very different directions). That is, when</text>
+
+<text 
+x="55" 
+y="640" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>there are a large number of interests the “most similar users” to a given user might not be</text>
+
+<text 
+x="55" 
+y="667" 
+class="s7_371"
+>similar at all.</text>
+
+<text 
+x="55" 
+y="706" 
+class="s7_371"
+>Imagine a site like Amazon.com, from which I’ve bought thousands of items over the last</text>
+
+<text 
+x="55" 
+y="733" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>couple of decades. You could attempt to identify similar users to me based on buying</text>
+
+<text 
+x="55" 
+y="761" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>patterns, but most likely in all the world there’s no one whose purchase history looks even</text>
+
+<text 
+x="55" 
+y="788" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_371"
+>remotely like mine. Whoever my “most similar” shopper is, he’s probably not similar to</text>
+
+<text 
+x="55" 
+y="816" 
+class="s7_371"
+>me at all, and his purchases would almost certainly make for lousy recommendations.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

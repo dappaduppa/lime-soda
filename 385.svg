@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 385 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_385{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s2_385{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_385{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_385{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s5_385{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_385"
+>user_id_sum</text>
+
+<text 
+x="171" 
+y="64" 
+class="s2_385"
+>=</text>
+
+<text 
+x="187" 
+y="64" 
+class="s1_385"
+>users</text>
+
+<text 
+x="235" 
+y="64" 
+class="s2_385"
+>\</text>
+
+<text 
+x="108" 
+y="80" 
+class="s2_385"
+>.</text>
+
+<text 
+x="116" 
+y="80" 
+class="s1_385"
+>where</text>
+
+<text 
+x="156" 
+y="80" 
+class="s2_385"
+>(</text>
+
+<text 
+x="163" 
+y="80" 
+class="s3_385"
+>lambda</text>
+
+<text 
+x="219" 
+y="80" 
+class="s1_385"
+>row</text>
+
+<text 
+x="242" 
+y="80" 
+class="s2_385"
+>:</text>
+
+<text 
+x="258" 
+y="80" 
+class="s1_385"
+>row</text>
+
+<text 
+x="282" 
+y="80" 
+class="s2_385"
+>[</text>
+
+<text 
+x="290" 
+y="80" 
+class="s4_385"
+>"user_id"</text>
+
+<text 
+x="361" 
+y="80" 
+dx="0,0,4.6" 
+class="s2_385"
+>] &gt;</text>
+
+<text 
+x="393" 
+y="80" 
+class="s5_385"
+>1</text>
+
+<text 
+x="401" 
+y="80" 
+dx="0,0,4.6" 
+class="s2_385"
+>) \</text>
+
+<text 
+x="108" 
+y="95" 
+class="s2_385"
+>.</text>
+
+<text 
+x="116" 
+y="95" 
+class="s1_385"
+>group_by</text>
+
+<text 
+x="179" 
+y="95" 
+class="s2_385"
+>(</text>
+
+<text 
+x="187" 
+y="95" 
+class="s1_385"
+>group_by_columns</text>
+
+<text 
+x="314" 
+y="95" 
+class="s2_385"
+>=[],</text>
+
+<text 
+x="187" 
+y="111" 
+class="s1_385"
+>aggregates</text>
+
+<text 
+x="266" 
+y="111" 
+class="s2_385"
+>={</text>
+
+<text 
+x="290" 
+y="111" 
+class="s4_385"
+>"user_id_sum"</text>
+
+<text 
+x="401" 
+y="111" 
+class="s2_385"
+>:</text>
+
+<text 
+x="416" 
+y="111" 
+class="s1_385"
+>sum_user_ids</text>
+
+<text 
+x="519" 
+y="111" 
+class="s2_385"
+>})</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

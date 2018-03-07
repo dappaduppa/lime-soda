@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 353 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_353{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_353{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_353{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>That is, to figure out Thor’s betweenness centrality, we’ll need to compute all the shortest</text>
+
+<text 
+x="55" 
+y="102" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>paths between all pairs of people who aren’t Thor. And then we’ll need to count how</text>
+
+<text 
+x="55" 
+y="129" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>many of those shortest paths pass through Thor. For instance, the only shortest path</text>
+
+<text 
+x="55" 
+y="157" 
+class="s1_353"
+>between Chi (</text>
+
+<text 
+x="178" 
+y="157" 
+class="s2_353"
+>id</text>
+
+<text 
+x="204" 
+y="157" 
+class="s1_353"
+>3) and Clive (</text>
+
+<text 
+x="326" 
+y="157" 
+class="s2_353"
+>id</text>
+
+<text 
+x="353" 
+y="157" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>5) passes through Thor, while neither of the two shortest</text>
+
+<text 
+x="55" 
+y="187" 
+class="s1_353"
+>paths between Hero (</text>
+
+<text 
+x="242" 
+y="187" 
+class="s2_353"
+>id</text>
+
+<text 
+x="269" 
+y="187" 
+class="s1_353"
+>0) and Chi (</text>
+
+<text 
+x="374" 
+y="187" 
+class="s2_353"
+>id</text>
+
+<text 
+x="401" 
+y="187" 
+class="s1_353"
+>3) does.</text>
+
+<text 
+x="55" 
+y="227" 
+class="s1_353"
+>So, as a first step, we’ll need to figure out the shortest paths between all pairs of people.</text>
+
+<text 
+x="55" 
+y="255" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>There are some pretty sophisticated algorithms for doing so efficiently, but (as is almost</text>
+
+<text 
+x="55" 
+y="282" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>always the case) we will use a less efficient, easier-to-understand algorithm.</text>
+
+<text 
+x="55" 
+y="321" 
+class="s1_353"
+>This algorithm (an implementation of breadth-first search) is one of the more complicated</text>
+
+<text 
+x="55" 
+y="348" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>ones in the book, so let’s talk through it carefully:</text>
+
+<text 
+x="75" 
+y="386" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>1. Our goal is a function that takes a</text>
+
+<text 
+x="406" 
+y="386" 
+class="s2_353"
+>from_user</text>
+
+<text 
+x="506" 
+y="386" 
+class="s1_353"
+>and finds</text>
+
+<text 
+x="593" 
+y="386" 
+class="s3_353"
+>all</text>
+
+<text 
+x="621" 
+y="386" 
+class="s1_353"
+>shortest paths to every</text>
+
+<text 
+x="104" 
+y="411" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s1_353"
+>other user.</text>
+
+<text 
+x="75" 
+y="458" 
+dx="0,0,0,6.6,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>2. We’ll represent a path as</text>
+
+<text 
+x="326" 
+y="458" 
+class="s2_353"
+>list</text>
+
+<text 
+x="374" 
+y="458" 
+class="s1_353"
+>of user IDs. Since every path starts at</text>
+
+<text 
+x="708" 
+y="458" 
+class="s2_353"
+>from_user</text>
+
+<text 
+x="803" 
+y="458" 
+class="s1_353"
+>, we</text>
+
+<text 
+x="104" 
+y="484" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>won’t include her ID in the list. This means that the length of the list representing the</text>
+
+<text 
+x="104" 
+y="509" 
+class="s1_353"
+>path will be the length of the path itself.</text>
+
+<text 
+x="75" 
+y="556" 
+dx="0,0,0,6.6,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>3. We’ll maintain a dictionary</text>
+
+<text 
+x="350" 
+y="556" 
+class="s2_353"
+>shortest_paths_to</text>
+
+<text 
+x="535" 
+y="556" 
+class="s1_353"
+>where the keys are user IDs and the</text>
+
+<text 
+x="104" 
+y="582" 
+class="s1_353"
+>values are lists of paths that end at the user with the specified ID. If there is a unique</text>
+
+<text 
+x="104" 
+y="607" 
+class="s1_353"
+>shortest path, the list will just contain that one path. If there are multiple shortest</text>
+
+<text 
+x="104" 
+y="632" 
+class="s1_353"
+>paths, the list will contain all of them.</text>
+
+<text 
+x="75" 
+y="679" 
+dx="0,0,0,6.6,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>4. We’ll also maintain a queue</text>
+
+<text 
+x="354" 
+y="679" 
+class="s2_353"
+>frontier</text>
+
+<text 
+x="444" 
+y="679" 
+class="s1_353"
+>that contains the users we want to explore in</text>
+
+<text 
+x="104" 
+y="705" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>the order we want to explore them. We’ll store them as pairs</text>
+
+<text 
+x="640" 
+y="705" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,6.1,0,0,0,0" 
+class="s2_353"
+>(prev_user, user)</text>
+
+<text 
+x="825" 
+y="705" 
+class="s1_353"
+>so</text>
+
+<text 
+x="104" 
+y="730" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>that we know how we got to each one. We initialize the queue with all the neighbors</text>
+
+<text 
+x="104" 
+y="755" 
+class="s1_353"
+>of</text>
+
+<text 
+x="128" 
+y="755" 
+class="s2_353"
+>from_user</text>
+
+<text 
+x="223" 
+y="755" 
+dx="0,0,0,0,-1.8,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>. (We haven’t ever talked about queues, which are data structures</text>
+
+<text 
+x="104" 
+y="781" 
+class="s1_353"
+>optimized for “add to the end” and “remove from the front” operations. In Python,</text>
+
+<text 
+x="104" 
+y="806" 
+class="s1_353"
+>they are implemented as</text>
+
+<text 
+x="324" 
+y="806" 
+class="s2_353"
+>collections.deque</text>
+
+<text 
+x="509" 
+y="806" 
+class="s1_353"
+>which is actually a double-ended</text>
+
+<text 
+x="104" 
+y="831" 
+class="s1_353"
+>queue.)</text>
+
+<text 
+x="75" 
+y="879" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>5. As we explore the graph, whenever we find new neighbors that we don’t already</text>
+
+<text 
+x="104" 
+y="904" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>know shortest paths to, we add them to the end of the queue to explore later, with the</text>
+
+<text 
+x="104" 
+y="929" 
+class="s1_353"
+>current user as</text>
+
+<text 
+x="238" 
+y="929" 
+class="s2_353"
+>prev_user</text>
+
+<text 
+x="333" 
+y="929" 
+class="s1_353"
+>.</text>
+
+<text 
+x="75" 
+y="977" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>6. When we take a user off the queue, and we’ve never encountered that user before,</text>
+
+<text 
+x="104" 
+y="1002" 
+class="s1_353"
+>we’ve definitely found one or more shortest paths to him — each of the shortest</text>
+
+<text 
+x="104" 
+y="1027" 
+class="s1_353"
+>paths to</text>
+
+<text 
+x="178" 
+y="1027" 
+class="s2_353"
+>prev_user</text>
+
+<text 
+x="279" 
+y="1027" 
+class="s1_353"
+>with one extra step added.</text>
+
+<text 
+x="75" 
+y="1074" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_353"
+>7. When we take a user off the queue and we</text>
+
+<text 
+x="482" 
+y="1074" 
+class="s3_353"
+>have</text>
+
+<text 
+x="529" 
+y="1074" 
+class="s1_353"
+>encountered that user before, then</text>
+
+<text 
+x="104" 
+y="1100" 
+class="s1_353"
+>either we’ve found another shortest path (in which case we should add it) or we’ve</text>
+
+<text 
+x="104" 
+y="1125" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0" 
+class="s1_353"
+>found a longer path (in which case we shouldn’t).</text>
+
+<text 
+x="75" 
+y="1172" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0" 
+class="s1_353"
+>8. When no more users are left on the queue, we’ve explored the whole graph (or, at</text>
+
+<text 
+x="104" 
+y="1198" 
+class="s1_353"
+>least, the parts of it that are reachable from the starting user) and we’re done.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

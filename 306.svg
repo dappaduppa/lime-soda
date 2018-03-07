@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 306 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_306{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_306{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_306{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_306{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s5_306{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s6_306{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s7_306{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s8_306{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="140" 
+y="64" 
+class="s1_306"
+>print</text>
+
+<text 
+x="187" 
+y="64" 
+class="s2_306"
+>x</text>
+
+<text 
+x="195" 
+y="64" 
+class="s3_306"
+>,</text>
+
+<text 
+x="211" 
+y="64" 
+class="s2_306"
+>y</text>
+
+<text 
+x="219" 
+y="64" 
+class="s3_306"
+>,</text>
+
+<text 
+x="235" 
+y="64" 
+class="s2_306"
+>feed_forward</text>
+
+<text 
+x="329" 
+y="64" 
+class="s3_306"
+>(</text>
+
+<text 
+x="337" 
+y="64" 
+class="s2_306"
+>xor_network</text>
+
+<text 
+x="424" 
+y="64" 
+class="s3_306"
+>,[</text>
+
+<text 
+x="440" 
+y="64" 
+class="s2_306"
+>x</text>
+
+<text 
+x="448" 
+y="64" 
+class="s3_306"
+>,</text>
+
+<text 
+x="464" 
+y="64" 
+class="s2_306"
+>y</text>
+
+<text 
+x="472" 
+y="64" 
+class="s3_306"
+>])[-</text>
+
+<text 
+x="503" 
+y="64" 
+class="s4_306"
+>1</text>
+
+<text 
+x="511" 
+y="64" 
+class="s3_306"
+>]</text>
+
+<text 
+x="76" 
+y="95" 
+dx="0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_306"
+># 0 0 [9.38314668300676e-14]</text>
+
+<text 
+x="76" 
+y="111" 
+dx="0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_306"
+># 0 1 [0.9999999999999059]</text>
+
+<text 
+x="76" 
+y="126" 
+dx="0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_306"
+># 1 0 [0.9999999999999059]</text>
+
+<text 
+x="76" 
+y="141" 
+dx="0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_306"
+># 1 1 [9.383146683006828e-14]</text>
+
+<text 
+x="55" 
+y="194" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s6_306"
+>By using a hidden layer, we are able to feed the output of an “and” neuron and the output</text>
+
+<text 
+x="55" 
+y="222" 
+class="s6_306"
+>of an “or” neuron into a “second input but not first input” neuron. The result is a network</text>
+
+<text 
+x="55" 
+y="249" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s6_306"
+>that performs “or, but not and,” which is precisely XOR (</text>
+
+<text 
+x="559" 
+y="249" 
+class="s7_306"
+>Figure 18-3</text>
+
+<text 
+x="662" 
+y="249" 
+class="s6_306"
+>).</text>
+
+<image preserveAspectRatio="none" x="63" y="273" width="785" height="366" xlink:href="306/img/1.png" />
+<text 
+x="324" 
+y="665" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_306"
+>Figure 18-3. A neural network for XOR</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

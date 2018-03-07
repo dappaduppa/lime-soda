@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 398 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_398{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_398{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_398{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_398{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s5_398{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_398"
+>Imagine that we have three documents</text>
+
+<text 
+x="399" 
+y="74" 
+dx="0,0,0,0,0,0,0,6.1,0,0,0,0,0,0,0,0,0,6.1,0,0,0,0,6.1,0,0,0,0,0,0,6.1,0,0,0,0,0,0,0" 
+class="s2_398"
+>["data science", "big data", "science</text>
+
+<text 
+x="55" 
+y="104" 
+class="s2_398"
+>fiction"]</text>
+
+<text 
+x="149" 
+y="104" 
+class="s1_398"
+>.</text>
+
+<text 
+x="55" 
+y="145" 
+class="s1_398"
+>Then</text>
+
+<text 
+x="105" 
+y="145" 
+class="s2_398"
+>wc_mapper</text>
+
+<text 
+x="206" 
+y="145" 
+class="s1_398"
+>applied to the first document yields the two pairs</text>
+
+<text 
+x="641" 
+y="145" 
+dx="0,0,0,0,0,0,0,0,0,6.1,0" 
+class="s2_398"
+>("data", 1)</text>
+
+<text 
+x="762" 
+y="145" 
+class="s1_398"
+>and</text>
+
+<text 
+x="55" 
+y="174" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,6.1,0" 
+class="s2_398"
+>("science", 1)</text>
+
+<text 
+x="202" 
+y="174" 
+class="s1_398"
+>. After we’ve gone through all three documents, the</text>
+
+<text 
+x="662" 
+y="174" 
+class="s2_398"
+>collector</text>
+
+<text 
+x="762" 
+y="174" 
+class="s1_398"
+>contains</text>
+
+<text 
+x="76" 
+y="222" 
+class="s3_398"
+>{</text>
+
+<text 
+x="92" 
+y="222" 
+class="s4_398"
+>"data"</text>
+
+<text 
+x="148" 
+y="222" 
+dx="0,0,4.6" 
+class="s3_398"
+>: [</text>
+
+<text 
+x="171" 
+y="222" 
+class="s5_398"
+>1</text>
+
+<text 
+x="179" 
+y="222" 
+class="s3_398"
+>,</text>
+
+<text 
+x="195" 
+y="222" 
+class="s5_398"
+>1</text>
+
+<text 
+x="203" 
+y="222" 
+class="s3_398"
+>],</text>
+
+<text 
+x="92" 
+y="237" 
+class="s4_398"
+>"science"</text>
+
+<text 
+x="171" 
+y="237" 
+dx="0,0,4.6" 
+class="s3_398"
+>: [</text>
+
+<text 
+x="195" 
+y="237" 
+class="s5_398"
+>1</text>
+
+<text 
+x="203" 
+y="237" 
+class="s3_398"
+>,</text>
+
+<text 
+x="219" 
+y="237" 
+class="s5_398"
+>1</text>
+
+<text 
+x="227" 
+y="237" 
+class="s3_398"
+>],</text>
+
+<text 
+x="92" 
+y="253" 
+class="s4_398"
+>"big"</text>
+
+<text 
+x="140" 
+y="253" 
+dx="0,0,4.6" 
+class="s3_398"
+>: [</text>
+
+<text 
+x="163" 
+y="253" 
+class="s5_398"
+>1</text>
+
+<text 
+x="171" 
+y="253" 
+class="s3_398"
+>],</text>
+
+<text 
+x="92" 
+y="268" 
+class="s4_398"
+>"fiction"</text>
+
+<text 
+x="171" 
+y="268" 
+dx="0,0,4.6" 
+class="s3_398"
+>: [</text>
+
+<text 
+x="195" 
+y="268" 
+class="s5_398"
+>1</text>
+
+<text 
+x="203" 
+y="268" 
+dx="0,0,4.6" 
+class="s3_398"
+>] }</text>
+
+<text 
+x="55" 
+y="321" 
+class="s1_398"
+>Then</text>
+
+<text 
+x="105" 
+y="321" 
+class="s2_398"
+>wc_reducer</text>
+
+<text 
+x="216" 
+y="321" 
+class="s1_398"
+>produces the count for each word:</text>
+
+<text 
+x="76" 
+y="368" 
+class="s3_398"
+>[(</text>
+
+<text 
+x="92" 
+y="368" 
+class="s4_398"
+>"data"</text>
+
+<text 
+x="140" 
+y="368" 
+class="s3_398"
+>,</text>
+
+<text 
+x="156" 
+y="368" 
+class="s5_398"
+>2</text>
+
+<text 
+x="163" 
+y="368" 
+dx="0,0,0,4.6" 
+class="s3_398"
+>), (</text>
+
+<text 
+x="195" 
+y="368" 
+class="s4_398"
+>"science"</text>
+
+<text 
+x="266" 
+y="368" 
+class="s3_398"
+>,</text>
+
+<text 
+x="282" 
+y="368" 
+class="s5_398"
+>2</text>
+
+<text 
+x="290" 
+y="368" 
+dx="0,0,0,4.6" 
+class="s3_398"
+>), (</text>
+
+<text 
+x="322" 
+y="368" 
+class="s4_398"
+>"big"</text>
+
+<text 
+x="361" 
+y="368" 
+class="s3_398"
+>,</text>
+
+<text 
+x="377" 
+y="368" 
+class="s5_398"
+>1</text>
+
+<text 
+x="385" 
+y="368" 
+dx="0,0,0,4.6" 
+class="s3_398"
+>), (</text>
+
+<text 
+x="416" 
+y="368" 
+class="s4_398"
+>"fiction"</text>
+
+<text 
+x="487" 
+y="368" 
+class="s3_398"
+>,</text>
+
+<text 
+x="503" 
+y="368" 
+class="s5_398"
+>1</text>
+
+<text 
+x="511" 
+y="368" 
+class="s3_398"
+>)]</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 304 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_304{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_304{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_304{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_304{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_304{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s6_304{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_304{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s8_304{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s9_304{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s10_304{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s11_304{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_304"
+>Feed-Forward Neural Networks</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_304"
+>The topology of the brain is enormously complicated, so it’s common to approximate it</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_304"
+>with an idealized</text>
+
+<text 
+x="210" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.8" 
+class="s3_304"
+>feed-forward</text>
+
+<text 
+x="330" 
+y="149" 
+class="s2_304"
+>neural network that consists of discrete</text>
+
+<text 
+x="679" 
+y="149" 
+class="s3_304"
+>layers</text>
+
+<text 
+x="738" 
+y="149" 
+class="s2_304"
+>of neurons,</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_304"
+>each connected to the next. This typically entails an input layer (which receives inputs and</text>
+
+<text 
+x="55" 
+y="204" 
+class="s2_304"
+>feeds them forward unchanged), one or more “hidden layers” (each of which consists of</text>
+
+<text 
+x="55" 
+y="232" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_304"
+>neurons that take the outputs of the previous layer, performs some calculation, and passes</text>
+
+<text 
+x="55" 
+y="259" 
+class="s2_304"
+>the result to the next layer), and an output layer (which produces the final outputs).</text>
+
+<text 
+x="55" 
+y="298" 
+class="s2_304"
+>Just like the perceptron, each (noninput) neuron has a weight corresponding to each of its</text>
+
+<text 
+x="55" 
+y="325" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_304"
+>inputs and a bias. To make our representation simpler, we’ll add the bias to the end of our</text>
+
+<text 
+x="55" 
+y="353" 
+class="s2_304"
+>weights vector and give each neuron a</text>
+
+<text 
+x="397" 
+y="353" 
+class="s3_304"
+>bias input</text>
+
+<text 
+x="490" 
+y="353" 
+class="s2_304"
+>that always equals 1.</text>
+
+<text 
+x="55" 
+y="391" 
+class="s2_304"
+>As with the perceptron, for each neuron we’ll sum up the products of its inputs and its</text>
+
+<text 
+x="55" 
+y="419" 
+class="s2_304"
+>weights. But here, rather than outputting the</text>
+
+<text 
+x="448" 
+y="419" 
+class="s4_304"
+>step_function</text>
+
+<text 
+x="591" 
+y="419" 
+class="s2_304"
+>applied to that product, we’ll</text>
+
+<text 
+x="55" 
+y="448" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_304"
+>output a smooth approximation of the step function. In particular, we’ll use the</text>
+
+<text 
+x="753" 
+y="448" 
+class="s4_304"
+>sigmoid</text>
+
+<text 
+x="55" 
+y="478" 
+class="s2_304"
+>function (</text>
+
+<text 
+x="141" 
+y="478" 
+class="s5_304"
+>Figure 18-2</text>
+
+<text 
+x="244" 
+y="478" 
+class="s2_304"
+>):</text>
+
+<text 
+x="76" 
+y="523" 
+class="s6_304"
+>def</text>
+
+<text 
+x="108" 
+y="523" 
+class="s7_304"
+>sigmoid</text>
+
+<text 
+x="163" 
+y="523" 
+class="s8_304"
+>(</text>
+
+<text 
+x="171" 
+y="523" 
+class="s9_304"
+>t</text>
+
+<text 
+x="179" 
+y="523" 
+class="s8_304"
+>):</text>
+
+<text 
+x="108" 
+y="539" 
+class="s6_304"
+>return</text>
+
+<text 
+x="163" 
+y="539" 
+class="s10_304"
+>1</text>
+
+<text 
+x="179" 
+y="539" 
+dx="0,0,4.6" 
+class="s8_304"
+>/ (</text>
+
+<text 
+x="203" 
+y="539" 
+class="s10_304"
+>1</text>
+
+<text 
+x="219" 
+y="539" 
+class="s8_304"
+>+</text>
+
+<text 
+x="235" 
+y="539" 
+class="s9_304"
+>math</text>
+
+<text 
+x="266" 
+y="539" 
+class="s8_304"
+>.</text>
+
+<text 
+x="274" 
+y="539" 
+class="s9_304"
+>exp</text>
+
+<text 
+x="298" 
+y="539" 
+class="s8_304"
+>(-</text>
+
+<text 
+x="314" 
+y="539" 
+class="s9_304"
+>t</text>
+
+<text 
+x="322" 
+y="539" 
+class="s8_304"
+>))</text>
+
+<image preserveAspectRatio="none" x="86" y="571" width="738" height="586" xlink:href="304/img/1.png" />
+<text 
+x="341" 
+y="1183" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s11_304"
+>Figure 18-2. The sigmoid function</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

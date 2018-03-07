@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 344 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_344{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_344{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_344{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_344{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_344{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s5_344{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_344{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s7_344{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_344{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,-2.8,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_344"
+>Topic Modeling</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>When we built our Data Scientists You Should Know recommender in</text>
+
+<text 
+x="678" 
+y="122" 
+class="s3_344"
+>Chapter 1</text>
+
+<text 
+x="764" 
+y="122" 
+class="s2_344"
+>, we</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>simply looked for exact matches in people’s stated interests.</text>
+
+<text 
+x="55" 
+y="188" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>A more sophisticated approach to understanding our users’ interests might try to identify</text>
+
+<text 
+x="55" 
+y="215" 
+class="s2_344"
+>the</text>
+
+<text 
+x="87" 
+y="215" 
+class="s4_344"
+>topics</text>
+
+<text 
+x="145" 
+y="215" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>that underlie those interests. A technique called</text>
+
+<text 
+x="566" 
+y="215" 
+class="s4_344"
+>Latent Dirichlet Analysis</text>
+
+<text 
+x="793" 
+y="215" 
+class="s2_344"
+>(LDA)</text>
+
+<text 
+x="55" 
+y="243" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>is commonly used to identify common topics in a set of documents. We’ll apply it to</text>
+
+<text 
+x="55" 
+y="270" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>documents that consist of each user’s interests.</text>
+
+<text 
+x="55" 
+y="309" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>LDA has some similarities to the Naive Bayes Classifier we built in</text>
+
+<text 
+x="655" 
+y="309" 
+class="s3_344"
+>Chapter 13</text>
+
+<text 
+x="752" 
+y="309" 
+class="s2_344"
+>, in that it</text>
+
+<text 
+x="55" 
+y="336" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>assumes a probabilistic model for documents. We’ll gloss over the hairier mathematical</text>
+
+<text 
+x="55" 
+y="364" 
+class="s2_344"
+>details, but for our purposes the model assumes that:</text>
+
+<path d="M61.6,391.7l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_344" />
+<text 
+x="82" 
+y="401" 
+class="s2_344"
+>There is some fixed number</text>
+
+<text 
+x="334" 
+y="401" 
+class="s4_344"
+>K</text>
+
+<text 
+x="354" 
+y="401" 
+class="s2_344"
+>of topics.</text>
+
+<path d="M61.6,439l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_344" />
+<text 
+x="82" 
+y="448" 
+class="s2_344"
+>There is a random variable that assigns each topic an associated probability distribution</text>
+
+<text 
+x="82" 
+y="474" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>over words. You should think of this distribution as the probability of seeing word</text>
+
+<text 
+x="809" 
+y="474" 
+class="s4_344"
+>w</text>
+
+<text 
+x="82" 
+y="499" 
+class="s2_344"
+>given topic</text>
+
+<text 
+x="186" 
+y="499" 
+class="s4_344"
+>k</text>
+
+<text 
+x="196" 
+y="499" 
+class="s2_344"
+>.</text>
+
+<path d="M61.6,536.9l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_344" />
+<text 
+x="82" 
+y="546" 
+class="s2_344"
+>There is another random variable that assigns each document a probability distribution</text>
+
+<text 
+x="82" 
+y="572" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>over topics. You should think of this distribution as the mixture of topics in document</text>
+
+<text 
+x="82" 
+y="597" 
+class="s4_344"
+>d</text>
+
+<text 
+x="93" 
+y="597" 
+class="s2_344"
+>.</text>
+
+<path d="M61.6,634.8l6.6,0l0,6.7l-6.6,0l0,-6.7Z" class="g1_344" />
+<text 
+x="82" 
+y="644" 
+class="s2_344"
+>Each word in a document was generated by first randomly picking a topic (from the</text>
+
+<text 
+x="82" 
+y="670" 
+dx="0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_344"
+>document’s distribution of topics) and then randomly picking a word (from the topic’s</text>
+
+<text 
+x="82" 
+y="695" 
+class="s2_344"
+>distribution of words).</text>
+
+<text 
+x="55" 
+y="743" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>In particular, we have a collection of</text>
+
+<text 
+x="382" 
+y="743" 
+class="s5_344"
+>documents</text>
+
+<text 
+x="482" 
+y="743" 
+class="s2_344"
+>each of which is a</text>
+
+<text 
+x="647" 
+y="743" 
+class="s5_344"
+>list</text>
+
+<text 
+x="694" 
+y="743" 
+class="s2_344"
+>of words. And we</text>
+
+<text 
+x="55" 
+y="773" 
+class="s2_344"
+>have a corresponding collection of</text>
+
+<text 
+x="364" 
+y="773" 
+class="s5_344"
+>document_topics</text>
+
+<text 
+x="528" 
+y="773" 
+class="s2_344"
+>that assigns a topic (here a number</text>
+
+<text 
+x="55" 
+y="803" 
+class="s2_344"
+>between 0 and</text>
+
+<text 
+x="187" 
+y="803" 
+class="s4_344"
+>K</text>
+
+<text 
+x="207" 
+y="803" 
+class="s2_344"
+>– 1) to each word in each document.</text>
+
+<text 
+x="55" 
+y="841" 
+class="s2_344"
+>So that the fifth word in the fourth document is:</text>
+
+<text 
+x="76" 
+y="886" 
+class="s6_344"
+>documents</text>
+
+<text 
+x="148" 
+y="886" 
+class="s7_344"
+>[</text>
+
+<text 
+x="156" 
+y="886" 
+class="s8_344"
+>3</text>
+
+<text 
+x="163" 
+y="886" 
+class="s7_344"
+>][</text>
+
+<text 
+x="179" 
+y="886" 
+class="s8_344"
+>4</text>
+
+<text 
+x="187" 
+y="886" 
+class="s7_344"
+>]</text>
+
+<text 
+x="55" 
+y="939" 
+class="s2_344"
+>and the topic from which that word was chosen is:</text>
+
+<text 
+x="76" 
+y="984" 
+class="s6_344"
+>document_topics</text>
+
+<text 
+x="195" 
+y="984" 
+class="s7_344"
+>[</text>
+
+<text 
+x="203" 
+y="984" 
+class="s8_344"
+>3</text>
+
+<text 
+x="211" 
+y="984" 
+class="s7_344"
+>][</text>
+
+<text 
+x="227" 
+y="984" 
+class="s8_344"
+>4</text>
+
+<text 
+x="235" 
+y="984" 
+class="s7_344"
+>]</text>
+
+<text 
+x="55" 
+y="1037" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>This very explicitly defines each document’s distribution over topics, and it implicitly</text>
+
+<text 
+x="55" 
+y="1065" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>defines each topic’s distribution over words.</text>
+
+<text 
+x="55" 
+y="1103" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>We can estimate the likelihood that topic 1 produces a certain word by comparing how</text>
+
+<text 
+x="55" 
+y="1131" 
+class="s2_344"
+>many times topic 1 produces that word with how many times topic 1 produces</text>
+
+<text 
+x="748" 
+y="1131" 
+class="s4_344"
+>any</text>
+
+<text 
+x="785" 
+y="1131" 
+class="s2_344"
+>word.</text>
+
+<text 
+x="55" 
+y="1158" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_344"
+>(Similarly, when we built a spam filter in</text>
+
+<text 
+x="421" 
+y="1158" 
+class="s3_344"
+>Chapter 13</text>
+
+<text 
+x="518" 
+y="1158" 
+class="s2_344"
+>, we compared how many times each</text>
+
+<text 
+x="55" 
+y="1186" 
+class="s2_344"
+>word appeared in spams with the total number of words appearing in spams.)</text>
+
+<text 
+x="55" 
+y="1224" 
+class="s2_344"
+>Although these topics are just numbers, we can give them descriptive names by looking at</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

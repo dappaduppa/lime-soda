@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 369 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_369{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_369{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_369{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_369{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_369{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s7_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s9_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_369{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s11_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s12_369{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s13_369{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s14_369{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_369"
+>User-Based Collaborative Filtering</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>One way of taking a user’s interests into account is to look for users who are somehow</text>
+
+<text 
+x="55" 
+y="149" 
+class="s3_369"
+>similar</text>
+
+<text 
+x="122" 
+y="149" 
+class="s2_369"
+>to him, and then suggest the things that those users are interested in.</text>
+
+<text 
+x="55" 
+y="188" 
+class="s2_369"
+>In order to do that, we’ll need a way to measure how similar two users are. Here we’ll use</text>
+
+<text 
+x="55" 
+y="215" 
+class="s2_369"
+>a metric called</text>
+
+<text 
+x="189" 
+y="215" 
+class="s3_369"
+>cosine similarity</text>
+
+<text 
+x="335" 
+y="215" 
+class="s2_369"
+>. Given two vectors,</text>
+
+<text 
+x="518" 
+y="215" 
+class="s4_369"
+>v</text>
+
+<text 
+x="534" 
+y="215" 
+class="s2_369"
+>and</text>
+
+<text 
+x="572" 
+y="215" 
+class="s4_369"
+>w</text>
+
+<text 
+x="582" 
+y="215" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>, it’s defined as:</text>
+
+<text 
+x="76" 
+y="262" 
+class="s5_369"
+>def</text>
+
+<text 
+x="108" 
+y="262" 
+class="s6_369"
+>cosine_similarity</text>
+
+<text 
+x="242" 
+y="262" 
+class="s7_369"
+>(</text>
+
+<text 
+x="250" 
+y="262" 
+class="s8_369"
+>v</text>
+
+<text 
+x="258" 
+y="262" 
+class="s7_369"
+>,</text>
+
+<text 
+x="274" 
+y="262" 
+class="s8_369"
+>w</text>
+
+<text 
+x="282" 
+y="262" 
+class="s7_369"
+>):</text>
+
+<text 
+x="108" 
+y="278" 
+class="s5_369"
+>return</text>
+
+<text 
+x="163" 
+y="278" 
+class="s8_369"
+>dot</text>
+
+<text 
+x="187" 
+y="278" 
+class="s7_369"
+>(</text>
+
+<text 
+x="195" 
+y="278" 
+class="s8_369"
+>v</text>
+
+<text 
+x="203" 
+y="278" 
+class="s7_369"
+>,</text>
+
+<text 
+x="219" 
+y="278" 
+class="s8_369"
+>w</text>
+
+<text 
+x="227" 
+y="278" 
+dx="0,0,4.6" 
+class="s7_369"
+>) /</text>
+
+<text 
+x="258" 
+y="278" 
+class="s8_369"
+>math</text>
+
+<text 
+x="290" 
+y="278" 
+class="s7_369"
+>.</text>
+
+<text 
+x="298" 
+y="278" 
+class="s8_369"
+>sqrt</text>
+
+<text 
+x="329" 
+y="278" 
+class="s7_369"
+>(</text>
+
+<text 
+x="337" 
+y="278" 
+class="s8_369"
+>dot</text>
+
+<text 
+x="361" 
+y="278" 
+class="s7_369"
+>(</text>
+
+<text 
+x="369" 
+y="278" 
+class="s8_369"
+>v</text>
+
+<text 
+x="377" 
+y="278" 
+class="s7_369"
+>,</text>
+
+<text 
+x="393" 
+y="278" 
+class="s8_369"
+>v</text>
+
+<text 
+x="401" 
+y="278" 
+dx="0,0,4.6" 
+class="s7_369"
+>) *</text>
+
+<text 
+x="432" 
+y="278" 
+class="s8_369"
+>dot</text>
+
+<text 
+x="456" 
+y="278" 
+class="s7_369"
+>(</text>
+
+<text 
+x="464" 
+y="278" 
+class="s8_369"
+>w</text>
+
+<text 
+x="472" 
+y="278" 
+class="s7_369"
+>,</text>
+
+<text 
+x="487" 
+y="278" 
+class="s8_369"
+>w</text>
+
+<text 
+x="495" 
+y="278" 
+class="s7_369"
+>))</text>
+
+<text 
+x="55" 
+y="331" 
+class="s2_369"
+>It measures the “angle” between</text>
+
+<text 
+x="344" 
+y="331" 
+class="s4_369"
+>v</text>
+
+<text 
+x="360" 
+y="331" 
+class="s2_369"
+>and</text>
+
+<text 
+x="398" 
+y="331" 
+class="s4_369"
+>w</text>
+
+<text 
+x="408" 
+y="331" 
+class="s2_369"
+>. If</text>
+
+<text 
+x="439" 
+y="331" 
+class="s4_369"
+>v</text>
+
+<text 
+x="455" 
+y="331" 
+class="s2_369"
+>and</text>
+
+<text 
+x="493" 
+y="331" 
+class="s4_369"
+>w</text>
+
+<text 
+x="509" 
+y="331" 
+class="s2_369"
+>point in the same direction, then the</text>
+
+<text 
+x="55" 
+y="360" 
+class="s2_369"
+>numerator and denominator are equal, and their cosine similarity equals 1. If</text>
+
+<text 
+x="733" 
+y="360" 
+class="s4_369"
+>v</text>
+
+<text 
+x="749" 
+y="360" 
+class="s2_369"
+>and</text>
+
+<text 
+x="787" 
+y="360" 
+class="s4_369"
+>w</text>
+
+<text 
+x="803" 
+y="360" 
+class="s2_369"
+>point</text>
+
+<text 
+x="55" 
+y="390" 
+class="s2_369"
+>in opposite directions, then their cosine similarity equals -1. And if</text>
+
+<text 
+x="649" 
+y="390" 
+class="s4_369"
+>v</text>
+
+<text 
+x="665" 
+y="390" 
+class="s2_369"
+>is 0 whenever</text>
+
+<text 
+x="792" 
+y="390" 
+class="s4_369"
+>w</text>
+
+<text 
+x="808" 
+y="390" 
+class="s2_369"
+>is</text>
+
+<text 
+x="55" 
+y="420" 
+class="s2_369"
+>not (and vice versa) then</text>
+
+<text 
+x="277" 
+y="420" 
+dx="0,0,0,0,0,0,0,6.1,0" 
+class="s4_369"
+>dot(v, w)</text>
+
+<text 
+x="378" 
+y="420" 
+class="s2_369"
+>is 0 and so the cosine similarity will be 0.</text>
+
+<text 
+x="55" 
+y="461" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>We’ll apply this to vectors of 0s and 1s, each vector</text>
+
+<text 
+x="514" 
+y="461" 
+class="s4_369"
+>v</text>
+
+<text 
+x="530" 
+y="461" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>representing one user’s interests.</text>
+
+<text 
+x="55" 
+y="490" 
+class="s4_369"
+>v[i]</text>
+
+<text 
+x="102" 
+y="490" 
+class="s2_369"
+>will be 1 if the user is specified the</text>
+
+<text 
+x="415" 
+y="490" 
+class="s3_369"
+>i</text>
+
+<text 
+x="421" 
+y="490" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>th interest, 0 otherwise. Accordingly, “similar</text>
+
+<text 
+x="55" 
+y="520" 
+class="s2_369"
+>users” will mean “users whose interest vectors most nearly point in the same direction.”</text>
+
+<text 
+x="55" 
+y="547" 
+class="s2_369"
+>Users with identical interests will have similarity 1. Users with no identical interests will</text>
+
+<text 
+x="55" 
+y="575" 
+class="s2_369"
+>have similarity 0. Otherwise the similarity will fall in between, with numbers closer to 1</text>
+
+<text 
+x="55" 
+y="602" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0" 
+class="s2_369"
+>indicating “very similar” and numbers closer to 0 indicating “not very similar.”</text>
+
+<text 
+x="55" 
+y="641" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>A good place to start is collecting the known interests and (implicitly) assigning indices to</text>
+
+<text 
+x="55" 
+y="668" 
+dx="0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>them. We can do this by using a set comprehension to find the unique interests, putting</text>
+
+<text 
+x="55" 
+y="696" 
+class="s2_369"
+>them in a list, and then sorting them. The first interest in the resulting list will be interest</text>
+
+<text 
+x="55" 
+y="723" 
+class="s2_369"
+>0, and so on:</text>
+
+<text 
+x="76" 
+y="769" 
+class="s8_369"
+>unique_interests</text>
+
+<text 
+x="211" 
+y="769" 
+class="s7_369"
+>=</text>
+
+<text 
+x="227" 
+y="769" 
+class="s9_369"
+>sorted</text>
+
+<text 
+x="274" 
+y="769" 
+class="s7_369"
+>(</text>
+
+<text 
+x="282" 
+y="769" 
+class="s9_369"
+>list</text>
+
+<text 
+x="314" 
+y="769" 
+class="s7_369"
+>({</text>
+
+<text 
+x="337" 
+y="769" 
+class="s8_369"
+>interest</text>
+
+<text 
+x="337" 
+y="784" 
+class="s5_369"
+>for</text>
+
+<text 
+x="369" 
+y="784" 
+class="s8_369"
+>user_interests</text>
+
+<text 
+x="487" 
+y="784" 
+class="s10_369"
+>in</text>
+
+<text 
+x="511" 
+y="784" 
+class="s8_369"
+>users_interests</text>
+
+<text 
+x="337" 
+y="799" 
+class="s5_369"
+>for</text>
+
+<text 
+x="369" 
+y="799" 
+class="s8_369"
+>interest</text>
+
+<text 
+x="440" 
+y="799" 
+class="s10_369"
+>in</text>
+
+<text 
+x="464" 
+y="799" 
+class="s8_369"
+>user_interests</text>
+
+<text 
+x="582" 
+y="799" 
+class="s7_369"
+>}))</text>
+
+<text 
+x="55" 
+y="852" 
+class="s2_369"
+>This gives us a list that starts:</text>
+
+<text 
+x="76" 
+y="897" 
+class="s7_369"
+>[</text>
+
+<text 
+x="84" 
+y="897" 
+dx="0,0,0,0,0,4.6,0,0,0,0" 
+class="s11_369"
+>'Big Data'</text>
+
+<text 
+x="163" 
+y="897" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="913" 
+class="s11_369"
+>'C++'</text>
+
+<text 
+x="124" 
+y="913" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="928" 
+class="s11_369"
+>'Cassandra'</text>
+
+<text 
+x="171" 
+y="928" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="944" 
+class="s11_369"
+>'HBase'</text>
+
+<text 
+x="140" 
+y="944" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="959" 
+class="s11_369"
+>'Hadoop'</text>
+
+<text 
+x="148" 
+y="959" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="974" 
+class="s11_369"
+>'Haskell'</text>
+
+<text 
+x="156" 
+y="974" 
+class="s7_369"
+>,</text>
+
+<text 
+x="84" 
+y="990" 
+dx="0,0,4.6,0,0" 
+class="s12_369"
+># ...</text>
+
+<text 
+x="76" 
+y="1005" 
+class="s7_369"
+>]</text>
+
+<text 
+x="55" 
+y="1058" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_369"
+>Next we want to produce an “interest” vector of 0s and 1s for each user. We just need to</text>
+
+<text 
+x="55" 
+y="1085" 
+class="s2_369"
+>iterate over the</text>
+
+<text 
+x="192" 
+y="1085" 
+class="s4_369"
+>unique_interests</text>
+
+<text 
+x="366" 
+y="1085" 
+class="s2_369"
+>list, substituting a 1 if the user has each interest, a 0 if</text>
+
+<text 
+x="55" 
+y="1115" 
+class="s2_369"
+>not:</text>
+
+<text 
+x="76" 
+y="1160" 
+class="s5_369"
+>def</text>
+
+<text 
+x="108" 
+y="1160" 
+class="s6_369"
+>make_user_interest_vector</text>
+
+<text 
+x="306" 
+y="1160" 
+class="s7_369"
+>(</text>
+
+<text 
+x="314" 
+y="1160" 
+class="s8_369"
+>user_interests</text>
+
+<text 
+x="424" 
+y="1160" 
+class="s7_369"
+>):</text>
+
+<text 
+x="108" 
+y="1176" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6" 
+class="s13_369"
+>"""given a list of interests, produce a vector whose ith element is 1</text>
+
+<text 
+x="108" 
+y="1191" 
+dx="0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s13_369"
+>if unique_interests[i] is in the list, 0 otherwise"""</text>
+
+<text 
+x="108" 
+y="1206" 
+class="s5_369"
+>return</text>
+
+<text 
+x="163" 
+y="1206" 
+class="s7_369"
+>[</text>
+
+<text 
+x="171" 
+y="1206" 
+class="s14_369"
+>1</text>
+
+<text 
+x="187" 
+y="1206" 
+class="s5_369"
+>if</text>
+
+<text 
+x="211" 
+y="1206" 
+class="s8_369"
+>interest</text>
+
+<text 
+x="282" 
+y="1206" 
+class="s10_369"
+>in</text>
+
+<text 
+x="306" 
+y="1206" 
+class="s8_369"
+>user_interests</text>
+
+<text 
+x="424" 
+y="1206" 
+class="s5_369"
+>else</text>
+
+<text 
+x="464" 
+y="1206" 
+class="s14_369"
+>0</text>
+
+<text 
+x="171" 
+y="1222" 
+class="s5_369"
+>for</text>
+
+<text 
+x="203" 
+y="1222" 
+class="s8_369"
+>interest</text>
+
+<text 
+x="274" 
+y="1222" 
+class="s10_369"
+>in</text>
+
+<text 
+x="298" 
+y="1222" 
+class="s8_369"
+>unique_interests</text>
+
+<text 
+x="424" 
+y="1222" 
+class="s7_369"
+>]</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

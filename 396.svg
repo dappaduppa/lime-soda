@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 396 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_396{
+}
+
+.s1_396{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_396{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_396{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_396" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_396"
+>Chapter 24. MapReduce</text>
+
+<text 
+x="65" 
+y="193" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>The future has already arrived. It’s just not evenly distributed yet.</text>
+
+<text 
+x="65" 
+y="229" 
+dx="0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>William Gibson</text>
+
+<text 
+x="55" 
+y="267" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>MapReduce is a programming model for performing parallel processing on large data sets.</text>
+
+<text 
+x="55" 
+y="294" 
+class="s2_396"
+>Although it is a powerful technique, its basics are relatively simple.</text>
+
+<text 
+x="55" 
+y="333" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>Imagine we have a collection of items we’d like to process somehow. For instance, the</text>
+
+<text 
+x="55" 
+y="360" 
+class="s2_396"
+>items might be website logs, the texts of various books, image files, or anything else. A</text>
+
+<text 
+x="55" 
+y="388" 
+class="s2_396"
+>basic version of the MapReduce algorithm consists of the following steps:</text>
+
+<text 
+x="75" 
+y="425" 
+dx="0,0,0,6.6,0,0,0,0" 
+class="s2_396"
+>1. Use a</text>
+
+<text 
+x="159" 
+y="425" 
+class="s3_396"
+>mapper</text>
+
+<text 
+x="228" 
+y="425" 
+class="s2_396"
+>function to turn each item into zero or more key-value pairs. (Often</text>
+
+<text 
+x="104" 
+y="451" 
+class="s2_396"
+>this is called the</text>
+
+<text 
+x="252" 
+y="451" 
+class="s3_396"
+>map</text>
+
+<text 
+x="289" 
+y="451" 
+class="s2_396"
+>function, but there is already a Python function called</text>
+
+<text 
+x="766" 
+y="451" 
+class="s3_396"
+>map</text>
+
+<text 
+x="803" 
+y="451" 
+class="s2_396"
+>and</text>
+
+<text 
+x="104" 
+y="476" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>we don’t need to confuse the two.)</text>
+
+<text 
+x="75" 
+y="523" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>2. Collect together all the pairs with identical keys.</text>
+
+<text 
+x="75" 
+y="571" 
+dx="0,0,0,6.6,0,0,0,0" 
+class="s2_396"
+>3. Use a</text>
+
+<text 
+x="159" 
+y="571" 
+class="s3_396"
+>reducer</text>
+
+<text 
+x="238" 
+y="571" 
+class="s2_396"
+>function on each collection of grouped values to produce output</text>
+
+<text 
+x="104" 
+y="596" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_396"
+>values for the corresponding key.</text>
+
+<text 
+x="55" 
+y="644" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_396"
+>This is all sort of abstract, so let’s look at a specific example. There are few absolute rules</text>
+
+<text 
+x="55" 
+y="672" 
+class="s2_396"
+>of data science, but one of them is that your first MapReduce example has to involve</text>
+
+<text 
+x="55" 
+y="699" 
+class="s2_396"
+>counting words.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
