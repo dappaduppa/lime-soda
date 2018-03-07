@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 271 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_271{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_271{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_271{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_271{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_271{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_271{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_271{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_271{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s9_271{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_271{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s11_271{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,-0.6,0,0,0,0" 
+class="s1_271"
+>The Problem</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,0,0,0,-1.4,0,0,0,0" 
+class="s2_271"
+>We have an anonymized data set of about 200 users, containing each user’s salary, her</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_271"
+>years of experience as a data scientist, and whether she paid for a premium account</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_271"
+>(</text>
+
+<text 
+x="62" 
+y="177" 
+class="s3_271"
+>Figure 16-1</text>
+
+<text 
+x="165" 
+y="177" 
+class="s2_271"
+>). As is usual with categorical variables, we represent the dependent variable</text>
+
+<text 
+x="55" 
+y="204" 
+class="s2_271"
+>as either 0 (no premium account) or 1 (premium account).</text>
+
+<text 
+x="55" 
+y="243" 
+class="s2_271"
+>As usual, our data is in a matrix where each row is a list</text>
+
+<text 
+x="552" 
+y="243" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,6.1,0,0,0,0,0,0" 
+class="s4_271"
+>[experience, salary,</text>
+
+<text 
+x="55" 
+y="272" 
+class="s4_271"
+>paid_account]</text>
+
+<text 
+x="192" 
+y="272" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_271"
+>. Let’s turn it into the format we need:</text>
+
+<text 
+x="76" 
+y="320" 
+class="s5_271"
+>x</text>
+
+<text 
+x="92" 
+y="320" 
+dx="0,0,4.6,0" 
+class="s6_271"
+>= [[</text>
+
+<text 
+x="124" 
+y="320" 
+class="s7_271"
+>1</text>
+
+<text 
+x="132" 
+y="320" 
+dx="0,0,4.6" 
+class="s6_271"
+>] +</text>
+
+<text 
+x="163" 
+y="320" 
+class="s5_271"
+>row</text>
+
+<text 
+x="187" 
+y="320" 
+class="s6_271"
+>[:</text>
+
+<text 
+x="203" 
+y="320" 
+class="s7_271"
+>2</text>
+
+<text 
+x="211" 
+y="320" 
+class="s6_271"
+>]</text>
+
+<text 
+x="227" 
+y="320" 
+class="s8_271"
+>for</text>
+
+<text 
+x="258" 
+y="320" 
+class="s5_271"
+>row</text>
+
+<text 
+x="290" 
+y="320" 
+class="s9_271"
+>in</text>
+
+<text 
+x="314" 
+y="320" 
+class="s5_271"
+>data</text>
+
+<text 
+x="345" 
+y="320" 
+class="s6_271"
+>]</text>
+
+<text 
+x="369" 
+y="320" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s10_271"
+># each element is [1, experience, salary]</text>
+
+<text 
+x="76" 
+y="335" 
+class="s5_271"
+>y</text>
+
+<text 
+x="92" 
+y="335" 
+dx="0,0,4.6" 
+class="s6_271"
+>= [</text>
+
+<text 
+x="116" 
+y="335" 
+class="s5_271"
+>row</text>
+
+<text 
+x="140" 
+y="335" 
+class="s6_271"
+>[</text>
+
+<text 
+x="148" 
+y="335" 
+class="s7_271"
+>2</text>
+
+<text 
+x="156" 
+y="335" 
+class="s6_271"
+>]</text>
+
+<text 
+x="171" 
+y="335" 
+class="s8_271"
+>for</text>
+
+<text 
+x="203" 
+y="335" 
+class="s5_271"
+>row</text>
+
+<text 
+x="235" 
+y="335" 
+class="s9_271"
+>in</text>
+
+<text 
+x="258" 
+y="335" 
+class="s5_271"
+>data</text>
+
+<text 
+x="290" 
+y="335" 
+class="s6_271"
+>]</text>
+
+<text 
+x="369" 
+y="335" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s10_271"
+># each element is paid_account</text>
+
+<text 
+x="55" 
+y="388" 
+class="s2_271"
+>An obvious first attempt is to use linear regression and find the best model:</text>
+
+<image preserveAspectRatio="none" x="55" y="406" width="799" height="41" xlink:href="271/img/1.png" />
+<image preserveAspectRatio="none" x="56" y="463" width="798" height="619" xlink:href="271/img/2.png" />
+<text 
+x="336" 
+y="1107" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s11_271"
+>Figure 16-1. Paid and unpaid users</text>
+
+<text 
+x="55" 
+y="1149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0" 
+class="s2_271"
+>And certainly, there’s nothing preventing us from modeling the problem this way. The</text>
+
+<text 
+x="55" 
+y="1177" 
+class="s2_271"
+>results are shown in</text>
+
+<text 
+x="235" 
+y="1177" 
+class="s3_271"
+>Figure 16-2</text>
+
+<text 
+x="338" 
+y="1177" 
+class="s2_271"
+>:</text>
+
+<text 
+x="76" 
+y="1222" 
+class="s5_271"
+>rescaled_x</text>
+
+<text 
+x="163" 
+y="1222" 
+class="s6_271"
+>=</text>
+
+<text 
+x="179" 
+y="1222" 
+class="s5_271"
+>rescale</text>
+
+<text 
+x="235" 
+y="1222" 
+class="s6_271"
+>(</text>
+
+<text 
+x="242" 
+y="1222" 
+class="s5_271"
+>x</text>
+
+<text 
+x="250" 
+y="1222" 
+class="s6_271"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

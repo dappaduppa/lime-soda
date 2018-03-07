@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 223 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_223{
+fill: #BEBEBE;
+}
+
+.s1_223{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_223{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s3_223{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s4_223{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_223{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s6_223{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s7_223{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s8_223{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_223{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s10_223{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s11_223{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s12_223{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,687.7l722.5,0c3,0,5.5,2.4,5.5,5.5l0,189.2c0,3,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.5L88,693.2c0,-3.1,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,1.9,4.4,4.4l0,189.2c0,2.4,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.4l0,-189.2c0,-2.5,2,-4.4,4.4,-4.4Z" class="g1_223" />
+<image preserveAspectRatio="none" x="86" y="54" width="739" height="586" xlink:href="223/img/1.png" />
+<text 
+x="299" 
+y="666" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_223"
+>Figure 12-1. Favorite programming languages</text>
+
+<text 
+x="421" 
+y="712" 
+dx="0,1.1,1.1,1.1" 
+class="s2_223"
+>NOTE</text>
+
+<text 
+x="97" 
+y="742" 
+dx="0,-1.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_223"
+>You may have noticed the call to</text>
+
+<text 
+x="318" 
+y="742" 
+class="s4_223"
+>plot_state_borders()</text>
+
+<text 
+x="476" 
+y="742" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_223"
+>, a function that we haven’t actually defined.</text>
+
+<text 
+x="97" 
+y="764" 
+dx="0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9" 
+class="s3_223"
+>There’s an implementation on the book’s</text>
+
+<text 
+x="371" 
+y="764" 
+class="s5_223"
+>GitHub page</text>
+
+<text 
+x="456" 
+y="764" 
+dx="0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_223"
+>, but it’s a good exercise to try to do it yourself:</text>
+
+<text 
+x="126" 
+y="793" 
+dx="0,-0.6,0,5,0,0,0,0,0,0,0,0,0,0,0,-1.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_223"
+>1. Search the Web for something like</text>
+
+<text 
+x="379" 
+y="793" 
+class="s1_223"
+>state boundaries latitude longitude</text>
+
+<text 
+x="609" 
+y="793" 
+class="s3_223"
+>.</text>
+
+<text 
+x="126" 
+y="829" 
+dx="0,-0.6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_223"
+>2. Convert whatever data you can find into a list of segments [(long1, lat1), (long2, lat2)].</text>
+
+<text 
+x="126" 
+y="865" 
+dx="0,-0.6,0,5,0,0" 
+class="s3_223"
+>3. Use</text>
+
+<text 
+x="177" 
+y="865" 
+class="s4_223"
+>plt.plot()</text>
+
+<text 
+x="260" 
+y="865" 
+class="s3_223"
+>to draw the segments.</text>
+
+<text 
+x="55" 
+y="919" 
+class="s6_223"
+>Since it looks like nearby places tend to like the same language,</text>
+
+<text 
+x="622" 
+y="919" 
+class="s7_223"
+>k</text>
+
+<text 
+x="631" 
+y="919" 
+class="s6_223"
+>-nearest neighbors seems</text>
+
+<text 
+x="55" 
+y="947" 
+class="s6_223"
+>like a reasonable choice for a predictive model.</text>
+
+<text 
+x="55" 
+y="985" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s6_223"
+>To start with, let’s look at what happens if we try to predict each city’s preferred language</text>
+
+<text 
+x="55" 
+y="1013" 
+class="s6_223"
+>using its neighbors other than itself:</text>
+
+<text 
+x="76" 
+y="1058" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6" 
+class="s8_223"
+># try several different values for k</text>
+
+<text 
+x="76" 
+y="1073" 
+class="s9_223"
+>for</text>
+
+<text 
+x="108" 
+y="1073" 
+class="s10_223"
+>k</text>
+
+<text 
+x="124" 
+y="1073" 
+class="s11_223"
+>in</text>
+
+<text 
+x="148" 
+y="1073" 
+class="s4_223"
+>[</text>
+
+<text 
+x="156" 
+y="1073" 
+class="s12_223"
+>1</text>
+
+<text 
+x="163" 
+y="1073" 
+class="s4_223"
+>,</text>
+
+<text 
+x="179" 
+y="1073" 
+class="s12_223"
+>3</text>
+
+<text 
+x="187" 
+y="1073" 
+class="s4_223"
+>,</text>
+
+<text 
+x="203" 
+y="1073" 
+class="s12_223"
+>5</text>
+
+<text 
+x="211" 
+y="1073" 
+class="s4_223"
+>,</text>
+
+<text 
+x="227" 
+y="1073" 
+class="s12_223"
+>7</text>
+
+<text 
+x="235" 
+y="1073" 
+class="s4_223"
+>]:</text>
+
+<text 
+x="108" 
+y="1089" 
+class="s10_223"
+>num_correct</text>
+
+<text 
+x="203" 
+y="1089" 
+class="s4_223"
+>=</text>
+
+<text 
+x="219" 
+y="1089" 
+class="s12_223"
+>0</text>
+
+<text 
+x="108" 
+y="1120" 
+class="s9_223"
+>for</text>
+
+<text 
+x="140" 
+y="1120" 
+class="s10_223"
+>city</text>
+
+<text 
+x="179" 
+y="1120" 
+class="s11_223"
+>in</text>
+
+<text 
+x="203" 
+y="1120" 
+class="s10_223"
+>cities</text>
+
+<text 
+x="250" 
+y="1120" 
+class="s4_223"
+>:</text>
+
+<text 
+x="140" 
+y="1135" 
+class="s10_223"
+>location</text>
+
+<text 
+x="203" 
+y="1135" 
+class="s4_223"
+>,</text>
+
+<text 
+x="219" 
+y="1135" 
+class="s10_223"
+>actual_language</text>
+
+<text 
+x="345" 
+y="1135" 
+class="s4_223"
+>=</text>
+
+<text 
+x="361" 
+y="1135" 
+class="s10_223"
+>city</text>
+
+<text 
+x="140" 
+y="1150" 
+class="s10_223"
+>other_cities</text>
+
+<text 
+x="242" 
+y="1150" 
+dx="0,0,4.6" 
+class="s4_223"
+>= [</text>
+
+<text 
+x="266" 
+y="1150" 
+class="s10_223"
+>other_city</text>
+
+<text 
+x="266" 
+y="1166" 
+class="s9_223"
+>for</text>
+
+<text 
+x="298" 
+y="1166" 
+class="s10_223"
+>other_city</text>
+
+<text 
+x="385" 
+y="1166" 
+class="s11_223"
+>in</text>
+
+<text 
+x="408" 
+y="1166" 
+class="s10_223"
+>cities</text>
+
+<text 
+x="266" 
+y="1181" 
+class="s9_223"
+>if</text>
+
+<text 
+x="290" 
+y="1181" 
+class="s10_223"
+>other_city</text>
+
+<text 
+x="377" 
+y="1181" 
+class="s4_223"
+>!=</text>
+
+<text 
+x="401" 
+y="1181" 
+class="s10_223"
+>city</text>
+
+<text 
+x="432" 
+y="1181" 
+class="s4_223"
+>]</text>
+
+<text 
+x="140" 
+y="1212" 
+class="s10_223"
+>predicted_language</text>
+
+<text 
+x="290" 
+y="1212" 
+class="s4_223"
+>=</text>
+
+<text 
+x="306" 
+y="1212" 
+class="s10_223"
+>knn_classify</text>
+
+<text 
+x="401" 
+y="1212" 
+class="s4_223"
+>(</text>
+
+<text 
+x="408" 
+y="1212" 
+class="s10_223"
+>k</text>
+
+<text 
+x="416" 
+y="1212" 
+class="s4_223"
+>,</text>
+
+<text 
+x="432" 
+y="1212" 
+class="s10_223"
+>other_cities</text>
+
+<text 
+x="527" 
+y="1212" 
+class="s4_223"
+>,</text>
+
+<text 
+x="543" 
+y="1212" 
+class="s10_223"
+>location</text>
+
+<text 
+x="606" 
+y="1212" 
+class="s4_223"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

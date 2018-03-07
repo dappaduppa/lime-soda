@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 258 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_258{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="80" 
+class="s1_258"
+>decreasing our estimate of</text>
+
+<image preserveAspectRatio="none" x="291" y="54" width="21" height="26" xlink:href="258/img/1.png" />
+<text 
+x="312" 
+y="80" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0" 
+class="s1_258"
+>, which means that the error-minimizing</text>
+
+<image preserveAspectRatio="none" x="672" y="54" width="21" height="26" xlink:href="258/img/2.png" />
+<text 
+x="698" 
+y="80" 
+class="s1_258"
+>is smaller than</text>
+
+<text 
+x="55" 
+y="107" 
+class="s1_258"
+>the “actual” value. That is, in this case the single-variable least squares solution is biased</text>
+
+<text 
+x="55" 
+y="140" 
+class="s1_258"
+>to underestimate</text>
+
+<image preserveAspectRatio="none" x="207" y="114" width="21" height="27" xlink:href="258/img/3.png" />
+<text 
+x="227" 
+y="140" 
+class="s1_258"
+>. And, in general, whenever the independent variables are correlated</text>
+
+<text 
+x="55" 
+y="176" 
+class="s1_258"
+>with the errors like this, our least squares solution will give us a biased estimate of</text>
+
+<image preserveAspectRatio="none" x="786" y="147" width="17" height="29" xlink:href="258/img/4.png" />
+<text 
+x="802" 
+y="176" 
+class="s1_258"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

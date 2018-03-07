@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 213 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_213{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_213{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_213{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_213{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,0,-2.8,0,0,0,0,0,0,0,0,-2.3,0,0,0,0,0,0,0" 
+class="s1_213"
+>The Bias-Variance Trade-off</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_213"
+>Another way of thinking about the overfitting problem is as a trade-off between bias and</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_213"
+>variance.</text>
+
+<text 
+x="55" 
+y="188" 
+class="s2_213"
+>Both are measures of what would happen if you were to retrain your model many times on</text>
+
+<text 
+x="55" 
+y="215" 
+dx="0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_213"
+>different sets of training data (from the same larger population).</text>
+
+<text 
+x="55" 
+y="254" 
+class="s2_213"
+>For example, the degree 0 model in</text>
+
+<text 
+x="372" 
+y="254" 
+class="s3_213"
+>“Overfitting and Underfitting”</text>
+
+<text 
+x="646" 
+y="254" 
+class="s2_213"
+>will make a lot of</text>
+
+<text 
+x="55" 
+y="281" 
+class="s2_213"
+>mistakes for pretty much any training set (drawn from the same population), which means</text>
+
+<text 
+x="55" 
+y="309" 
+class="s2_213"
+>that it has a high</text>
+
+<text 
+x="205" 
+y="309" 
+class="s4_213"
+>bias</text>
+
+<text 
+x="242" 
+y="309" 
+dx="0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_213"
+>. However, any two randomly chosen training sets should give pretty</text>
+
+<text 
+x="55" 
+y="336" 
+class="s2_213"
+>similar models (since any two randomly chosen training sets should have pretty similar</text>
+
+<text 
+x="55" 
+y="364" 
+class="s2_213"
+>average values). So we say that it has a low</text>
+
+<text 
+x="442" 
+y="364" 
+class="s4_213"
+>variance</text>
+
+<text 
+x="519" 
+y="364" 
+class="s2_213"
+>. High bias and low variance typically</text>
+
+<text 
+x="55" 
+y="391" 
+class="s2_213"
+>correspond to underfitting.</text>
+
+<text 
+x="55" 
+y="430" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_213"
+>On the other hand, the degree 9 model fit the training set perfectly. It has very low bias but</text>
+
+<text 
+x="55" 
+y="457" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_213"
+>very high variance (since any two training sets would likely give rise to very different</text>
+
+<text 
+x="55" 
+y="485" 
+class="s2_213"
+>models). This corresponds to overfitting.</text>
+
+<text 
+x="55" 
+y="523" 
+class="s2_213"
+>Thinking about model problems this way can help you figure out what do when your</text>
+
+<text 
+x="55" 
+y="551" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_213"
+>model doesn’t work so well.</text>
+
+<text 
+x="55" 
+y="589" 
+class="s2_213"
+>If your model has high bias (which means it performs poorly even on your training data)</text>
+
+<text 
+x="55" 
+y="617" 
+class="s2_213"
+>then one thing to try is adding more features. Going from the degree 0 model in</text>
+
+<text 
+x="55" 
+y="644" 
+class="s3_213"
+>“Overfitting and Underfitting”</text>
+
+<text 
+x="329" 
+y="644" 
+class="s2_213"
+>to the degree 1 model was a big improvement.</text>
+
+<text 
+x="55" 
+y="683" 
+class="s2_213"
+>If your model has high variance, then you can similarly</text>
+
+<text 
+x="547" 
+y="683" 
+dx="0,-0.8,0,0,0,0" 
+class="s4_213"
+>remove</text>
+
+<text 
+x="617" 
+y="683" 
+class="s2_213"
+>features. But another</text>
+
+<text 
+x="55" 
+y="710" 
+class="s2_213"
+>solution is to obtain more data (if you can).</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 257 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_257{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_257{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_257{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_257{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_257{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_257{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0" 
+class="s1_257"
+>Further Assumptions of the Least Squares Model</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_257"
+>There are a couple of further assumptions that are required for this model (and our</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_257"
+>solution) to make sense.</text>
+
+<text 
+x="55" 
+y="188" 
+class="s2_257"
+>The first is that the columns of</text>
+
+<text 
+x="330" 
+y="188" 
+class="s3_257"
+>x</text>
+
+<text 
+x="345" 
+y="188" 
+class="s2_257"
+>are</text>
+
+<text 
+x="377" 
+y="188" 
+class="s3_257"
+>linearly independent</text>
+
+<text 
+x="564" 
+y="188" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>— that there’s no way to write</text>
+
+<text 
+x="55" 
+y="215" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>any one as a weighted sum of some of the others. If this assumption fails, it’s impossible</text>
+
+<text 
+x="55" 
+y="243" 
+class="s2_257"
+>to estimate</text>
+
+<text 
+x="156" 
+y="243" 
+class="s4_257"
+>beta</text>
+
+<text 
+x="198" 
+y="243" 
+dx="0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>. To see this in an extreme case, imagine we had an extra field</text>
+
+<text 
+x="55" 
+y="272" 
+class="s4_257"
+>num_acquaintances</text>
+
+<text 
+x="239" 
+y="272" 
+class="s2_257"
+>in our data that for every user was exactly equal to</text>
+
+<text 
+x="689" 
+y="272" 
+class="s4_257"
+>num_friends</text>
+
+<text 
+x="805" 
+y="272" 
+class="s2_257"
+>.</text>
+
+<text 
+x="55" 
+y="313" 
+class="s2_257"
+>Then, starting with any</text>
+
+<text 
+x="264" 
+y="313" 
+class="s4_257"
+>beta</text>
+
+<text 
+x="306" 
+y="313" 
+class="s2_257"
+>, if we add</text>
+
+<text 
+x="404" 
+y="313" 
+class="s3_257"
+>any</text>
+
+<text 
+x="442" 
+y="313" 
+class="s2_257"
+>amount to the</text>
+
+<text 
+x="568" 
+y="313" 
+class="s4_257"
+>num_friends</text>
+
+<text 
+x="690" 
+y="313" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>coefficient and</text>
+
+<text 
+x="55" 
+y="343" 
+class="s2_257"
+>subtract that same amount from the</text>
+
+<text 
+x="371" 
+y="343" 
+class="s4_257"
+>num_acquaintances</text>
+
+<text 
+x="556" 
+y="343" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_257"
+>coefficient, the model’s</text>
+
+<text 
+x="55" 
+y="372" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>predictions will remain unchanged. Which means that there’s no way to find</text>
+
+<text 
+x="732" 
+y="372" 
+class="s3_257"
+>the</text>
+
+<text 
+x="55" 
+y="400" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>coefficient for</text>
+
+<text 
+x="185" 
+y="400" 
+class="s4_257"
+>num_friends</text>
+
+<text 
+x="301" 
+y="400" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>. (Usually violations of this assumption won’t be so obvious.)</text>
+
+<text 
+x="55" 
+y="441" 
+class="s2_257"
+>The second important assumption is that the columns of</text>
+
+<text 
+x="552" 
+y="441" 
+class="s3_257"
+>x</text>
+
+<text 
+x="567" 
+y="441" 
+class="s2_257"
+>are all uncorrelated with the</text>
+
+<text 
+x="55" 
+y="468" 
+class="s2_257"
+>errors</text>
+
+<image preserveAspectRatio="none" x="112" y="454" width="14" height="15" xlink:href="257/img/1.png" />
+<text 
+x="126" 
+y="468" 
+class="s2_257"
+>. If this fails to be the case, our estimates of</text>
+
+<text 
+x="513" 
+y="468" 
+class="s4_257"
+>beta</text>
+
+<text 
+x="561" 
+y="468" 
+class="s2_257"
+>will be systematically wrong.</text>
+
+<text 
+x="55" 
+y="509" 
+class="s2_257"
+>For instance, in</text>
+
+<text 
+x="196" 
+y="509" 
+class="s5_257"
+>Chapter 14</text>
+
+<text 
+x="293" 
+y="509" 
+class="s2_257"
+>, we built a model that predicted that each additional friend was</text>
+
+<text 
+x="55" 
+y="536" 
+class="s2_257"
+>associated with an extra 0.90 daily minutes on the site.</text>
+
+<text 
+x="55" 
+y="575" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>Imagine that it’s also the case that:</text>
+
+<path d="M61.6,602.9l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_257" />
+<text 
+x="82" 
+y="612" 
+class="s2_257"
+>People who work more hours spend less time on the site.</text>
+
+<path d="M61.6,650.3l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_257" />
+<text 
+x="82" 
+y="660" 
+class="s2_257"
+>People with more friends tend to work more hours.</text>
+
+<text 
+x="55" 
+y="708" 
+class="s2_257"
+>That is, imagine that the “actual” model is:</text>
+
+<image preserveAspectRatio="none" x="55" y="726" width="799" height="44" xlink:href="257/img/2.png" />
+<text 
+x="55" 
+y="800" 
+class="s2_257"
+>and that work hours and friends are positively correlated. In that case, when we minimize</text>
+
+<text 
+x="55" 
+y="828" 
+class="s2_257"
+>the errors of the single variable model:</text>
+
+<image preserveAspectRatio="none" x="55" y="846" width="799" height="69" xlink:href="257/img/3.png" />
+<text 
+x="55" 
+y="952" 
+class="s2_257"
+>we will underestimate</text>
+
+<image preserveAspectRatio="none" x="255" y="926" width="21" height="27" xlink:href="257/img/4.png" />
+<text 
+x="275" 
+y="952" 
+class="s2_257"
+>.</text>
+
+<text 
+x="55" 
+y="991" 
+class="s2_257"
+>Think about what would happen if we made predictions using the single variable model</text>
+
+<text 
+x="55" 
+y="1024" 
+class="s2_257"
+>with the “actual” value of</text>
+
+<image preserveAspectRatio="none" x="286" y="998" width="21" height="26" xlink:href="257/img/5.png" />
+<text 
+x="307" 
+y="1024" 
+class="s2_257"
+>. (That is, the value that arises from minimizing the errors of</text>
+
+<text 
+x="55" 
+y="1051" 
+class="s2_257"
+>what we called the “actual” model.) The predictions would tend to be too small for users</text>
+
+<text 
+x="55" 
+y="1085" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>who work many hours and too large for users who work few hours, because</text>
+
+<image preserveAspectRatio="none" x="727" y="1058" width="67" height="28" xlink:href="257/img/6.png" />
+<text 
+x="799" 
+y="1085" 
+class="s2_257"
+>and</text>
+
+<text 
+x="55" 
+y="1113" 
+dx="0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>we “forgot” to include it. Because work hours is positively correlated with number of</text>
+
+<text 
+x="55" 
+y="1140" 
+class="s2_257"
+>friends, this means the predictions tend to be too small for users with many friends and too</text>
+
+<text 
+x="55" 
+y="1168" 
+dx="0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_257"
+>large for users with few friends.</text>
+
+<text 
+x="55" 
+y="1206" 
+class="s2_257"
+>The result of this is that we can reduce the errors (in the single-variable model) by</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

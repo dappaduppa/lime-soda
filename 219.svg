@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 219 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_219{
+}
+
+.s1_219{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_219{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_219{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_219" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_219"
+>Chapter 12. k-Nearest Neighbors</text>
+
+<text 
+x="65" 
+y="193" 
+class="s2_219"
+>If you want to annoy your neighbors, tell the truth about them.</text>
+
+<text 
+x="65" 
+y="229" 
+class="s2_219"
+>Pietro Aretino</text>
+
+<text 
+x="55" 
+y="267" 
+class="s2_219"
+>Imagine that you’re trying to predict how I’m going to vote in the next presidential</text>
+
+<text 
+x="55" 
+y="294" 
+class="s2_219"
+>election. If you know nothing else about me (and if you have the data), one sensible</text>
+
+<text 
+x="55" 
+y="322" 
+class="s2_219"
+>approach is to look at how my</text>
+
+<text 
+x="326" 
+y="322" 
+class="s3_219"
+>neighbors</text>
+
+<text 
+x="420" 
+y="322" 
+class="s2_219"
+>are planning to vote. Living in downtown</text>
+
+<text 
+x="55" 
+y="349" 
+class="s2_219"
+>Seattle, as I do, my neighbors are invariably planning to vote for the Democratic</text>
+
+<text 
+x="55" 
+y="377" 
+class="s2_219"
+>candidate, which suggests that “Democratic candidate” is a good guess for me as well.</text>
+
+<text 
+x="55" 
+y="415" 
+class="s2_219"
+>Now imagine you know more about me than just geography — perhaps you know my age,</text>
+
+<text 
+x="55" 
+y="443" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_219"
+>my income, how many kids I have, and so on. To the extent my behavior is influenced (or</text>
+
+<text 
+x="55" 
+y="470" 
+class="s2_219"
+>characterized) by those things, looking just at my neighbors who are close to me among</text>
+
+<text 
+x="55" 
+y="498" 
+class="s2_219"
+>all those dimensions seems likely to be an even better predictor than looking at all my</text>
+
+<text 
+x="55" 
+y="525" 
+class="s2_219"
+>neighbors. This is the idea behind</text>
+
+<text 
+x="357" 
+y="525" 
+dx="0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_219"
+>nearest neighbors classification</text>
+
+<text 
+x="637" 
+y="525" 
+class="s2_219"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 243 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_243{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_243{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_243{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s3_243{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_243{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="82" 
+y="73" 
+class="s1_243"
+>Creating a good stemmer function is hard. People frequently use the</text>
+
+<text 
+x="686" 
+y="73" 
+class="s2_243"
+>Porter Stemmer</text>
+
+<text 
+x="825" 
+y="73" 
+class="s1_243"
+>.</text>
+
+<path d="M61.6,111.1l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_243" />
+<text 
+x="82" 
+y="121" 
+class="s1_243"
+>Although our features are all of the form “message contains word</text>
+
+<image preserveAspectRatio="none" x="664" y="101" width="24" height="20" xlink:href="243/img/1.png" />
+<text 
+x="688" 
+y="121" 
+dx="0,0,0,0,0,0,0,0,0,-1.2,0,0,0" 
+class="s1_243"
+>,” there’s no</text>
+
+<text 
+x="82" 
+y="146" 
+class="s1_243"
+>reason why this has to be the case. In our implementation, we could add extra features</text>
+
+<text 
+x="82" 
+y="171" 
+class="s1_243"
+>like “message contains a number” by creating phony tokens like</text>
+
+<text 
+x="652" 
+y="171" 
+class="s3_243"
+>contains:number</text>
+
+<text 
+x="807" 
+y="171" 
+class="s1_243"
+>and</text>
+
+<text 
+x="82" 
+y="196" 
+class="s1_243"
+>modifying the</text>
+
+<text 
+x="211" 
+y="196" 
+class="s4_243"
+>tokenizer</text>
+
+<text 
+x="312" 
+y="196" 
+class="s1_243"
+>to emit them when appropriate.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

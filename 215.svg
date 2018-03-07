@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 215 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_215{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_215{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_215{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_215{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_215{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_215"
+>Feature Extraction and Selection</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>As we mentioned, when your data doesn’t have enough features, your model is likely to</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>underfit. And when your data has too many features, it’s easy to overfit. But what are</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_215"
+>features and where do they come from?</text>
+
+<text 
+x="55" 
+y="215" 
+dx="0,0,0,0,0,0,-0.8,0" 
+class="s3_215"
+>Features</text>
+
+<text 
+x="137" 
+y="215" 
+class="s2_215"
+>are whatever inputs we provide to our model.</text>
+
+<text 
+x="55" 
+y="254" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_215"
+>In the simplest case, features are simply given to you. If you want to predict someone’s</text>
+
+<text 
+x="55" 
+y="281" 
+class="s2_215"
+>salary based on her years of experience, then years of experience is the only feature you</text>
+
+<text 
+x="55" 
+y="309" 
+class="s2_215"
+>have.</text>
+
+<text 
+x="55" 
+y="347" 
+class="s2_215"
+>(Although, as we saw in</text>
+
+<text 
+x="273" 
+y="347" 
+class="s4_215"
+>“Overfitting and Underfitting”</text>
+
+<text 
+x="542" 
+y="347" 
+class="s2_215"
+>, you might also consider adding</text>
+
+<text 
+x="55" 
+y="375" 
+class="s2_215"
+>years of experience squared, cubed, and so on if that helps you build a better model.)</text>
+
+<text 
+x="55" 
+y="413" 
+class="s2_215"
+>Things become more interesting as your data becomes more complicated. Imagine trying</text>
+
+<text 
+x="55" 
+y="441" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_215"
+>to build a spam filter to predict whether an email is junk or not. Most models won’t know</text>
+
+<text 
+x="55" 
+y="468" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>what to do with a raw email, which is just a collection of text. You’ll have to extract</text>
+
+<text 
+x="55" 
+y="496" 
+class="s2_215"
+>features. For example:</text>
+
+<path d="M61.6,523.7l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_215" />
+<text 
+x="82" 
+y="533" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.3,0,0,0,0,0,0" 
+class="s2_215"
+>Does the email contain the word “Viagra”?</text>
+
+<path d="M61.6,571l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_215" />
+<text 
+x="82" 
+y="580" 
+class="s2_215"
+>How many times does the letter d appear?</text>
+
+<path d="M61.6,618.3l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_215" />
+<text 
+x="82" 
+y="628" 
+class="s2_215"
+>What was the domain of the sender?</text>
+
+<text 
+x="55" 
+y="676" 
+class="s2_215"
+>The first is simply a yes or no, which we typically encode as a 1 or 0. The second is a</text>
+
+<text 
+x="55" 
+y="704" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>number. And the third is a choice from a discrete set of options.</text>
+
+<text 
+x="55" 
+y="742" 
+class="s2_215"
+>Pretty much always, we’ll extract features from our data that fall into one of these three</text>
+
+<text 
+x="55" 
+y="770" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>categories. What’s more, the type of features we have constrains the type of models we</text>
+
+<text 
+x="55" 
+y="797" 
+class="s2_215"
+>can use.</text>
+
+<text 
+x="55" 
+y="836" 
+class="s2_215"
+>The Naive Bayes classifier we’ll build in</text>
+
+<text 
+x="420" 
+y="836" 
+class="s4_215"
+>Chapter 13</text>
+
+<text 
+x="523" 
+y="836" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_215"
+>is suited to yes-or-no features, like</text>
+
+<text 
+x="55" 
+y="863" 
+class="s2_215"
+>the first one in the preceding list.</text>
+
+<text 
+x="55" 
+y="902" 
+class="s2_215"
+>Regression models, as we’ll study in</text>
+
+<text 
+x="382" 
+y="902" 
+class="s4_215"
+>Chapter 14</text>
+
+<text 
+x="485" 
+y="902" 
+class="s2_215"
+>and</text>
+
+<text 
+x="522" 
+y="902" 
+class="s4_215"
+>Chapter 16</text>
+
+<text 
+x="619" 
+y="902" 
+class="s2_215"
+>, require numeric features</text>
+
+<text 
+x="55" 
+y="929" 
+class="s2_215"
+>(which could include dummy variables that are 0s and 1s).</text>
+
+<text 
+x="55" 
+y="968" 
+class="s2_215"
+>And decision trees, which we’ll look at in</text>
+
+<text 
+x="428" 
+y="968" 
+class="s4_215"
+>Chapter 17</text>
+
+<text 
+x="525" 
+y="968" 
+class="s2_215"
+>, can deal with numeric or</text>
+
+<text 
+x="55" 
+y="995" 
+class="s2_215"
+>categorical data.</text>
+
+<text 
+x="55" 
+y="1034" 
+class="s2_215"
+>Although in the spam filter example we looked for ways to create features, sometimes</text>
+
+<text 
+x="55" 
+y="1061" 
+class="s2_215"
+>we’ll instead look for ways to remove features.</text>
+
+<text 
+x="55" 
+y="1100" 
+class="s2_215"
+>For example, your inputs might be vectors of several hundred numbers. Depending on the</text>
+
+<text 
+x="55" 
+y="1127" 
+class="s2_215"
+>situation, it might be appropriate to distill these down to handful of important dimensions</text>
+
+<text 
+x="55" 
+y="1155" 
+class="s2_215"
+>(as in</text>
+
+<text 
+x="108" 
+y="1155" 
+class="s4_215"
+>“Dimensionality Reduction”</text>
+
+<text 
+x="359" 
+y="1155" 
+class="s2_215"
+>) and use only those small number of features. Or it</text>
+
+<text 
+x="55" 
+y="1182" 
+class="s2_215"
+>might be appropriate to use a technique (like regularization, which we’ll look at in</text>
+
+<text 
+x="55" 
+y="1210" 
+class="s4_215"
+>“Regularization”</text>
+
+<text 
+x="203" 
+y="1210" 
+class="s2_215"
+>) that penalizes models the more features they use.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

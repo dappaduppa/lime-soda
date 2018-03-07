@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 256 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_256{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_256{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_256{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_256{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s5_256{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_256{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_256{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_256{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s9_256{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s10_256{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s11_256{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s12_256{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_256"
+>The Model</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_256"
+>Recall that in</text>
+
+<text 
+x="177" 
+y="122" 
+class="s3_256"
+>Chapter 14</text>
+
+<text 
+x="280" 
+y="122" 
+class="s2_256"
+>we fit a model of the form:</text>
+
+<image preserveAspectRatio="none" x="55" y="140" width="451" height="70" xlink:href="256/img/1.png" />
+<text 
+x="55" 
+y="242" 
+class="s2_256"
+>Now imagine that each input</text>
+
+<image preserveAspectRatio="none" x="315" y="222" width="18" height="20" xlink:href="256/img/2.png" />
+<text 
+x="338" 
+y="242" 
+class="s2_256"
+>is not a single number but rather a vector of</text>
+
+<text 
+x="728" 
+y="242" 
+class="s4_256"
+>k</text>
+
+<text 
+x="743" 
+y="242" 
+class="s2_256"
+>numbers</text>
+
+<image preserveAspectRatio="none" x="55" y="250" width="114" height="20" xlink:href="256/img/3.png" />
+<text 
+x="169" 
+y="269" 
+class="s2_256"
+>. The multiple regression model assumes that:</text>
+
+<image preserveAspectRatio="none" x="55" y="287" width="799" height="67" xlink:href="256/img/4.png" />
+<text 
+x="55" 
+y="393" 
+class="s2_256"
+>In multiple regression the vector of parameters is usually called</text>
+
+<image preserveAspectRatio="none" x="619" y="365" width="17" height="29" xlink:href="256/img/5.png" />
+<text 
+x="635" 
+y="393" 
+dx="0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_256"
+>. We’ll want this to</text>
+
+<text 
+x="55" 
+y="421" 
+class="s2_256"
+>include the constant term as well, which we can achieve by adding a column of ones to</text>
+
+<text 
+x="55" 
+y="448" 
+class="s2_256"
+>our data:</text>
+
+<text 
+x="76" 
+y="494" 
+class="s5_256"
+>beta</text>
+
+<text 
+x="116" 
+y="494" 
+dx="0,0,4.6" 
+class="s6_256"
+>= [</text>
+
+<text 
+x="140" 
+y="494" 
+class="s5_256"
+>alpha</text>
+
+<text 
+x="179" 
+y="494" 
+class="s6_256"
+>,</text>
+
+<text 
+x="195" 
+y="494" 
+class="s5_256"
+>beta_1</text>
+
+<text 
+x="242" 
+y="494" 
+dx="0,0,4.6,0,0,0" 
+class="s6_256"
+>, ...,</text>
+
+<text 
+x="298" 
+y="494" 
+class="s5_256"
+>beta_k</text>
+
+<text 
+x="345" 
+y="494" 
+class="s6_256"
+>]</text>
+
+<text 
+x="55" 
+y="546" 
+class="s2_256"
+>and:</text>
+
+<text 
+x="76" 
+y="591" 
+class="s5_256"
+>x_i</text>
+
+<text 
+x="108" 
+y="591" 
+dx="0,0,4.6" 
+class="s6_256"
+>= [</text>
+
+<text 
+x="132" 
+y="591" 
+class="s7_256"
+>1</text>
+
+<text 
+x="140" 
+y="591" 
+class="s6_256"
+>,</text>
+
+<text 
+x="156" 
+y="591" 
+class="s5_256"
+>x_i1</text>
+
+<text 
+x="187" 
+y="591" 
+dx="0,0,4.6,0,0,0" 
+class="s6_256"
+>, ...,</text>
+
+<text 
+x="242" 
+y="591" 
+class="s5_256"
+>x_ik</text>
+
+<text 
+x="274" 
+y="591" 
+class="s6_256"
+>]</text>
+
+<text 
+x="55" 
+y="644" 
+class="s2_256"
+>Then our model is just:</text>
+
+<text 
+x="76" 
+y="689" 
+class="s8_256"
+>def</text>
+
+<text 
+x="108" 
+y="689" 
+class="s9_256"
+>predict</text>
+
+<text 
+x="163" 
+y="689" 
+class="s6_256"
+>(</text>
+
+<text 
+x="171" 
+y="689" 
+class="s5_256"
+>x_i</text>
+
+<text 
+x="195" 
+y="689" 
+class="s6_256"
+>,</text>
+
+<text 
+x="211" 
+y="689" 
+class="s5_256"
+>beta</text>
+
+<text 
+x="242" 
+y="689" 
+class="s6_256"
+>):</text>
+
+<text 
+x="108" 
+y="705" 
+dx="0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0" 
+class="s10_256"
+>"""assumes that the first element of each x_i is 1"""</text>
+
+<text 
+x="108" 
+y="720" 
+class="s8_256"
+>return</text>
+
+<text 
+x="163" 
+y="720" 
+class="s5_256"
+>dot</text>
+
+<text 
+x="187" 
+y="720" 
+class="s6_256"
+>(</text>
+
+<text 
+x="195" 
+y="720" 
+class="s5_256"
+>x_i</text>
+
+<text 
+x="219" 
+y="720" 
+class="s6_256"
+>,</text>
+
+<text 
+x="235" 
+y="720" 
+class="s5_256"
+>beta</text>
+
+<text 
+x="266" 
+y="720" 
+class="s6_256"
+>)</text>
+
+<text 
+x="55" 
+y="773" 
+class="s2_256"
+>In this particular case, our independent variable</text>
+
+<text 
+x="478" 
+y="773" 
+class="s11_256"
+>x</text>
+
+<text 
+x="494" 
+y="773" 
+class="s2_256"
+>will be a list of vectors, each of which</text>
+
+<text 
+x="55" 
+y="803" 
+class="s2_256"
+>looks like this:</text>
+
+<text 
+x="76" 
+y="848" 
+class="s6_256"
+>[</text>
+
+<text 
+x="84" 
+y="848" 
+class="s7_256"
+>1</text>
+
+<text 
+x="92" 
+y="848" 
+class="s6_256"
+>,</text>
+
+<text 
+x="132" 
+y="848" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s12_256"
+># constant term</text>
+
+<text 
+x="84" 
+y="863" 
+class="s7_256"
+>49</text>
+
+<text 
+x="100" 
+y="863" 
+class="s6_256"
+>,</text>
+
+<text 
+x="132" 
+y="863" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0" 
+class="s12_256"
+># number of friends</text>
+
+<text 
+x="84" 
+y="879" 
+class="s7_256"
+>4</text>
+
+<text 
+x="92" 
+y="879" 
+class="s6_256"
+>,</text>
+
+<text 
+x="132" 
+y="879" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0" 
+class="s12_256"
+># work hours per day</text>
+
+<text 
+x="84" 
+y="894" 
+class="s7_256"
+>0</text>
+
+<text 
+x="92" 
+y="894" 
+class="s6_256"
+>]</text>
+
+<text 
+x="132" 
+y="894" 
+dx="0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0" 
+class="s12_256"
+># doesn't have PhD</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 264 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_264{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_264{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_264{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_264{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_264{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_264{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_264{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_264{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_264{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_264{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s11_264{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s12_264{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s13_264{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_264"
+>Standard Errors of Regression Coefficients</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>We can take the same approach to estimating the standard errors of our regression</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>coefficients. We repeatedly take a</text>
+
+<text 
+x="356" 
+y="149" 
+class="s3_264"
+>bootstrap_sample</text>
+
+<text 
+x="531" 
+y="149" 
+class="s2_264"
+>of our data and estimate</text>
+
+<text 
+x="747" 
+y="149" 
+class="s3_264"
+>beta</text>
+
+<text 
+x="795" 
+y="149" 
+class="s2_264"
+>based</text>
+
+<text 
+x="55" 
+y="179" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>on that sample. If the coefficient corresponding to one of the independent variables (say</text>
+
+<text 
+x="55" 
+y="206" 
+class="s3_264"
+>num_friends</text>
+
+<text 
+x="171" 
+y="206" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>) doesn’t vary much across samples, then we can be confident that our</text>
+
+<text 
+x="55" 
+y="236" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4" 
+class="s2_264"
+>estimate is relatively tight. If the coefficient varies greatly across samples, then we can’t</text>
+
+<text 
+x="55" 
+y="264" 
+class="s2_264"
+>be at all confident in our estimate.</text>
+
+<text 
+x="55" 
+y="302" 
+class="s2_264"
+>The only subtlety is that, before sampling, we’ll need to</text>
+
+<text 
+x="551" 
+y="302" 
+class="s3_264"
+>zip</text>
+
+<text 
+x="589" 
+y="302" 
+class="s2_264"
+>our</text>
+
+<text 
+x="623" 
+y="302" 
+class="s3_264"
+>x</text>
+
+<text 
+x="639" 
+y="302" 
+class="s2_264"
+>data and</text>
+
+<text 
+x="719" 
+y="302" 
+class="s3_264"
+>y</text>
+
+<text 
+x="735" 
+y="302" 
+class="s2_264"
+>data to make</text>
+
+<text 
+x="55" 
+y="332" 
+class="s2_264"
+>sure that corresponding values of the independent and dependent variables are sampled</text>
+
+<text 
+x="55" 
+y="359" 
+dx="0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>together. This means that</text>
+
+<text 
+x="281" 
+y="359" 
+class="s3_264"
+>bootstrap_sample</text>
+
+<text 
+x="455" 
+y="359" 
+class="s2_264"
+>will return a list of pairs</text>
+
+<text 
+x="673" 
+y="359" 
+dx="0,0,0,0,0,0,6.1,0,0,0" 
+class="s3_264"
+>(x_i, y_i)</text>
+
+<text 
+x="778" 
+y="359" 
+class="s2_264"
+>, which</text>
+
+<text 
+x="55" 
+y="389" 
+class="s2_264"
+>we’ll need to reassemble into an</text>
+
+<text 
+x="344" 
+y="389" 
+class="s3_264"
+>x_sample</text>
+
+<text 
+x="434" 
+y="389" 
+class="s2_264"
+>and a</text>
+
+<text 
+x="486" 
+y="389" 
+class="s3_264"
+>y_sample</text>
+
+<text 
+x="571" 
+y="389" 
+class="s2_264"
+>:</text>
+
+<text 
+x="76" 
+y="436" 
+class="s4_264"
+>def</text>
+
+<text 
+x="108" 
+y="436" 
+class="s5_264"
+>estimate_sample_beta</text>
+
+<text 
+x="266" 
+y="436" 
+class="s6_264"
+>(</text>
+
+<text 
+x="274" 
+y="436" 
+class="s7_264"
+>sample</text>
+
+<text 
+x="322" 
+y="436" 
+class="s6_264"
+>):</text>
+
+<text 
+x="108" 
+y="452" 
+dx="0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s8_264"
+>"""sample is a list of pairs (x_i, y_i)"""</text>
+
+<text 
+x="108" 
+y="467" 
+class="s7_264"
+>x_sample</text>
+
+<text 
+x="171" 
+y="467" 
+class="s6_264"
+>,</text>
+
+<text 
+x="187" 
+y="467" 
+class="s7_264"
+>y_sample</text>
+
+<text 
+x="258" 
+y="467" 
+class="s6_264"
+>=</text>
+
+<text 
+x="274" 
+y="467" 
+class="s9_264"
+>zip</text>
+
+<text 
+x="298" 
+y="467" 
+class="s6_264"
+>(*</text>
+
+<text 
+x="314" 
+y="467" 
+class="s7_264"
+>sample</text>
+
+<text 
+x="361" 
+y="467" 
+class="s6_264"
+>)</text>
+
+<text 
+x="377" 
+y="467" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s10_264"
+># magic unzipping trick</text>
+
+<text 
+x="108" 
+y="483" 
+class="s4_264"
+>return</text>
+
+<text 
+x="163" 
+y="483" 
+class="s7_264"
+>estimate_beta</text>
+
+<text 
+x="266" 
+y="483" 
+class="s6_264"
+>(</text>
+
+<text 
+x="274" 
+y="483" 
+class="s7_264"
+>x_sample</text>
+
+<text 
+x="337" 
+y="483" 
+class="s6_264"
+>,</text>
+
+<text 
+x="353" 
+y="483" 
+class="s7_264"
+>y_sample</text>
+
+<text 
+x="416" 
+y="483" 
+class="s6_264"
+>)</text>
+
+<text 
+x="76" 
+y="513" 
+class="s7_264"
+>random</text>
+
+<text 
+x="124" 
+y="513" 
+class="s6_264"
+>.</text>
+
+<text 
+x="132" 
+y="513" 
+class="s7_264"
+>seed</text>
+
+<text 
+x="163" 
+y="513" 
+class="s6_264"
+>(</text>
+
+<text 
+x="171" 
+y="513" 
+class="s11_264"
+>0</text>
+
+<text 
+x="179" 
+y="513" 
+class="s6_264"
+>)</text>
+
+<text 
+x="195" 
+y="513" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0" 
+class="s10_264"
+># so that you get the same results as me</text>
+
+<text 
+x="76" 
+y="544" 
+class="s7_264"
+>bootstrap_betas</text>
+
+<text 
+x="203" 
+y="544" 
+class="s6_264"
+>=</text>
+
+<text 
+x="219" 
+y="544" 
+class="s7_264"
+>bootstrap_statistic</text>
+
+<text 
+x="369" 
+y="544" 
+class="s6_264"
+>(</text>
+
+<text 
+x="377" 
+y="544" 
+class="s9_264"
+>zip</text>
+
+<text 
+x="401" 
+y="544" 
+class="s6_264"
+>(</text>
+
+<text 
+x="408" 
+y="544" 
+class="s7_264"
+>x</text>
+
+<text 
+x="416" 
+y="544" 
+class="s6_264"
+>,</text>
+
+<text 
+x="432" 
+y="544" 
+class="s7_264"
+>daily_minutes_good</text>
+
+<text 
+x="574" 
+y="544" 
+class="s6_264"
+>),</text>
+
+<text 
+x="377" 
+y="560" 
+class="s7_264"
+>estimate_sample_beta</text>
+
+<text 
+x="535" 
+y="560" 
+class="s6_264"
+>,</text>
+
+<text 
+x="377" 
+y="575" 
+class="s11_264"
+>100</text>
+
+<text 
+x="401" 
+y="575" 
+class="s6_264"
+>)</text>
+
+<text 
+x="55" 
+y="628" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s2_264"
+>After which we can estimate the standard deviation of each coefficient:</text>
+
+<text 
+x="76" 
+y="673" 
+class="s7_264"
+>bootstrap_standard_errors</text>
+
+<text 
+x="282" 
+y="673" 
+dx="0,0,4.6" 
+class="s6_264"
+>= [</text>
+
+<text 
+x="108" 
+y="688" 
+class="s7_264"
+>standard_deviation</text>
+
+<text 
+x="250" 
+y="688" 
+class="s6_264"
+>([</text>
+
+<text 
+x="266" 
+y="688" 
+class="s7_264"
+>beta</text>
+
+<text 
+x="298" 
+y="688" 
+class="s6_264"
+>[</text>
+
+<text 
+x="306" 
+y="688" 
+class="s7_264"
+>i</text>
+
+<text 
+x="314" 
+y="688" 
+class="s6_264"
+>]</text>
+
+<text 
+x="329" 
+y="688" 
+class="s4_264"
+>for</text>
+
+<text 
+x="361" 
+y="688" 
+class="s7_264"
+>beta</text>
+
+<text 
+x="401" 
+y="688" 
+class="s12_264"
+>in</text>
+
+<text 
+x="424" 
+y="688" 
+class="s7_264"
+>bootstrap_betas</text>
+
+<text 
+x="543" 
+y="688" 
+class="s6_264"
+>])</text>
+
+<text 
+x="108" 
+y="704" 
+class="s4_264"
+>for</text>
+
+<text 
+x="140" 
+y="704" 
+class="s7_264"
+>i</text>
+
+<text 
+x="156" 
+y="704" 
+class="s12_264"
+>in</text>
+
+<text 
+x="179" 
+y="704" 
+class="s9_264"
+>range</text>
+
+<text 
+x="219" 
+y="704" 
+class="s6_264"
+>(</text>
+
+<text 
+x="227" 
+y="704" 
+class="s11_264"
+>4</text>
+
+<text 
+x="235" 
+y="704" 
+class="s6_264"
+>)]</text>
+
+<text 
+x="76" 
+y="734" 
+dx="0,0,4.6,0,0,0,0,0,0" 
+class="s10_264"
+># [1.174,</text>
+
+<text 
+x="179" 
+y="734" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0" 
+class="s10_264"
+># constant term, actual error = 1.19</text>
+
+<text 
+x="76" 
+y="750" 
+class="s10_264"
+>#</text>
+
+<text 
+x="100" 
+y="750" 
+class="s10_264"
+>0.079,</text>
+
+<text 
+x="179" 
+y="750" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s10_264"
+># num_friends,</text>
+
+<text 
+x="314" 
+y="750" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0,0" 
+class="s10_264"
+>actual error = 0.080</text>
+
+<text 
+x="76" 
+y="765" 
+class="s10_264"
+>#</text>
+
+<text 
+x="100" 
+y="765" 
+class="s10_264"
+>0.131,</text>
+
+<text 
+x="179" 
+y="765" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s10_264"
+># unemployed,</text>
+
+<text 
+x="314" 
+y="765" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0,0" 
+class="s10_264"
+>actual error = 0.127</text>
+
+<text 
+x="76" 
+y="781" 
+class="s10_264"
+>#</text>
+
+<text 
+x="100" 
+y="781" 
+class="s10_264"
+>0.990]</text>
+
+<text 
+x="179" 
+y="781" 
+dx="0,0,4.6,0,0,0" 
+class="s10_264"
+># phd,</text>
+
+<text 
+x="314" 
+y="781" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0,0" 
+class="s10_264"
+>actual error = 0.998</text>
+
+<text 
+x="55" 
+y="839" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>We can use these to test hypotheses such as “does</text>
+
+<image preserveAspectRatio="none" x="498" y="813" width="18" height="26" xlink:href="264/img/1.png" />
+<text 
+x="520" 
+y="839" 
+class="s2_264"
+>equal zero?” Under the null</text>
+
+<text 
+x="55" 
+y="873" 
+class="s2_264"
+>hypothesis</text>
+
+<image preserveAspectRatio="none" x="155" y="846" width="63" height="28" xlink:href="264/img/2.png" />
+<text 
+x="222" 
+y="873" 
+class="s2_264"
+>(and with our other assumptions about the distribution of</text>
+
+<image preserveAspectRatio="none" x="729" y="854" width="18" height="20" xlink:href="264/img/3.png" />
+<text 
+x="752" 
+y="873" 
+class="s2_264"
+>) the</text>
+
+<text 
+x="55" 
+y="901" 
+class="s2_264"
+>statistic:</text>
+
+<image preserveAspectRatio="none" x="55" y="919" width="274" height="106" xlink:href="264/img/4.png" />
+<text 
+x="55" 
+y="1067" 
+class="s2_264"
+>which is our estimate of</text>
+
+<image preserveAspectRatio="none" x="272" y="1036" width="19" height="31" xlink:href="264/img/5.png" />
+<text 
+x="297" 
+y="1067" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>divided by our estimate of its standard error, follows a</text>
+
+<text 
+x="55" 
+y="1096" 
+dx="0,0,0,0,0,0,0,0,-2.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s13_264"
+>Student’s t-distribution</text>
+
+<text 
+x="260" 
+y="1096" 
+class="s2_264"
+>with “</text>
+
+<image preserveAspectRatio="none" x="316" y="1074" width="69" height="23" xlink:href="264/img/6.png" />
+<text 
+x="390" 
+y="1096" 
+class="s2_264"
+>degrees of freedom.”</text>
+
+<text 
+x="55" 
+y="1135" 
+class="s2_264"
+>If we had a</text>
+
+<text 
+x="158" 
+y="1135" 
+class="s3_264"
+>students_t_cdf</text>
+
+<text 
+x="311" 
+y="1135" 
+class="s2_264"
+>function, we could compute</text>
+
+<text 
+x="562" 
+y="1135" 
+class="s13_264"
+>p</text>
+
+<text 
+x="573" 
+y="1135" 
+class="s2_264"
+>-values for each least-squares</text>
+
+<text 
+x="55" 
+y="1165" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>coefficient to indicate how likely we would be to observe such a value if the actual</text>
+
+<text 
+x="55" 
+y="1192" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>coefficient were zero. Unfortunately, we don’t have such a function. (Although we would</text>
+
+<text 
+x="55" 
+y="1220" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_264"
+>if we weren’t working from scratch.)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

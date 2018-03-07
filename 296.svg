@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 296 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_296{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_296{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_296{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_296{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_296{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_296{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_296{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s7_296{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s8_296{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s9_296{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s10_296{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s11_296{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s12_296{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s13_296{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.8,0,0,0,0,0,0" 
+class="s1_296"
+>Putting It All Together</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_296"
+>Now that we’ve seen how the algorithm works, we would like to implement it more</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>generally. This means we need to decide how we want to represent trees. We’ll use pretty</text>
+
+<text 
+x="55" 
+y="177" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>much the most lightweight representation possible. We define a</text>
+
+<text 
+x="618" 
+y="177" 
+dx="0,0,-0.8,0" 
+class="s3_296"
+>tree</text>
+
+<text 
+x="657" 
+y="177" 
+class="s2_296"
+>to be one of the</text>
+
+<text 
+x="55" 
+y="204" 
+class="s2_296"
+>following:</text>
+
+<path d="M61.6,232.2l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_296" />
+<text 
+x="82" 
+y="242" 
+class="s4_296"
+>True</text>
+
+<path d="M61.6,279.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_296" />
+<text 
+x="82" 
+y="289" 
+class="s4_296"
+>False</text>
+
+<path d="M61.6,326.8l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_296" />
+<text 
+x="82" 
+y="336" 
+class="s2_296"
+>a tuple</text>
+
+<text 
+x="147" 
+y="336" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,6.1,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s4_296"
+>(attribute, subtree_dict)</text>
+
+<text 
+x="55" 
+y="385" 
+class="s2_296"
+>Here</text>
+
+<text 
+x="103" 
+y="385" 
+class="s4_296"
+>True</text>
+
+<text 
+x="150" 
+y="385" 
+class="s2_296"
+>represents a leaf node that returns</text>
+
+<text 
+x="452" 
+y="385" 
+class="s4_296"
+>True</text>
+
+<text 
+x="500" 
+y="385" 
+class="s2_296"
+>for any input,</text>
+
+<text 
+x="624" 
+y="385" 
+class="s4_296"
+>False</text>
+
+<text 
+x="682" 
+y="385" 
+class="s2_296"
+>represents a leaf</text>
+
+<text 
+x="55" 
+y="414" 
+class="s2_296"
+>node that returns</text>
+
+<text 
+x="208" 
+y="414" 
+class="s4_296"
+>False</text>
+
+<text 
+x="266" 
+y="414" 
+class="s2_296"
+>for any input, and a tuple represents a decision node that, for any</text>
+
+<text 
+x="55" 
+y="444" 
+class="s2_296"
+>input, finds its</text>
+
+<text 
+x="186" 
+y="444" 
+class="s4_296"
+>attribute</text>
+
+<text 
+x="287" 
+y="444" 
+class="s2_296"
+>value, and classifies the input using the corresponding subtree.</text>
+
+<text 
+x="55" 
+y="485" 
+dx="0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>With this representation, our hiring tree would look like:</text>
+
+<text 
+x="76" 
+y="530" 
+class="s5_296"
+>(</text>
+
+<text 
+x="84" 
+y="530" 
+class="s6_296"
+>'level'</text>
+
+<text 
+x="140" 
+y="530" 
+class="s5_296"
+>,</text>
+
+<text 
+x="84" 
+y="545" 
+class="s5_296"
+>{</text>
+
+<text 
+x="92" 
+y="545" 
+class="s6_296"
+>'Junior'</text>
+
+<text 
+x="156" 
+y="545" 
+dx="0,0,4.6" 
+class="s5_296"
+>: (</text>
+
+<text 
+x="179" 
+y="545" 
+class="s6_296"
+>'phd'</text>
+
+<text 
+x="219" 
+y="545" 
+dx="0,0,4.6" 
+class="s5_296"
+>, {</text>
+
+<text 
+x="242" 
+y="545" 
+class="s6_296"
+>'no'</text>
+
+<text 
+x="274" 
+y="545" 
+class="s5_296"
+>:</text>
+
+<text 
+x="290" 
+y="545" 
+class="s7_296"
+>True</text>
+
+<text 
+x="322" 
+y="545" 
+class="s5_296"
+>,</text>
+
+<text 
+x="337" 
+y="545" 
+class="s6_296"
+>'yes'</text>
+
+<text 
+x="377" 
+y="545" 
+class="s5_296"
+>:</text>
+
+<text 
+x="393" 
+y="545" 
+class="s7_296"
+>False</text>
+
+<text 
+x="432" 
+y="545" 
+class="s5_296"
+>}),</text>
+
+<text 
+x="92" 
+y="561" 
+class="s6_296"
+>'Mid'</text>
+
+<text 
+x="132" 
+y="561" 
+class="s5_296"
+>:</text>
+
+<text 
+x="148" 
+y="561" 
+class="s7_296"
+>True</text>
+
+<text 
+x="179" 
+y="561" 
+class="s5_296"
+>,</text>
+
+<text 
+x="92" 
+y="576" 
+class="s6_296"
+>'Senior'</text>
+
+<text 
+x="156" 
+y="576" 
+dx="0,0,4.6" 
+class="s5_296"
+>: (</text>
+
+<text 
+x="179" 
+y="576" 
+class="s6_296"
+>'tweets'</text>
+
+<text 
+x="242" 
+y="576" 
+dx="0,0,4.6" 
+class="s5_296"
+>, {</text>
+
+<text 
+x="266" 
+y="576" 
+class="s6_296"
+>'no'</text>
+
+<text 
+x="298" 
+y="576" 
+class="s5_296"
+>:</text>
+
+<text 
+x="314" 
+y="576" 
+class="s7_296"
+>False</text>
+
+<text 
+x="353" 
+y="576" 
+class="s5_296"
+>,</text>
+
+<text 
+x="369" 
+y="576" 
+class="s6_296"
+>'yes'</text>
+
+<text 
+x="408" 
+y="576" 
+class="s5_296"
+>:</text>
+
+<text 
+x="424" 
+y="576" 
+class="s7_296"
+>True</text>
+
+<text 
+x="456" 
+y="576" 
+class="s5_296"
+>})})</text>
+
+<text 
+x="55" 
+y="629" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>There’s still the question of what to do if we encounter an unexpected (or missing)</text>
+
+<text 
+x="55" 
+y="656" 
+class="s2_296"
+>attribute value. What should our hiring tree do if it encounters a candidate whose</text>
+
+<text 
+x="772" 
+y="656" 
+class="s4_296"
+>level</text>
+
+<text 
+x="830" 
+y="656" 
+class="s2_296"
+>is</text>
+
+<text 
+x="55" 
+y="686" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>“Intern”? We’ll handle this case by adding a</text>
+
+<text 
+x="448" 
+y="686" 
+class="s4_296"
+>None</text>
+
+<text 
+x="496" 
+y="686" 
+class="s2_296"
+>key that just predicts the most common</text>
+
+<text 
+x="55" 
+y="716" 
+class="s2_296"
+>label. (Although this would be a bad idea if</text>
+
+<text 
+x="442" 
+y="716" 
+class="s4_296"
+>None</text>
+
+<text 
+x="489" 
+y="716" 
+class="s2_296"
+>is actually a value that appears in the</text>
+
+<text 
+x="55" 
+y="745" 
+class="s2_296"
+>data.)</text>
+
+<text 
+x="55" 
+y="784" 
+class="s2_296"
+>Given such a representation, we can classify an input with:</text>
+
+<text 
+x="76" 
+y="829" 
+class="s8_296"
+>def</text>
+
+<text 
+x="108" 
+y="829" 
+class="s9_296"
+>classify</text>
+
+<text 
+x="171" 
+y="829" 
+class="s5_296"
+>(</text>
+
+<text 
+x="179" 
+y="829" 
+class="s10_296"
+>tree</text>
+
+<text 
+x="211" 
+y="829" 
+class="s5_296"
+>,</text>
+
+<text 
+x="227" 
+y="829" 
+class="s7_296"
+>input</text>
+
+<text 
+x="266" 
+y="829" 
+class="s5_296"
+>):</text>
+
+<text 
+x="108" 
+y="844" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s11_296"
+>"""classify the input using the given decision tree"""</text>
+
+<text 
+x="108" 
+y="875" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0" 
+class="s12_296"
+># if this is a leaf node, return its value</text>
+
+<text 
+x="108" 
+y="891" 
+class="s8_296"
+>if</text>
+
+<text 
+x="132" 
+y="891" 
+class="s10_296"
+>tree</text>
+
+<text 
+x="171" 
+y="891" 
+class="s13_296"
+>in</text>
+
+<text 
+x="195" 
+y="891" 
+class="s5_296"
+>[</text>
+
+<text 
+x="203" 
+y="891" 
+class="s7_296"
+>True</text>
+
+<text 
+x="235" 
+y="891" 
+class="s5_296"
+>,</text>
+
+<text 
+x="250" 
+y="891" 
+class="s7_296"
+>False</text>
+
+<text 
+x="290" 
+y="891" 
+class="s5_296"
+>]:</text>
+
+<text 
+x="140" 
+y="906" 
+class="s8_296"
+>return</text>
+
+<text 
+x="195" 
+y="906" 
+class="s10_296"
+>tree</text>
+
+<text 
+x="108" 
+y="937" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0" 
+class="s12_296"
+># otherwise this tree consists of an attribute to split on</text>
+
+<text 
+x="108" 
+y="952" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s12_296"
+># and a dictionary whose keys are values of that attribute</text>
+
+<text 
+x="108" 
+y="968" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s12_296"
+># and whose values of are subtrees to consider next</text>
+
+<text 
+x="108" 
+y="983" 
+class="s10_296"
+>attribute</text>
+
+<text 
+x="179" 
+y="983" 
+class="s5_296"
+>,</text>
+
+<text 
+x="195" 
+y="983" 
+class="s10_296"
+>subtree_dict</text>
+
+<text 
+x="298" 
+y="983" 
+class="s5_296"
+>=</text>
+
+<text 
+x="314" 
+y="983" 
+class="s10_296"
+>tree</text>
+
+<text 
+x="108" 
+y="1014" 
+class="s10_296"
+>subtree_key</text>
+
+<text 
+x="203" 
+y="1014" 
+class="s5_296"
+>=</text>
+
+<text 
+x="219" 
+y="1014" 
+class="s7_296"
+>input</text>
+
+<text 
+x="258" 
+y="1014" 
+class="s5_296"
+>.</text>
+
+<text 
+x="266" 
+y="1014" 
+class="s10_296"
+>get</text>
+
+<text 
+x="290" 
+y="1014" 
+class="s5_296"
+>(</text>
+
+<text 
+x="298" 
+y="1014" 
+class="s10_296"
+>attribute</text>
+
+<text 
+x="369" 
+y="1014" 
+class="s5_296"
+>)</text>
+
+<text 
+x="408" 
+y="1014" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s12_296"
+># None if input is missing attribute</text>
+
+<text 
+x="108" 
+y="1045" 
+class="s8_296"
+>if</text>
+
+<text 
+x="132" 
+y="1045" 
+class="s10_296"
+>subtree_key</text>
+
+<text 
+x="227" 
+y="1045" 
+dx="0,0,0,0,4.6,0" 
+class="s13_296"
+>not in</text>
+
+<text 
+x="282" 
+y="1045" 
+class="s10_296"
+>subtree_dict</text>
+
+<text 
+x="377" 
+y="1045" 
+class="s5_296"
+>:</text>
+
+<text 
+x="408" 
+y="1045" 
+dx="0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0" 
+class="s12_296"
+># if no subtree for key,</text>
+
+<text 
+x="140" 
+y="1060" 
+class="s10_296"
+>subtree_key</text>
+
+<text 
+x="235" 
+y="1060" 
+class="s5_296"
+>=</text>
+
+<text 
+x="250" 
+y="1060" 
+class="s7_296"
+>None</text>
+
+<text 
+x="408" 
+y="1060" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s12_296"
+># we'll use the None subtree</text>
+
+<text 
+x="108" 
+y="1091" 
+class="s10_296"
+>subtree</text>
+
+<text 
+x="171" 
+y="1091" 
+class="s5_296"
+>=</text>
+
+<text 
+x="187" 
+y="1091" 
+class="s10_296"
+>subtree_dict</text>
+
+<text 
+x="282" 
+y="1091" 
+class="s5_296"
+>[</text>
+
+<text 
+x="290" 
+y="1091" 
+class="s10_296"
+>subtree_key</text>
+
+<text 
+x="377" 
+y="1091" 
+class="s5_296"
+>]</text>
+
+<text 
+x="408" 
+y="1091" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s12_296"
+># choose the appropriate subtree</text>
+
+<text 
+x="108" 
+y="1106" 
+class="s8_296"
+>return</text>
+
+<text 
+x="163" 
+y="1106" 
+class="s10_296"
+>classify</text>
+
+<text 
+x="227" 
+y="1106" 
+class="s5_296"
+>(</text>
+
+<text 
+x="235" 
+y="1106" 
+class="s10_296"
+>subtree</text>
+
+<text 
+x="290" 
+y="1106" 
+class="s5_296"
+>,</text>
+
+<text 
+x="306" 
+y="1106" 
+class="s7_296"
+>input</text>
+
+<text 
+x="345" 
+y="1106" 
+class="s5_296"
+>)</text>
+
+<text 
+x="408" 
+y="1106" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0" 
+class="s12_296"
+># and use it to classify the input</text>
+
+<text 
+x="55" 
+y="1159" 
+dx="0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_296"
+>All that’s left is to build the tree representation from our training data:</text>
+
+<text 
+x="76" 
+y="1204" 
+class="s8_296"
+>def</text>
+
+<text 
+x="108" 
+y="1204" 
+class="s9_296"
+>build_tree_id3</text>
+
+<text 
+x="219" 
+y="1204" 
+class="s5_296"
+>(</text>
+
+<text 
+x="227" 
+y="1204" 
+class="s10_296"
+>inputs</text>
+
+<text 
+x="274" 
+y="1204" 
+class="s5_296"
+>,</text>
+
+<text 
+x="290" 
+y="1204" 
+class="s10_296"
+>split_candidates</text>
+
+<text 
+x="416" 
+y="1204" 
+class="s5_296"
+>=</text>
+
+<text 
+x="424" 
+y="1204" 
+class="s7_296"
+>None</text>
+
+<text 
+x="456" 
+y="1204" 
+class="s5_296"
+>):</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

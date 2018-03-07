@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 274 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_274{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_274{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_274{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_274{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s5_274{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_274{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s7_274{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_274{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s9_274{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s10_274{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s11_274{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_274"
+>The Logistic Function</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_274"
+>In the case of logistic regression, we use the</text>
+
+<text 
+x="448" 
+y="122" 
+class="s3_274"
+>logistic function</text>
+
+<text 
+x="590" 
+y="122" 
+class="s2_274"
+>, pictured in</text>
+
+<text 
+x="701" 
+y="122" 
+class="s4_274"
+>Figure 16-3</text>
+
+<text 
+x="804" 
+y="122" 
+class="s2_274"
+>:</text>
+
+<text 
+x="76" 
+y="167" 
+class="s5_274"
+>def</text>
+
+<text 
+x="108" 
+y="167" 
+class="s6_274"
+>logistic</text>
+
+<text 
+x="171" 
+y="167" 
+class="s7_274"
+>(</text>
+
+<text 
+x="179" 
+y="167" 
+class="s8_274"
+>x</text>
+
+<text 
+x="187" 
+y="167" 
+class="s7_274"
+>):</text>
+
+<text 
+x="108" 
+y="182" 
+class="s5_274"
+>return</text>
+
+<text 
+x="163" 
+y="182" 
+class="s9_274"
+>1.0</text>
+
+<text 
+x="195" 
+y="182" 
+dx="0,0,4.6" 
+class="s7_274"
+>/ (</text>
+
+<text 
+x="219" 
+y="182" 
+class="s9_274"
+>1</text>
+
+<text 
+x="235" 
+y="182" 
+class="s7_274"
+>+</text>
+
+<text 
+x="250" 
+y="182" 
+class="s8_274"
+>math</text>
+
+<text 
+x="282" 
+y="182" 
+class="s7_274"
+>.</text>
+
+<text 
+x="290" 
+y="182" 
+class="s8_274"
+>exp</text>
+
+<text 
+x="314" 
+y="182" 
+class="s7_274"
+>(-</text>
+
+<text 
+x="329" 
+y="182" 
+class="s8_274"
+>x</text>
+
+<text 
+x="337" 
+y="182" 
+class="s7_274"
+>))</text>
+
+<image preserveAspectRatio="none" x="86" y="215" width="738" height="586" xlink:href="274/img/1.png" />
+<text 
+x="343" 
+y="827" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s10_274"
+>Figure 16-3. The logistic function</text>
+
+<text 
+x="55" 
+y="869" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_274"
+>As its input gets large and positive, it gets closer and closer to 1. As its input gets large</text>
+
+<text 
+x="55" 
+y="896" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_274"
+>and negative, it gets closer and closer to 0. Additionally, it has the convenient property</text>
+
+<text 
+x="55" 
+y="924" 
+class="s2_274"
+>that its derivative is given by:</text>
+
+<text 
+x="76" 
+y="969" 
+class="s5_274"
+>def</text>
+
+<text 
+x="108" 
+y="969" 
+class="s6_274"
+>logistic_prime</text>
+
+<text 
+x="219" 
+y="969" 
+class="s7_274"
+>(</text>
+
+<text 
+x="227" 
+y="969" 
+class="s8_274"
+>x</text>
+
+<text 
+x="235" 
+y="969" 
+class="s7_274"
+>):</text>
+
+<text 
+x="108" 
+y="984" 
+class="s5_274"
+>return</text>
+
+<text 
+x="163" 
+y="984" 
+class="s8_274"
+>logistic</text>
+
+<text 
+x="227" 
+y="984" 
+class="s7_274"
+>(</text>
+
+<text 
+x="235" 
+y="984" 
+class="s8_274"
+>x</text>
+
+<text 
+x="242" 
+y="984" 
+dx="0,0,4.6,0,4.6" 
+class="s7_274"
+>) * (</text>
+
+<text 
+x="282" 
+y="984" 
+class="s9_274"
+>1</text>
+
+<text 
+x="298" 
+y="984" 
+class="s7_274"
+>-</text>
+
+<text 
+x="314" 
+y="984" 
+class="s8_274"
+>logistic</text>
+
+<text 
+x="377" 
+y="984" 
+class="s7_274"
+>(</text>
+
+<text 
+x="385" 
+y="984" 
+class="s8_274"
+>x</text>
+
+<text 
+x="393" 
+y="984" 
+class="s7_274"
+>))</text>
+
+<text 
+x="55" 
+y="1037" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_274"
+>which we’ll make use of in a bit. We’ll use this to fit a model:</text>
+
+<image preserveAspectRatio="none" x="55" y="1055" width="408" height="71" xlink:href="274/img/2.png" />
+<text 
+x="55" 
+y="1157" 
+class="s2_274"
+>where</text>
+
+<text 
+x="114" 
+y="1157" 
+class="s3_274"
+>f</text>
+
+<text 
+x="125" 
+y="1157" 
+class="s2_274"
+>is the</text>
+
+<text 
+x="178" 
+y="1157" 
+class="s11_274"
+>logistic</text>
+
+<text 
+x="268" 
+y="1157" 
+class="s2_274"
+>function.</text>
+
+<text 
+x="55" 
+y="1198" 
+class="s2_274"
+>Recall that for linear regression we fit the model by minimizing the sum of squared errors,</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

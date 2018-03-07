@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 275 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_275{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_275{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s3_275{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_275{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_275{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_275{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_275{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_275{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s9_275{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_275{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s11_275{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="82" 
+class="s1_275"
+>which ended up choosing the</text>
+
+<image preserveAspectRatio="none" x="317" y="54" width="16" height="29" xlink:href="275/img/1.png" />
+<text 
+x="338" 
+y="82" 
+class="s1_275"
+>that maximized the likelihood of the data.</text>
+
+<text 
+x="55" 
+y="121" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>Here the two aren’t equivalent, so we’ll use gradient descent to maximize the likelihood</text>
+
+<text 
+x="55" 
+y="148" 
+dx="0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>directly. This means we need to calculate the likelihood function and its gradient.</text>
+
+<text 
+x="55" 
+y="194" 
+class="s1_275"
+>Given some</text>
+
+<image preserveAspectRatio="none" x="166" y="166" width="17" height="29" xlink:href="275/img/2.png" />
+<text 
+x="182" 
+y="194" 
+class="s1_275"
+>, our model says that each</text>
+
+<image preserveAspectRatio="none" x="417" y="174" width="18" height="21" xlink:href="275/img/3.png" />
+<text 
+x="440" 
+y="194" 
+class="s1_275"
+>should equal 1 with probability</text>
+
+<image preserveAspectRatio="none" x="721" y="167" width="60" height="28" xlink:href="275/img/4.png" />
+<text 
+x="785" 
+y="194" 
+class="s1_275"
+>and 0</text>
+
+<text 
+x="55" 
+y="228" 
+class="s1_275"
+>with probability</text>
+
+<image preserveAspectRatio="none" x="201" y="201" width="101" height="28" xlink:href="275/img/5.png" />
+<text 
+x="302" 
+y="228" 
+class="s1_275"
+>.</text>
+
+<text 
+x="55" 
+y="267" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>In particular, the pdf for</text>
+
+<image preserveAspectRatio="none" x="272" y="246" width="18" height="21" xlink:href="275/img/6.png" />
+<text 
+x="295" 
+y="267" 
+class="s1_275"
+>can be written as:</text>
+
+<image preserveAspectRatio="none" x="55" y="285" width="799" height="78" xlink:href="275/img/7.png" />
+<text 
+x="55" 
+y="393" 
+class="s1_275"
+>since if</text>
+
+<image preserveAspectRatio="none" x="124" y="373" width="19" height="21" xlink:href="275/img/8.png" />
+<text 
+x="148" 
+y="393" 
+class="s1_275"
+>is 0, this equals:</text>
+
+<image preserveAspectRatio="none" x="55" y="411" width="256" height="70" xlink:href="275/img/9.png" />
+<text 
+x="55" 
+y="512" 
+class="s1_275"
+>and if</text>
+
+<image preserveAspectRatio="none" x="111" y="492" width="19" height="21" xlink:href="275/img/10.png" />
+<text 
+x="135" 
+y="512" 
+class="s1_275"
+>is 1, it equals:</text>
+
+<image preserveAspectRatio="none" x="55" y="530" width="151" height="70" xlink:href="275/img/11.png" />
+<text 
+x="55" 
+y="631" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>It turns out that it’s actually simpler to maximize the</text>
+
+<text 
+x="521" 
+y="631" 
+class="s2_275"
+>log likelihood</text>
+
+<text 
+x="642" 
+y="631" 
+class="s1_275"
+>:</text>
+
+<image preserveAspectRatio="none" x="55" y="649" width="799" height="39" xlink:href="275/img/12.png" />
+<text 
+x="55" 
+y="718" 
+class="s1_275"
+>Because log is strictly increasing function, any</text>
+
+<text 
+x="471" 
+y="718" 
+class="s3_275"
+>beta</text>
+
+<text 
+x="519" 
+y="718" 
+class="s1_275"
+>that maximizes the log likelihood also</text>
+
+<text 
+x="55" 
+y="748" 
+class="s1_275"
+>maximizes the likelihood, and vice versa.</text>
+
+<text 
+x="76" 
+y="793" 
+class="s4_275"
+>def</text>
+
+<text 
+x="108" 
+y="793" 
+class="s5_275"
+>logistic_log_likelihood_i</text>
+
+<text 
+x="306" 
+y="793" 
+class="s6_275"
+>(</text>
+
+<text 
+x="314" 
+y="793" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="337" 
+y="793" 
+class="s6_275"
+>,</text>
+
+<text 
+x="353" 
+y="793" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="377" 
+y="793" 
+class="s6_275"
+>,</text>
+
+<text 
+x="393" 
+y="793" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="424" 
+y="793" 
+class="s6_275"
+>):</text>
+
+<text 
+x="108" 
+y="808" 
+class="s4_275"
+>if</text>
+
+<text 
+x="132" 
+y="808" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="163" 
+y="808" 
+class="s6_275"
+>==</text>
+
+<text 
+x="187" 
+y="808" 
+class="s8_275"
+>1</text>
+
+<text 
+x="195" 
+y="808" 
+class="s6_275"
+>:</text>
+
+<text 
+x="140" 
+y="824" 
+class="s4_275"
+>return</text>
+
+<text 
+x="195" 
+y="824" 
+class="s7_275"
+>math</text>
+
+<text 
+x="227" 
+y="824" 
+class="s6_275"
+>.</text>
+
+<text 
+x="235" 
+y="824" 
+class="s7_275"
+>log</text>
+
+<text 
+x="258" 
+y="824" 
+class="s6_275"
+>(</text>
+
+<text 
+x="266" 
+y="824" 
+class="s7_275"
+>logistic</text>
+
+<text 
+x="329" 
+y="824" 
+class="s6_275"
+>(</text>
+
+<text 
+x="337" 
+y="824" 
+class="s7_275"
+>dot</text>
+
+<text 
+x="361" 
+y="824" 
+class="s6_275"
+>(</text>
+
+<text 
+x="369" 
+y="824" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="393" 
+y="824" 
+class="s6_275"
+>,</text>
+
+<text 
+x="408" 
+y="824" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="440" 
+y="824" 
+class="s6_275"
+>)))</text>
+
+<text 
+x="108" 
+y="839" 
+class="s4_275"
+>else</text>
+
+<text 
+x="140" 
+y="839" 
+class="s6_275"
+>:</text>
+
+<text 
+x="140" 
+y="854" 
+class="s4_275"
+>return</text>
+
+<text 
+x="195" 
+y="854" 
+class="s7_275"
+>math</text>
+
+<text 
+x="227" 
+y="854" 
+class="s6_275"
+>.</text>
+
+<text 
+x="235" 
+y="854" 
+class="s7_275"
+>log</text>
+
+<text 
+x="258" 
+y="854" 
+class="s6_275"
+>(</text>
+
+<text 
+x="266" 
+y="854" 
+class="s8_275"
+>1</text>
+
+<text 
+x="282" 
+y="854" 
+class="s6_275"
+>-</text>
+
+<text 
+x="298" 
+y="854" 
+class="s7_275"
+>logistic</text>
+
+<text 
+x="361" 
+y="854" 
+class="s6_275"
+>(</text>
+
+<text 
+x="369" 
+y="854" 
+class="s7_275"
+>dot</text>
+
+<text 
+x="393" 
+y="854" 
+class="s6_275"
+>(</text>
+
+<text 
+x="401" 
+y="854" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="424" 
+y="854" 
+class="s6_275"
+>,</text>
+
+<text 
+x="440" 
+y="854" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="472" 
+y="854" 
+class="s6_275"
+>)))</text>
+
+<text 
+x="55" 
+y="907" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>If we assume different data points are independent from one another, the overall likelihood</text>
+
+<text 
+x="55" 
+y="935" 
+class="s1_275"
+>is just the product of the individual likelihoods. Which means the overall log likelihood is</text>
+
+<text 
+x="55" 
+y="962" 
+class="s1_275"
+>the sum of the individual log likelihoods:</text>
+
+<text 
+x="76" 
+y="1007" 
+class="s4_275"
+>def</text>
+
+<text 
+x="108" 
+y="1007" 
+class="s5_275"
+>logistic_log_likelihood</text>
+
+<text 
+x="290" 
+y="1007" 
+class="s6_275"
+>(</text>
+
+<text 
+x="298" 
+y="1007" 
+class="s7_275"
+>x</text>
+
+<text 
+x="306" 
+y="1007" 
+class="s6_275"
+>,</text>
+
+<text 
+x="322" 
+y="1007" 
+class="s7_275"
+>y</text>
+
+<text 
+x="329" 
+y="1007" 
+class="s6_275"
+>,</text>
+
+<text 
+x="345" 
+y="1007" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="377" 
+y="1007" 
+class="s6_275"
+>):</text>
+
+<text 
+x="108" 
+y="1023" 
+class="s4_275"
+>return</text>
+
+<text 
+x="163" 
+y="1023" 
+class="s9_275"
+>sum</text>
+
+<text 
+x="187" 
+y="1023" 
+class="s6_275"
+>(</text>
+
+<text 
+x="195" 
+y="1023" 
+class="s7_275"
+>logistic_log_likelihood_i</text>
+
+<text 
+x="393" 
+y="1023" 
+class="s6_275"
+>(</text>
+
+<text 
+x="401" 
+y="1023" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="424" 
+y="1023" 
+class="s6_275"
+>,</text>
+
+<text 
+x="440" 
+y="1023" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="464" 
+y="1023" 
+class="s6_275"
+>,</text>
+
+<text 
+x="480" 
+y="1023" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="511" 
+y="1023" 
+class="s6_275"
+>)</text>
+
+<text 
+x="195" 
+y="1038" 
+class="s4_275"
+>for</text>
+
+<text 
+x="227" 
+y="1038" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="250" 
+y="1038" 
+class="s6_275"
+>,</text>
+
+<text 
+x="266" 
+y="1038" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="298" 
+y="1038" 
+class="s10_275"
+>in</text>
+
+<text 
+x="322" 
+y="1038" 
+class="s9_275"
+>zip</text>
+
+<text 
+x="345" 
+y="1038" 
+class="s6_275"
+>(</text>
+
+<text 
+x="353" 
+y="1038" 
+class="s7_275"
+>x</text>
+
+<text 
+x="361" 
+y="1038" 
+class="s6_275"
+>,</text>
+
+<text 
+x="377" 
+y="1038" 
+class="s7_275"
+>y</text>
+
+<text 
+x="385" 
+y="1038" 
+class="s6_275"
+>))</text>
+
+<text 
+x="55" 
+y="1091" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_275"
+>A little bit of calculus gives us the gradient:</text>
+
+<text 
+x="76" 
+y="1136" 
+class="s4_275"
+>def</text>
+
+<text 
+x="108" 
+y="1136" 
+class="s5_275"
+>logistic_log_partial_ij</text>
+
+<text 
+x="290" 
+y="1136" 
+class="s6_275"
+>(</text>
+
+<text 
+x="298" 
+y="1136" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="322" 
+y="1136" 
+class="s6_275"
+>,</text>
+
+<text 
+x="337" 
+y="1136" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="361" 
+y="1136" 
+class="s6_275"
+>,</text>
+
+<text 
+x="377" 
+y="1136" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="408" 
+y="1136" 
+class="s6_275"
+>,</text>
+
+<text 
+x="424" 
+y="1136" 
+class="s7_275"
+>j</text>
+
+<text 
+x="432" 
+y="1136" 
+class="s6_275"
+>):</text>
+
+<text 
+x="108" 
+y="1151" 
+dx="0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0" 
+class="s11_275"
+>"""here i is the index of the data point,</text>
+
+<text 
+x="108" 
+y="1167" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s11_275"
+>j the index of the derivative"""</text>
+
+<text 
+x="108" 
+y="1198" 
+class="s4_275"
+>return</text>
+
+<text 
+x="163" 
+y="1198" 
+class="s6_275"
+>(</text>
+
+<text 
+x="171" 
+y="1198" 
+class="s7_275"
+>y_i</text>
+
+<text 
+x="203" 
+y="1198" 
+class="s6_275"
+>-</text>
+
+<text 
+x="219" 
+y="1198" 
+class="s7_275"
+>logistic</text>
+
+<text 
+x="282" 
+y="1198" 
+class="s6_275"
+>(</text>
+
+<text 
+x="290" 
+y="1198" 
+class="s7_275"
+>dot</text>
+
+<text 
+x="314" 
+y="1198" 
+class="s6_275"
+>(</text>
+
+<text 
+x="322" 
+y="1198" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="345" 
+y="1198" 
+class="s6_275"
+>,</text>
+
+<text 
+x="361" 
+y="1198" 
+class="s7_275"
+>beta</text>
+
+<text 
+x="393" 
+y="1198" 
+dx="0,0,0,0,4.6" 
+class="s6_275"
+>))) *</text>
+
+<text 
+x="440" 
+y="1198" 
+class="s7_275"
+>x_i</text>
+
+<text 
+x="464" 
+y="1198" 
+class="s6_275"
+>[</text>
+
+<text 
+x="472" 
+y="1198" 
+class="s7_275"
+>j</text>
+
+<text 
+x="480" 
+y="1198" 
+class="s6_275"
+>]</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

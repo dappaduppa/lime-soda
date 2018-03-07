@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 292 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_292{
+fill: #BEBEBE;
+}
+
+.s1_292{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_292{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_292{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_292{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_292{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_292{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_292{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_292{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_292{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_292{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s11_292{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s12_292{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s13_292{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,857.1l722.5,0c3,0,5.5,2.5,5.5,5.5l0,195.8c0,3.1,-2.5,5.6,-5.5,5.6l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.6L88,862.6c0,-3,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,2,4.4,4.4l0,195.8c0,2.5,-2,4.5,-4.4,4.5l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.5l0,-195.8c0,-2.4,2,-4.4,4.4,-4.4Z" class="g1_292" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_292"
+>The Entropy of a Partition</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_292"
+>What we’ve done so far is compute the entropy (think “uncertainty”) of a single set of</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>labeled data. Now, each stage of a decision tree involves asking a question whose answer</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_292"
+>partitions data into one or (hopefully) more subsets. For instance, our “does it have more</text>
+
+<text 
+x="55" 
+y="204" 
+class="s2_292"
+>than five legs?” question partitions animals into those who have more than five legs (e.g.,</text>
+
+<text 
+x="55" 
+y="232" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>spiders) and those that don’t (e.g., echidnas).</text>
+
+<text 
+x="55" 
+y="270" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>Correspondingly, we’d like some notion of the entropy that results from partitioning a set</text>
+
+<text 
+x="55" 
+y="298" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>of data in a certain way. We want a partition to have low entropy if it splits the data into</text>
+
+<text 
+x="55" 
+y="325" 
+class="s2_292"
+>subsets that themselves have low entropy (i.e., are highly certain), and high entropy if it</text>
+
+<text 
+x="55" 
+y="353" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>contains subsets that (are large and) have high entropy (i.e., are highly uncertain).</text>
+
+<text 
+x="55" 
+y="391" 
+class="s2_292"
+>For example, my “Australian five-cent coin” question was pretty dumb (albeit pretty</text>
+
+<text 
+x="55" 
+y="423" 
+class="s2_292"
+>lucky!), as it partitioned the remaining animals at that point into</text>
+
+<image preserveAspectRatio="none" x="622" y="398" width="24" height="26" xlink:href="292/img/1.png" />
+<text 
+x="651" 
+y="423" 
+class="s2_292"
+>= {echidna} and</text>
+
+<image preserveAspectRatio="none" x="802" y="398" width="24" height="26" xlink:href="292/img/2.png" />
+<text 
+x="831" 
+y="423" 
+class="s2_292"
+>=</text>
+
+<text 
+x="55" 
+y="455" 
+class="s2_292"
+>{everything else}, where</text>
+
+<image preserveAspectRatio="none" x="280" y="430" width="25" height="26" xlink:href="292/img/3.png" />
+<text 
+x="309" 
+y="455" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0" 
+class="s2_292"
+>is both large and high-entropy. (</text>
+
+<image preserveAspectRatio="none" x="592" y="430" width="23" height="26" xlink:href="292/img/4.png" />
+<text 
+x="619" 
+y="455" 
+class="s2_292"
+>has no entropy but it</text>
+
+<text 
+x="55" 
+y="483" 
+class="s2_292"
+>represents a small fraction of the remaining “classes.”)</text>
+
+<text 
+x="55" 
+y="525" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_292"
+>Mathematically, if we partition our data</text>
+
+<text 
+x="409" 
+y="525" 
+class="s3_292"
+>S</text>
+
+<text 
+x="425" 
+y="525" 
+class="s2_292"
+>into subsets</text>
+
+<image preserveAspectRatio="none" x="534" y="501" width="114" height="25" xlink:href="292/img/5.png" />
+<text 
+x="653" 
+y="525" 
+class="s2_292"
+>containing proportions</text>
+
+<image preserveAspectRatio="none" x="55" y="533" width="104" height="20" xlink:href="292/img/6.png" />
+<text 
+x="164" 
+y="553" 
+class="s2_292"
+>of the data, then we compute the entropy of the partition as a weighted sum:</text>
+
+<image preserveAspectRatio="none" x="55" y="571" width="799" height="69" xlink:href="292/img/7.png" />
+<text 
+x="55" 
+y="672" 
+class="s2_292"
+>which we can implement as:</text>
+
+<text 
+x="76" 
+y="717" 
+class="s4_292"
+>def</text>
+
+<text 
+x="108" 
+y="717" 
+class="s5_292"
+>partition_entropy</text>
+
+<text 
+x="242" 
+y="717" 
+class="s6_292"
+>(</text>
+
+<text 
+x="250" 
+y="717" 
+class="s7_292"
+>subsets</text>
+
+<text 
+x="306" 
+y="717" 
+class="s6_292"
+>):</text>
+
+<text 
+x="108" 
+y="732" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s8_292"
+>"""find the entropy from this partition of data into subsets</text>
+
+<text 
+x="108" 
+y="748" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s8_292"
+>subsets is a list of lists of labeled data"""</text>
+
+<text 
+x="108" 
+y="778" 
+class="s7_292"
+>total_count</text>
+
+<text 
+x="203" 
+y="778" 
+class="s6_292"
+>=</text>
+
+<text 
+x="219" 
+y="778" 
+class="s9_292"
+>sum</text>
+
+<text 
+x="242" 
+y="778" 
+class="s6_292"
+>(</text>
+
+<text 
+x="250" 
+y="778" 
+class="s9_292"
+>len</text>
+
+<text 
+x="274" 
+y="778" 
+class="s6_292"
+>(</text>
+
+<text 
+x="282" 
+y="778" 
+class="s7_292"
+>subset</text>
+
+<text 
+x="329" 
+y="778" 
+class="s6_292"
+>)</text>
+
+<text 
+x="345" 
+y="778" 
+class="s4_292"
+>for</text>
+
+<text 
+x="377" 
+y="778" 
+class="s7_292"
+>subset</text>
+
+<text 
+x="432" 
+y="778" 
+class="s10_292"
+>in</text>
+
+<text 
+x="456" 
+y="778" 
+class="s7_292"
+>subsets</text>
+
+<text 
+x="511" 
+y="778" 
+class="s6_292"
+>)</text>
+
+<text 
+x="108" 
+y="809" 
+class="s4_292"
+>return</text>
+
+<text 
+x="163" 
+y="809" 
+class="s9_292"
+>sum</text>
+
+<text 
+x="187" 
+y="809" 
+class="s6_292"
+>(</text>
+
+<text 
+x="203" 
+y="809" 
+class="s7_292"
+>data_entropy</text>
+
+<text 
+x="298" 
+y="809" 
+class="s6_292"
+>(</text>
+
+<text 
+x="306" 
+y="809" 
+class="s7_292"
+>subset</text>
+
+<text 
+x="353" 
+y="809" 
+dx="0,0,4.6" 
+class="s6_292"
+>) *</text>
+
+<text 
+x="385" 
+y="809" 
+class="s9_292"
+>len</text>
+
+<text 
+x="408" 
+y="809" 
+class="s6_292"
+>(</text>
+
+<text 
+x="416" 
+y="809" 
+class="s7_292"
+>subset</text>
+
+<text 
+x="464" 
+y="809" 
+dx="0,0,4.6" 
+class="s6_292"
+>) /</text>
+
+<text 
+x="495" 
+y="809" 
+class="s7_292"
+>total_count</text>
+
+<text 
+x="203" 
+y="825" 
+class="s4_292"
+>for</text>
+
+<text 
+x="235" 
+y="825" 
+class="s7_292"
+>subset</text>
+
+<text 
+x="290" 
+y="825" 
+class="s10_292"
+>in</text>
+
+<text 
+x="314" 
+y="825" 
+class="s7_292"
+>subsets</text>
+
+<text 
+x="377" 
+y="825" 
+class="s6_292"
+>)</text>
+
+<text 
+x="421" 
+y="882" 
+dx="0,1.1,1.1,1.1" 
+class="s11_292"
+>NOTE</text>
+
+<text 
+x="97" 
+y="912" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s12_292"
+>One problem with this approach is that partitioning by an attribute with many different values will result in</text>
+
+<text 
+x="97" 
+y="931" 
+class="s12_292"
+>a very low entropy due to overfitting. For example, imagine you work for a bank and are trying to build a</text>
+
+<text 
+x="97" 
+y="951" 
+class="s12_292"
+>decision tree to predict which of your customers are likely to default on their mortgages, using some</text>
+
+<text 
+x="97" 
+y="971" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.6,-0.9,0,0,0,0,0,0,0" 
+class="s12_292"
+>historical data as your training set. Imagine further that the data set contains each customer’s Social</text>
+
+<text 
+x="97" 
+y="991" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s12_292"
+>Security number. Partitioning on SSN will produce one-person subsets, each of which necessarily has zero</text>
+
+<text 
+x="97" 
+y="1011" 
+dx="0,0,0,0,0,0,0,-1.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s12_292"
+>entropy. But a model that relies on SSN is</text>
+
+<text 
+x="378" 
+y="1011" 
+class="s13_292"
+>certain</text>
+
+<text 
+x="429" 
+y="1011" 
+class="s12_292"
+>not to generalize beyond the training set. For this reason,</text>
+
+<text 
+x="97" 
+y="1030" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s12_292"
+>you should probably try to avoid (or bucket, if appropriate) attributes with large numbers of possible values</text>
+
+<text 
+x="97" 
+y="1050" 
+class="s12_292"
+>when creating decision trees.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

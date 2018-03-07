@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 265 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_265{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_265{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s3_265{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_265{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_265{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_265{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_265{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_265{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s9_265{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+dx="0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s1_265"
+>However, as the degrees of freedom get large, the</text>
+
+<text 
+x="496" 
+y="74" 
+class="s2_265"
+>t</text>
+
+<text 
+x="502" 
+y="74" 
+class="s1_265"
+>-distribution gets closer and closer to a</text>
+
+<text 
+x="55" 
+y="102" 
+class="s1_265"
+>standard normal. In a situation like this, where</text>
+
+<text 
+x="468" 
+y="102" 
+class="s2_265"
+>n</text>
+
+<text 
+x="485" 
+y="102" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0" 
+class="s1_265"
+>is much larger than</text>
+
+<text 
+x="659" 
+y="102" 
+class="s2_265"
+>k</text>
+
+<text 
+x="669" 
+y="102" 
+class="s1_265"
+>, we can use</text>
+
+<text 
+x="55" 
+y="129" 
+class="s3_265"
+>normal_cdf</text>
+
+<text 
+x="165" 
+y="129" 
+class="s1_265"
+>and still feel good about ourselves:</text>
+
+<text 
+x="76" 
+y="177" 
+class="s4_265"
+>def</text>
+
+<text 
+x="108" 
+y="177" 
+class="s5_265"
+>p_value</text>
+
+<text 
+x="163" 
+y="177" 
+class="s6_265"
+>(</text>
+
+<text 
+x="171" 
+y="177" 
+class="s7_265"
+>beta_hat_j</text>
+
+<text 
+x="250" 
+y="177" 
+class="s6_265"
+>,</text>
+
+<text 
+x="266" 
+y="177" 
+class="s7_265"
+>sigma_hat_j</text>
+
+<text 
+x="353" 
+y="177" 
+class="s6_265"
+>):</text>
+
+<text 
+x="108" 
+y="192" 
+class="s4_265"
+>if</text>
+
+<text 
+x="132" 
+y="192" 
+class="s7_265"
+>beta_hat_j</text>
+
+<text 
+x="219" 
+y="192" 
+class="s6_265"
+>&gt;</text>
+
+<text 
+x="235" 
+y="192" 
+class="s8_265"
+>0</text>
+
+<text 
+x="242" 
+y="192" 
+class="s6_265"
+>:</text>
+
+<text 
+x="140" 
+y="207" 
+dx="0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0" 
+class="s9_265"
+># if the coefficient is positive, we need to compute twice the</text>
+
+<text 
+x="140" 
+y="223" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s9_265"
+># probability of seeing an even *larger* value</text>
+
+<text 
+x="140" 
+y="238" 
+class="s4_265"
+>return</text>
+
+<text 
+x="195" 
+y="238" 
+class="s8_265"
+>2</text>
+
+<text 
+x="211" 
+y="238" 
+dx="0,0,4.6" 
+class="s6_265"
+>* (</text>
+
+<text 
+x="235" 
+y="238" 
+class="s8_265"
+>1</text>
+
+<text 
+x="250" 
+y="238" 
+class="s6_265"
+>-</text>
+
+<text 
+x="266" 
+y="238" 
+class="s7_265"
+>normal_cdf</text>
+
+<text 
+x="345" 
+y="238" 
+class="s6_265"
+>(</text>
+
+<text 
+x="353" 
+y="238" 
+class="s7_265"
+>beta_hat_j</text>
+
+<text 
+x="440" 
+y="238" 
+class="s6_265"
+>/</text>
+
+<text 
+x="456" 
+y="238" 
+class="s7_265"
+>sigma_hat_j</text>
+
+<text 
+x="543" 
+y="238" 
+class="s6_265"
+>))</text>
+
+<text 
+x="108" 
+y="254" 
+class="s4_265"
+>else</text>
+
+<text 
+x="140" 
+y="254" 
+class="s6_265"
+>:</text>
+
+<text 
+x="140" 
+y="269" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s9_265"
+># otherwise twice the probability of seeing a *smaller* value</text>
+
+<text 
+x="140" 
+y="284" 
+class="s4_265"
+>return</text>
+
+<text 
+x="195" 
+y="284" 
+class="s8_265"
+>2</text>
+
+<text 
+x="211" 
+y="284" 
+class="s6_265"
+>*</text>
+
+<text 
+x="227" 
+y="284" 
+class="s7_265"
+>normal_cdf</text>
+
+<text 
+x="306" 
+y="284" 
+class="s6_265"
+>(</text>
+
+<text 
+x="314" 
+y="284" 
+class="s7_265"
+>beta_hat_j</text>
+
+<text 
+x="401" 
+y="284" 
+class="s6_265"
+>/</text>
+
+<text 
+x="416" 
+y="284" 
+class="s7_265"
+>sigma_hat_j</text>
+
+<text 
+x="503" 
+y="284" 
+class="s6_265"
+>)</text>
+
+<text 
+x="76" 
+y="315" 
+class="s7_265"
+>p_value</text>
+
+<text 
+x="132" 
+y="315" 
+class="s6_265"
+>(</text>
+
+<text 
+x="140" 
+y="315" 
+class="s8_265"
+>30.63</text>
+
+<text 
+x="179" 
+y="315" 
+class="s6_265"
+>,</text>
+
+<text 
+x="195" 
+y="315" 
+class="s8_265"
+>1.174</text>
+
+<text 
+x="235" 
+y="315" 
+class="s6_265"
+>)</text>
+
+<text 
+x="274" 
+y="315" 
+dx="0,0,4.6,0" 
+class="s9_265"
+># ~0</text>
+
+<text 
+x="329" 
+y="315" 
+dx="0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s9_265"
+>(constant term)</text>
+
+<text 
+x="76" 
+y="331" 
+class="s7_265"
+>p_value</text>
+
+<text 
+x="132" 
+y="331" 
+class="s6_265"
+>(</text>
+
+<text 
+x="140" 
+y="331" 
+class="s8_265"
+>0.972</text>
+
+<text 
+x="179" 
+y="331" 
+class="s6_265"
+>,</text>
+
+<text 
+x="195" 
+y="331" 
+class="s8_265"
+>0.079</text>
+
+<text 
+x="235" 
+y="331" 
+class="s6_265"
+>)</text>
+
+<text 
+x="274" 
+y="331" 
+dx="0,0,4.6,0" 
+class="s9_265"
+># ~0</text>
+
+<text 
+x="329" 
+y="331" 
+class="s9_265"
+>(num_friends)</text>
+
+<text 
+x="76" 
+y="346" 
+class="s7_265"
+>p_value</text>
+
+<text 
+x="132" 
+y="346" 
+class="s6_265"
+>(-</text>
+
+<text 
+x="148" 
+y="346" 
+class="s8_265"
+>1.868</text>
+
+<text 
+x="187" 
+y="346" 
+class="s6_265"
+>,</text>
+
+<text 
+x="203" 
+y="346" 
+class="s8_265"
+>0.131</text>
+
+<text 
+x="242" 
+y="346" 
+class="s6_265"
+>)</text>
+
+<text 
+x="274" 
+y="346" 
+dx="0,0,4.6,0" 
+class="s9_265"
+># ~0</text>
+
+<text 
+x="329" 
+y="346" 
+class="s9_265"
+>(work_hours)</text>
+
+<text 
+x="76" 
+y="361" 
+class="s7_265"
+>p_value</text>
+
+<text 
+x="132" 
+y="361" 
+class="s6_265"
+>(</text>
+
+<text 
+x="140" 
+y="361" 
+class="s8_265"
+>0.911</text>
+
+<text 
+x="179" 
+y="361" 
+class="s6_265"
+>,</text>
+
+<text 
+x="195" 
+y="361" 
+class="s8_265"
+>0.990</text>
+
+<text 
+x="235" 
+y="361" 
+class="s6_265"
+>)</text>
+
+<text 
+x="274" 
+y="361" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0" 
+class="s9_265"
+># 0.36 (phd)</text>
+
+<text 
+x="55" 
+y="414" 
+class="s1_265"
+>(In a situation not like this, we would probably be using statistical software that knows</text>
+
+<text 
+x="55" 
+y="442" 
+class="s1_265"
+>how to compute the</text>
+
+<text 
+x="234" 
+y="442" 
+class="s2_265"
+>t</text>
+
+<text 
+x="240" 
+y="442" 
+class="s1_265"
+>-distribution, as well as how to compute the exact standard errors.)</text>
+
+<text 
+x="55" 
+y="480" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_265"
+>While most of the coefficients have very small</text>
+
+<text 
+x="470" 
+y="480" 
+class="s2_265"
+>p</text>
+
+<text 
+x="481" 
+y="480" 
+class="s1_265"
+>-values (suggesting that they are indeed</text>
+
+<text 
+x="55" 
+y="508" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_265"
+>nonzero), the coefficient for “PhD” is not “significantly” different from zero, which makes</text>
+
+<text 
+x="55" 
+y="535" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_265"
+>it likely that the coefficient for “PhD” is random rather than meaningful.</text>
+
+<text 
+x="55" 
+y="574" 
+class="s1_265"
+>In more elaborate regression scenarios, you sometimes want to test more elaborate</text>
+
+<text 
+x="55" 
+y="611" 
+class="s1_265"
+>hypotheses about the data, such as “at least one of the</text>
+
+<image preserveAspectRatio="none" x="532" y="581" width="20" height="31" xlink:href="265/img/1.png" />
+<text 
+x="557" 
+y="611" 
+class="s1_265"
+>is non-zero” or “</text>
+
+<image preserveAspectRatio="none" x="705" y="585" width="21" height="27" xlink:href="265/img/2.png" />
+<text 
+x="731" 
+y="611" 
+class="s1_265"
+>equals</text>
+
+<image preserveAspectRatio="none" x="793" y="585" width="22" height="27" xlink:href="265/img/3.png" />
+<text 
+x="820" 
+y="611" 
+class="s2_265"
+>and</text>
+
+<image preserveAspectRatio="none" x="55" y="619" width="22" height="26" xlink:href="265/img/4.png" />
+<text 
+x="82" 
+y="644" 
+class="s1_265"
+>equals</text>
+
+<image preserveAspectRatio="none" x="144" y="618" width="22" height="27" xlink:href="265/img/5.png" />
+<text 
+x="166" 
+y="644" 
+class="s1_265"
+>,” which you can do with an</text>
+
+<text 
+x="418" 
+y="644" 
+class="s2_265"
+>F-test</text>
+
+<text 
+x="470" 
+y="644" 
+class="s1_265"
+>, which, alas, falls outside the scope of this</text>
+
+<text 
+x="55" 
+y="672" 
+class="s1_265"
+>book.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

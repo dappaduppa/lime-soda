@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 287 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_287{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_287{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_287{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_287{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_287{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.3,-0.6,0,0" 
+class="s1_287"
+>What Is a Decision Tree?</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_287"
+>A decision tree uses a tree structure to represent a number of possible</text>
+
+<text 
+x="669" 
+y="122" 
+class="s3_287"
+>decision paths</text>
+
+<text 
+x="801" 
+y="122" 
+class="s2_287"
+>and</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_287"
+>an outcome for each path.</text>
+
+<text 
+x="55" 
+y="188" 
+class="s2_287"
+>If you have ever played the game</text>
+
+<text 
+x="353" 
+y="188" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s4_287"
+>Twenty Questions</text>
+
+<text 
+x="512" 
+y="188" 
+class="s2_287"
+>, then it turns out you are familiar with</text>
+
+<text 
+x="55" 
+y="215" 
+class="s2_287"
+>decision trees. For example:</text>
+
+<path d="M61.6,243.2l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="253" 
+class="s2_287"
+>“I am thinking of an animal.”</text>
+
+<path d="M61.6,290.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="300" 
+class="s2_287"
+>“Does it have more than five legs?”</text>
+
+<path d="M61.6,337.8l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="347" 
+class="s2_287"
+>“No.”</text>
+
+<path d="M61.6,385.1l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="394" 
+class="s2_287"
+>“Is it delicious?”</text>
+
+<path d="M61.6,432.4l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="442" 
+class="s2_287"
+>“No.”</text>
+
+<path d="M61.6,479.7l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="489" 
+class="s2_287"
+>“Does it appear on the back of the Australian five-cent coin?”</text>
+
+<path d="M61.6,527l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="536" 
+dx="0,0,-2.2,0,0,0" 
+class="s2_287"
+>“Yes.”</text>
+
+<path d="M61.6,574.3l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="584" 
+class="s2_287"
+>“Is it an echidna?”</text>
+
+<path d="M61.6,621.6l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_287" />
+<text 
+x="82" 
+y="631" 
+dx="0,0,-2.2,0,0,0,0,0,0,0,0,0,0" 
+class="s2_287"
+>“Yes, it is!”</text>
+
+<text 
+x="55" 
+y="679" 
+class="s2_287"
+>This corresponds to the path:</text>
+
+<text 
+x="55" 
+y="718" 
+class="s2_287"
+>“Not more than 5 legs” → “Not delicious” → “On the 5-cent coin” → “Echidna!”</text>
+
+<text 
+x="55" 
+y="756" 
+class="s2_287"
+>in an idiosyncratic (and not very comprehensive) “guess the animal” decision tree</text>
+
+<text 
+x="55" 
+y="784" 
+class="s2_287"
+>(</text>
+
+<text 
+x="62" 
+y="784" 
+class="s4_287"
+>Figure 17-1</text>
+
+<text 
+x="165" 
+y="784" 
+class="s2_287"
+>).</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

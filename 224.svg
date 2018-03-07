@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 224 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_224{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_224{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_224{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_224{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s5_224{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s6_224{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s7_224{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s8_224{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_224{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_224{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s11_224{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="140" 
+y="65" 
+class="s1_224"
+>if</text>
+
+<text 
+x="163" 
+y="65" 
+class="s2_224"
+>predicted_language</text>
+
+<text 
+x="314" 
+y="65" 
+class="s3_224"
+>==</text>
+
+<text 
+x="337" 
+y="65" 
+class="s2_224"
+>actual_language</text>
+
+<text 
+x="456" 
+y="65" 
+class="s3_224"
+>:</text>
+
+<text 
+x="171" 
+y="81" 
+class="s2_224"
+>num_correct</text>
+
+<text 
+x="266" 
+y="81" 
+class="s3_224"
+>+=</text>
+
+<text 
+x="290" 
+y="81" 
+class="s4_224"
+>1</text>
+
+<text 
+x="108" 
+y="112" 
+class="s1_224"
+>print</text>
+
+<text 
+x="156" 
+y="112" 
+class="s2_224"
+>k</text>
+
+<text 
+x="163" 
+y="112" 
+class="s3_224"
+>,</text>
+
+<text 
+x="179" 
+y="112" 
+class="s5_224"
+>"neighbor[s]:"</text>
+
+<text 
+x="290" 
+y="112" 
+class="s3_224"
+>,</text>
+
+<text 
+x="306" 
+y="112" 
+class="s2_224"
+>num_correct</text>
+
+<text 
+x="393" 
+y="112" 
+class="s3_224"
+>,</text>
+
+<text 
+x="408" 
+y="112" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0" 
+class="s5_224"
+>"correct out of"</text>
+
+<text 
+x="535" 
+y="112" 
+class="s3_224"
+>,</text>
+
+<text 
+x="551" 
+y="112" 
+class="s6_224"
+>len</text>
+
+<text 
+x="574" 
+y="112" 
+class="s3_224"
+>(</text>
+
+<text 
+x="582" 
+y="112" 
+class="s2_224"
+>cities</text>
+
+<text 
+x="630" 
+y="112" 
+class="s3_224"
+>)</text>
+
+<text 
+x="55" 
+y="163" 
+class="s7_224"
+>It looks like 3-nearest neighbors performs the best, giving the correct result about 59% of</text>
+
+<text 
+x="55" 
+y="191" 
+class="s7_224"
+>the time:</text>
+
+<text 
+x="76" 
+y="236" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s3_224"
+>1 neighbor[s]: 40 correct out of 75</text>
+
+<text 
+x="76" 
+y="251" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s3_224"
+>3 neighbor[s]: 44 correct out of 75</text>
+
+<text 
+x="76" 
+y="267" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s3_224"
+>5 neighbor[s]: 41 correct out of 75</text>
+
+<text 
+x="76" 
+y="282" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s3_224"
+>7 neighbor[s]: 35 correct out of 75</text>
+
+<text 
+x="55" 
+y="335" 
+class="s7_224"
+>Now we can look at what regions would get classified to which languages under each</text>
+
+<text 
+x="55" 
+y="363" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_224"
+>nearest neighbors scheme. We can do that by classifying an entire grid worth of points,</text>
+
+<text 
+x="55" 
+y="390" 
+class="s7_224"
+>and then plotting them as we did the cities:</text>
+
+<text 
+x="76" 
+y="435" 
+class="s2_224"
+>plots</text>
+
+<text 
+x="124" 
+y="435" 
+dx="0,0,4.6" 
+class="s3_224"
+>= {</text>
+
+<text 
+x="156" 
+y="435" 
+class="s5_224"
+>"Java"</text>
+
+<text 
+x="211" 
+y="435" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0" 
+class="s3_224"
+>: ([], []),</text>
+
+<text 
+x="306" 
+y="435" 
+class="s5_224"
+>"Python"</text>
+
+<text 
+x="377" 
+y="435" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0" 
+class="s3_224"
+>: ([], []),</text>
+
+<text 
+x="472" 
+y="435" 
+class="s5_224"
+>"R"</text>
+
+<text 
+x="503" 
+y="435" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6" 
+class="s3_224"
+>: ([], []) }</text>
+
+<text 
+x="76" 
+y="466" 
+class="s2_224"
+>k</text>
+
+<text 
+x="92" 
+y="466" 
+class="s3_224"
+>=</text>
+
+<text 
+x="108" 
+y="466" 
+class="s4_224"
+>1</text>
+
+<text 
+x="124" 
+y="466" 
+dx="0,0,4.6,0,0,4.6,0,0,4.6,0,0,4.6,0,0,4.6,0,0" 
+class="s8_224"
+># or 3, or 5, or…</text>
+
+<text 
+x="76" 
+y="497" 
+class="s1_224"
+>for</text>
+
+<text 
+x="108" 
+y="497" 
+class="s2_224"
+>longitude</text>
+
+<text 
+x="187" 
+y="497" 
+class="s9_224"
+>in</text>
+
+<text 
+x="211" 
+y="497" 
+class="s6_224"
+>range</text>
+
+<text 
+x="250" 
+y="497" 
+class="s3_224"
+>(-</text>
+
+<text 
+x="266" 
+y="497" 
+class="s4_224"
+>130</text>
+
+<text 
+x="290" 
+y="497" 
+dx="0,0,4.6" 
+class="s3_224"
+>, -</text>
+
+<text 
+x="314" 
+y="497" 
+class="s4_224"
+>60</text>
+
+<text 
+x="329" 
+y="497" 
+class="s3_224"
+>):</text>
+
+<text 
+x="108" 
+y="512" 
+class="s1_224"
+>for</text>
+
+<text 
+x="140" 
+y="512" 
+class="s2_224"
+>latitude</text>
+
+<text 
+x="211" 
+y="512" 
+class="s9_224"
+>in</text>
+
+<text 
+x="235" 
+y="512" 
+class="s6_224"
+>range</text>
+
+<text 
+x="274" 
+y="512" 
+class="s3_224"
+>(</text>
+
+<text 
+x="282" 
+y="512" 
+class="s4_224"
+>20</text>
+
+<text 
+x="298" 
+y="512" 
+class="s3_224"
+>,</text>
+
+<text 
+x="314" 
+y="512" 
+class="s4_224"
+>55</text>
+
+<text 
+x="329" 
+y="512" 
+class="s3_224"
+>):</text>
+
+<text 
+x="140" 
+y="528" 
+class="s2_224"
+>predicted_language</text>
+
+<text 
+x="290" 
+y="528" 
+class="s3_224"
+>=</text>
+
+<text 
+x="306" 
+y="528" 
+class="s2_224"
+>knn_classify</text>
+
+<text 
+x="401" 
+y="528" 
+class="s3_224"
+>(</text>
+
+<text 
+x="408" 
+y="528" 
+class="s2_224"
+>k</text>
+
+<text 
+x="416" 
+y="528" 
+class="s3_224"
+>,</text>
+
+<text 
+x="432" 
+y="528" 
+class="s2_224"
+>cities</text>
+
+<text 
+x="480" 
+y="528" 
+dx="0,0,4.6" 
+class="s3_224"
+>, [</text>
+
+<text 
+x="503" 
+y="528" 
+class="s2_224"
+>longitude</text>
+
+<text 
+x="574" 
+y="528" 
+class="s3_224"
+>,</text>
+
+<text 
+x="590" 
+y="528" 
+class="s2_224"
+>latitude</text>
+
+<text 
+x="653" 
+y="528" 
+class="s3_224"
+>])</text>
+
+<text 
+x="140" 
+y="543" 
+class="s2_224"
+>plots</text>
+
+<text 
+x="179" 
+y="543" 
+class="s3_224"
+>[</text>
+
+<text 
+x="187" 
+y="543" 
+class="s2_224"
+>predicted_language</text>
+
+<text 
+x="329" 
+y="543" 
+class="s3_224"
+>][</text>
+
+<text 
+x="345" 
+y="543" 
+class="s4_224"
+>0</text>
+
+<text 
+x="353" 
+y="543" 
+class="s3_224"
+>].</text>
+
+<text 
+x="369" 
+y="543" 
+class="s2_224"
+>append</text>
+
+<text 
+x="416" 
+y="543" 
+class="s3_224"
+>(</text>
+
+<text 
+x="424" 
+y="543" 
+class="s2_224"
+>longitude</text>
+
+<text 
+x="495" 
+y="543" 
+class="s3_224"
+>)</text>
+
+<text 
+x="140" 
+y="558" 
+class="s2_224"
+>plots</text>
+
+<text 
+x="179" 
+y="558" 
+class="s3_224"
+>[</text>
+
+<text 
+x="187" 
+y="558" 
+class="s2_224"
+>predicted_language</text>
+
+<text 
+x="329" 
+y="558" 
+class="s3_224"
+>][</text>
+
+<text 
+x="345" 
+y="558" 
+class="s4_224"
+>1</text>
+
+<text 
+x="353" 
+y="558" 
+class="s3_224"
+>].</text>
+
+<text 
+x="369" 
+y="558" 
+class="s2_224"
+>append</text>
+
+<text 
+x="416" 
+y="558" 
+class="s3_224"
+>(</text>
+
+<text 
+x="424" 
+y="558" 
+class="s2_224"
+>latitude</text>
+
+<text 
+x="487" 
+y="558" 
+class="s3_224"
+>)</text>
+
+<text 
+x="55" 
+y="611" 
+class="s7_224"
+>For instance,</text>
+
+<text 
+x="174" 
+y="611" 
+class="s10_224"
+>Figure 12-2</text>
+
+<text 
+x="282" 
+y="611" 
+class="s7_224"
+>shows what happens when we look at just the nearest neighbor</text>
+
+<text 
+x="55" 
+y="639" 
+class="s7_224"
+>(</text>
+
+<text 
+x="62" 
+y="639" 
+class="s11_224"
+>k</text>
+
+<text 
+x="77" 
+y="639" 
+class="s7_224"
+>= 1).</text>
+
+<text 
+x="55" 
+y="677" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_224"
+>We see lots of abrupt changes from one language to another with sharp boundaries. As we</text>
+
+<text 
+x="55" 
+y="705" 
+class="s7_224"
+>increase the number of neighbors to three, we see smoother regions for each language</text>
+
+<text 
+x="55" 
+y="732" 
+class="s7_224"
+>(</text>
+
+<text 
+x="62" 
+y="732" 
+class="s10_224"
+>Figure 12-3</text>
+
+<text 
+x="165" 
+y="732" 
+class="s7_224"
+>).</text>
+
+<text 
+x="55" 
+y="771" 
+class="s7_224"
+>And as we increase the neighbors to five, the boundaries get smoother still (</text>
+
+<text 
+x="722" 
+y="771" 
+class="s10_224"
+>Figure 12-4</text>
+
+<text 
+x="826" 
+y="771" 
+class="s7_224"
+>).</text>
+
+<text 
+x="55" 
+y="809" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_224"
+>Here our dimensions are roughly comparable, but if they weren’t you might want to</text>
+
+<text 
+x="55" 
+y="837" 
+class="s7_224"
+>rescale the data as we did in</text>
+
+<text 
+x="307" 
+y="837" 
+class="s10_224"
+>“Rescaling”</text>
+
+<text 
+x="413" 
+y="837" 
+class="s7_224"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

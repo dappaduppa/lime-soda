@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 280 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_280{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_280{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_280{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_280{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s5_280{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s6_280{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,-2.8,0,0,0,0,0,-0.6,0,0,0,0,0,0,0" 
+class="s1_280"
+>Support Vector Machines</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_280"
+>The set of points where</text>
+
+<text 
+x="266" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.1,0,0,0" 
+class="s3_280"
+>dot(beta_hat, x_i)</text>
+
+<text 
+x="462" 
+y="122" 
+class="s2_280"
+>equals 0 is the boundary between our</text>
+
+<text 
+x="55" 
+y="151" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_280"
+>classes. We can plot this to see exactly what our model is doing (</text>
+
+<text 
+x="625" 
+y="151" 
+class="s4_280"
+>Figure 16-5</text>
+
+<text 
+x="729" 
+y="151" 
+class="s2_280"
+>).</text>
+
+<text 
+x="55" 
+y="190" 
+class="s2_280"
+>This boundary is a</text>
+
+<text 
+x="223" 
+y="190" 
+class="s5_280"
+>hyperplane</text>
+
+<text 
+x="327" 
+y="190" 
+class="s2_280"
+>that splits the parameter space into two half-spaces</text>
+
+<text 
+x="55" 
+y="217" 
+class="s2_280"
+>corresponding to</text>
+
+<text 
+x="208" 
+y="217" 
+dx="0,0,-0.8,0,0,0,0,0,0,0,0,0" 
+class="s5_280"
+>predict paid</text>
+
+<text 
+x="320" 
+y="217" 
+class="s2_280"
+>and</text>
+
+<text 
+x="357" 
+y="217" 
+dx="0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_280"
+>predict unpaid</text>
+
+<text 
+x="485" 
+y="217" 
+dx="0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_280"
+>. We found it as a side-effect of finding</text>
+
+<text 
+x="55" 
+y="245" 
+class="s2_280"
+>the most likely logistic model.</text>
+
+<text 
+x="55" 
+y="283" 
+class="s2_280"
+>An alternative approach to classification is to just look for the hyperplane that “best”</text>
+
+<text 
+x="55" 
+y="311" 
+class="s2_280"
+>separates the classes in the training data. This is the idea behind the</text>
+
+<text 
+x="653" 
+y="311" 
+class="s5_280"
+>support vector</text>
+
+<text 
+x="55" 
+y="338" 
+class="s5_280"
+>machine</text>
+
+<text 
+x="129" 
+y="338" 
+class="s2_280"
+>, which finds the hyperplane that maximizes the distance to the nearest point in</text>
+
+<text 
+x="55" 
+y="366" 
+class="s2_280"
+>each class (</text>
+
+<text 
+x="156" 
+y="366" 
+class="s4_280"
+>Figure 16-6</text>
+
+<text 
+x="259" 
+y="366" 
+class="s2_280"
+>).</text>
+
+<image preserveAspectRatio="none" x="56" y="389" width="798" height="619" xlink:href="280/img/1.png" />
+<text 
+x="257" 
+y="1034" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s6_280"
+>Figure 16-5. Paid and unpaid users with decision boundary</text>
+
+<text 
+x="55" 
+y="1076" 
+class="s2_280"
+>Finding such a hyperplane is an optimization problem that involves techniques that are too</text>
+
+<text 
+x="55" 
+y="1103" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_280"
+>advanced for us. A different problem is that a separating hyperplane might not exist at all.</text>
+
+<text 
+x="55" 
+y="1131" 
+class="s2_280"
+>In our “who pays?” data set there simply is no line that perfectly separates the paid users</text>
+
+<text 
+x="55" 
+y="1158" 
+class="s2_280"
+>from the unpaid users.</text>
+
+<text 
+x="55" 
+y="1197" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_280"
+>We can (sometimes) get around this by transforming the data into a higher-dimensional</text>
+
+<text 
+x="55" 
+y="1224" 
+class="s2_280"
+>space. For example, consider the simple one-dimensional data set shown in</text>
+
+<text 
+x="722" 
+y="1224" 
+class="s4_280"
+>Figure 16-7</text>
+
+<text 
+x="825" 
+y="1224" 
+class="s2_280"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

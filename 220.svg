@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 220 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_220{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_220{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_220{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_220{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_220{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s5_220{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s6_220{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_220{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s8_220{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s9_220{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s10_220{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_220"
+>The Model</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_220"
+>Nearest neighbors is one of the simplest predictive models there is. It makes no</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>mathematical assumptions, and it doesn’t require any sort of heavy machinery. The only</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_220"
+>things it requires are:</text>
+
+<path d="M61.6,204.6l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_220" />
+<text 
+x="82" 
+y="214" 
+class="s2_220"
+>Some notion of distance</text>
+
+<path d="M61.6,252l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_220" />
+<text 
+x="82" 
+y="261" 
+class="s2_220"
+>An assumption that points that are close to one another are similar</text>
+
+<text 
+x="55" 
+y="310" 
+class="s2_220"
+>Most of the techniques we’ll look at in this book look at the data set as a whole in order to</text>
+
+<text 
+x="55" 
+y="337" 
+class="s2_220"
+>learn patterns in the data. Nearest neighbors, on the other hand, quite consciously neglects</text>
+
+<text 
+x="55" 
+y="365" 
+class="s2_220"
+>a lot of information, since the prediction for each new point depends only on the handful</text>
+
+<text 
+x="55" 
+y="392" 
+class="s2_220"
+>of points closest to it.</text>
+
+<text 
+x="55" 
+y="431" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>What’s more, nearest neighbors is probably not going to help you understand the drivers</text>
+
+<text 
+x="55" 
+y="458" 
+class="s2_220"
+>of whatever phenomenon you’re looking at. Predicting my votes based on my neighbors’</text>
+
+<text 
+x="55" 
+y="486" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>votes doesn’t tell you much about what causes me to vote the way I do, whereas some</text>
+
+<text 
+x="55" 
+y="513" 
+class="s2_220"
+>alternative model that predicted my vote based on (say) my income and marital status very</text>
+
+<text 
+x="55" 
+y="541" 
+class="s2_220"
+>well might.</text>
+
+<text 
+x="55" 
+y="579" 
+class="s2_220"
+>In the general situation, we have some data points and we have a corresponding set of</text>
+
+<text 
+x="55" 
+y="607" 
+class="s2_220"
+>labels. The labels could be</text>
+
+<text 
+x="294" 
+y="607" 
+class="s3_220"
+>True</text>
+
+<text 
+x="342" 
+y="607" 
+class="s2_220"
+>and</text>
+
+<text 
+x="379" 
+y="607" 
+class="s3_220"
+>False</text>
+
+<text 
+x="432" 
+y="607" 
+class="s2_220"
+>, indicating whether each input satisfies some</text>
+
+<text 
+x="55" 
+y="637" 
+class="s2_220"
+>condition like “is spam?” or “is poisonous?” or “would be enjoyable to watch?” Or they</text>
+
+<text 
+x="55" 
+y="664" 
+class="s2_220"
+>could be categories, like movie ratings (G, PG, PG-13, R, NC-17). Or they could be the</text>
+
+<text 
+x="55" 
+y="692" 
+class="s2_220"
+>names of presidential candidates. Or they could be favorite programming languages.</text>
+
+<text 
+x="55" 
+y="730" 
+class="s2_220"
+>In our case, the data points will be vectors, which means that we can use the</text>
+
+<text 
+x="730" 
+y="730" 
+class="s3_220"
+>distance</text>
+
+<text 
+x="55" 
+y="760" 
+class="s2_220"
+>function from</text>
+
+<text 
+x="181" 
+y="760" 
+class="s4_220"
+>Chapter 4</text>
+
+<text 
+x="268" 
+y="760" 
+class="s2_220"
+>.</text>
+
+<text 
+x="55" 
+y="798" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>Let’s say we’ve picked a number</text>
+
+<text 
+x="350" 
+y="798" 
+class="s5_220"
+>k</text>
+
+<text 
+x="365" 
+y="798" 
+class="s2_220"
+>like 3 or 5. Then when we want to classify some new</text>
+
+<text 
+x="55" 
+y="826" 
+class="s2_220"
+>data point, we find the</text>
+
+<text 
+x="257" 
+y="826" 
+class="s3_220"
+>k</text>
+
+<text 
+x="273" 
+y="826" 
+class="s2_220"
+>nearest labeled points and let them vote on the new output.</text>
+
+<text 
+x="55" 
+y="867" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>To do this, we’ll need a function that counts votes. One possibility is:</text>
+
+<text 
+x="76" 
+y="912" 
+class="s6_220"
+>def</text>
+
+<text 
+x="108" 
+y="912" 
+class="s7_220"
+>raw_majority_vote</text>
+
+<text 
+x="242" 
+y="912" 
+class="s8_220"
+>(</text>
+
+<text 
+x="250" 
+y="912" 
+class="s9_220"
+>labels</text>
+
+<text 
+x="298" 
+y="912" 
+class="s8_220"
+>):</text>
+
+<text 
+x="108" 
+y="927" 
+class="s9_220"
+>votes</text>
+
+<text 
+x="156" 
+y="927" 
+class="s8_220"
+>=</text>
+
+<text 
+x="171" 
+y="927" 
+class="s9_220"
+>Counter</text>
+
+<text 
+x="227" 
+y="927" 
+class="s8_220"
+>(</text>
+
+<text 
+x="235" 
+y="927" 
+class="s9_220"
+>labels</text>
+
+<text 
+x="282" 
+y="927" 
+class="s8_220"
+>)</text>
+
+<text 
+x="108" 
+y="942" 
+class="s9_220"
+>winner</text>
+
+<text 
+x="156" 
+y="942" 
+class="s8_220"
+>,</text>
+
+<text 
+x="171" 
+y="942" 
+class="s9_220"
+>_</text>
+
+<text 
+x="187" 
+y="942" 
+class="s8_220"
+>=</text>
+
+<text 
+x="203" 
+y="942" 
+class="s9_220"
+>votes</text>
+
+<text 
+x="242" 
+y="942" 
+class="s8_220"
+>.</text>
+
+<text 
+x="250" 
+y="942" 
+class="s9_220"
+>most_common</text>
+
+<text 
+x="337" 
+y="942" 
+class="s8_220"
+>(</text>
+
+<text 
+x="345" 
+y="942" 
+class="s10_220"
+>1</text>
+
+<text 
+x="353" 
+y="942" 
+class="s8_220"
+>)[</text>
+
+<text 
+x="369" 
+y="942" 
+class="s10_220"
+>0</text>
+
+<text 
+x="377" 
+y="942" 
+class="s8_220"
+>]</text>
+
+<text 
+x="108" 
+y="958" 
+class="s6_220"
+>return</text>
+
+<text 
+x="163" 
+y="958" 
+class="s9_220"
+>winner</text>
+
+<text 
+x="55" 
+y="1011" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_220"
+>But this doesn’t do anything intelligent with ties. For example, imagine we’re rating</text>
+
+<text 
+x="55" 
+y="1038" 
+class="s2_220"
+>movies and the five nearest movies are rated G, G, PG, PG, and R. Then G has two votes</text>
+
+<text 
+x="55" 
+y="1066" 
+class="s2_220"
+>and PG also has two votes. In that case, we have several options:</text>
+
+<path d="M61.6,1093.7l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_220" />
+<text 
+x="82" 
+y="1103" 
+class="s2_220"
+>Pick one of the winners at random.</text>
+
+<path d="M61.6,1141l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_220" />
+<text 
+x="82" 
+y="1150" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_220"
+>Weight the votes by distance and pick the weighted winner.</text>
+
+<path d="M61.6,1188.3l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_220" />
+<text 
+x="82" 
+y="1198" 
+class="s2_220"
+>Reduce</text>
+
+<text 
+x="153" 
+y="1198" 
+class="s5_220"
+>k</text>
+
+<text 
+x="169" 
+y="1198" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_220"
+>until we find a unique winner.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

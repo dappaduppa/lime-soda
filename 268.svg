@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 268 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_268{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_268{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_268{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_268{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_268{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,-0.6,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0" 
+class="s1_268"
+>For Further Exploration</text>
+
+<path d="M61.6,108.9l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_268" />
+<text 
+x="82" 
+y="118" 
+class="s2_268"
+>Regression has a rich and expansive theory behind it. This is another place where you</text>
+
+<text 
+x="82" 
+y="144" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_268"
+>should consider reading a textbook or at least a lot of Wikipedia articles.</text>
+
+<path d="M61.6,181.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_268" />
+<text 
+x="82" 
+y="191" 
+class="s2_268"
+>scikit-learn has a</text>
+
+<text 
+x="236" 
+y="191" 
+class="s3_268"
+>linear_model module</text>
+
+<text 
+x="429" 
+y="191" 
+class="s2_268"
+>that provides a</text>
+
+<text 
+x="564" 
+y="191" 
+class="s4_268"
+>LinearRegression</text>
+
+<text 
+x="739" 
+y="191" 
+class="s2_268"
+>model</text>
+
+<text 
+x="82" 
+y="216" 
+class="s2_268"
+>similar to ours, as well as</text>
+
+<text 
+x="311" 
+y="216" 
+class="s4_268"
+>Ridge</text>
+
+<text 
+x="369" 
+y="216" 
+class="s2_268"
+>regression,</text>
+
+<text 
+x="471" 
+y="216" 
+class="s4_268"
+>Lasso</text>
+
+<text 
+x="529" 
+y="216" 
+class="s2_268"
+>regression, and other types of</text>
+
+<text 
+x="82" 
+y="242" 
+class="s2_268"
+>regularization too.</text>
+
+<path d="M61.6,279.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_268" />
+<text 
+x="82" 
+y="289" 
+class="s3_268"
+>Statsmodels</text>
+
+<text 
+x="194" 
+y="289" 
+class="s2_268"
+>is another Python module that contains (among other things) linear</text>
+
+<text 
+x="82" 
+y="314" 
+class="s2_268"
+>regression models.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

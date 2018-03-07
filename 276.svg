@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 276 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_276{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_276{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s3_276{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_276{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_276{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s6_276{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s7_276{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s8_276{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_276"
+>def</text>
+
+<text 
+x="108" 
+y="64" 
+class="s2_276"
+>logistic_log_gradient_i</text>
+
+<text 
+x="290" 
+y="64" 
+class="s3_276"
+>(</text>
+
+<text 
+x="298" 
+y="64" 
+class="s4_276"
+>x_i</text>
+
+<text 
+x="322" 
+y="64" 
+class="s3_276"
+>,</text>
+
+<text 
+x="337" 
+y="64" 
+class="s4_276"
+>y_i</text>
+
+<text 
+x="361" 
+y="64" 
+class="s3_276"
+>,</text>
+
+<text 
+x="377" 
+y="64" 
+class="s4_276"
+>beta</text>
+
+<text 
+x="408" 
+y="64" 
+class="s3_276"
+>):</text>
+
+<text 
+x="108" 
+y="80" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s5_276"
+>"""the gradient of the log likelihood</text>
+
+<text 
+x="108" 
+y="95" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s5_276"
+>corresponding to the ith data point"""</text>
+
+<text 
+x="108" 
+y="126" 
+class="s1_276"
+>return</text>
+
+<text 
+x="163" 
+y="126" 
+class="s3_276"
+>[</text>
+
+<text 
+x="171" 
+y="126" 
+class="s4_276"
+>logistic_log_partial_ij</text>
+
+<text 
+x="353" 
+y="126" 
+class="s3_276"
+>(</text>
+
+<text 
+x="361" 
+y="126" 
+class="s4_276"
+>x_i</text>
+
+<text 
+x="385" 
+y="126" 
+class="s3_276"
+>,</text>
+
+<text 
+x="401" 
+y="126" 
+class="s4_276"
+>y_i</text>
+
+<text 
+x="424" 
+y="126" 
+class="s3_276"
+>,</text>
+
+<text 
+x="440" 
+y="126" 
+class="s4_276"
+>beta</text>
+
+<text 
+x="472" 
+y="126" 
+class="s3_276"
+>,</text>
+
+<text 
+x="487" 
+y="126" 
+class="s4_276"
+>j</text>
+
+<text 
+x="495" 
+y="126" 
+class="s3_276"
+>)</text>
+
+<text 
+x="171" 
+y="141" 
+class="s1_276"
+>for</text>
+
+<text 
+x="203" 
+y="141" 
+class="s4_276"
+>j</text>
+
+<text 
+x="211" 
+y="141" 
+class="s3_276"
+>,</text>
+
+<text 
+x="227" 
+y="141" 
+class="s4_276"
+>_</text>
+
+<text 
+x="242" 
+y="141" 
+class="s6_276"
+>in</text>
+
+<text 
+x="266" 
+y="141" 
+class="s7_276"
+>enumerate</text>
+
+<text 
+x="337" 
+y="141" 
+class="s3_276"
+>(</text>
+
+<text 
+x="345" 
+y="141" 
+class="s4_276"
+>beta</text>
+
+<text 
+x="377" 
+y="141" 
+class="s3_276"
+>)]</text>
+
+<text 
+x="76" 
+y="172" 
+class="s1_276"
+>def</text>
+
+<text 
+x="108" 
+y="172" 
+class="s2_276"
+>logistic_log_gradient</text>
+
+<text 
+x="274" 
+y="172" 
+class="s3_276"
+>(</text>
+
+<text 
+x="282" 
+y="172" 
+class="s4_276"
+>x</text>
+
+<text 
+x="290" 
+y="172" 
+class="s3_276"
+>,</text>
+
+<text 
+x="306" 
+y="172" 
+class="s4_276"
+>y</text>
+
+<text 
+x="314" 
+y="172" 
+class="s3_276"
+>,</text>
+
+<text 
+x="329" 
+y="172" 
+class="s4_276"
+>beta</text>
+
+<text 
+x="361" 
+y="172" 
+class="s3_276"
+>):</text>
+
+<text 
+x="108" 
+y="188" 
+class="s1_276"
+>return</text>
+
+<text 
+x="163" 
+y="188" 
+class="s7_276"
+>reduce</text>
+
+<text 
+x="211" 
+y="188" 
+class="s3_276"
+>(</text>
+
+<text 
+x="219" 
+y="188" 
+class="s4_276"
+>vector_add</text>
+
+<text 
+x="298" 
+y="188" 
+class="s3_276"
+>,</text>
+
+<text 
+x="219" 
+y="203" 
+class="s3_276"
+>[</text>
+
+<text 
+x="227" 
+y="203" 
+class="s4_276"
+>logistic_log_gradient_i</text>
+
+<text 
+x="408" 
+y="203" 
+class="s3_276"
+>(</text>
+
+<text 
+x="416" 
+y="203" 
+class="s4_276"
+>x_i</text>
+
+<text 
+x="440" 
+y="203" 
+class="s3_276"
+>,</text>
+
+<text 
+x="456" 
+y="203" 
+class="s4_276"
+>y_i</text>
+
+<text 
+x="480" 
+y="203" 
+class="s3_276"
+>,</text>
+
+<text 
+x="495" 
+y="203" 
+class="s4_276"
+>beta</text>
+
+<text 
+x="527" 
+y="203" 
+class="s3_276"
+>)</text>
+
+<text 
+x="227" 
+y="218" 
+class="s1_276"
+>for</text>
+
+<text 
+x="258" 
+y="218" 
+class="s4_276"
+>x_i</text>
+
+<text 
+x="282" 
+y="218" 
+class="s3_276"
+>,</text>
+
+<text 
+x="298" 
+y="218" 
+class="s4_276"
+>y_i</text>
+
+<text 
+x="329" 
+y="218" 
+class="s6_276"
+>in</text>
+
+<text 
+x="353" 
+y="218" 
+class="s7_276"
+>zip</text>
+
+<text 
+x="377" 
+y="218" 
+class="s3_276"
+>(</text>
+
+<text 
+x="385" 
+y="218" 
+class="s4_276"
+>x</text>
+
+<text 
+x="393" 
+y="218" 
+class="s3_276"
+>,</text>
+
+<text 
+x="401" 
+y="218" 
+class="s4_276"
+>y</text>
+
+<text 
+x="408" 
+y="218" 
+class="s3_276"
+>)])</text>
+
+<text 
+x="55" 
+y="271" 
+class="s8_276"
+>at which point we have all the pieces we need.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

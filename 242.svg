@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 242 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_242{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_242{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s2_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_242{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s7_242{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s8_242{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s9_242{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s10_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s11_242{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s12_242{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s13_242{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0" 
+class="s1_242"
+># sort by spam_probability from smallest to largest</text>
+
+<text 
+x="76" 
+y="80" 
+class="s2_242"
+>classified</text>
+
+<text 
+x="156" 
+y="80" 
+class="s3_242"
+>.</text>
+
+<text 
+x="163" 
+y="80" 
+class="s2_242"
+>sort</text>
+
+<text 
+x="195" 
+y="80" 
+class="s3_242"
+>(</text>
+
+<text 
+x="203" 
+y="80" 
+class="s2_242"
+>key</text>
+
+<text 
+x="227" 
+y="80" 
+class="s3_242"
+>=</text>
+
+<text 
+x="235" 
+y="80" 
+class="s4_242"
+>lambda</text>
+
+<text 
+x="290" 
+y="80" 
+class="s2_242"
+>row</text>
+
+<text 
+x="314" 
+y="80" 
+class="s3_242"
+>:</text>
+
+<text 
+x="329" 
+y="80" 
+class="s2_242"
+>row</text>
+
+<text 
+x="353" 
+y="80" 
+class="s3_242"
+>[</text>
+
+<text 
+x="361" 
+y="80" 
+class="s5_242"
+>2</text>
+
+<text 
+x="369" 
+y="80" 
+class="s3_242"
+>])</text>
+
+<text 
+x="76" 
+y="111" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s1_242"
+># the highest predicted spam probabilities among the non-spams</text>
+
+<text 
+x="76" 
+y="126" 
+class="s2_242"
+>spammiest_hams</text>
+
+<text 
+x="195" 
+y="126" 
+class="s3_242"
+>=</text>
+
+<text 
+x="211" 
+y="126" 
+class="s6_242"
+>filter</text>
+
+<text 
+x="258" 
+y="126" 
+class="s3_242"
+>(</text>
+
+<text 
+x="266" 
+y="126" 
+class="s4_242"
+>lambda</text>
+
+<text 
+x="322" 
+y="126" 
+class="s2_242"
+>row</text>
+
+<text 
+x="345" 
+y="126" 
+class="s3_242"
+>:</text>
+
+<text 
+x="361" 
+y="126" 
+class="s7_242"
+>not</text>
+
+<text 
+x="393" 
+y="126" 
+class="s2_242"
+>row</text>
+
+<text 
+x="416" 
+y="126" 
+class="s3_242"
+>[</text>
+
+<text 
+x="424" 
+y="126" 
+class="s5_242"
+>1</text>
+
+<text 
+x="432" 
+y="126" 
+class="s3_242"
+>],</text>
+
+<text 
+x="456" 
+y="126" 
+class="s2_242"
+>classified</text>
+
+<text 
+x="535" 
+y="126" 
+class="s3_242"
+>)[-</text>
+
+<text 
+x="559" 
+y="126" 
+class="s5_242"
+>5</text>
+
+<text 
+x="567" 
+y="126" 
+class="s3_242"
+>:]</text>
+
+<text 
+x="76" 
+y="157" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s1_242"
+># the lowest predicted spam probabilities among the actual spams</text>
+
+<text 
+x="76" 
+y="172" 
+class="s2_242"
+>hammiest_spams</text>
+
+<text 
+x="195" 
+y="172" 
+class="s3_242"
+>=</text>
+
+<text 
+x="211" 
+y="172" 
+class="s6_242"
+>filter</text>
+
+<text 
+x="258" 
+y="172" 
+class="s3_242"
+>(</text>
+
+<text 
+x="266" 
+y="172" 
+class="s4_242"
+>lambda</text>
+
+<text 
+x="322" 
+y="172" 
+class="s2_242"
+>row</text>
+
+<text 
+x="345" 
+y="172" 
+class="s3_242"
+>:</text>
+
+<text 
+x="361" 
+y="172" 
+class="s2_242"
+>row</text>
+
+<text 
+x="385" 
+y="172" 
+class="s3_242"
+>[</text>
+
+<text 
+x="393" 
+y="172" 
+class="s5_242"
+>1</text>
+
+<text 
+x="401" 
+y="172" 
+class="s3_242"
+>],</text>
+
+<text 
+x="424" 
+y="172" 
+class="s2_242"
+>classified</text>
+
+<text 
+x="503" 
+y="172" 
+class="s3_242"
+>)[:</text>
+
+<text 
+x="527" 
+y="172" 
+class="s5_242"
+>5</text>
+
+<text 
+x="535" 
+y="172" 
+class="s3_242"
+>]</text>
+
+<text 
+x="55" 
+y="225" 
+class="s8_242"
+>The two spammiest hams both have the words “needed” (77 times more likely to appear in</text>
+
+<text 
+x="55" 
+y="253" 
+class="s8_242"
+>spam), “insurance” (30 times more likely to appear in spam), and “important” (10 times</text>
+
+<text 
+x="55" 
+y="280" 
+class="s8_242"
+>more likely to appear in spam).</text>
+
+<text 
+x="55" 
+y="319" 
+class="s8_242"
+>The hammiest spam is too short (“Re: girls”) to make much of a judgment, and the</text>
+
+<text 
+x="55" 
+y="346" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>second-hammiest is a credit card solicitation most of whose words weren’t in the training</text>
+
+<text 
+x="55" 
+y="374" 
+class="s8_242"
+>set.</text>
+
+<text 
+x="55" 
+y="412" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>We can similarly look at the spammiest</text>
+
+<text 
+x="406" 
+y="412" 
+dx="0,0,0,-0.8,0" 
+class="s9_242"
+>words</text>
+
+<text 
+x="459" 
+y="412" 
+class="s8_242"
+>:</text>
+
+<text 
+x="76" 
+y="457" 
+class="s4_242"
+>def</text>
+
+<text 
+x="108" 
+y="457" 
+class="s10_242"
+>p_spam_given_word</text>
+
+<text 
+x="242" 
+y="457" 
+class="s3_242"
+>(</text>
+
+<text 
+x="250" 
+y="457" 
+class="s2_242"
+>word_prob</text>
+
+<text 
+x="322" 
+y="457" 
+class="s3_242"
+>):</text>
+
+<text 
+x="108" 
+y="473" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s11_242"
+>"""uses bayes's theorem to compute p(spam | message contains word)"""</text>
+
+<text 
+x="108" 
+y="503" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_242"
+># word_prob is one of the triplets produced by word_probabilities</text>
+
+<text 
+x="108" 
+y="519" 
+class="s2_242"
+>word</text>
+
+<text 
+x="140" 
+y="519" 
+class="s3_242"
+>,</text>
+
+<text 
+x="156" 
+y="519" 
+class="s2_242"
+>prob_if_spam</text>
+
+<text 
+x="250" 
+y="519" 
+class="s3_242"
+>,</text>
+
+<text 
+x="266" 
+y="519" 
+class="s2_242"
+>prob_if_not_spam</text>
+
+<text 
+x="401" 
+y="519" 
+class="s3_242"
+>=</text>
+
+<text 
+x="416" 
+y="519" 
+class="s2_242"
+>word_prob</text>
+
+<text 
+x="108" 
+y="534" 
+class="s4_242"
+>return</text>
+
+<text 
+x="163" 
+y="534" 
+class="s2_242"
+>prob_if_spam</text>
+
+<text 
+x="266" 
+y="534" 
+dx="0,0,4.6" 
+class="s3_242"
+>/ (</text>
+
+<text 
+x="290" 
+y="534" 
+class="s2_242"
+>prob_if_spam</text>
+
+<text 
+x="393" 
+y="534" 
+class="s3_242"
+>+</text>
+
+<text 
+x="408" 
+y="534" 
+class="s2_242"
+>prob_if_not_spam</text>
+
+<text 
+x="535" 
+y="534" 
+class="s3_242"
+>)</text>
+
+<text 
+x="76" 
+y="565" 
+class="s2_242"
+>words</text>
+
+<text 
+x="124" 
+y="565" 
+class="s3_242"
+>=</text>
+
+<text 
+x="140" 
+y="565" 
+class="s6_242"
+>sorted</text>
+
+<text 
+x="187" 
+y="565" 
+class="s3_242"
+>(</text>
+
+<text 
+x="195" 
+y="565" 
+class="s2_242"
+>classifier</text>
+
+<text 
+x="274" 
+y="565" 
+class="s3_242"
+>.</text>
+
+<text 
+x="282" 
+y="565" 
+class="s2_242"
+>word_probs</text>
+
+<text 
+x="361" 
+y="565" 
+class="s3_242"
+>,</text>
+
+<text 
+x="377" 
+y="565" 
+class="s2_242"
+>key</text>
+
+<text 
+x="401" 
+y="565" 
+class="s3_242"
+>=</text>
+
+<text 
+x="408" 
+y="565" 
+class="s2_242"
+>p_spam_given_word</text>
+
+<text 
+x="543" 
+y="565" 
+class="s3_242"
+>)</text>
+
+<text 
+x="76" 
+y="596" 
+class="s2_242"
+>spammiest_words</text>
+
+<text 
+x="203" 
+y="596" 
+class="s3_242"
+>=</text>
+
+<text 
+x="219" 
+y="596" 
+class="s2_242"
+>words</text>
+
+<text 
+x="258" 
+y="596" 
+class="s3_242"
+>[-</text>
+
+<text 
+x="274" 
+y="596" 
+class="s5_242"
+>5</text>
+
+<text 
+x="282" 
+y="596" 
+class="s3_242"
+>:]</text>
+
+<text 
+x="76" 
+y="611" 
+class="s2_242"
+>hammiest_words</text>
+
+<text 
+x="195" 
+y="611" 
+class="s3_242"
+>=</text>
+
+<text 
+x="211" 
+y="611" 
+class="s2_242"
+>words</text>
+
+<text 
+x="250" 
+y="611" 
+class="s3_242"
+>[:</text>
+
+<text 
+x="266" 
+y="611" 
+class="s5_242"
+>5</text>
+
+<text 
+x="274" 
+y="611" 
+class="s3_242"
+>]</text>
+
+<text 
+x="55" 
+y="664" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>The spammiest words are “money,” “systemworks,” “rates,” “sale,” and “year,” all of</text>
+
+<text 
+x="55" 
+y="692" 
+class="s8_242"
+>which seem related to trying to get people to buy things. And the hammiest words are</text>
+
+<text 
+x="55" 
+y="719" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>“spambayes,” “users,” “razor,” “zzzzteana,” and “sadev,” most of which seem related to</text>
+
+<text 
+x="55" 
+y="747" 
+class="s8_242"
+>spam prevention, oddly enough.</text>
+
+<text 
+x="55" 
+y="785" 
+class="s8_242"
+>How could we get better performance? One obvious way would be to get more data to</text>
+
+<text 
+x="55" 
+y="813" 
+class="s8_242"
+>train on. There are a number of ways to improve the model as well. Here are some</text>
+
+<text 
+x="55" 
+y="840" 
+class="s8_242"
+>possibilities that you might try:</text>
+
+<path d="M61.6,868.1l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_242" />
+<text 
+x="82" 
+y="878" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>Look at the message content, not just the subject line. You’ll have to be careful how</text>
+
+<text 
+x="82" 
+y="903" 
+class="s8_242"
+>you deal with the message headers.</text>
+
+<path d="M61.6,940.7l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_242" />
+<text 
+x="82" 
+y="950" 
+class="s8_242"
+>Our classifier takes into account every word that appears in the training set, even words</text>
+
+<text 
+x="82" 
+y="975" 
+class="s8_242"
+>that appear only once. Modify the classifier to accept an optional</text>
+
+<text 
+x="658" 
+y="975" 
+class="s12_242"
+>min_count</text>
+
+<text 
+x="759" 
+y="975" 
+class="s8_242"
+>threshhold</text>
+
+<text 
+x="82" 
+y="1001" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_242"
+>and ignore tokens that don’t appear at least that many times.</text>
+
+<path d="M61.6,1038.6l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_242" />
+<text 
+x="82" 
+y="1048" 
+class="s8_242"
+>The tokenizer has no notion of similar words (e.g., “cheap” and “cheapest”). Modify</text>
+
+<text 
+x="82" 
+y="1073" 
+class="s8_242"
+>the classifier to take an optional</text>
+
+<text 
+x="368" 
+y="1073" 
+class="s12_242"
+>stemmer</text>
+
+<text 
+x="447" 
+y="1073" 
+class="s8_242"
+>function that converts words to</text>
+
+<text 
+x="726" 
+y="1073" 
+class="s9_242"
+>equivalence</text>
+
+<text 
+x="82" 
+y="1099" 
+class="s9_242"
+>classes</text>
+
+<text 
+x="150" 
+y="1099" 
+class="s8_242"
+>of words. For example, a really simple stemmer function might be:</text>
+
+<text 
+x="104" 
+y="1143" 
+class="s4_242"
+>def</text>
+
+<text 
+x="136" 
+y="1143" 
+class="s10_242"
+>drop_final_s</text>
+
+<text 
+x="230" 
+y="1143" 
+class="s3_242"
+>(</text>
+
+<text 
+x="238" 
+y="1143" 
+class="s2_242"
+>word</text>
+
+<text 
+x="270" 
+y="1143" 
+class="s3_242"
+>):</text>
+
+<text 
+x="136" 
+y="1158" 
+class="s4_242"
+>return</text>
+
+<text 
+x="191" 
+y="1158" 
+class="s2_242"
+>re</text>
+
+<text 
+x="207" 
+y="1158" 
+class="s3_242"
+>.</text>
+
+<text 
+x="215" 
+y="1158" 
+class="s2_242"
+>sub</text>
+
+<text 
+x="238" 
+y="1158" 
+class="s3_242"
+>(</text>
+
+<text 
+x="246" 
+y="1158" 
+class="s13_242"
+>"s$"</text>
+
+<text 
+x="278" 
+y="1158" 
+class="s3_242"
+>,</text>
+
+<text 
+x="294" 
+y="1158" 
+class="s13_242"
+>""</text>
+
+<text 
+x="309" 
+y="1158" 
+class="s3_242"
+>,</text>
+
+<text 
+x="325" 
+y="1158" 
+class="s2_242"
+>word</text>
+
+<text 
+x="357" 
+y="1158" 
+class="s3_242"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

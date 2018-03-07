@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 286 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_286{
+}
+
+.s1_286{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_286{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_286{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_286" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,-3.3,-0.8,0,0" 
+class="s1_286"
+>Chapter 17. Decision Trees</text>
+
+<text 
+x="65" 
+y="193" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_286"
+>A tree is an incomprehensible mystery.</text>
+
+<text 
+x="65" 
+y="229" 
+dx="0,0,0,0,0,-1.8,0,0,0,0,0,0" 
+class="s2_286"
+>Jim Woodring</text>
+
+<text 
+x="55" 
+y="267" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2,0,0,0,0,-0.8,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_286"
+>DataSciencester’s VP of Talent has interviewed a number of job candidates from the site,</text>
+
+<text 
+x="55" 
+y="294" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_286"
+>with varying degrees of success. He’s collected a data set consisting of several</text>
+
+<text 
+x="55" 
+y="322" 
+class="s2_286"
+>(qualitative) attributes of each candidate, as well as whether that candidate interviewed</text>
+
+<text 
+x="55" 
+y="349" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_286"
+>well or poorly. Could you, he asks, use this data to build a model identifying which</text>
+
+<text 
+x="55" 
+y="377" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_286"
+>candidates will interview well, so that he doesn’t have to waste time conducting</text>
+
+<text 
+x="55" 
+y="404" 
+class="s2_286"
+>interviews?</text>
+
+<text 
+x="55" 
+y="443" 
+class="s2_286"
+>This seems like a good fit for a</text>
+
+<text 
+x="333" 
+y="443" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.8,0" 
+class="s3_286"
+>decision tree</text>
+
+<text 
+x="445" 
+y="443" 
+class="s2_286"
+>, another predictive modeling tool in the data</text>
+
+<text 
+x="55" 
+y="470" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0" 
+class="s2_286"
+>scientist’s kit.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
