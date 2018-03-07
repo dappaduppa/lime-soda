@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 64 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_64{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s2_64{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_64{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_64{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s5_64{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s6_64{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s7_64{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s8_64{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="80" 
+class="s1_64"
+>x_evens</text>
+
+<text 
+x="140" 
+y="80" 
+dx="0,0,4.6" 
+class="s2_64"
+>= [</text>
+
+<text 
+x="163" 
+y="80" 
+class="s1_64"
+>x</text>
+
+<text 
+x="179" 
+y="80" 
+class="s3_64"
+>for</text>
+
+<text 
+x="211" 
+y="80" 
+class="s1_64"
+>x</text>
+
+<text 
+x="227" 
+y="80" 
+class="s4_64"
+>in</text>
+
+<text 
+x="250" 
+y="80" 
+class="s1_64"
+>xs</text>
+
+<text 
+x="274" 
+y="80" 
+class="s3_64"
+>if</text>
+
+<text 
+x="298" 
+y="80" 
+class="s1_64"
+>is_even</text>
+
+<text 
+x="353" 
+y="80" 
+class="s2_64"
+>(</text>
+
+<text 
+x="361" 
+y="80" 
+class="s1_64"
+>x</text>
+
+<text 
+x="369" 
+y="80" 
+class="s2_64"
+>)]</text>
+
+<text 
+x="416" 
+y="80" 
+dx="0,0,4.6,0,0,0,4.6,0" 
+class="s5_64"
+># [2, 4]</text>
+
+<text 
+x="76" 
+y="95" 
+class="s1_64"
+>x_evens</text>
+
+<text 
+x="140" 
+y="95" 
+class="s2_64"
+>=</text>
+
+<text 
+x="156" 
+y="95" 
+class="s6_64"
+>filter</text>
+
+<text 
+x="203" 
+y="95" 
+class="s2_64"
+>(</text>
+
+<text 
+x="211" 
+y="95" 
+class="s1_64"
+>is_even</text>
+
+<text 
+x="266" 
+y="95" 
+class="s2_64"
+>,</text>
+
+<text 
+x="282" 
+y="95" 
+class="s1_64"
+>xs</text>
+
+<text 
+x="298" 
+y="95" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="95" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0" 
+class="s5_64"
+># same as above</text>
+
+<text 
+x="76" 
+y="111" 
+class="s1_64"
+>list_evener</text>
+
+<text 
+x="171" 
+y="111" 
+class="s2_64"
+>=</text>
+
+<text 
+x="187" 
+y="111" 
+class="s1_64"
+>partial</text>
+
+<text 
+x="242" 
+y="111" 
+class="s2_64"
+>(</text>
+
+<text 
+x="250" 
+y="111" 
+class="s6_64"
+>filter</text>
+
+<text 
+x="298" 
+y="111" 
+class="s2_64"
+>,</text>
+
+<text 
+x="314" 
+y="111" 
+class="s1_64"
+>is_even</text>
+
+<text 
+x="369" 
+y="111" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="111" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0" 
+class="s5_64"
+># *function* that filters a list</text>
+
+<text 
+x="76" 
+y="126" 
+class="s1_64"
+>x_evens</text>
+
+<text 
+x="140" 
+y="126" 
+class="s2_64"
+>=</text>
+
+<text 
+x="156" 
+y="126" 
+class="s1_64"
+>list_evener</text>
+
+<text 
+x="242" 
+y="126" 
+class="s2_64"
+>(</text>
+
+<text 
+x="250" 
+y="126" 
+class="s1_64"
+>xs</text>
+
+<text 
+x="266" 
+y="126" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="126" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0" 
+class="s5_64"
+># again [2, 4]</text>
+
+<text 
+x="55" 
+y="179" 
+class="s7_64"
+>And</text>
+
+<text 
+x="98" 
+y="179" 
+class="s8_64"
+>reduce</text>
+
+<text 
+x="167" 
+y="179" 
+class="s7_64"
+>combines the first two elements of a list, then that result with the third, that</text>
+
+<text 
+x="55" 
+y="209" 
+class="s7_64"
+>result with the fourth, and so on, producing a single result:</text>
+
+<text 
+x="76" 
+y="254" 
+class="s1_64"
+>x_product</text>
+
+<text 
+x="156" 
+y="254" 
+class="s2_64"
+>=</text>
+
+<text 
+x="171" 
+y="254" 
+class="s6_64"
+>reduce</text>
+
+<text 
+x="219" 
+y="254" 
+class="s2_64"
+>(</text>
+
+<text 
+x="227" 
+y="254" 
+class="s1_64"
+>multiply</text>
+
+<text 
+x="290" 
+y="254" 
+class="s2_64"
+>,</text>
+
+<text 
+x="306" 
+y="254" 
+class="s1_64"
+>xs</text>
+
+<text 
+x="322" 
+y="254" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="254" 
+dx="0,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0,4.6,0" 
+class="s5_64"
+># = 1 * 2 * 3 * 4 = 24</text>
+
+<text 
+x="76" 
+y="269" 
+class="s1_64"
+>list_product</text>
+
+<text 
+x="179" 
+y="269" 
+class="s2_64"
+>=</text>
+
+<text 
+x="195" 
+y="269" 
+class="s1_64"
+>partial</text>
+
+<text 
+x="250" 
+y="269" 
+class="s2_64"
+>(</text>
+
+<text 
+x="258" 
+y="269" 
+class="s6_64"
+>reduce</text>
+
+<text 
+x="306" 
+y="269" 
+class="s2_64"
+>,</text>
+
+<text 
+x="322" 
+y="269" 
+class="s1_64"
+>multiply</text>
+
+<text 
+x="385" 
+y="269" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="269" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0" 
+class="s5_64"
+># *function* that reduces a list</text>
+
+<text 
+x="76" 
+y="284" 
+class="s1_64"
+>x_product</text>
+
+<text 
+x="156" 
+y="284" 
+class="s2_64"
+>=</text>
+
+<text 
+x="171" 
+y="284" 
+class="s1_64"
+>list_product</text>
+
+<text 
+x="266" 
+y="284" 
+class="s2_64"
+>(</text>
+
+<text 
+x="274" 
+y="284" 
+class="s1_64"
+>xs</text>
+
+<text 
+x="290" 
+y="284" 
+class="s2_64"
+>)</text>
+
+<text 
+x="416" 
+y="284" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,4.6,0" 
+class="s5_64"
+># again = 24</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

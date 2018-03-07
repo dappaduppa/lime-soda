@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 24 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_24{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_24{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_24{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_24{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<image preserveAspectRatio="none" x="75" y="54" width="760" height="267" xlink:href="24/img/1.png" />
+<text 
+x="265" 
+y="347" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0" 
+class="s1_24"
+>Figure 1-2. The DataSciencester network sized by degree</text>
+
+<text 
+x="55" 
+y="389" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_24"
+>This has the virtue of being pretty easy to calculate, but it doesn’t always give the results</text>
+
+<text 
+x="55" 
+y="416" 
+class="s2_24"
+>you’d want or expect. For example, in the DataSciencester network Thor (</text>
+
+<text 
+x="708" 
+y="416" 
+class="s3_24"
+>id</text>
+
+<text 
+x="735" 
+y="416" 
+class="s2_24"
+>4) only has</text>
+
+<text 
+x="55" 
+y="446" 
+class="s2_24"
+>two connections while Dunn (</text>
+
+<text 
+x="319" 
+y="446" 
+class="s3_24"
+>id</text>
+
+<text 
+x="346" 
+y="446" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_24"
+>1) has three. Yet looking at the network it intuitively</text>
+
+<text 
+x="55" 
+y="476" 
+class="s2_24"
+>seems like Thor should be more central. In</text>
+
+<text 
+x="436" 
+y="476" 
+class="s4_24"
+>Chapter 21</text>
+
+<text 
+x="533" 
+y="476" 
+class="s2_24"
+>, we’ll investigate networks in more</text>
+
+<text 
+x="55" 
+y="503" 
+class="s2_24"
+>detail, and we’ll look at more complex notions of centrality that may or may not accord</text>
+
+<text 
+x="55" 
+y="531" 
+class="s2_24"
+>better with our intuition.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

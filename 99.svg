@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 99 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_99{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_99{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_99{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_99{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s5_99{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_99{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s7_99{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_99{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s9_99{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_99{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s11_99{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s12_99{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+dx="0,0,0,0,0,0,0,0,0,-2.3,0,0,0,0,0,0,0,0" 
+class="s1_99"
+>Central Tendencies</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_99"
+>Usually, we’ll want some notion of where our data is centered. Most commonly we’ll use</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_99"
+>the</text>
+
+<text 
+x="87" 
+y="143" 
+class="s3_99"
+>mean</text>
+
+<text 
+x="140" 
+y="143" 
+class="s2_99"
+>(or average), which is just the sum of the data divided by its count:</text>
+
+<text 
+x="76" 
+y="188" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s4_99"
+># this isn't right if you don't from __future__ import division</text>
+
+<text 
+x="76" 
+y="203" 
+class="s5_99"
+>def</text>
+
+<text 
+x="108" 
+y="203" 
+class="s6_99"
+>mean</text>
+
+<text 
+x="140" 
+y="203" 
+class="s7_99"
+>(</text>
+
+<text 
+x="148" 
+y="203" 
+class="s8_99"
+>x</text>
+
+<text 
+x="156" 
+y="203" 
+class="s7_99"
+>):</text>
+
+<text 
+x="108" 
+y="218" 
+class="s5_99"
+>return</text>
+
+<text 
+x="163" 
+y="218" 
+class="s9_99"
+>sum</text>
+
+<text 
+x="187" 
+y="218" 
+class="s7_99"
+>(</text>
+
+<text 
+x="195" 
+y="218" 
+class="s8_99"
+>x</text>
+
+<text 
+x="203" 
+y="218" 
+dx="0,0,4.6" 
+class="s7_99"
+>) /</text>
+
+<text 
+x="235" 
+y="218" 
+class="s9_99"
+>len</text>
+
+<text 
+x="258" 
+y="218" 
+class="s7_99"
+>(</text>
+
+<text 
+x="266" 
+y="218" 
+class="s8_99"
+>x</text>
+
+<text 
+x="274" 
+y="218" 
+class="s7_99"
+>)</text>
+
+<text 
+x="76" 
+y="249" 
+class="s8_99"
+>mean</text>
+
+<text 
+x="108" 
+y="249" 
+class="s7_99"
+>(</text>
+
+<text 
+x="116" 
+y="249" 
+class="s8_99"
+>num_friends</text>
+
+<text 
+x="203" 
+y="249" 
+class="s7_99"
+>)</text>
+
+<text 
+x="235" 
+y="249" 
+dx="0,0,4.6,0,0,0,0,0,0,0" 
+class="s4_99"
+># 7.333333</text>
+
+<text 
+x="55" 
+y="302" 
+class="s2_99"
+>If you have two data points, the mean is simply the point halfway between them. As you</text>
+
+<text 
+x="55" 
+y="330" 
+class="s2_99"
+>add more points, the mean shifts around, but it always depends on the value of every</text>
+
+<text 
+x="55" 
+y="357" 
+class="s2_99"
+>point.</text>
+
+<text 
+x="55" 
+y="396" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_99"
+>We’ll also sometimes be interested in the</text>
+
+<text 
+x="421" 
+y="396" 
+class="s3_99"
+>median</text>
+
+<text 
+x="486" 
+y="396" 
+class="s2_99"
+>, which is the middle-most value (if the</text>
+
+<text 
+x="55" 
+y="423" 
+class="s2_99"
+>number of data points is odd) or the average of the two middle-most values (if the number</text>
+
+<text 
+x="55" 
+y="451" 
+class="s2_99"
+>of data points is even).</text>
+
+<text 
+x="55" 
+y="489" 
+class="s2_99"
+>For instance, if we have five data points in a sorted vector</text>
+
+<text 
+x="569" 
+y="489" 
+class="s10_99"
+>x</text>
+
+<text 
+x="580" 
+y="489" 
+class="s2_99"
+>, the median is</text>
+
+<text 
+x="713" 
+y="489" 
+dx="0,0,0,0,6.1,0,0,6.1,0" 
+class="s10_99"
+>x[5 // 2]</text>
+
+<text 
+x="814" 
+y="489" 
+class="s2_99"
+>or</text>
+
+<text 
+x="55" 
+y="519" 
+class="s10_99"
+>x[2]</text>
+
+<text 
+x="97" 
+y="519" 
+class="s2_99"
+>. If we have six data points, we want the average of</text>
+
+<text 
+x="553" 
+y="519" 
+class="s10_99"
+>x[2]</text>
+
+<text 
+x="601" 
+y="519" 
+class="s2_99"
+>(the third point) and</text>
+
+<text 
+x="783" 
+y="519" 
+class="s10_99"
+>x[3]</text>
+
+<text 
+x="55" 
+y="549" 
+class="s2_99"
+>(the fourth point).</text>
+
+<text 
+x="55" 
+y="587" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_99"
+>Notice that — unlike the mean — the median doesn’t depend on every value in your data.</text>
+
+<text 
+x="55" 
+y="615" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_99"
+>For example, if you make the largest point larger (or the smallest point smaller), the</text>
+
+<text 
+x="55" 
+y="642" 
+class="s2_99"
+>middle points remain unchanged, which means so does the median.</text>
+
+<text 
+x="55" 
+y="681" 
+class="s2_99"
+>The</text>
+
+<text 
+x="94" 
+y="681" 
+class="s10_99"
+>median</text>
+
+<text 
+x="163" 
+y="681" 
+class="s2_99"
+>function is slightly more complicated than you might expect, mostly because</text>
+
+<text 
+x="55" 
+y="710" 
+class="s2_99"
+>of the “even” case:</text>
+
+<text 
+x="76" 
+y="755" 
+class="s5_99"
+>def</text>
+
+<text 
+x="108" 
+y="755" 
+class="s6_99"
+>median</text>
+
+<text 
+x="156" 
+y="755" 
+class="s7_99"
+>(</text>
+
+<text 
+x="163" 
+y="755" 
+class="s8_99"
+>v</text>
+
+<text 
+x="171" 
+y="755" 
+class="s7_99"
+>):</text>
+
+<text 
+x="108" 
+y="771" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0" 
+class="s11_99"
+>"""finds the 'middle-most' value of v"""</text>
+
+<text 
+x="108" 
+y="786" 
+class="s8_99"
+>n</text>
+
+<text 
+x="124" 
+y="786" 
+class="s7_99"
+>=</text>
+
+<text 
+x="140" 
+y="786" 
+class="s9_99"
+>len</text>
+
+<text 
+x="163" 
+y="786" 
+class="s7_99"
+>(</text>
+
+<text 
+x="171" 
+y="786" 
+class="s8_99"
+>v</text>
+
+<text 
+x="179" 
+y="786" 
+class="s7_99"
+>)</text>
+
+<text 
+x="108" 
+y="802" 
+class="s8_99"
+>sorted_v</text>
+
+<text 
+x="179" 
+y="802" 
+class="s7_99"
+>=</text>
+
+<text 
+x="195" 
+y="802" 
+class="s9_99"
+>sorted</text>
+
+<text 
+x="242" 
+y="802" 
+class="s7_99"
+>(</text>
+
+<text 
+x="250" 
+y="802" 
+class="s8_99"
+>v</text>
+
+<text 
+x="258" 
+y="802" 
+class="s7_99"
+>)</text>
+
+<text 
+x="108" 
+y="817" 
+class="s8_99"
+>midpoint</text>
+
+<text 
+x="179" 
+y="817" 
+class="s7_99"
+>=</text>
+
+<text 
+x="195" 
+y="817" 
+class="s8_99"
+>n</text>
+
+<text 
+x="211" 
+y="817" 
+class="s7_99"
+>//</text>
+
+<text 
+x="235" 
+y="817" 
+class="s12_99"
+>2</text>
+
+<text 
+x="108" 
+y="848" 
+class="s5_99"
+>if</text>
+
+<text 
+x="132" 
+y="848" 
+class="s8_99"
+>n</text>
+
+<text 
+x="148" 
+y="848" 
+class="s7_99"
+>%</text>
+
+<text 
+x="163" 
+y="848" 
+class="s12_99"
+>2</text>
+
+<text 
+x="179" 
+y="848" 
+class="s7_99"
+>==</text>
+
+<text 
+x="203" 
+y="848" 
+class="s12_99"
+>1</text>
+
+<text 
+x="211" 
+y="848" 
+class="s7_99"
+>:</text>
+
+<text 
+x="140" 
+y="863" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s4_99"
+># if odd, return the middle value</text>
+
+<text 
+x="140" 
+y="879" 
+class="s5_99"
+>return</text>
+
+<text 
+x="195" 
+y="879" 
+class="s8_99"
+>sorted_v</text>
+
+<text 
+x="258" 
+y="879" 
+class="s7_99"
+>[</text>
+
+<text 
+x="266" 
+y="879" 
+class="s8_99"
+>midpoint</text>
+
+<text 
+x="329" 
+y="879" 
+class="s7_99"
+>]</text>
+
+<text 
+x="108" 
+y="894" 
+class="s5_99"
+>else</text>
+
+<text 
+x="140" 
+y="894" 
+class="s7_99"
+>:</text>
+
+<text 
+x="140" 
+y="909" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s4_99"
+># if even, return the average of the middle values</text>
+
+<text 
+x="140" 
+y="925" 
+class="s8_99"
+>lo</text>
+
+<text 
+x="163" 
+y="925" 
+class="s7_99"
+>=</text>
+
+<text 
+x="179" 
+y="925" 
+class="s8_99"
+>midpoint</text>
+
+<text 
+x="250" 
+y="925" 
+class="s7_99"
+>-</text>
+
+<text 
+x="266" 
+y="925" 
+class="s12_99"
+>1</text>
+
+<text 
+x="140" 
+y="940" 
+class="s8_99"
+>hi</text>
+
+<text 
+x="163" 
+y="940" 
+class="s7_99"
+>=</text>
+
+<text 
+x="179" 
+y="940" 
+class="s8_99"
+>midpoint</text>
+
+<text 
+x="140" 
+y="956" 
+class="s5_99"
+>return</text>
+
+<text 
+x="195" 
+y="956" 
+class="s7_99"
+>(</text>
+
+<text 
+x="203" 
+y="956" 
+class="s8_99"
+>sorted_v</text>
+
+<text 
+x="266" 
+y="956" 
+class="s7_99"
+>[</text>
+
+<text 
+x="274" 
+y="956" 
+class="s8_99"
+>lo</text>
+
+<text 
+x="290" 
+y="956" 
+dx="0,0,4.6" 
+class="s7_99"
+>] +</text>
+
+<text 
+x="322" 
+y="956" 
+class="s8_99"
+>sorted_v</text>
+
+<text 
+x="385" 
+y="956" 
+class="s7_99"
+>[</text>
+
+<text 
+x="393" 
+y="956" 
+class="s8_99"
+>hi</text>
+
+<text 
+x="408" 
+y="956" 
+dx="0,0,0,4.6" 
+class="s7_99"
+>]) /</text>
+
+<text 
+x="448" 
+y="956" 
+class="s12_99"
+>2</text>
+
+<text 
+x="76" 
+y="986" 
+class="s8_99"
+>median</text>
+
+<text 
+x="124" 
+y="986" 
+class="s7_99"
+>(</text>
+
+<text 
+x="132" 
+y="986" 
+class="s8_99"
+>num_friends</text>
+
+<text 
+x="219" 
+y="986" 
+class="s7_99"
+>)</text>
+
+<text 
+x="235" 
+y="986" 
+dx="0,0,4.6,0,0" 
+class="s4_99"
+># 6.0</text>
+
+<text 
+x="55" 
+y="1039" 
+dx="0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_99"
+>Clearly, the mean is simpler to compute, and it varies smoothly as our data changes. If we</text>
+
+<text 
+x="55" 
+y="1067" 
+class="s2_99"
+>have</text>
+
+<text 
+x="102" 
+y="1067" 
+class="s3_99"
+>n</text>
+
+<text 
+x="118" 
+y="1067" 
+class="s2_99"
+>data points and one of them increases by some small amount</text>
+
+<text 
+x="657" 
+y="1067" 
+class="s3_99"
+>e</text>
+
+<text 
+x="667" 
+y="1067" 
+class="s2_99"
+>, then necessarily the</text>
+
+<text 
+x="55" 
+y="1094" 
+class="s2_99"
+>mean will increase by</text>
+
+<text 
+x="252" 
+y="1094" 
+class="s3_99"
+>e</text>
+
+<text 
+x="268" 
+y="1094" 
+class="s2_99"
+>/</text>
+
+<text 
+x="279" 
+y="1094" 
+class="s3_99"
+>n</text>
+
+<text 
+x="290" 
+y="1094" 
+class="s2_99"
+>. (This makes the mean amenable to all sorts of calculus tricks.)</text>
+
+<text 
+x="55" 
+y="1122" 
+class="s2_99"
+>Whereas in order to find the median, we have to sort our data. And changing one of our</text>
+
+<text 
+x="55" 
+y="1149" 
+class="s2_99"
+>data points by a small amount</text>
+
+<text 
+x="323" 
+y="1149" 
+class="s3_99"
+>e</text>
+
+<text 
+x="338" 
+y="1149" 
+class="s2_99"
+>might increase the median by</text>
+
+<text 
+x="603" 
+y="1149" 
+class="s3_99"
+>e</text>
+
+<text 
+x="613" 
+y="1149" 
+class="s2_99"
+>, by some number less than</text>
+
+<text 
+x="55" 
+y="1177" 
+class="s3_99"
+>e</text>
+
+<text 
+x="64" 
+y="1177" 
+class="s2_99"
+>, or not at all (depending on the rest of the data).</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

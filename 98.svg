@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 98 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_98{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_98{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_98{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_98{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_98{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s6_98{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s7_98{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<image preserveAspectRatio="none" x="76" y="54" width="759" height="614" xlink:href="98/img/1.png" />
+<text 
+x="321" 
+y="694" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_98"
+>Figure 5-1. A histogram of friend counts</text>
+
+<text 
+x="55" 
+y="736" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_98"
+>Unfortunately, this chart is still too difficult to slip into conversations. So you start</text>
+
+<text 
+x="55" 
+y="763" 
+class="s2_98"
+>generating some statistics. Probably the simplest statistic is simply the number of data</text>
+
+<text 
+x="55" 
+y="791" 
+class="s2_98"
+>points:</text>
+
+<text 
+x="76" 
+y="836" 
+class="s3_98"
+>num_points</text>
+
+<text 
+x="163" 
+y="836" 
+class="s4_98"
+>=</text>
+
+<text 
+x="179" 
+y="836" 
+class="s5_98"
+>len</text>
+
+<text 
+x="203" 
+y="836" 
+class="s4_98"
+>(</text>
+
+<text 
+x="211" 
+y="836" 
+class="s3_98"
+>num_friends</text>
+
+<text 
+x="298" 
+y="836" 
+class="s4_98"
+>)</text>
+
+<text 
+x="424" 
+y="836" 
+dx="0,0,4.6,0,0" 
+class="s6_98"
+># 204</text>
+
+<text 
+x="55" 
+y="889" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_98"
+>You’re probably also interested in the largest and smallest values:</text>
+
+<text 
+x="76" 
+y="934" 
+class="s3_98"
+>largest_value</text>
+
+<text 
+x="187" 
+y="934" 
+class="s4_98"
+>=</text>
+
+<text 
+x="203" 
+y="934" 
+class="s5_98"
+>max</text>
+
+<text 
+x="227" 
+y="934" 
+class="s4_98"
+>(</text>
+
+<text 
+x="235" 
+y="934" 
+class="s3_98"
+>num_friends</text>
+
+<text 
+x="322" 
+y="934" 
+class="s4_98"
+>)</text>
+
+<text 
+x="424" 
+y="934" 
+dx="0,0,4.6,0,0" 
+class="s6_98"
+># 100</text>
+
+<text 
+x="76" 
+y="949" 
+class="s3_98"
+>smallest_value</text>
+
+<text 
+x="195" 
+y="949" 
+class="s4_98"
+>=</text>
+
+<text 
+x="211" 
+y="949" 
+class="s5_98"
+>min</text>
+
+<text 
+x="235" 
+y="949" 
+class="s4_98"
+>(</text>
+
+<text 
+x="242" 
+y="949" 
+class="s3_98"
+>num_friends</text>
+
+<text 
+x="329" 
+y="949" 
+class="s4_98"
+>)</text>
+
+<text 
+x="424" 
+y="949" 
+dx="0,0,4.6" 
+class="s6_98"
+># 1</text>
+
+<text 
+x="55" 
+y="1002" 
+class="s2_98"
+>which are just special cases of wanting to know the values in specific positions:</text>
+
+<text 
+x="76" 
+y="1047" 
+class="s3_98"
+>sorted_values</text>
+
+<text 
+x="187" 
+y="1047" 
+class="s4_98"
+>=</text>
+
+<text 
+x="203" 
+y="1047" 
+class="s5_98"
+>sorted</text>
+
+<text 
+x="250" 
+y="1047" 
+class="s4_98"
+>(</text>
+
+<text 
+x="258" 
+y="1047" 
+class="s3_98"
+>num_friends</text>
+
+<text 
+x="345" 
+y="1047" 
+class="s4_98"
+>)</text>
+
+<text 
+x="76" 
+y="1062" 
+class="s3_98"
+>smallest_value</text>
+
+<text 
+x="195" 
+y="1062" 
+class="s4_98"
+>=</text>
+
+<text 
+x="211" 
+y="1062" 
+class="s3_98"
+>sorted_values</text>
+
+<text 
+x="314" 
+y="1062" 
+class="s4_98"
+>[</text>
+
+<text 
+x="322" 
+y="1062" 
+class="s7_98"
+>0</text>
+
+<text 
+x="329" 
+y="1062" 
+class="s4_98"
+>]</text>
+
+<text 
+x="424" 
+y="1062" 
+dx="0,0,4.6" 
+class="s6_98"
+># 1</text>
+
+<text 
+x="76" 
+y="1078" 
+class="s3_98"
+>second_smallest_value</text>
+
+<text 
+x="250" 
+y="1078" 
+class="s4_98"
+>=</text>
+
+<text 
+x="266" 
+y="1078" 
+class="s3_98"
+>sorted_values</text>
+
+<text 
+x="369" 
+y="1078" 
+class="s4_98"
+>[</text>
+
+<text 
+x="377" 
+y="1078" 
+class="s7_98"
+>1</text>
+
+<text 
+x="385" 
+y="1078" 
+class="s4_98"
+>]</text>
+
+<text 
+x="424" 
+y="1078" 
+dx="0,0,4.6" 
+class="s6_98"
+># 1</text>
+
+<text 
+x="76" 
+y="1093" 
+class="s3_98"
+>second_largest_value</text>
+
+<text 
+x="242" 
+y="1093" 
+class="s4_98"
+>=</text>
+
+<text 
+x="258" 
+y="1093" 
+class="s3_98"
+>sorted_values</text>
+
+<text 
+x="361" 
+y="1093" 
+class="s4_98"
+>[-</text>
+
+<text 
+x="377" 
+y="1093" 
+class="s7_98"
+>2</text>
+
+<text 
+x="385" 
+y="1093" 
+class="s4_98"
+>]</text>
+
+<text 
+x="424" 
+y="1093" 
+dx="0,0,4.6,0" 
+class="s6_98"
+># 49</text>
+
+<text 
+x="55" 
+y="1146" 
+class="s2_98"
+>But we’re only getting started.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

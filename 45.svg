@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 45 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_45{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_45{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_45{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_45{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_45{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s6_45{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_45{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_45{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #CC0000;
+}
+.s9_45{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_45"
+>Exceptions</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_45"
+>When something goes wrong, Python raises an</text>
+
+<text 
+x="472" 
+y="115" 
+class="s3_45"
+>exception</text>
+
+<text 
+x="556" 
+y="115" 
+class="s2_45"
+>. Unhandled, these will cause</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_45"
+>your program to crash. You can handle them using</text>
+
+<text 
+x="504" 
+y="143" 
+class="s4_45"
+>try</text>
+
+<text 
+x="541" 
+y="143" 
+class="s2_45"
+>and</text>
+
+<text 
+x="579" 
+y="143" 
+class="s4_45"
+>except</text>
+
+<text 
+x="642" 
+y="143" 
+class="s2_45"
+>:</text>
+
+<text 
+x="76" 
+y="190" 
+class="s5_45"
+>try</text>
+
+<text 
+x="100" 
+y="190" 
+class="s6_45"
+>:</text>
+
+<text 
+x="108" 
+y="205" 
+class="s5_45"
+>print</text>
+
+<text 
+x="156" 
+y="205" 
+class="s7_45"
+>0</text>
+
+<text 
+x="171" 
+y="205" 
+class="s6_45"
+>/</text>
+
+<text 
+x="187" 
+y="205" 
+class="s7_45"
+>0</text>
+
+<text 
+x="76" 
+y="221" 
+class="s5_45"
+>except</text>
+
+<text 
+x="132" 
+y="221" 
+class="s8_45"
+>ZeroDivisionError</text>
+
+<text 
+x="266" 
+y="221" 
+class="s6_45"
+>:</text>
+
+<text 
+x="108" 
+y="236" 
+class="s5_45"
+>print</text>
+
+<text 
+x="156" 
+y="236" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0" 
+class="s9_45"
+>"cannot divide by zero"</text>
+
+<text 
+x="55" 
+y="289" 
+class="s2_45"
+>Although in many languages exceptions are considered bad, in Python there is no shame</text>
+
+<text 
+x="55" 
+y="316" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_45"
+>in using them to make your code cleaner, and we will occasionally do so.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

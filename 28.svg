@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 28 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_28{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_28{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_28{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_28{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_28{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_28{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_28{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s8_28{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s9_28{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s10_28{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s11_28{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s12_28{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_28"
+>Salaries and Experience</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_28"
+>Right as you’re about to head to lunch, the VP of Public Relations asks if you can provide</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_28"
+>some fun facts about how much data scientists earn. Salary data is of course sensitive, but</text>
+
+<text 
+x="55" 
+y="170" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2" 
+class="s2_28"
+>he manages to provide you an anonymous data set containing each user’s</text>
+
+<text 
+x="704" 
+y="170" 
+class="s3_28"
+>salary</text>
+
+<text 
+x="773" 
+y="170" 
+class="s2_28"
+>(in</text>
+
+<text 
+x="55" 
+y="200" 
+class="s2_28"
+>dollars) and</text>
+
+<text 
+x="164" 
+y="200" 
+class="s3_28"
+>tenure</text>
+
+<text 
+x="233" 
+y="200" 
+class="s2_28"
+>as a data scientist (in years):</text>
+
+<text 
+x="76" 
+y="247" 
+class="s4_28"
+>salaries_and_tenures</text>
+
+<text 
+x="242" 
+y="247" 
+dx="0,0,4.6,0" 
+class="s5_28"
+>= [(</text>
+
+<text 
+x="274" 
+y="247" 
+class="s6_28"
+>83000</text>
+
+<text 
+x="314" 
+y="247" 
+class="s5_28"
+>,</text>
+
+<text 
+x="329" 
+y="247" 
+class="s6_28"
+>8.7</text>
+
+<text 
+x="353" 
+y="247" 
+dx="0,0,0,4.6" 
+class="s5_28"
+>), (</text>
+
+<text 
+x="385" 
+y="247" 
+class="s6_28"
+>88000</text>
+
+<text 
+x="424" 
+y="247" 
+class="s5_28"
+>,</text>
+
+<text 
+x="440" 
+y="247" 
+class="s6_28"
+>8.1</text>
+
+<text 
+x="464" 
+y="247" 
+class="s5_28"
+>),</text>
+
+<text 
+x="266" 
+y="262" 
+class="s5_28"
+>(</text>
+
+<text 
+x="274" 
+y="262" 
+class="s6_28"
+>48000</text>
+
+<text 
+x="314" 
+y="262" 
+class="s5_28"
+>,</text>
+
+<text 
+x="329" 
+y="262" 
+class="s6_28"
+>0.7</text>
+
+<text 
+x="353" 
+y="262" 
+dx="0,0,0,4.6" 
+class="s5_28"
+>), (</text>
+
+<text 
+x="385" 
+y="262" 
+class="s6_28"
+>76000</text>
+
+<text 
+x="424" 
+y="262" 
+class="s5_28"
+>,</text>
+
+<text 
+x="440" 
+y="262" 
+class="s6_28"
+>6</text>
+
+<text 
+x="448" 
+y="262" 
+class="s5_28"
+>),</text>
+
+<text 
+x="266" 
+y="278" 
+class="s5_28"
+>(</text>
+
+<text 
+x="274" 
+y="278" 
+class="s6_28"
+>69000</text>
+
+<text 
+x="314" 
+y="278" 
+class="s5_28"
+>,</text>
+
+<text 
+x="329" 
+y="278" 
+class="s6_28"
+>6.5</text>
+
+<text 
+x="353" 
+y="278" 
+dx="0,0,0,4.6" 
+class="s5_28"
+>), (</text>
+
+<text 
+x="385" 
+y="278" 
+class="s6_28"
+>76000</text>
+
+<text 
+x="424" 
+y="278" 
+class="s5_28"
+>,</text>
+
+<text 
+x="440" 
+y="278" 
+class="s6_28"
+>7.5</text>
+
+<text 
+x="464" 
+y="278" 
+class="s5_28"
+>),</text>
+
+<text 
+x="266" 
+y="293" 
+class="s5_28"
+>(</text>
+
+<text 
+x="274" 
+y="293" 
+class="s6_28"
+>60000</text>
+
+<text 
+x="314" 
+y="293" 
+class="s5_28"
+>,</text>
+
+<text 
+x="329" 
+y="293" 
+class="s6_28"
+>2.5</text>
+
+<text 
+x="353" 
+y="293" 
+dx="0,0,0,4.6" 
+class="s5_28"
+>), (</text>
+
+<text 
+x="385" 
+y="293" 
+class="s6_28"
+>83000</text>
+
+<text 
+x="424" 
+y="293" 
+class="s5_28"
+>,</text>
+
+<text 
+x="440" 
+y="293" 
+class="s6_28"
+>10</text>
+
+<text 
+x="456" 
+y="293" 
+class="s5_28"
+>),</text>
+
+<text 
+x="266" 
+y="309" 
+class="s5_28"
+>(</text>
+
+<text 
+x="274" 
+y="309" 
+class="s6_28"
+>48000</text>
+
+<text 
+x="314" 
+y="309" 
+class="s5_28"
+>,</text>
+
+<text 
+x="329" 
+y="309" 
+class="s6_28"
+>1.9</text>
+
+<text 
+x="353" 
+y="309" 
+dx="0,0,0,4.6" 
+class="s5_28"
+>), (</text>
+
+<text 
+x="385" 
+y="309" 
+class="s6_28"
+>63000</text>
+
+<text 
+x="424" 
+y="309" 
+class="s5_28"
+>,</text>
+
+<text 
+x="440" 
+y="309" 
+class="s6_28"
+>4.2</text>
+
+<text 
+x="464" 
+y="309" 
+class="s5_28"
+>)]</text>
+
+<text 
+x="55" 
+y="361" 
+class="s2_28"
+>The natural first step is to plot the data (which we’ll see how to do in</text>
+
+<text 
+x="666" 
+y="361" 
+class="s7_28"
+>Chapter 3</text>
+
+<text 
+x="752" 
+y="361" 
+dx="0,0,0,0,-2.2,0,0,0,0,0" 
+class="s2_28"
+>). You can</text>
+
+<text 
+x="55" 
+y="389" 
+class="s2_28"
+>see the results in</text>
+
+<text 
+x="206" 
+y="389" 
+class="s7_28"
+>Figure 1-3</text>
+
+<text 
+x="298" 
+y="389" 
+class="s2_28"
+>.</text>
+
+<image preserveAspectRatio="none" x="55" y="413" width="799" height="612" xlink:href="28/img/1.png" />
+<text 
+x="317" 
+y="1051" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_28"
+>Figure 1-3. Salary by years of experience</text>
+
+<text 
+x="55" 
+y="1093" 
+class="s2_28"
+>It seems pretty clear that people with more experience tend to earn more. How can you</text>
+
+<text 
+x="55" 
+y="1121" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_28"
+>turn this into a fun fact? Your first idea is to look at the average salary for each tenure:</text>
+
+<text 
+x="76" 
+y="1166" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0" 
+class="s9_28"
+># keys are years, values are lists of the salaries for each tenure</text>
+
+<text 
+x="76" 
+y="1181" 
+class="s4_28"
+>salary_by_tenure</text>
+
+<text 
+x="211" 
+y="1181" 
+class="s5_28"
+>=</text>
+
+<text 
+x="227" 
+y="1181" 
+class="s4_28"
+>defaultdict</text>
+
+<text 
+x="314" 
+y="1181" 
+class="s5_28"
+>(</text>
+
+<text 
+x="322" 
+y="1181" 
+class="s10_28"
+>list</text>
+
+<text 
+x="353" 
+y="1181" 
+class="s5_28"
+>)</text>
+
+<text 
+x="76" 
+y="1212" 
+class="s11_28"
+>for</text>
+
+<text 
+x="108" 
+y="1212" 
+class="s4_28"
+>salary</text>
+
+<text 
+x="156" 
+y="1212" 
+class="s5_28"
+>,</text>
+
+<text 
+x="171" 
+y="1212" 
+class="s4_28"
+>tenure</text>
+
+<text 
+x="227" 
+y="1212" 
+class="s12_28"
+>in</text>
+
+<text 
+x="250" 
+y="1212" 
+class="s4_28"
+>salaries_and_tenures</text>
+
+<text 
+x="408" 
+y="1212" 
+class="s5_28"
+>:</text>
+
+<text 
+x="108" 
+y="1227" 
+class="s4_28"
+>salary_by_tenure</text>
+
+<text 
+x="235" 
+y="1227" 
+class="s5_28"
+>[</text>
+
+<text 
+x="242" 
+y="1227" 
+class="s4_28"
+>tenure</text>
+
+<text 
+x="290" 
+y="1227" 
+class="s5_28"
+>].</text>
+
+<text 
+x="306" 
+y="1227" 
+class="s4_28"
+>append</text>
+
+<text 
+x="353" 
+y="1227" 
+class="s5_28"
+>(</text>
+
+<text 
+x="361" 
+y="1227" 
+class="s4_28"
+>salary</text>
+
+<text 
+x="408" 
+y="1227" 
+class="s5_28"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

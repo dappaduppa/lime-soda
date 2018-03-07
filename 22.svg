@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 22 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_22{
+fill: #BEBEBE;
+}
+
+.s1_22{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_22{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_22{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_22{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_22{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_22{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s7_22{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_22{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s9_22{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s10_22{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s11_22{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,1141l722.5,0c3,0,5.5,2.4,5.5,5.5l0,77c0,3,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.5l0,-77c0,-3.1,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,1.9,4.4,4.4l0,77c0,2.4,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.4l0,-77c0,-2.5,2,-4.4,4.4,-4.4Z" class="g1_22" />
+<text 
+x="55" 
+y="77" 
+class="s1_22"
+>Finding Key Connectors</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>It’s your first day on the job at DataSciencester, and the VP of Networking is full of</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>questions about your users. Until now he’s had no one to ask, so he’s very excited to have</text>
+
+<text 
+x="55" 
+y="170" 
+class="s2_22"
+>you aboard.</text>
+
+<text 
+x="55" 
+y="209" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>In particular, he wants you to identify who the “key connectors” are among data scientists.</text>
+
+<text 
+x="55" 
+y="236" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>To this end, he gives you a dump of the entire DataSciencester network. (In real life,</text>
+
+<text 
+x="55" 
+y="264" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>people don’t typically hand you the data you need.</text>
+
+<text 
+x="505" 
+y="264" 
+class="s3_22"
+>Chapter 9</text>
+
+<text 
+x="596" 
+y="264" 
+class="s2_22"
+>is devoted to getting data.)</text>
+
+<text 
+x="55" 
+y="302" 
+class="s2_22"
+>What does this data dump look like? It consists of a list of users, each represented by a</text>
+
+<text 
+x="55" 
+y="330" 
+class="s4_22"
+>dict</text>
+
+<text 
+x="102" 
+y="330" 
+class="s2_22"
+>that contains for each user his or her</text>
+
+<text 
+x="427" 
+y="330" 
+class="s4_22"
+>id</text>
+
+<text 
+x="454" 
+y="330" 
+class="s2_22"
+>(which is a number) and</text>
+
+<text 
+x="673" 
+y="330" 
+class="s4_22"
+>name</text>
+
+<text 
+x="720" 
+y="330" 
+class="s2_22"
+>(which, in one</text>
+
+<text 
+x="55" 
+y="359" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,-1.2" 
+class="s2_22"
+>of the great cosmic coincidences, rhymes with the user’s</text>
+
+<text 
+x="557" 
+y="359" 
+class="s4_22"
+>id</text>
+
+<text 
+x="578" 
+y="359" 
+class="s2_22"
+>):</text>
+
+<text 
+x="76" 
+y="407" 
+dx="0,0,0,0,0,0,4.6,0,4.6" 
+class="s5_22"
+>users = [</text>
+
+<text 
+x="108" 
+y="422" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 0, "name": "Hero" },</text>
+
+<text 
+x="108" 
+y="437" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 1, "name": "Dunn" },</text>
+
+<text 
+x="108" 
+y="453" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 2, "name": "Sue" },</text>
+
+<text 
+x="108" 
+y="468" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 3, "name": "Chi" },</text>
+
+<text 
+x="108" 
+y="484" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 4, "name": "Thor" },</text>
+
+<text 
+x="108" 
+y="499" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 5, "name": "Clive" },</text>
+
+<text 
+x="108" 
+y="514" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 6, "name": "Hicks" },</text>
+
+<text 
+x="108" 
+y="530" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 7, "name": "Devin" },</text>
+
+<text 
+x="108" 
+y="545" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0" 
+class="s5_22"
+>{ "id": 8, "name": "Kate" },</text>
+
+<text 
+x="108" 
+y="561" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6" 
+class="s5_22"
+>{ "id": 9, "name": "Klein" }</text>
+
+<text 
+x="76" 
+y="576" 
+class="s5_22"
+>]</text>
+
+<text 
+x="55" 
+y="629" 
+class="s2_22"
+>He also gives you the “friendship” data, represented as a list of pairs of IDs:</text>
+
+<text 
+x="76" 
+y="674" 
+class="s6_22"
+>friendships</text>
+
+<text 
+x="171" 
+y="674" 
+dx="0,0,4.6,0" 
+class="s5_22"
+>= [(</text>
+
+<text 
+x="203" 
+y="674" 
+class="s7_22"
+>0</text>
+
+<text 
+x="211" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="227" 
+y="674" 
+class="s7_22"
+>1</text>
+
+<text 
+x="235" 
+y="674" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="266" 
+y="674" 
+class="s7_22"
+>0</text>
+
+<text 
+x="274" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="290" 
+y="674" 
+class="s7_22"
+>2</text>
+
+<text 
+x="298" 
+y="674" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="329" 
+y="674" 
+class="s7_22"
+>1</text>
+
+<text 
+x="337" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="353" 
+y="674" 
+class="s7_22"
+>2</text>
+
+<text 
+x="361" 
+y="674" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="393" 
+y="674" 
+class="s7_22"
+>1</text>
+
+<text 
+x="401" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="416" 
+y="674" 
+class="s7_22"
+>3</text>
+
+<text 
+x="424" 
+y="674" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="456" 
+y="674" 
+class="s7_22"
+>2</text>
+
+<text 
+x="464" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="480" 
+y="674" 
+class="s7_22"
+>3</text>
+
+<text 
+x="487" 
+y="674" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="519" 
+y="674" 
+class="s7_22"
+>3</text>
+
+<text 
+x="527" 
+y="674" 
+class="s5_22"
+>,</text>
+
+<text 
+x="543" 
+y="674" 
+class="s7_22"
+>4</text>
+
+<text 
+x="551" 
+y="674" 
+class="s5_22"
+>),</text>
+
+<text 
+x="195" 
+y="689" 
+class="s5_22"
+>(</text>
+
+<text 
+x="203" 
+y="689" 
+class="s7_22"
+>4</text>
+
+<text 
+x="211" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="227" 
+y="689" 
+class="s7_22"
+>5</text>
+
+<text 
+x="235" 
+y="689" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="266" 
+y="689" 
+class="s7_22"
+>5</text>
+
+<text 
+x="274" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="290" 
+y="689" 
+class="s7_22"
+>6</text>
+
+<text 
+x="298" 
+y="689" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="329" 
+y="689" 
+class="s7_22"
+>5</text>
+
+<text 
+x="337" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="353" 
+y="689" 
+class="s7_22"
+>7</text>
+
+<text 
+x="361" 
+y="689" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="393" 
+y="689" 
+class="s7_22"
+>6</text>
+
+<text 
+x="401" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="416" 
+y="689" 
+class="s7_22"
+>8</text>
+
+<text 
+x="424" 
+y="689" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="456" 
+y="689" 
+class="s7_22"
+>7</text>
+
+<text 
+x="464" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="480" 
+y="689" 
+class="s7_22"
+>8</text>
+
+<text 
+x="487" 
+y="689" 
+dx="0,0,0,4.6" 
+class="s5_22"
+>), (</text>
+
+<text 
+x="519" 
+y="689" 
+class="s7_22"
+>8</text>
+
+<text 
+x="527" 
+y="689" 
+class="s5_22"
+>,</text>
+
+<text 
+x="543" 
+y="689" 
+class="s7_22"
+>9</text>
+
+<text 
+x="551" 
+y="689" 
+class="s5_22"
+>)]</text>
+
+<text 
+x="55" 
+y="742" 
+class="s2_22"
+>For example, the tuple</text>
+
+<text 
+x="258" 
+y="742" 
+dx="0,0,0,0,6.1,0" 
+class="s4_22"
+>(0, 1)</text>
+
+<text 
+x="327" 
+y="742" 
+class="s2_22"
+>indicates that the data scientist with</text>
+
+<text 
+x="645" 
+y="742" 
+class="s4_22"
+>id</text>
+
+<text 
+x="672" 
+y="742" 
+class="s2_22"
+>0 (Hero) and the</text>
+
+<text 
+x="55" 
+y="772" 
+class="s2_22"
+>data scientist with</text>
+
+<text 
+x="219" 
+y="772" 
+class="s4_22"
+>id</text>
+
+<text 
+x="245" 
+y="772" 
+class="s2_22"
+>1 (Dunn) are friends. The network is illustrated in</text>
+
+<text 
+x="689" 
+y="772" 
+class="s3_22"
+>Figure 1-1</text>
+
+<text 
+x="781" 
+y="772" 
+class="s2_22"
+>.</text>
+
+<image preserveAspectRatio="none" x="55" y="798" width="799" height="255" xlink:href="22/img/1.png" />
+<text 
+x="318" 
+y="1079" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_22"
+>Figure 1-1. The DataSciencester network</text>
+
+<text 
+x="55" 
+y="1121" 
+class="s2_22"
+>Since we represented our users as</text>
+
+<text 
+x="356" 
+y="1121" 
+class="s4_22"
+>dict</text>
+
+<text 
+x="398" 
+y="1121" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_22"
+>s, it’s easy to augment them with extra data.</text>
+
+<text 
+x="421" 
+y="1166" 
+dx="0,1.1,1.1,1.1" 
+class="s9_22"
+>NOTE</text>
+
+<text 
+x="97" 
+y="1195" 
+dx="0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.1,0,0,0" 
+class="s10_22"
+>Don’t get too hung up on the details of the code right now. In</text>
+
+<text 
+x="505" 
+y="1195" 
+class="s11_22"
+>Chapter 2</text>
+
+<text 
+x="569" 
+y="1195" 
+class="s10_22"
+>, we’ll take you through a crash</text>
+
+<text 
+x="97" 
+y="1215" 
+class="s10_22"
+>course in Python. For now just try to get the general flavor of what we’re doing.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

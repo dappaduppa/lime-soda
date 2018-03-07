@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 75 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_75{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_75{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_75{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_75{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s5_75{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_75{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_75{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s8_75{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s9_75{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s10_75{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s11_75{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s12_75{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s13_75{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,-0.6,0,0,0,0,0" 
+class="s1_75"
+>Bar Charts</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_75"
+>A bar chart is a good choice when you want to show how some quantity varies among</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_75"
+>some</text>
+
+<text 
+x="106" 
+y="149" 
+dx="0,0,0,0,0,-0.8,0,0" 
+class="s3_75"
+>discrete</text>
+
+<text 
+x="181" 
+y="149" 
+class="s2_75"
+>set of items. For instance,</text>
+
+<text 
+x="412" 
+y="149" 
+class="s4_75"
+>Figure 3-2</text>
+
+<text 
+x="510" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0" 
+class="s2_75"
+>shows how many Academy Awards</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_75"
+>were won by each of a variety of movies:</text>
+
+<text 
+x="76" 
+y="222" 
+class="s5_75"
+>movies</text>
+
+<text 
+x="132" 
+y="222" 
+dx="0,0,4.6" 
+class="s6_75"
+>= [</text>
+
+<text 
+x="156" 
+y="222" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s7_75"
+>"Annie Hall"</text>
+
+<text 
+x="250" 
+y="222" 
+class="s6_75"
+>,</text>
+
+<text 
+x="266" 
+y="222" 
+class="s7_75"
+>"Ben-Hur"</text>
+
+<text 
+x="337" 
+y="222" 
+class="s6_75"
+>,</text>
+
+<text 
+x="353" 
+y="222" 
+class="s7_75"
+>"Casablanca"</text>
+
+<text 
+x="448" 
+y="222" 
+class="s6_75"
+>,</text>
+
+<text 
+x="464" 
+y="222" 
+class="s7_75"
+>"Gandhi"</text>
+
+<text 
+x="527" 
+y="222" 
+class="s6_75"
+>,</text>
+
+<text 
+x="543" 
+y="222" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0" 
+class="s7_75"
+>"West Side Story"</text>
+
+<text 
+x="677" 
+y="222" 
+class="s6_75"
+>]</text>
+
+<text 
+x="76" 
+y="237" 
+class="s5_75"
+>num_oscars</text>
+
+<text 
+x="163" 
+y="237" 
+dx="0,0,4.6" 
+class="s6_75"
+>= [</text>
+
+<text 
+x="187" 
+y="237" 
+class="s8_75"
+>5</text>
+
+<text 
+x="195" 
+y="237" 
+class="s6_75"
+>,</text>
+
+<text 
+x="211" 
+y="237" 
+class="s8_75"
+>11</text>
+
+<text 
+x="227" 
+y="237" 
+class="s6_75"
+>,</text>
+
+<text 
+x="242" 
+y="237" 
+class="s8_75"
+>3</text>
+
+<text 
+x="250" 
+y="237" 
+class="s6_75"
+>,</text>
+
+<text 
+x="266" 
+y="237" 
+class="s8_75"
+>8</text>
+
+<text 
+x="274" 
+y="237" 
+class="s6_75"
+>,</text>
+
+<text 
+x="290" 
+y="237" 
+class="s8_75"
+>10</text>
+
+<text 
+x="306" 
+y="237" 
+class="s6_75"
+>]</text>
+
+<text 
+x="76" 
+y="268" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s9_75"
+># bars are by default width 0.8, so we'll add 0.1 to the left coordinates</text>
+
+<text 
+x="76" 
+y="283" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0" 
+class="s9_75"
+># so that each bar is centered</text>
+
+<text 
+x="76" 
+y="299" 
+class="s5_75"
+>xs</text>
+
+<text 
+x="100" 
+y="299" 
+dx="0,0,4.6" 
+class="s6_75"
+>= [</text>
+
+<text 
+x="124" 
+y="299" 
+class="s5_75"
+>i</text>
+
+<text 
+x="140" 
+y="299" 
+class="s6_75"
+>+</text>
+
+<text 
+x="156" 
+y="299" 
+class="s8_75"
+>0.1</text>
+
+<text 
+x="187" 
+y="299" 
+class="s10_75"
+>for</text>
+
+<text 
+x="219" 
+y="299" 
+class="s5_75"
+>i</text>
+
+<text 
+x="227" 
+y="299" 
+class="s6_75"
+>,</text>
+
+<text 
+x="242" 
+y="299" 
+class="s5_75"
+>_</text>
+
+<text 
+x="258" 
+y="299" 
+class="s11_75"
+>in</text>
+
+<text 
+x="282" 
+y="299" 
+class="s12_75"
+>enumerate</text>
+
+<text 
+x="353" 
+y="299" 
+class="s6_75"
+>(</text>
+
+<text 
+x="361" 
+y="299" 
+class="s5_75"
+>movies</text>
+
+<text 
+x="408" 
+y="299" 
+class="s6_75"
+>)]</text>
+
+<text 
+x="76" 
+y="330" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s9_75"
+># plot bars with left x-coordinates [xs], heights [num_oscars]</text>
+
+<text 
+x="76" 
+y="345" 
+class="s5_75"
+>plt</text>
+
+<text 
+x="100" 
+y="345" 
+class="s6_75"
+>.</text>
+
+<text 
+x="108" 
+y="345" 
+class="s5_75"
+>bar</text>
+
+<text 
+x="132" 
+y="345" 
+class="s6_75"
+>(</text>
+
+<text 
+x="140" 
+y="345" 
+class="s5_75"
+>xs</text>
+
+<text 
+x="156" 
+y="345" 
+class="s6_75"
+>,</text>
+
+<text 
+x="171" 
+y="345" 
+class="s5_75"
+>num_oscars</text>
+
+<text 
+x="250" 
+y="345" 
+class="s6_75"
+>)</text>
+
+<text 
+x="76" 
+y="376" 
+class="s5_75"
+>plt</text>
+
+<text 
+x="100" 
+y="376" 
+class="s6_75"
+>.</text>
+
+<text 
+x="108" 
+y="376" 
+class="s5_75"
+>ylabel</text>
+
+<text 
+x="156" 
+y="376" 
+class="s6_75"
+>(</text>
+
+<text 
+x="163" 
+y="376" 
+dx="0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s7_75"
+>"# of Academy Awards"</text>
+
+<text 
+x="329" 
+y="376" 
+class="s6_75"
+>)</text>
+
+<text 
+x="76" 
+y="391" 
+class="s5_75"
+>plt</text>
+
+<text 
+x="100" 
+y="391" 
+class="s6_75"
+>.</text>
+
+<text 
+x="108" 
+y="391" 
+class="s5_75"
+>title</text>
+
+<text 
+x="148" 
+y="391" 
+class="s6_75"
+>(</text>
+
+<text 
+x="156" 
+y="391" 
+dx="0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s7_75"
+>"My Favorite Movies"</text>
+
+<text 
+x="314" 
+y="391" 
+class="s6_75"
+>)</text>
+
+<text 
+x="76" 
+y="422" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0" 
+class="s9_75"
+># label x-axis with movie names at bar centers</text>
+
+<text 
+x="76" 
+y="437" 
+class="s5_75"
+>plt</text>
+
+<text 
+x="100" 
+y="437" 
+class="s6_75"
+>.</text>
+
+<text 
+x="108" 
+y="437" 
+class="s5_75"
+>xticks</text>
+
+<text 
+x="156" 
+y="437" 
+class="s6_75"
+>([</text>
+
+<text 
+x="171" 
+y="437" 
+class="s5_75"
+>i</text>
+
+<text 
+x="187" 
+y="437" 
+class="s6_75"
+>+</text>
+
+<text 
+x="203" 
+y="437" 
+class="s8_75"
+>0.5</text>
+
+<text 
+x="235" 
+y="437" 
+class="s10_75"
+>for</text>
+
+<text 
+x="266" 
+y="437" 
+class="s5_75"
+>i</text>
+
+<text 
+x="274" 
+y="437" 
+class="s6_75"
+>,</text>
+
+<text 
+x="290" 
+y="437" 
+class="s5_75"
+>_</text>
+
+<text 
+x="306" 
+y="437" 
+class="s11_75"
+>in</text>
+
+<text 
+x="329" 
+y="437" 
+class="s12_75"
+>enumerate</text>
+
+<text 
+x="401" 
+y="437" 
+class="s6_75"
+>(</text>
+
+<text 
+x="408" 
+y="437" 
+class="s5_75"
+>movies</text>
+
+<text 
+x="456" 
+y="437" 
+class="s6_75"
+>)],</text>
+
+<text 
+x="487" 
+y="437" 
+class="s5_75"
+>movies</text>
+
+<text 
+x="535" 
+y="437" 
+class="s6_75"
+>)</text>
+
+<text 
+x="76" 
+y="468" 
+class="s5_75"
+>plt</text>
+
+<text 
+x="100" 
+y="468" 
+class="s6_75"
+>.</text>
+
+<text 
+x="108" 
+y="468" 
+class="s5_75"
+>show</text>
+
+<text 
+x="140" 
+y="468" 
+class="s6_75"
+>()</text>
+
+<image preserveAspectRatio="none" x="79" y="501" width="752" height="590" xlink:href="75/img/1.png" />
+<text 
+x="353" 
+y="1117" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s13_75"
+>Figure 3-2. A simple bar chart</text>
+
+<text 
+x="55" 
+y="1159" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_75"
+>A bar chart can also be a good choice for plotting histograms of bucketed numeric values,</text>
+
+<text 
+x="55" 
+y="1187" 
+class="s2_75"
+>in order to visually explore how the values are</text>
+
+<text 
+x="468" 
+y="1187" 
+class="s3_75"
+>distributed</text>
+
+<text 
+x="563" 
+y="1187" 
+class="s2_75"
+>, as in</text>
+
+<text 
+x="620" 
+y="1187" 
+class="s4_75"
+>Figure 3-3</text>
+
+<text 
+x="713" 
+y="1187" 
+class="s2_75"
+>:</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

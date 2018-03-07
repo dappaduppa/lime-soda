@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 81 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_81{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s2_81{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_81{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s4_81{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s5_81{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s6_81{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s7_81{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_81{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_81"
+>test_1_grades</text>
+
+<text 
+x="187" 
+y="64" 
+dx="0,0,4.6" 
+class="s2_81"
+>= [</text>
+
+<text 
+x="219" 
+y="64" 
+class="s3_81"
+>99</text>
+
+<text 
+x="235" 
+y="64" 
+class="s2_81"
+>,</text>
+
+<text 
+x="250" 
+y="64" 
+class="s3_81"
+>90</text>
+
+<text 
+x="266" 
+y="64" 
+class="s2_81"
+>,</text>
+
+<text 
+x="282" 
+y="64" 
+class="s3_81"
+>85</text>
+
+<text 
+x="298" 
+y="64" 
+class="s2_81"
+>,</text>
+
+<text 
+x="314" 
+y="64" 
+class="s3_81"
+>97</text>
+
+<text 
+x="329" 
+y="64" 
+class="s2_81"
+>,</text>
+
+<text 
+x="345" 
+y="64" 
+class="s3_81"
+>80</text>
+
+<text 
+x="361" 
+y="64" 
+class="s2_81"
+>]</text>
+
+<text 
+x="76" 
+y="80" 
+class="s1_81"
+>test_2_grades</text>
+
+<text 
+x="187" 
+y="80" 
+dx="0,0,4.6" 
+class="s2_81"
+>= [</text>
+
+<text 
+x="211" 
+y="80" 
+class="s3_81"
+>100</text>
+
+<text 
+x="235" 
+y="80" 
+class="s2_81"
+>,</text>
+
+<text 
+x="250" 
+y="80" 
+class="s3_81"
+>85</text>
+
+<text 
+x="266" 
+y="80" 
+class="s2_81"
+>,</text>
+
+<text 
+x="282" 
+y="80" 
+class="s3_81"
+>60</text>
+
+<text 
+x="298" 
+y="80" 
+class="s2_81"
+>,</text>
+
+<text 
+x="314" 
+y="80" 
+class="s3_81"
+>90</text>
+
+<text 
+x="329" 
+y="80" 
+class="s2_81"
+>,</text>
+
+<text 
+x="345" 
+y="80" 
+class="s3_81"
+>70</text>
+
+<text 
+x="361" 
+y="80" 
+class="s2_81"
+>]</text>
+
+<text 
+x="76" 
+y="111" 
+class="s1_81"
+>plt</text>
+
+<text 
+x="100" 
+y="111" 
+class="s2_81"
+>.</text>
+
+<text 
+x="108" 
+y="111" 
+class="s1_81"
+>scatter</text>
+
+<text 
+x="163" 
+y="111" 
+class="s2_81"
+>(</text>
+
+<text 
+x="171" 
+y="111" 
+class="s1_81"
+>test_1_grades</text>
+
+<text 
+x="274" 
+y="111" 
+class="s2_81"
+>,</text>
+
+<text 
+x="290" 
+y="111" 
+class="s1_81"
+>test_2_grades</text>
+
+<text 
+x="393" 
+y="111" 
+class="s2_81"
+>)</text>
+
+<text 
+x="76" 
+y="126" 
+class="s1_81"
+>plt</text>
+
+<text 
+x="100" 
+y="126" 
+class="s2_81"
+>.</text>
+
+<text 
+x="108" 
+y="126" 
+class="s1_81"
+>title</text>
+
+<text 
+x="148" 
+y="126" 
+class="s2_81"
+>(</text>
+
+<text 
+x="156" 
+y="126" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s4_81"
+>"Axes Aren't Comparable"</text>
+
+<text 
+x="345" 
+y="126" 
+class="s2_81"
+>)</text>
+
+<text 
+x="76" 
+y="141" 
+class="s1_81"
+>plt</text>
+
+<text 
+x="100" 
+y="141" 
+class="s2_81"
+>.</text>
+
+<text 
+x="108" 
+y="141" 
+class="s1_81"
+>xlabel</text>
+
+<text 
+x="156" 
+y="141" 
+class="s2_81"
+>(</text>
+
+<text 
+x="163" 
+y="141" 
+dx="0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0" 
+class="s4_81"
+>"test 1 grade"</text>
+
+<text 
+x="274" 
+y="141" 
+class="s2_81"
+>)</text>
+
+<text 
+x="76" 
+y="157" 
+class="s1_81"
+>plt</text>
+
+<text 
+x="100" 
+y="157" 
+class="s2_81"
+>.</text>
+
+<text 
+x="108" 
+y="157" 
+class="s1_81"
+>ylabel</text>
+
+<text 
+x="156" 
+y="157" 
+class="s2_81"
+>(</text>
+
+<text 
+x="163" 
+y="157" 
+dx="0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0" 
+class="s4_81"
+>"test 2 grade"</text>
+
+<text 
+x="274" 
+y="157" 
+class="s2_81"
+>)</text>
+
+<text 
+x="76" 
+y="172" 
+class="s1_81"
+>plt</text>
+
+<text 
+x="100" 
+y="172" 
+class="s2_81"
+>.</text>
+
+<text 
+x="108" 
+y="172" 
+class="s1_81"
+>show</text>
+
+<text 
+x="140" 
+y="172" 
+class="s2_81"
+>()</text>
+
+<image preserveAspectRatio="none" x="67" y="205" width="776" height="618" xlink:href="81/img/1.png" />
+<text 
+x="290" 
+y="849" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_81"
+>Figure 3-8. A scatterplot with uncomparable axes</text>
+
+<text 
+x="55" 
+y="891" 
+class="s6_81"
+>If we include a call to</text>
+
+<text 
+x="251" 
+y="891" 
+class="s7_81"
+>plt.axis("equal")</text>
+
+<text 
+x="430" 
+y="891" 
+class="s6_81"
+>, the plot (</text>
+
+<text 
+x="521" 
+y="891" 
+class="s8_81"
+>Figure 3-9</text>
+
+<text 
+x="613" 
+y="891" 
+class="s6_81"
+>) more accurately shows</text>
+
+<text 
+x="55" 
+y="920" 
+class="s6_81"
+>that most of the variation occurs on test 2.</text>
+
+<text 
+x="55" 
+y="959" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s6_81"
+>That’s enough to get you started doing visualization. We’ll learn much more about</text>
+
+<text 
+x="55" 
+y="986" 
+class="s6_81"
+>visualization throughout the book.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

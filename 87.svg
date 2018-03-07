@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 87 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_87{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_87{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_87{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_87{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_87{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_87{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_87{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_87{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_87{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_87{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s11_87{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s12_87{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<image preserveAspectRatio="none" x="82" y="54" width="745" height="572" xlink:href="87/img/1.png" />
+<text 
+x="351" 
+y="652" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_87"
+>Figure 4-1. Adding two vectors</text>
+
+<text 
+x="55" 
+y="694" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_87"
+>We can easily implement this by</text>
+
+<text 
+x="346" 
+y="694" 
+class="s3_87"
+>zip</text>
+
+<text 
+x="377" 
+y="694" 
+class="s2_87"
+>-ing the vectors together and using a list</text>
+
+<text 
+x="55" 
+y="723" 
+class="s2_87"
+>comprehension to add the corresponding elements:</text>
+
+<text 
+x="76" 
+y="769" 
+class="s4_87"
+>def</text>
+
+<text 
+x="108" 
+y="769" 
+class="s5_87"
+>vector_add</text>
+
+<text 
+x="187" 
+y="769" 
+class="s6_87"
+>(</text>
+
+<text 
+x="195" 
+y="769" 
+class="s7_87"
+>v</text>
+
+<text 
+x="203" 
+y="769" 
+class="s6_87"
+>,</text>
+
+<text 
+x="219" 
+y="769" 
+class="s7_87"
+>w</text>
+
+<text 
+x="227" 
+y="769" 
+class="s6_87"
+>):</text>
+
+<text 
+x="108" 
+y="784" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s8_87"
+>"""adds corresponding elements"""</text>
+
+<text 
+x="108" 
+y="799" 
+class="s4_87"
+>return</text>
+
+<text 
+x="163" 
+y="799" 
+class="s6_87"
+>[</text>
+
+<text 
+x="171" 
+y="799" 
+class="s7_87"
+>v_i</text>
+
+<text 
+x="203" 
+y="799" 
+class="s6_87"
+>+</text>
+
+<text 
+x="219" 
+y="799" 
+class="s7_87"
+>w_i</text>
+
+<text 
+x="171" 
+y="815" 
+class="s4_87"
+>for</text>
+
+<text 
+x="203" 
+y="815" 
+class="s7_87"
+>v_i</text>
+
+<text 
+x="227" 
+y="815" 
+class="s6_87"
+>,</text>
+
+<text 
+x="242" 
+y="815" 
+class="s7_87"
+>w_i</text>
+
+<text 
+x="274" 
+y="815" 
+class="s9_87"
+>in</text>
+
+<text 
+x="298" 
+y="815" 
+class="s10_87"
+>zip</text>
+
+<text 
+x="322" 
+y="815" 
+class="s6_87"
+>(</text>
+
+<text 
+x="329" 
+y="815" 
+class="s7_87"
+>v</text>
+
+<text 
+x="337" 
+y="815" 
+class="s6_87"
+>,</text>
+
+<text 
+x="353" 
+y="815" 
+class="s7_87"
+>w</text>
+
+<text 
+x="361" 
+y="815" 
+class="s6_87"
+>)]</text>
+
+<text 
+x="55" 
+y="868" 
+dx="0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_87"
+>Similarly, to subtract two vectors we just subtract corresponding elements:</text>
+
+<text 
+x="76" 
+y="913" 
+class="s4_87"
+>def</text>
+
+<text 
+x="108" 
+y="913" 
+class="s5_87"
+>vector_subtract</text>
+
+<text 
+x="227" 
+y="913" 
+class="s6_87"
+>(</text>
+
+<text 
+x="235" 
+y="913" 
+class="s7_87"
+>v</text>
+
+<text 
+x="242" 
+y="913" 
+class="s6_87"
+>,</text>
+
+<text 
+x="258" 
+y="913" 
+class="s7_87"
+>w</text>
+
+<text 
+x="266" 
+y="913" 
+class="s6_87"
+>):</text>
+
+<text 
+x="108" 
+y="928" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s8_87"
+>"""subtracts corresponding elements"""</text>
+
+<text 
+x="108" 
+y="944" 
+class="s4_87"
+>return</text>
+
+<text 
+x="163" 
+y="944" 
+class="s6_87"
+>[</text>
+
+<text 
+x="171" 
+y="944" 
+class="s7_87"
+>v_i</text>
+
+<text 
+x="203" 
+y="944" 
+class="s6_87"
+>-</text>
+
+<text 
+x="219" 
+y="944" 
+class="s7_87"
+>w_i</text>
+
+<text 
+x="171" 
+y="959" 
+class="s4_87"
+>for</text>
+
+<text 
+x="203" 
+y="959" 
+class="s7_87"
+>v_i</text>
+
+<text 
+x="227" 
+y="959" 
+class="s6_87"
+>,</text>
+
+<text 
+x="242" 
+y="959" 
+class="s7_87"
+>w_i</text>
+
+<text 
+x="274" 
+y="959" 
+class="s9_87"
+>in</text>
+
+<text 
+x="298" 
+y="959" 
+class="s10_87"
+>zip</text>
+
+<text 
+x="322" 
+y="959" 
+class="s6_87"
+>(</text>
+
+<text 
+x="329" 
+y="959" 
+class="s7_87"
+>v</text>
+
+<text 
+x="337" 
+y="959" 
+class="s6_87"
+>,</text>
+
+<text 
+x="353" 
+y="959" 
+class="s7_87"
+>w</text>
+
+<text 
+x="361" 
+y="959" 
+class="s6_87"
+>)]</text>
+
+<text 
+x="55" 
+y="1012" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_87"
+>We’ll also sometimes want to componentwise sum a list of vectors. That is, create a new</text>
+
+<text 
+x="55" 
+y="1039" 
+class="s2_87"
+>vector whose first element is the sum of all the first elements, whose second element is the</text>
+
+<text 
+x="55" 
+y="1067" 
+class="s2_87"
+>sum of all the second elements, and so on. The easiest way to do this is by adding one</text>
+
+<text 
+x="55" 
+y="1094" 
+class="s2_87"
+>vector at a time:</text>
+
+<text 
+x="76" 
+y="1139" 
+class="s4_87"
+>def</text>
+
+<text 
+x="108" 
+y="1139" 
+class="s5_87"
+>vector_sum</text>
+
+<text 
+x="187" 
+y="1139" 
+class="s6_87"
+>(</text>
+
+<text 
+x="195" 
+y="1139" 
+class="s7_87"
+>vectors</text>
+
+<text 
+x="250" 
+y="1139" 
+class="s6_87"
+>):</text>
+
+<text 
+x="108" 
+y="1155" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s8_87"
+>"""sums all corresponding elements"""</text>
+
+<text 
+x="108" 
+y="1170" 
+class="s7_87"
+>result</text>
+
+<text 
+x="163" 
+y="1170" 
+class="s6_87"
+>=</text>
+
+<text 
+x="179" 
+y="1170" 
+class="s7_87"
+>vectors</text>
+
+<text 
+x="235" 
+y="1170" 
+class="s6_87"
+>[</text>
+
+<text 
+x="242" 
+y="1170" 
+class="s11_87"
+>0</text>
+
+<text 
+x="250" 
+y="1170" 
+class="s6_87"
+>]</text>
+
+<text 
+x="456" 
+y="1170" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s12_87"
+># start with the first vector</text>
+
+<text 
+x="108" 
+y="1186" 
+class="s4_87"
+>for</text>
+
+<text 
+x="140" 
+y="1186" 
+class="s7_87"
+>vector</text>
+
+<text 
+x="195" 
+y="1186" 
+class="s9_87"
+>in</text>
+
+<text 
+x="219" 
+y="1186" 
+class="s7_87"
+>vectors</text>
+
+<text 
+x="274" 
+y="1186" 
+class="s6_87"
+>[</text>
+
+<text 
+x="282" 
+y="1186" 
+class="s11_87"
+>1</text>
+
+<text 
+x="290" 
+y="1186" 
+class="s6_87"
+>:]:</text>
+
+<text 
+x="456" 
+y="1186" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0" 
+class="s12_87"
+># then loop over the others</text>
+
+<text 
+x="140" 
+y="1201" 
+class="s7_87"
+>result</text>
+
+<text 
+x="195" 
+y="1201" 
+class="s6_87"
+>=</text>
+
+<text 
+x="211" 
+y="1201" 
+class="s7_87"
+>vector_add</text>
+
+<text 
+x="290" 
+y="1201" 
+class="s6_87"
+>(</text>
+
+<text 
+x="298" 
+y="1201" 
+class="s7_87"
+>result</text>
+
+<text 
+x="345" 
+y="1201" 
+class="s6_87"
+>,</text>
+
+<text 
+x="361" 
+y="1201" 
+class="s7_87"
+>vector</text>
+
+<text 
+x="408" 
+y="1201" 
+class="s6_87"
+>)</text>
+
+<text 
+x="456" 
+y="1201" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0" 
+class="s12_87"
+># and add them to the result</text>
+
+<text 
+x="108" 
+y="1216" 
+class="s4_87"
+>return</text>
+
+<text 
+x="163" 
+y="1216" 
+class="s7_87"
+>result</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

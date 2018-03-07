@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 20 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_20{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_20{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_20{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_20"
+>What Is Data Science?</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>There’s a joke that says a data scientist is someone who knows more statistics than a</text>
+
+<text 
+x="55" 
+y="149" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>computer scientist and more computer science than a statistician. (I didn’t say it was a</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_20"
+>good joke.) In fact, some data scientists are — for all practical purposes — statisticians,</text>
+
+<text 
+x="55" 
+y="204" 
+class="s2_20"
+>while others are pretty much indistinguishable from software engineers. Some are</text>
+
+<text 
+x="55" 
+y="232" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>machine-learning experts, while others couldn’t machine-learn their way out of</text>
+
+<text 
+x="55" 
+y="259" 
+dx="0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>kindergarten. Some are PhDs with impressive publication records, while others have never</text>
+
+<text 
+x="55" 
+y="287" 
+class="s2_20"
+>read an academic paper (shame on them, though). In short, pretty much no matter how you</text>
+
+<text 
+x="55" 
+y="314" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>define data science, you’ll find practitioners for whom the definition is totally, absolutely</text>
+
+<text 
+x="55" 
+y="342" 
+class="s2_20"
+>wrong.</text>
+
+<text 
+x="55" 
+y="380" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>Nonetheless, we won’t let that stop us from trying. We’ll say that a data scientist is</text>
+
+<text 
+x="55" 
+y="408" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>someone who extracts insights from messy data. Today’s world is full of people trying to</text>
+
+<text 
+x="55" 
+y="435" 
+class="s2_20"
+>turn data into insight.</text>
+
+<text 
+x="55" 
+y="474" 
+class="s2_20"
+>For instance, the dating site OkCupid asks its members to answer thousands of questions</text>
+
+<text 
+x="55" 
+y="501" 
+class="s2_20"
+>in order to find the most appropriate matches for them. But it also analyzes these results to</text>
+
+<text 
+x="55" 
+y="529" 
+class="s2_20"
+>figure out innocuous-sounding questions you can ask someone to find out</text>
+
+<text 
+x="709" 
+y="529" 
+class="s3_20"
+>how likely</text>
+
+<text 
+x="55" 
+y="556" 
+class="s3_20"
+>someone is to sleep with you on the first date</text>
+
+<text 
+x="452" 
+y="556" 
+class="s2_20"
+>.</text>
+
+<text 
+x="55" 
+y="595" 
+class="s2_20"
+>Facebook asks you to list your hometown and your current location, ostensibly to make it</text>
+
+<text 
+x="55" 
+y="622" 
+class="s2_20"
+>easier for your friends to find and connect with you. But it also analyzes these locations to</text>
+
+<text 
+x="55" 
+y="650" 
+class="s3_20"
+>identify global migration patterns</text>
+
+<text 
+x="355" 
+y="650" 
+class="s2_20"
+>and</text>
+
+<text 
+x="392" 
+y="650" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s3_20"
+>where the fanbases of different football teams live</text>
+
+<text 
+x="833" 
+y="650" 
+class="s2_20"
+>.</text>
+
+<text 
+x="55" 
+y="688" 
+dx="0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,-1.6,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>As a large retailer, Target tracks your purchases and interactions, both online and in-store.</text>
+
+<text 
+x="55" 
+y="716" 
+class="s2_20"
+>And it uses the</text>
+
+<text 
+x="191" 
+y="716" 
+class="s3_20"
+>data to predictively model</text>
+
+<text 
+x="427" 
+y="716" 
+class="s2_20"
+>which of its customers are pregnant, to better</text>
+
+<text 
+x="55" 
+y="743" 
+class="s2_20"
+>market baby-related purchases to them.</text>
+
+<text 
+x="55" 
+y="782" 
+class="s2_20"
+>In 2012, the Obama campaign employed dozens of data scientists who data-mined and</text>
+
+<text 
+x="55" 
+y="809" 
+class="s2_20"
+>experimented their way to identifying voters who needed extra attention, choosing optimal</text>
+
+<text 
+x="55" 
+y="837" 
+dx="0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0" 
+class="s2_20"
+>donor-specific fundraising appeals and programs, and focusing get-out-the-vote efforts</text>
+
+<text 
+x="55" 
+y="864" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>where they were most likely to be useful. It is generally agreed that these efforts played an</text>
+
+<text 
+x="55" 
+y="892" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>important role in the president’s re-election, which means it is a safe bet that political</text>
+
+<text 
+x="55" 
+y="919" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5" 
+class="s2_20"
+>campaigns of the future will become more and more data-driven, resulting in a never-</text>
+
+<text 
+x="55" 
+y="947" 
+class="s2_20"
+>ending arms race of data science and data collection.</text>
+
+<text 
+x="55" 
+y="985" 
+dx="0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>Now, before you start feeling too jaded: some data scientists also occasionally use their</text>
+
+<text 
+x="55" 
+y="1013" 
+class="s2_20"
+>skills for good —</text>
+
+<text 
+x="215" 
+y="1013" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s3_20"
+>using data to make government more effective</text>
+
+<text 
+x="623" 
+y="1013" 
+class="s2_20"
+>,</text>
+
+<text 
+x="634" 
+y="1013" 
+class="s3_20"
+>to help the homeless</text>
+
+<text 
+x="814" 
+y="1013" 
+class="s2_20"
+>,</text>
+
+<text 
+x="55" 
+y="1040" 
+class="s2_20"
+>and to</text>
+
+<text 
+x="114" 
+y="1040" 
+class="s3_20"
+>improve public health</text>
+
+<text 
+x="307" 
+y="1040" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_20"
+>. But it certainly won’t hurt your career if you like figuring</text>
+
+<text 
+x="55" 
+y="1068" 
+class="s2_20"
+>out the best way to get people to click on advertisements.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

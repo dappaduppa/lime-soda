@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 47 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_47{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_47{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s3_47{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_47{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_47{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_47{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s7_47{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_47"
+>It is often convenient to</text>
+
+<text 
+x="269" 
+y="74" 
+class="s2_47"
+>unpack</text>
+
+<text 
+x="338" 
+y="74" 
+class="s1_47"
+>lists if you know how many elements they contain:</text>
+
+<text 
+x="76" 
+y="119" 
+class="s3_47"
+>x</text>
+
+<text 
+x="84" 
+y="119" 
+class="s4_47"
+>,</text>
+
+<text 
+x="100" 
+y="119" 
+class="s3_47"
+>y</text>
+
+<text 
+x="116" 
+y="119" 
+dx="0,0,4.6" 
+class="s4_47"
+>= [</text>
+
+<text 
+x="140" 
+y="119" 
+class="s5_47"
+>1</text>
+
+<text 
+x="148" 
+y="119" 
+class="s4_47"
+>,</text>
+
+<text 
+x="163" 
+y="119" 
+class="s5_47"
+>2</text>
+
+<text 
+x="171" 
+y="119" 
+class="s4_47"
+>]</text>
+
+<text 
+x="211" 
+y="119" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0,0,4.6,0,4.6,0,0,4.6" 
+class="s6_47"
+># now x is 1, y is 2</text>
+
+<text 
+x="55" 
+y="172" 
+class="s1_47"
+>although you will get a</text>
+
+<text 
+x="263" 
+y="172" 
+class="s7_47"
+>ValueError</text>
+
+<text 
+x="374" 
+y="172" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_47"
+>if you don’t have the same numbers of elements on</text>
+
+<text 
+x="55" 
+y="202" 
+class="s1_47"
+>both sides.</text>
+
+<text 
+x="55" 
+y="240" 
+dx="0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_47"
+>It’s common to use an underscore for a value you’re going to throw away:</text>
+
+<text 
+x="76" 
+y="286" 
+class="s3_47"
+>_</text>
+
+<text 
+x="84" 
+y="286" 
+class="s4_47"
+>,</text>
+
+<text 
+x="100" 
+y="286" 
+class="s3_47"
+>y</text>
+
+<text 
+x="116" 
+y="286" 
+dx="0,0,4.6" 
+class="s4_47"
+>= [</text>
+
+<text 
+x="140" 
+y="286" 
+class="s5_47"
+>1</text>
+
+<text 
+x="148" 
+y="286" 
+class="s4_47"
+>,</text>
+
+<text 
+x="163" 
+y="286" 
+class="s5_47"
+>2</text>
+
+<text 
+x="171" 
+y="286" 
+class="s4_47"
+>]</text>
+
+<text 
+x="211" 
+y="286" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s6_47"
+># now y == 2, didn't care about the first element</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

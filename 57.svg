@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 57 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_57{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_57{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_57{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_57{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_57{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_57{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_57{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s8_57{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_57{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_57"
+>Sorting</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_57"
+>Every Python list has a</text>
+
+<text 
+x="263" 
+y="115" 
+class="s3_57"
+>sort</text>
+
+<text 
+x="310" 
+y="115" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_57"
+>method that sorts it in place. If you don’t want to mess up</text>
+
+<text 
+x="55" 
+y="145" 
+class="s2_57"
+>your list, you can use the</text>
+
+<text 
+x="280" 
+y="145" 
+class="s3_57"
+>sorted</text>
+
+<text 
+x="349" 
+y="145" 
+class="s2_57"
+>function, which returns a new list:</text>
+
+<text 
+x="76" 
+y="192" 
+class="s4_57"
+>x</text>
+
+<text 
+x="92" 
+y="192" 
+dx="0,0,4.6" 
+class="s5_57"
+>= [</text>
+
+<text 
+x="116" 
+y="192" 
+class="s6_57"
+>4</text>
+
+<text 
+x="124" 
+y="192" 
+class="s5_57"
+>,</text>
+
+<text 
+x="132" 
+y="192" 
+class="s6_57"
+>1</text>
+
+<text 
+x="140" 
+y="192" 
+class="s5_57"
+>,</text>
+
+<text 
+x="148" 
+y="192" 
+class="s6_57"
+>2</text>
+
+<text 
+x="156" 
+y="192" 
+class="s5_57"
+>,</text>
+
+<text 
+x="163" 
+y="192" 
+class="s6_57"
+>3</text>
+
+<text 
+x="171" 
+y="192" 
+class="s5_57"
+>]</text>
+
+<text 
+x="76" 
+y="207" 
+class="s4_57"
+>y</text>
+
+<text 
+x="92" 
+y="207" 
+class="s5_57"
+>=</text>
+
+<text 
+x="108" 
+y="207" 
+class="s7_57"
+>sorted</text>
+
+<text 
+x="156" 
+y="207" 
+class="s5_57"
+>(</text>
+
+<text 
+x="163" 
+y="207" 
+class="s4_57"
+>x</text>
+
+<text 
+x="171" 
+y="207" 
+class="s5_57"
+>)</text>
+
+<text 
+x="219" 
+y="207" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s8_57"
+># is [1,2,3,4], x is unchanged</text>
+
+<text 
+x="76" 
+y="223" 
+class="s4_57"
+>x</text>
+
+<text 
+x="84" 
+y="223" 
+class="s5_57"
+>.</text>
+
+<text 
+x="92" 
+y="223" 
+class="s4_57"
+>sort</text>
+
+<text 
+x="124" 
+y="223" 
+class="s5_57"
+>()</text>
+
+<text 
+x="219" 
+y="223" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s8_57"
+># now x is [1,2,3,4]</text>
+
+<text 
+x="55" 
+y="276" 
+class="s2_57"
+>By default,</text>
+
+<text 
+x="158" 
+y="276" 
+class="s3_57"
+>sort</text>
+
+<text 
+x="205" 
+y="276" 
+class="s2_57"
+>(and</text>
+
+<text 
+x="250" 
+y="276" 
+class="s3_57"
+>sorted</text>
+
+<text 
+x="313" 
+y="276" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_57"
+>) sort a list from smallest to largest based on naively</text>
+
+<text 
+x="55" 
+y="305" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_57"
+>comparing the elements to one another.</text>
+
+<text 
+x="55" 
+y="344" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_57"
+>If you want elements sorted from largest to smallest, you can specify a</text>
+
+<text 
+x="680" 
+y="344" 
+class="s3_57"
+>reverse=True</text>
+
+<text 
+x="55" 
+y="374" 
+dx="0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_57"
+>parameter. And instead of comparing the elements themselves, you can compare the</text>
+
+<text 
+x="55" 
+y="401" 
+class="s2_57"
+>results of a function that you specify with</text>
+
+<text 
+x="426" 
+y="401" 
+class="s3_57"
+>key</text>
+
+<text 
+x="457" 
+y="401" 
+class="s2_57"
+>:</text>
+
+<text 
+x="76" 
+y="448" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0" 
+class="s8_57"
+># sort the list by absolute value from largest to smallest</text>
+
+<text 
+x="76" 
+y="464" 
+class="s4_57"
+>x</text>
+
+<text 
+x="92" 
+y="464" 
+class="s5_57"
+>=</text>
+
+<text 
+x="108" 
+y="464" 
+class="s7_57"
+>sorted</text>
+
+<text 
+x="156" 
+y="464" 
+class="s5_57"
+>([-</text>
+
+<text 
+x="179" 
+y="464" 
+class="s6_57"
+>4</text>
+
+<text 
+x="187" 
+y="464" 
+class="s5_57"
+>,</text>
+
+<text 
+x="195" 
+y="464" 
+class="s6_57"
+>1</text>
+
+<text 
+x="203" 
+y="464" 
+class="s5_57"
+>,-</text>
+
+<text 
+x="219" 
+y="464" 
+class="s6_57"
+>2</text>
+
+<text 
+x="227" 
+y="464" 
+class="s5_57"
+>,</text>
+
+<text 
+x="235" 
+y="464" 
+class="s6_57"
+>3</text>
+
+<text 
+x="242" 
+y="464" 
+class="s5_57"
+>],</text>
+
+<text 
+x="266" 
+y="464" 
+class="s4_57"
+>key</text>
+
+<text 
+x="290" 
+y="464" 
+class="s5_57"
+>=</text>
+
+<text 
+x="298" 
+y="464" 
+class="s7_57"
+>abs</text>
+
+<text 
+x="322" 
+y="464" 
+class="s5_57"
+>,</text>
+
+<text 
+x="337" 
+y="464" 
+class="s4_57"
+>reverse</text>
+
+<text 
+x="393" 
+y="464" 
+class="s5_57"
+>=</text>
+
+<text 
+x="401" 
+y="464" 
+class="s7_57"
+>True</text>
+
+<text 
+x="432" 
+y="464" 
+class="s5_57"
+>)</text>
+
+<text 
+x="456" 
+y="464" 
+dx="0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0" 
+class="s8_57"
+># is [-4,3,-2,1]</text>
+
+<text 
+x="76" 
+y="495" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0" 
+class="s8_57"
+># sort the words and counts from highest count to lowest</text>
+
+<text 
+x="76" 
+y="510" 
+class="s4_57"
+>wc</text>
+
+<text 
+x="100" 
+y="510" 
+class="s5_57"
+>=</text>
+
+<text 
+x="116" 
+y="510" 
+class="s7_57"
+>sorted</text>
+
+<text 
+x="163" 
+y="510" 
+class="s5_57"
+>(</text>
+
+<text 
+x="171" 
+y="510" 
+class="s4_57"
+>word_counts</text>
+
+<text 
+x="258" 
+y="510" 
+class="s5_57"
+>.</text>
+
+<text 
+x="266" 
+y="510" 
+class="s4_57"
+>items</text>
+
+<text 
+x="306" 
+y="510" 
+class="s5_57"
+>(),</text>
+
+<text 
+x="171" 
+y="525" 
+class="s4_57"
+>key</text>
+
+<text 
+x="195" 
+y="525" 
+class="s5_57"
+>=</text>
+
+<text 
+x="203" 
+y="525" 
+class="s9_57"
+>lambda</text>
+
+<text 
+x="258" 
+y="525" 
+class="s5_57"
+>(</text>
+
+<text 
+x="266" 
+y="525" 
+class="s4_57"
+>word</text>
+
+<text 
+x="298" 
+y="525" 
+class="s5_57"
+>,</text>
+
+<text 
+x="314" 
+y="525" 
+class="s4_57"
+>count</text>
+
+<text 
+x="353" 
+y="525" 
+class="s5_57"
+>):</text>
+
+<text 
+x="377" 
+y="525" 
+class="s4_57"
+>count</text>
+
+<text 
+x="416" 
+y="525" 
+class="s5_57"
+>,</text>
+
+<text 
+x="171" 
+y="541" 
+class="s4_57"
+>reverse</text>
+
+<text 
+x="227" 
+y="541" 
+class="s5_57"
+>=</text>
+
+<text 
+x="235" 
+y="541" 
+class="s7_57"
+>True</text>
+
+<text 
+x="266" 
+y="541" 
+class="s5_57"
+>)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

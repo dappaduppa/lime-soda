@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 86 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_86{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_86{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_86{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_86{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_86{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_86{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_86{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_86{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_86{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,-2.8,0,0,0,0,0" 
+class="s1_86"
+>Vectors</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_86"
+>Abstractly,</text>
+
+<text 
+x="156" 
+y="122" 
+class="s3_86"
+>vectors</text>
+
+<text 
+x="225" 
+y="122" 
+class="s2_86"
+>are objects that can be added together (to form new vectors) and that</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_86"
+>can be multiplied by</text>
+
+<text 
+x="240" 
+y="149" 
+class="s3_86"
+>scalars</text>
+
+<text 
+x="309" 
+y="149" 
+class="s2_86"
+>(i.e., numbers), also to form new vectors.</text>
+
+<text 
+x="55" 
+y="188" 
+class="s2_86"
+>Concretely (for us), vectors are points in some finite-dimensional space. Although you</text>
+
+<text 
+x="55" 
+y="215" 
+class="s2_86"
+>might not think of your data as vectors, they are a good way to represent numeric data.</text>
+
+<text 
+x="55" 
+y="254" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_86"
+>For example, if you have the heights, weights, and ages of a large number of people, you</text>
+
+<text 
+x="55" 
+y="281" 
+class="s2_86"
+>can treat your data as three-dimensional vectors</text>
+
+<text 
+x="480" 
+y="281" 
+dx="0,0,0,0,0,0,0,0,0,6.1,0,0,0,0,0,0,0,6.1,0,0,0" 
+class="s4_86"
+>(height, weight, age)</text>
+
+<text 
+x="702" 
+y="281" 
+class="s2_86"
+>. If you’re</text>
+
+<text 
+x="55" 
+y="311" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_86"
+>teaching a class with four exams, you can treat student grades as four-dimensional vectors</text>
+
+<text 
+x="55" 
+y="338" 
+dx="0,0,0,0,0,0,0,0,6.1,0,0,0,0,0,0,6.1,0,0,0,0,0,0,6.1,0,0,0,0,0" 
+class="s4_86"
+>(exam1, exam2, exam3, exam4)</text>
+
+<text 
+x="350" 
+y="338" 
+class="s2_86"
+>.</text>
+
+<text 
+x="55" 
+y="379" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0" 
+class="s2_86"
+>The simplest from-scratch approach is to represent vectors as lists of numbers. A list of</text>
+
+<text 
+x="55" 
+y="407" 
+class="s2_86"
+>three numbers corresponds to a vector in three-dimensional space, and vice versa:</text>
+
+<text 
+x="76" 
+y="452" 
+class="s5_86"
+>height_weight_age</text>
+
+<text 
+x="219" 
+y="452" 
+dx="0,0,4.6" 
+class="s6_86"
+>= [</text>
+
+<text 
+x="242" 
+y="452" 
+class="s7_86"
+>70</text>
+
+<text 
+x="258" 
+y="452" 
+class="s6_86"
+>,</text>
+
+<text 
+x="282" 
+y="452" 
+dx="0,0,4.6,0,0,0,0,0,0" 
+class="s8_86"
+># inches,</text>
+
+<text 
+x="242" 
+y="467" 
+class="s7_86"
+>170</text>
+
+<text 
+x="266" 
+y="467" 
+class="s6_86"
+>,</text>
+
+<text 
+x="282" 
+y="467" 
+dx="0,0,4.6,0,0,0,0,0,0" 
+class="s8_86"
+># pounds,</text>
+
+<text 
+x="242" 
+y="483" 
+class="s7_86"
+>40</text>
+
+<text 
+x="266" 
+y="483" 
+class="s6_86"
+>]</text>
+
+<text 
+x="282" 
+y="483" 
+dx="0,0,4.6,0,0,0,0" 
+class="s8_86"
+># years</text>
+
+<text 
+x="76" 
+y="513" 
+class="s5_86"
+>grades</text>
+
+<text 
+x="132" 
+y="513" 
+dx="0,0,4.6" 
+class="s6_86"
+>= [</text>
+
+<text 
+x="156" 
+y="513" 
+class="s7_86"
+>95</text>
+
+<text 
+x="171" 
+y="513" 
+class="s6_86"
+>,</text>
+
+<text 
+x="203" 
+y="513" 
+dx="0,0,4.6,0,0,0,0" 
+class="s8_86"
+># exam1</text>
+
+<text 
+x="156" 
+y="529" 
+class="s7_86"
+>80</text>
+
+<text 
+x="171" 
+y="529" 
+class="s6_86"
+>,</text>
+
+<text 
+x="203" 
+y="529" 
+dx="0,0,4.6,0,0,0,0" 
+class="s8_86"
+># exam2</text>
+
+<text 
+x="156" 
+y="544" 
+class="s7_86"
+>75</text>
+
+<text 
+x="171" 
+y="544" 
+class="s6_86"
+>,</text>
+
+<text 
+x="203" 
+y="544" 
+dx="0,0,4.6,0,0,0,0" 
+class="s8_86"
+># exam3</text>
+
+<text 
+x="156" 
+y="560" 
+class="s7_86"
+>62</text>
+
+<text 
+x="179" 
+y="560" 
+class="s6_86"
+>]</text>
+
+<text 
+x="203" 
+y="560" 
+dx="0,0,4.6,0,0,0,0" 
+class="s8_86"
+># exam4</text>
+
+<text 
+x="55" 
+y="612" 
+class="s2_86"
+>One problem with this approach is that we will want to perform</text>
+
+<text 
+x="620" 
+y="612" 
+class="s3_86"
+>arithmetic</text>
+
+<text 
+x="716" 
+y="612" 
+class="s2_86"
+>on vectors.</text>
+
+<text 
+x="55" 
+y="640" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_86"
+>Because Python lists aren’t vectors (and hence provide no facilities for vector arithmetic),</text>
+
+<text 
+x="55" 
+y="667" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_86"
+>we’ll need to build these arithmetic tools ourselves. So let’s start with that.</text>
+
+<text 
+x="55" 
+y="706" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.4,0,0,0,0,0,0,0,0,0" 
+class="s2_86"
+>To begin with, we’ll frequently need to add two vectors. Vectors add</text>
+
+<text 
+x="662" 
+y="706" 
+class="s3_86"
+>componentwise</text>
+
+<text 
+x="798" 
+y="706" 
+class="s2_86"
+>. This</text>
+
+<text 
+x="55" 
+y="733" 
+class="s2_86"
+>means that if two vectors</text>
+
+<text 
+x="281" 
+y="733" 
+class="s4_86"
+>v</text>
+
+<text 
+x="297" 
+y="733" 
+class="s2_86"
+>and</text>
+
+<text 
+x="334" 
+y="733" 
+class="s4_86"
+>w</text>
+
+<text 
+x="350" 
+y="733" 
+class="s2_86"
+>are the same length, their sum is just the vector whose</text>
+
+<text 
+x="55" 
+y="763" 
+class="s2_86"
+>first element is</text>
+
+<text 
+x="191" 
+y="763" 
+dx="0,0,0,0,0,6.1,0,6.1,0,0,0" 
+class="s4_86"
+>v[0] + w[0]</text>
+
+<text 
+x="307" 
+y="763" 
+class="s2_86"
+>, whose second element is</text>
+
+<text 
+x="541" 
+y="763" 
+dx="0,0,0,0,0,6.1,0,6.1,0,0,0" 
+class="s4_86"
+>v[1] + w[1]</text>
+
+<text 
+x="657" 
+y="763" 
+class="s2_86"
+>, and so on. (If they’re</text>
+
+<text 
+x="55" 
+y="793" 
+class="s2_86"
+>not the same length, then we’re not allowed to add them.)</text>
+
+<text 
+x="55" 
+y="831" 
+class="s2_86"
+>For example, adding the vectors</text>
+
+<text 
+x="343" 
+y="831" 
+dx="0,0,0,0,6.1,0" 
+class="s4_86"
+>[1, 2]</text>
+
+<text 
+x="411" 
+y="831" 
+class="s2_86"
+>and</text>
+
+<text 
+x="449" 
+y="831" 
+dx="0,0,0,0,6.1,0" 
+class="s4_86"
+>[2, 1]</text>
+
+<text 
+x="518" 
+y="831" 
+class="s2_86"
+>results in</text>
+
+<text 
+x="603" 
+y="831" 
+dx="0,0,0,6.1,0,6.1,0,0,6.1,0,6.1,0,6.1,0" 
+class="s4_86"
+>[1 + 2, 2 + 1]</text>
+
+<text 
+x="756" 
+y="831" 
+class="s2_86"
+>or</text>
+
+<text 
+x="780" 
+y="831" 
+dx="0,0,0,0,6.1,0" 
+class="s4_86"
+>[3, 3]</text>
+
+<text 
+x="843" 
+y="831" 
+class="s2_86"
+>,</text>
+
+<text 
+x="55" 
+y="861" 
+class="s2_86"
+>as shown in</text>
+
+<text 
+x="164" 
+y="861" 
+class="s9_86"
+>Figure 4-1</text>
+
+<text 
+x="256" 
+y="861" 
+class="s2_86"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

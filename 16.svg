@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 16 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_16{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_16{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_16"
+>Acknowledgments</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_16"
+>First, I would like to thank Mike Loukides for accepting my proposal for this book (and</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_16"
+>for insisting that I pare it down to a reasonable size). It would have been very easy for him</text>
+
+<text 
+x="55" 
+y="177" 
+dx="0,0,0,0,0,0,-1.4,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>to say, “Who’s this person who keeps emailing me sample chapters, and how do I get him</text>
+
+<text 
+x="55" 
+y="204" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>to go away?” I’m grateful he didn’t. I’d also like to thank my editor, Marie Beaugureau,</text>
+
+<text 
+x="55" 
+y="232" 
+class="s2_16"
+>for guiding me through the publishing process and getting the book in a much better state</text>
+
+<text 
+x="55" 
+y="259" 
+class="s2_16"
+>than I ever would have gotten it on my own.</text>
+
+<text 
+x="55" 
+y="298" 
+dx="0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4" 
+class="s2_16"
+>I couldn’t have written this book if I’d never learned data science, and I probably wouldn’t</text>
+
+<text 
+x="55" 
+y="325" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,-1.4,0,0,0,0,0" 
+class="s2_16"
+>have learned data science if not for the influence of Dave Hsu, Igor Tatarinov, John</text>
+
+<text 
+x="55" 
+y="353" 
+dx="0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>Rauser, and the rest of the Farecast gang. (So long ago that it wasn’t even called data</text>
+
+<text 
+x="55" 
+y="380" 
+class="s2_16"
+>science at the time!) The good folks at Coursera deserve a lot of credit, too.</text>
+
+<text 
+x="55" 
+y="419" 
+class="s2_16"
+>I am also grateful to my beta readers and reviewers. Jay Fundling found a ton of mistakes</text>
+
+<text 
+x="55" 
+y="446" 
+class="s2_16"
+>and pointed out many unclear explanations, and the book is much better (and much more</text>
+
+<text 
+x="55" 
+y="474" 
+class="s2_16"
+>correct) thanks to him. Debashis Ghosh is a hero for sanity-checking all of my statistics.</text>
+
+<text 
+x="55" 
+y="501" 
+class="s2_16"
+>Andrew Musselman suggested toning down the “people who prefer R to Python are moral</text>
+
+<text 
+x="55" 
+y="529" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0" 
+class="s2_16"
+>reprobates” aspect of the book, which I think ended up being pretty good advice. Trey</text>
+
+<text 
+x="55" 
+y="556" 
+dx="0,0,0,0,0,0,-1.4,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>Causey, Ryan Matthew Balfanz, Loris Mularoni, Núria Pujol, Rob Jefferson, Mary Pat</text>
+
+<text 
+x="55" 
+y="584" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>Campbell, Zach Geary, and Wendy Grus also provided invaluable feedback. Any errors</text>
+
+<text 
+x="55" 
+y="611" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_16"
+>remaining are of course my responsibility.</text>
+
+<text 
+x="55" 
+y="650" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>I owe a lot to the Twitter #datascience commmunity, for exposing me to a ton of new</text>
+
+<text 
+x="55" 
+y="677" 
+class="s2_16"
+>concepts, introducing me to a lot of great people, and making me feel like enough of an</text>
+
+<text 
+x="55" 
+y="705" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0" 
+class="s2_16"
+>underachiever that I went out and wrote a book to compensate. Special thanks to Trey</text>
+
+<text 
+x="55" 
+y="732" 
+class="s2_16"
+>Causey (again), for (inadvertently) reminding me to include a chapter on linear algebra,</text>
+
+<text 
+x="55" 
+y="760" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>and to Sean J. Taylor, for (inadvertently) pointing out a couple of huge gaps in the</text>
+
+<text 
+x="55" 
+y="787" 
+dx="0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_16"
+>“Working with Data” chapter.</text>
+
+<text 
+x="55" 
+y="826" 
+class="s2_16"
+>Above all, I owe immense thanks to Ganga and Madeline. The only thing harder than</text>
+
+<text 
+x="55" 
+y="853" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>writing a book is living with someone who’s writing a book, and I couldn’t have pulled it</text>
+
+<text 
+x="55" 
+y="881" 
+dx="0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_16"
+>off without their support.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

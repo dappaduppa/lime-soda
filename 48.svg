@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 48 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_48{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_48{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_48{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_48{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_48{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_48{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s7_48{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s8_48{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #CC0000;
+}
+.s9_48{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s10_48{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s11_48{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+dx="0,-2.3,0,0,0,0" 
+class="s1_48"
+>Tuples</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4" 
+class="s2_48"
+>Tuples are lists’ immutable cousins. Pretty much anything you can do to a list that doesn’t</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_48"
+>involve modifying it, you can do to a tuple. You specify a tuple by using parentheses (or</text>
+
+<text 
+x="55" 
+y="170" 
+class="s2_48"
+>nothing) instead of square brackets:</text>
+
+<text 
+x="76" 
+y="215" 
+class="s3_48"
+>my_list</text>
+
+<text 
+x="140" 
+y="215" 
+dx="0,0,4.6" 
+class="s4_48"
+>= [</text>
+
+<text 
+x="163" 
+y="215" 
+class="s5_48"
+>1</text>
+
+<text 
+x="171" 
+y="215" 
+class="s4_48"
+>,</text>
+
+<text 
+x="187" 
+y="215" 
+class="s5_48"
+>2</text>
+
+<text 
+x="195" 
+y="215" 
+class="s4_48"
+>]</text>
+
+<text 
+x="76" 
+y="231" 
+class="s3_48"
+>my_tuple</text>
+
+<text 
+x="148" 
+y="231" 
+dx="0,0,4.6" 
+class="s4_48"
+>= (</text>
+
+<text 
+x="171" 
+y="231" 
+class="s5_48"
+>1</text>
+
+<text 
+x="179" 
+y="231" 
+class="s4_48"
+>,</text>
+
+<text 
+x="195" 
+y="231" 
+class="s5_48"
+>2</text>
+
+<text 
+x="203" 
+y="231" 
+class="s4_48"
+>)</text>
+
+<text 
+x="76" 
+y="246" 
+class="s3_48"
+>other_tuple</text>
+
+<text 
+x="171" 
+y="246" 
+class="s4_48"
+>=</text>
+
+<text 
+x="187" 
+y="246" 
+class="s5_48"
+>3</text>
+
+<text 
+x="195" 
+y="246" 
+class="s4_48"
+>,</text>
+
+<text 
+x="211" 
+y="246" 
+class="s5_48"
+>4</text>
+
+<text 
+x="76" 
+y="261" 
+class="s3_48"
+>my_list</text>
+
+<text 
+x="132" 
+y="261" 
+class="s4_48"
+>[</text>
+
+<text 
+x="140" 
+y="261" 
+class="s5_48"
+>1</text>
+
+<text 
+x="148" 
+y="261" 
+dx="0,0,4.6" 
+class="s4_48"
+>] =</text>
+
+<text 
+x="179" 
+y="261" 
+class="s5_48"
+>3</text>
+
+<text 
+x="235" 
+y="261" 
+dx="0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0" 
+class="s6_48"
+># my_list is now [1, 3]</text>
+
+<text 
+x="76" 
+y="292" 
+class="s7_48"
+>try</text>
+
+<text 
+x="100" 
+y="292" 
+class="s4_48"
+>:</text>
+
+<text 
+x="108" 
+y="308" 
+class="s3_48"
+>my_tuple</text>
+
+<text 
+x="171" 
+y="308" 
+class="s4_48"
+>[</text>
+
+<text 
+x="179" 
+y="308" 
+class="s5_48"
+>1</text>
+
+<text 
+x="187" 
+y="308" 
+dx="0,0,4.6" 
+class="s4_48"
+>] =</text>
+
+<text 
+x="219" 
+y="308" 
+class="s5_48"
+>3</text>
+
+<text 
+x="76" 
+y="323" 
+class="s7_48"
+>except</text>
+
+<text 
+x="132" 
+y="323" 
+class="s8_48"
+>TypeError</text>
+
+<text 
+x="203" 
+y="323" 
+class="s4_48"
+>:</text>
+
+<text 
+x="108" 
+y="338" 
+class="s7_48"
+>print</text>
+
+<text 
+x="156" 
+y="338" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0" 
+class="s9_48"
+>"cannot modify a tuple"</text>
+
+<text 
+x="55" 
+y="391" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_48"
+>Tuples are a convenient way to return multiple values from functions:</text>
+
+<text 
+x="76" 
+y="436" 
+class="s7_48"
+>def</text>
+
+<text 
+x="108" 
+y="436" 
+class="s10_48"
+>sum_and_product</text>
+
+<text 
+x="227" 
+y="436" 
+class="s4_48"
+>(</text>
+
+<text 
+x="235" 
+y="436" 
+class="s3_48"
+>x</text>
+
+<text 
+x="242" 
+y="436" 
+class="s4_48"
+>,</text>
+
+<text 
+x="258" 
+y="436" 
+class="s3_48"
+>y</text>
+
+<text 
+x="266" 
+y="436" 
+class="s4_48"
+>):</text>
+
+<text 
+x="108" 
+y="452" 
+class="s7_48"
+>return</text>
+
+<text 
+x="163" 
+y="452" 
+class="s4_48"
+>(</text>
+
+<text 
+x="171" 
+y="452" 
+class="s3_48"
+>x</text>
+
+<text 
+x="187" 
+y="452" 
+class="s4_48"
+>+</text>
+
+<text 
+x="203" 
+y="452" 
+class="s3_48"
+>y</text>
+
+<text 
+x="211" 
+y="452" 
+class="s4_48"
+>),(</text>
+
+<text 
+x="235" 
+y="452" 
+class="s3_48"
+>x</text>
+
+<text 
+x="250" 
+y="452" 
+class="s4_48"
+>*</text>
+
+<text 
+x="266" 
+y="452" 
+class="s3_48"
+>y</text>
+
+<text 
+x="274" 
+y="452" 
+class="s4_48"
+>)</text>
+
+<text 
+x="76" 
+y="483" 
+class="s3_48"
+>sp</text>
+
+<text 
+x="100" 
+y="483" 
+class="s4_48"
+>=</text>
+
+<text 
+x="116" 
+y="483" 
+class="s3_48"
+>sum_and_product</text>
+
+<text 
+x="235" 
+y="483" 
+class="s4_48"
+>(</text>
+
+<text 
+x="242" 
+y="483" 
+class="s5_48"
+>2</text>
+
+<text 
+x="250" 
+y="483" 
+class="s4_48"
+>,</text>
+
+<text 
+x="266" 
+y="483" 
+class="s5_48"
+>3</text>
+
+<text 
+x="274" 
+y="483" 
+class="s4_48"
+>)</text>
+
+<text 
+x="314" 
+y="483" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0" 
+class="s6_48"
+># equals (5, 6)</text>
+
+<text 
+x="76" 
+y="498" 
+class="s3_48"
+>s</text>
+
+<text 
+x="84" 
+y="498" 
+class="s4_48"
+>,</text>
+
+<text 
+x="100" 
+y="498" 
+class="s3_48"
+>p</text>
+
+<text 
+x="116" 
+y="498" 
+class="s4_48"
+>=</text>
+
+<text 
+x="132" 
+y="498" 
+class="s3_48"
+>sum_and_product</text>
+
+<text 
+x="250" 
+y="498" 
+class="s4_48"
+>(</text>
+
+<text 
+x="258" 
+y="498" 
+class="s5_48"
+>5</text>
+
+<text 
+x="266" 
+y="498" 
+class="s4_48"
+>,</text>
+
+<text 
+x="282" 
+y="498" 
+class="s5_48"
+>10</text>
+
+<text 
+x="298" 
+y="498" 
+class="s4_48"
+>)</text>
+
+<text 
+x="314" 
+y="498" 
+dx="0,0,4.6,0,4.6,0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0" 
+class="s6_48"
+># s is 15, p is 50</text>
+
+<text 
+x="55" 
+y="551" 
+dx="0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_48"
+>Tuples (and lists) can also be used for</text>
+
+<text 
+x="392" 
+y="551" 
+class="s11_48"
+>multiple assignment</text>
+
+<text 
+x="568" 
+y="551" 
+class="s2_48"
+>:</text>
+
+<text 
+x="76" 
+y="596" 
+class="s3_48"
+>x</text>
+
+<text 
+x="84" 
+y="596" 
+class="s4_48"
+>,</text>
+
+<text 
+x="100" 
+y="596" 
+class="s3_48"
+>y</text>
+
+<text 
+x="116" 
+y="596" 
+class="s4_48"
+>=</text>
+
+<text 
+x="132" 
+y="596" 
+class="s5_48"
+>1</text>
+
+<text 
+x="140" 
+y="596" 
+class="s4_48"
+>,</text>
+
+<text 
+x="156" 
+y="596" 
+class="s5_48"
+>2</text>
+
+<text 
+x="203" 
+y="596" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0,0,4.6,0,4.6,0,0,4.6" 
+class="s6_48"
+># now x is 1, y is 2</text>
+
+<text 
+x="76" 
+y="611" 
+class="s3_48"
+>x</text>
+
+<text 
+x="84" 
+y="611" 
+class="s4_48"
+>,</text>
+
+<text 
+x="100" 
+y="611" 
+class="s3_48"
+>y</text>
+
+<text 
+x="116" 
+y="611" 
+class="s4_48"
+>=</text>
+
+<text 
+x="132" 
+y="611" 
+class="s3_48"
+>y</text>
+
+<text 
+x="140" 
+y="611" 
+class="s4_48"
+>,</text>
+
+<text 
+x="156" 
+y="611" 
+class="s3_48"
+>x</text>
+
+<text 
+x="203" 
+y="611" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,4.6,0,0,4.6,0,0,4.6,0,4.6,0,0,4.6" 
+class="s6_48"
+># Pythonic way to swap variables; now x is 2, y is 1</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 72 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_72{
+}
+.g2_72{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_72{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_72{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_72{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_72" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_72"
+>Chapter 3. Visualizing Data</text>
+
+<text 
+x="65" 
+y="193" 
+class="s2_72"
+>I believe that visualization is one of the most powerful means of achieving personal</text>
+
+<text 
+x="65" 
+y="218" 
+class="s2_72"
+>goals.</text>
+
+<text 
+x="65" 
+y="255" 
+class="s2_72"
+>Harvey Mackay</text>
+
+<text 
+x="55" 
+y="292" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_72"
+>A fundamental part of the data scientist’s toolkit is data visualization. Although it is very</text>
+
+<text 
+x="55" 
+y="320" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_72"
+>easy to create visualizations, it’s much harder to produce</text>
+
+<text 
+x="559" 
+y="320" 
+class="s3_72"
+>good</text>
+
+<text 
+x="608" 
+y="320" 
+class="s2_72"
+>ones.</text>
+
+<text 
+x="55" 
+y="358" 
+class="s2_72"
+>There are two primary uses for data visualization:</text>
+
+<path d="M61.6,386.2l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g2_72" />
+<text 
+x="82" 
+y="396" 
+dx="0,-1.6" 
+class="s2_72"
+>To</text>
+
+<text 
+x="110" 
+y="396" 
+dx="0,0,0,0,0,0,-0.8" 
+class="s3_72"
+>explore</text>
+
+<text 
+x="181" 
+y="396" 
+class="s2_72"
+>data</text>
+
+<path d="M61.6,433.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g2_72" />
+<text 
+x="82" 
+y="443" 
+dx="0,-1.6" 
+class="s2_72"
+>To</text>
+
+<text 
+x="110" 
+y="443" 
+class="s3_72"
+>communicate</text>
+
+<text 
+x="233" 
+y="443" 
+class="s2_72"
+>data</text>
+
+<text 
+x="55" 
+y="491" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_72"
+>In this chapter, we will concentrate on building the skills that you’ll need to start exploring</text>
+
+<text 
+x="55" 
+y="519" 
+class="s2_72"
+>your own data and to produce the visualizations we’ll be using throughout the rest of the</text>
+
+<text 
+x="55" 
+y="546" 
+class="s2_72"
+>book. Like most of our chapter topics, data visualization is a rich field of study that</text>
+
+<text 
+x="55" 
+y="574" 
+class="s2_72"
+>deserves its own book. Nonetheless, we’ll try to give you a sense of what makes for a</text>
+
+<text 
+x="55" 
+y="601" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0" 
+class="s2_72"
+>good visualization and what doesn’t.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

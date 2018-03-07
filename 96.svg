@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 96 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_96{
+}
+
+.s1_96{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_96{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_96{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_96" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_96"
+>Chapter 5. Statistics</text>
+
+<text 
+x="65" 
+y="193" 
+class="s2_96"
+>Facts are stubborn, but statistics are more pliable.</text>
+
+<text 
+x="65" 
+y="229" 
+dx="0,0,0,0,0,0,-1.6,0,0,0" 
+class="s2_96"
+>Mark Twain</text>
+
+<text 
+x="55" 
+y="267" 
+class="s3_96"
+>Statistics</text>
+
+<text 
+x="139" 
+y="267" 
+class="s2_96"
+>refers to the mathematics and techniques with which we understand data. It is a</text>
+
+<text 
+x="55" 
+y="294" 
+class="s2_96"
+>rich, enormous field, more suited to a shelf (or room) in a library rather than a chapter in a</text>
+
+<text 
+x="55" 
+y="322" 
+class="s2_96"
+>book, and so our discussion will necessarily not be a deep one. Instead, I’ll try to teach</text>
+
+<text 
+x="55" 
+y="349" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0" 
+class="s2_96"
+>you just enough to be dangerous, and pique your interest just enough that you’ll go off and</text>
+
+<text 
+x="55" 
+y="377" 
+class="s2_96"
+>learn more.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

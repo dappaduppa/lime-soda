@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 38 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_38{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_38{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_38{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s4_38{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_38"
+>Getting Python</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_38"
+>You can download Python from</text>
+
+<text 
+x="340" 
+y="115" 
+dx="0,0,0,0,0,0,0,0,0,-0.4" 
+class="s3_38"
+>python.org</text>
+
+<text 
+x="435" 
+y="115" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_38"
+>. But if you don’t already have Python, I</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_38"
+>recommend instead installing the</text>
+
+<text 
+x="351" 
+y="143" 
+class="s3_38"
+>Anaconda</text>
+
+<text 
+x="446" 
+y="143" 
+class="s2_38"
+>distribution, which already includes most of</text>
+
+<text 
+x="55" 
+y="170" 
+class="s2_38"
+>the libraries that you need to do data science.</text>
+
+<text 
+x="55" 
+y="209" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0" 
+class="s2_38"
+>As I write this, the latest version of Python is 3.4. At DataSciencester, however, we use</text>
+
+<text 
+x="55" 
+y="236" 
+class="s2_38"
+>old, reliable Python 2.7. Python 3 is not backward-compatible with Python 2, and many</text>
+
+<text 
+x="55" 
+y="264" 
+class="s2_38"
+>important libraries only work well with 2.7. The data science community is still firmly</text>
+
+<text 
+x="55" 
+y="291" 
+class="s2_38"
+>stuck on 2.7, which means we will be, too. Make sure to get that version.</text>
+
+<text 
+x="55" 
+y="330" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_38"
+>If you don’t get Anaconda, make sure to install</text>
+
+<text 
+x="474" 
+y="330" 
+class="s3_38"
+>pip</text>
+
+<text 
+x="502" 
+y="330" 
+class="s2_38"
+>, which is a Python package manager</text>
+
+<text 
+x="55" 
+y="357" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0" 
+class="s2_38"
+>that allows you to easily install third-party packages (some of which we’ll need). It’s also</text>
+
+<text 
+x="55" 
+y="385" 
+class="s2_38"
+>worth getting</text>
+
+<text 
+x="178" 
+y="385" 
+class="s3_38"
+>IPython</text>
+
+<text 
+x="247" 
+y="385" 
+class="s2_38"
+>, which is a much nicer Python shell to work with.</text>
+
+<text 
+x="55" 
+y="423" 
+class="s2_38"
+>(If you installed Anaconda then it should have come with pip and IPython.)</text>
+
+<text 
+x="55" 
+y="462" 
+class="s2_38"
+>Just run:</text>
+
+<text 
+x="76" 
+y="507" 
+dx="0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s4_38"
+>pip install ipython</text>
+
+<text 
+x="55" 
+y="560" 
+class="s2_38"
+>and then search the Internet for solutions to whatever cryptic error messages that causes.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

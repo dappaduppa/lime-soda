@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 44 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_44{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_44{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_44{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_44{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_44{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s6_44{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #CC3300;
+}
+.s7_44{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s8_44{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s9_44{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s10_44{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_44"
+>Strings</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_44"
+>Strings can be delimited by single or double quotation marks (but the quotes have to</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_44"
+>match):</text>
+
+<text 
+x="76" 
+y="188" 
+class="s3_44"
+>single_quoted_string</text>
+
+<text 
+x="242" 
+y="188" 
+class="s4_44"
+>=</text>
+
+<text 
+x="258" 
+y="188" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s5_44"
+>'data science'</text>
+
+<text 
+x="76" 
+y="203" 
+class="s3_44"
+>double_quoted_string</text>
+
+<text 
+x="242" 
+y="203" 
+class="s4_44"
+>=</text>
+
+<text 
+x="258" 
+y="203" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s5_44"
+>"data science"</text>
+
+<text 
+x="55" 
+y="256" 
+class="s2_44"
+>Python uses backslashes to encode special characters. For example:</text>
+
+<text 
+x="76" 
+y="301" 
+class="s3_44"
+>tab_string</text>
+
+<text 
+x="163" 
+y="301" 
+class="s4_44"
+>=</text>
+
+<text 
+x="179" 
+y="301" 
+class="s5_44"
+>"</text>
+
+<text 
+x="187" 
+y="301" 
+class="s6_44"
+>\t</text>
+
+<text 
+x="203" 
+y="301" 
+class="s5_44"
+>"</text>
+
+<text 
+x="266" 
+y="301" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s7_44"
+># represents the tab character</text>
+
+<text 
+x="76" 
+y="316" 
+class="s8_44"
+>len</text>
+
+<text 
+x="100" 
+y="316" 
+class="s4_44"
+>(</text>
+
+<text 
+x="108" 
+y="316" 
+class="s3_44"
+>tab_string</text>
+
+<text 
+x="187" 
+y="316" 
+class="s4_44"
+>)</text>
+
+<text 
+x="266" 
+y="316" 
+dx="0,0,4.6,0,0,4.6" 
+class="s7_44"
+># is 1</text>
+
+<text 
+x="55" 
+y="369" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_44"
+>If you want backslashes as backslashes (which you might in Windows directory names or</text>
+
+<text 
+x="55" 
+y="397" 
+class="s2_44"
+>in regular expressions), you can create</text>
+
+<text 
+x="398" 
+y="397" 
+class="s9_44"
+>raw</text>
+
+<text 
+x="438" 
+y="397" 
+class="s2_44"
+>strings using</text>
+
+<text 
+x="555" 
+y="397" 
+class="s10_44"
+>r""</text>
+
+<text 
+x="587" 
+y="397" 
+class="s2_44"
+>:</text>
+
+<text 
+x="76" 
+y="444" 
+class="s3_44"
+>not_tab_string</text>
+
+<text 
+x="195" 
+y="444" 
+class="s4_44"
+>=</text>
+
+<text 
+x="211" 
+y="444" 
+class="s5_44"
+>r"\t"</text>
+
+<text 
+x="266" 
+y="444" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0" 
+class="s7_44"
+># represents the characters '\' and 't'</text>
+
+<text 
+x="76" 
+y="459" 
+class="s8_44"
+>len</text>
+
+<text 
+x="100" 
+y="459" 
+class="s4_44"
+>(</text>
+
+<text 
+x="108" 
+y="459" 
+class="s3_44"
+>not_tab_string</text>
+
+<text 
+x="219" 
+y="459" 
+class="s4_44"
+>)</text>
+
+<text 
+x="266" 
+y="459" 
+dx="0,0,4.6,0,0,4.6" 
+class="s7_44"
+># is 2</text>
+
+<text 
+x="55" 
+y="512" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_44"
+>You can create multiline strings using triple-[double-]-quotes:</text>
+
+<text 
+x="76" 
+y="557" 
+class="s3_44"
+>multi_line_string</text>
+
+<text 
+x="219" 
+y="557" 
+class="s4_44"
+>=</text>
+
+<text 
+x="235" 
+y="557" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0" 
+class="s5_44"
+>"""This is the first line.</text>
+
+<text 
+x="76" 
+y="573" 
+dx="0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0" 
+class="s5_44"
+>and this is the second line</text>
+
+<text 
+x="76" 
+y="588" 
+dx="0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s5_44"
+>and this is the third line"""</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

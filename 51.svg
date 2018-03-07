@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 51 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_51{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s2_51{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_51{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s4_51{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s5_51{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s6_51{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_51{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_51{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s9_51{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s10_51{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s11_51{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #00CCFF;
+}
+.s12_51{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_51"
+>dd_dict</text>
+
+<text 
+x="140" 
+y="64" 
+class="s2_51"
+>=</text>
+
+<text 
+x="156" 
+y="64" 
+class="s1_51"
+>defaultdict</text>
+
+<text 
+x="242" 
+y="64" 
+class="s2_51"
+>(</text>
+
+<text 
+x="250" 
+y="64" 
+class="s3_51"
+>dict</text>
+
+<text 
+x="282" 
+y="64" 
+class="s2_51"
+>)</text>
+
+<text 
+x="393" 
+y="64" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0" 
+class="s4_51"
+># dict() produces an empty dict</text>
+
+<text 
+x="76" 
+y="80" 
+class="s1_51"
+>dd_dict</text>
+
+<text 
+x="132" 
+y="80" 
+class="s2_51"
+>[</text>
+
+<text 
+x="140" 
+y="80" 
+class="s5_51"
+>"Joel"</text>
+
+<text 
+x="187" 
+y="80" 
+class="s2_51"
+>][</text>
+
+<text 
+x="203" 
+y="80" 
+class="s5_51"
+>"City"</text>
+
+<text 
+x="250" 
+y="80" 
+dx="0,0,4.6" 
+class="s2_51"
+>] =</text>
+
+<text 
+x="282" 
+y="80" 
+class="s5_51"
+>"Seattle"</text>
+
+<text 
+x="393" 
+y="80" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s4_51"
+># { "Joel" : { "City" : Seattle"}}</text>
+
+<text 
+x="76" 
+y="111" 
+class="s1_51"
+>dd_pair</text>
+
+<text 
+x="140" 
+y="111" 
+class="s2_51"
+>=</text>
+
+<text 
+x="156" 
+y="111" 
+class="s1_51"
+>defaultdict</text>
+
+<text 
+x="242" 
+y="111" 
+class="s2_51"
+>(</text>
+
+<text 
+x="250" 
+y="111" 
+class="s6_51"
+>lambda</text>
+
+<text 
+x="298" 
+y="111" 
+dx="0,0,4.6" 
+class="s2_51"
+>: [</text>
+
+<text 
+x="322" 
+y="111" 
+class="s7_51"
+>0</text>
+
+<text 
+x="329" 
+y="111" 
+class="s2_51"
+>,</text>
+
+<text 
+x="345" 
+y="111" 
+class="s7_51"
+>0</text>
+
+<text 
+x="353" 
+y="111" 
+class="s2_51"
+>])</text>
+
+<text 
+x="76" 
+y="126" 
+class="s1_51"
+>dd_pair</text>
+
+<text 
+x="132" 
+y="126" 
+class="s2_51"
+>[</text>
+
+<text 
+x="140" 
+y="126" 
+class="s7_51"
+>2</text>
+
+<text 
+x="148" 
+y="126" 
+class="s2_51"
+>][</text>
+
+<text 
+x="163" 
+y="126" 
+class="s7_51"
+>1</text>
+
+<text 
+x="171" 
+y="126" 
+dx="0,0,4.6" 
+class="s2_51"
+>] =</text>
+
+<text 
+x="203" 
+y="126" 
+class="s7_51"
+>1</text>
+
+<text 
+x="393" 
+y="126" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0" 
+class="s4_51"
+># now dd_pair contains {2: [0,1]}</text>
+
+<text 
+x="55" 
+y="179" 
+class="s8_51"
+>These will be useful when we’re using dictionaries to “collect” results by some key and</text>
+
+<text 
+x="55" 
+y="206" 
+dx="0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_51"
+>don’t want to have to check every time to see if the key exists yet.</text>
+
+<text 
+x="55" 
+y="255" 
+class="s9_51"
+>Counter</text>
+
+<text 
+x="55" 
+y="292" 
+class="s8_51"
+>A</text>
+
+<text 
+x="75" 
+y="292" 
+class="s10_51"
+>Counter</text>
+
+<text 
+x="154" 
+y="292" 
+class="s8_51"
+>turns a sequence of values into a</text>
+
+<text 
+x="445" 
+y="292" 
+class="s10_51"
+>defaultdict(int)</text>
+
+<text 
+x="614" 
+y="292" 
+class="s8_51"
+>-like object mapping keys</text>
+
+<text 
+x="55" 
+y="322" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_51"
+>to counts. We will primarily use it to create histograms:</text>
+
+<text 
+x="76" 
+y="367" 
+class="s6_51"
+>from</text>
+
+<text 
+x="116" 
+y="367" 
+class="s11_51"
+>collections</text>
+
+<text 
+x="211" 
+y="367" 
+class="s6_51"
+>import</text>
+
+<text 
+x="266" 
+y="367" 
+class="s1_51"
+>Counter</text>
+
+<text 
+x="76" 
+y="382" 
+class="s1_51"
+>c</text>
+
+<text 
+x="92" 
+y="382" 
+class="s2_51"
+>=</text>
+
+<text 
+x="108" 
+y="382" 
+class="s1_51"
+>Counter</text>
+
+<text 
+x="163" 
+y="382" 
+class="s2_51"
+>([</text>
+
+<text 
+x="179" 
+y="382" 
+class="s7_51"
+>0</text>
+
+<text 
+x="187" 
+y="382" 
+class="s2_51"
+>,</text>
+
+<text 
+x="203" 
+y="382" 
+class="s7_51"
+>1</text>
+
+<text 
+x="211" 
+y="382" 
+class="s2_51"
+>,</text>
+
+<text 
+x="227" 
+y="382" 
+class="s7_51"
+>2</text>
+
+<text 
+x="235" 
+y="382" 
+class="s2_51"
+>,</text>
+
+<text 
+x="250" 
+y="382" 
+class="s7_51"
+>0</text>
+
+<text 
+x="258" 
+y="382" 
+class="s2_51"
+>])</text>
+
+<text 
+x="353" 
+y="382" 
+dx="0,0,4.6,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,4.6,0,4.6,0,0,4.6,0,4.6,0,4.6,0,0,4.6,0,4.6,0,4.6,0,4.6" 
+class="s4_51"
+># c is (basically) { 0 : 2, 1 : 1, 2 : 1 }</text>
+
+<text 
+x="55" 
+y="435" 
+class="s8_51"
+>This gives us a very simple way to solve our</text>
+
+<text 
+x="451" 
+y="435" 
+class="s10_51"
+>word_counts</text>
+
+<text 
+x="573" 
+y="435" 
+class="s8_51"
+>problem:</text>
+
+<text 
+x="76" 
+y="483" 
+class="s1_51"
+>word_counts</text>
+
+<text 
+x="171" 
+y="483" 
+class="s2_51"
+>=</text>
+
+<text 
+x="187" 
+y="483" 
+class="s1_51"
+>Counter</text>
+
+<text 
+x="242" 
+y="483" 
+class="s2_51"
+>(</text>
+
+<text 
+x="250" 
+y="483" 
+class="s1_51"
+>document</text>
+
+<text 
+x="314" 
+y="483" 
+class="s2_51"
+>)</text>
+
+<text 
+x="55" 
+y="535" 
+class="s8_51"
+>A</text>
+
+<text 
+x="75" 
+y="535" 
+class="s10_51"
+>Counter</text>
+
+<text 
+x="154" 
+y="535" 
+class="s8_51"
+>instance has a</text>
+
+<text 
+x="282" 
+y="535" 
+class="s10_51"
+>most_common</text>
+
+<text 
+x="403" 
+y="535" 
+class="s8_51"
+>method that is frequently useful:</text>
+
+<text 
+x="76" 
+y="583" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s4_51"
+># print the 10 most common words and their counts</text>
+
+<text 
+x="76" 
+y="598" 
+class="s6_51"
+>for</text>
+
+<text 
+x="108" 
+y="598" 
+class="s1_51"
+>word</text>
+
+<text 
+x="140" 
+y="598" 
+class="s2_51"
+>,</text>
+
+<text 
+x="156" 
+y="598" 
+class="s1_51"
+>count</text>
+
+<text 
+x="203" 
+y="598" 
+class="s12_51"
+>in</text>
+
+<text 
+x="227" 
+y="598" 
+class="s1_51"
+>word_counts</text>
+
+<text 
+x="314" 
+y="598" 
+class="s2_51"
+>.</text>
+
+<text 
+x="322" 
+y="598" 
+class="s1_51"
+>most_common</text>
+
+<text 
+x="408" 
+y="598" 
+class="s2_51"
+>(</text>
+
+<text 
+x="416" 
+y="598" 
+class="s7_51"
+>10</text>
+
+<text 
+x="432" 
+y="598" 
+class="s2_51"
+>):</text>
+
+<text 
+x="108" 
+y="613" 
+class="s6_51"
+>print</text>
+
+<text 
+x="156" 
+y="613" 
+class="s1_51"
+>word</text>
+
+<text 
+x="187" 
+y="613" 
+class="s2_51"
+>,</text>
+
+<text 
+x="203" 
+y="613" 
+class="s1_51"
+>count</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

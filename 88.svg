@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 88 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_88{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_88{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_88{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_88{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s5_88{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_88{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s7_88{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s8_88{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_88{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_88{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s11_88{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s12_88{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_88"
+>If you think about it, we are just</text>
+
+<text 
+x="342" 
+y="74" 
+class="s2_88"
+>reduce</text>
+
+<text 
+x="405" 
+y="74" 
+class="s1_88"
+>-ing the list of vectors using</text>
+
+<text 
+x="657" 
+y="74" 
+class="s2_88"
+>vector_add</text>
+
+<text 
+x="762" 
+y="74" 
+class="s1_88"
+>, which</text>
+
+<text 
+x="55" 
+y="104" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_88"
+>means we can rewrite this more briefly using higher-order functions:</text>
+
+<text 
+x="76" 
+y="149" 
+class="s3_88"
+>def</text>
+
+<text 
+x="108" 
+y="149" 
+class="s4_88"
+>vector_sum</text>
+
+<text 
+x="187" 
+y="149" 
+class="s5_88"
+>(</text>
+
+<text 
+x="195" 
+y="149" 
+class="s6_88"
+>vectors</text>
+
+<text 
+x="250" 
+y="149" 
+class="s5_88"
+>):</text>
+
+<text 
+x="108" 
+y="165" 
+class="s3_88"
+>return</text>
+
+<text 
+x="163" 
+y="165" 
+class="s7_88"
+>reduce</text>
+
+<text 
+x="211" 
+y="165" 
+class="s5_88"
+>(</text>
+
+<text 
+x="219" 
+y="165" 
+class="s6_88"
+>vector_add</text>
+
+<text 
+x="298" 
+y="165" 
+class="s5_88"
+>,</text>
+
+<text 
+x="314" 
+y="165" 
+class="s6_88"
+>vectors</text>
+
+<text 
+x="369" 
+y="165" 
+class="s5_88"
+>)</text>
+
+<text 
+x="55" 
+y="217" 
+class="s1_88"
+>or even:</text>
+
+<text 
+x="76" 
+y="262" 
+class="s6_88"
+>vector_sum</text>
+
+<text 
+x="163" 
+y="262" 
+class="s5_88"
+>=</text>
+
+<text 
+x="179" 
+y="262" 
+class="s6_88"
+>partial</text>
+
+<text 
+x="235" 
+y="262" 
+class="s5_88"
+>(</text>
+
+<text 
+x="242" 
+y="262" 
+class="s7_88"
+>reduce</text>
+
+<text 
+x="290" 
+y="262" 
+class="s5_88"
+>,</text>
+
+<text 
+x="306" 
+y="262" 
+class="s6_88"
+>vector_add</text>
+
+<text 
+x="385" 
+y="262" 
+class="s5_88"
+>)</text>
+
+<text 
+x="55" 
+y="315" 
+class="s1_88"
+>although this last one is probably more clever than helpful.</text>
+
+<text 
+x="55" 
+y="354" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_88"
+>We’ll also need to be able to multiply a vector by a scalar, which we do simply by</text>
+
+<text 
+x="55" 
+y="381" 
+class="s1_88"
+>multiplying each element of the vector by that number:</text>
+
+<text 
+x="76" 
+y="426" 
+class="s3_88"
+>def</text>
+
+<text 
+x="108" 
+y="426" 
+class="s4_88"
+>scalar_multiply</text>
+
+<text 
+x="227" 
+y="426" 
+class="s5_88"
+>(</text>
+
+<text 
+x="235" 
+y="426" 
+class="s6_88"
+>c</text>
+
+<text 
+x="242" 
+y="426" 
+class="s5_88"
+>,</text>
+
+<text 
+x="258" 
+y="426" 
+class="s6_88"
+>v</text>
+
+<text 
+x="266" 
+y="426" 
+class="s5_88"
+>):</text>
+
+<text 
+x="108" 
+y="442" 
+dx="0,0,0,0,0,4.6,0,0,4.6,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0" 
+class="s8_88"
+>"""c is a number, v is a vector"""</text>
+
+<text 
+x="108" 
+y="457" 
+class="s3_88"
+>return</text>
+
+<text 
+x="163" 
+y="457" 
+class="s5_88"
+>[</text>
+
+<text 
+x="171" 
+y="457" 
+class="s6_88"
+>c</text>
+
+<text 
+x="187" 
+y="457" 
+class="s5_88"
+>*</text>
+
+<text 
+x="203" 
+y="457" 
+class="s6_88"
+>v_i</text>
+
+<text 
+x="235" 
+y="457" 
+class="s3_88"
+>for</text>
+
+<text 
+x="266" 
+y="457" 
+class="s6_88"
+>v_i</text>
+
+<text 
+x="298" 
+y="457" 
+class="s9_88"
+>in</text>
+
+<text 
+x="322" 
+y="457" 
+class="s6_88"
+>v</text>
+
+<text 
+x="329" 
+y="457" 
+class="s5_88"
+>]</text>
+
+<text 
+x="55" 
+y="510" 
+class="s1_88"
+>This allows us to compute the componentwise means of a list of (same-sized) vectors:</text>
+
+<text 
+x="76" 
+y="555" 
+class="s3_88"
+>def</text>
+
+<text 
+x="108" 
+y="555" 
+class="s4_88"
+>vector_mean</text>
+
+<text 
+x="195" 
+y="555" 
+class="s5_88"
+>(</text>
+
+<text 
+x="203" 
+y="555" 
+class="s6_88"
+>vectors</text>
+
+<text 
+x="258" 
+y="555" 
+class="s5_88"
+>):</text>
+
+<text 
+x="108" 
+y="571" 
+dx="0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0" 
+class="s8_88"
+>"""compute the vector whose ith element is the mean of the</text>
+
+<text 
+x="108" 
+y="586" 
+dx="0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s8_88"
+>ith elements of the input vectors"""</text>
+
+<text 
+x="108" 
+y="601" 
+class="s6_88"
+>n</text>
+
+<text 
+x="124" 
+y="601" 
+class="s5_88"
+>=</text>
+
+<text 
+x="140" 
+y="601" 
+class="s7_88"
+>len</text>
+
+<text 
+x="163" 
+y="601" 
+class="s5_88"
+>(</text>
+
+<text 
+x="171" 
+y="601" 
+class="s6_88"
+>vectors</text>
+
+<text 
+x="227" 
+y="601" 
+class="s5_88"
+>)</text>
+
+<text 
+x="108" 
+y="617" 
+class="s3_88"
+>return</text>
+
+<text 
+x="163" 
+y="617" 
+class="s6_88"
+>scalar_multiply</text>
+
+<text 
+x="282" 
+y="617" 
+class="s5_88"
+>(</text>
+
+<text 
+x="290" 
+y="617" 
+class="s10_88"
+>1</text>
+
+<text 
+x="298" 
+y="617" 
+class="s5_88"
+>/</text>
+
+<text 
+x="306" 
+y="617" 
+class="s6_88"
+>n</text>
+
+<text 
+x="314" 
+y="617" 
+class="s5_88"
+>,</text>
+
+<text 
+x="329" 
+y="617" 
+class="s6_88"
+>vector_sum</text>
+
+<text 
+x="408" 
+y="617" 
+class="s5_88"
+>(</text>
+
+<text 
+x="416" 
+y="617" 
+class="s6_88"
+>vectors</text>
+
+<text 
+x="472" 
+y="617" 
+class="s5_88"
+>))</text>
+
+<text 
+x="55" 
+y="670" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_88"
+>A less obvious tool is the</text>
+
+<text 
+x="280" 
+y="670" 
+dx="0,0,0,0,0,0,-0.8,0,0,0,0" 
+class="s11_88"
+>dot product</text>
+
+<text 
+x="382" 
+y="670" 
+class="s1_88"
+>. The dot product of two vectors is the sum of their</text>
+
+<text 
+x="55" 
+y="697" 
+class="s1_88"
+>componentwise products:</text>
+
+<text 
+x="76" 
+y="742" 
+class="s3_88"
+>def</text>
+
+<text 
+x="108" 
+y="742" 
+class="s4_88"
+>dot</text>
+
+<text 
+x="132" 
+y="742" 
+class="s5_88"
+>(</text>
+
+<text 
+x="140" 
+y="742" 
+class="s6_88"
+>v</text>
+
+<text 
+x="148" 
+y="742" 
+class="s5_88"
+>,</text>
+
+<text 
+x="163" 
+y="742" 
+class="s6_88"
+>w</text>
+
+<text 
+x="171" 
+y="742" 
+class="s5_88"
+>):</text>
+
+<text 
+x="108" 
+y="758" 
+dx="0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,4.6,0,4.6,0,0,0,4.6,0,4.6,0,0,0,4.6,0,4.6,0,0,0,0,0" 
+class="s8_88"
+>"""v_1 * w_1 + ... + v_n * w_n"""</text>
+
+<text 
+x="108" 
+y="773" 
+class="s3_88"
+>return</text>
+
+<text 
+x="163" 
+y="773" 
+class="s7_88"
+>sum</text>
+
+<text 
+x="187" 
+y="773" 
+class="s5_88"
+>(</text>
+
+<text 
+x="195" 
+y="773" 
+class="s6_88"
+>v_i</text>
+
+<text 
+x="227" 
+y="773" 
+class="s5_88"
+>*</text>
+
+<text 
+x="242" 
+y="773" 
+class="s6_88"
+>w_i</text>
+
+<text 
+x="195" 
+y="788" 
+class="s3_88"
+>for</text>
+
+<text 
+x="227" 
+y="788" 
+class="s6_88"
+>v_i</text>
+
+<text 
+x="250" 
+y="788" 
+class="s5_88"
+>,</text>
+
+<text 
+x="266" 
+y="788" 
+class="s6_88"
+>w_i</text>
+
+<text 
+x="298" 
+y="788" 
+class="s9_88"
+>in</text>
+
+<text 
+x="322" 
+y="788" 
+class="s7_88"
+>zip</text>
+
+<text 
+x="345" 
+y="788" 
+class="s5_88"
+>(</text>
+
+<text 
+x="353" 
+y="788" 
+class="s6_88"
+>v</text>
+
+<text 
+x="361" 
+y="788" 
+class="s5_88"
+>,</text>
+
+<text 
+x="377" 
+y="788" 
+class="s6_88"
+>w</text>
+
+<text 
+x="385" 
+y="788" 
+class="s5_88"
+>))</text>
+
+<text 
+x="55" 
+y="841" 
+class="s1_88"
+>The dot product measures how far the vector</text>
+
+<text 
+x="454" 
+y="841" 
+class="s11_88"
+>v</text>
+
+<text 
+x="469" 
+y="841" 
+class="s1_88"
+>extends in the</text>
+
+<text 
+x="597" 
+y="841" 
+class="s11_88"
+>w</text>
+
+<text 
+x="617" 
+y="841" 
+class="s1_88"
+>direction. For example, if</text>
+
+<text 
+x="55" 
+y="869" 
+dx="0,0,6.1,0,6.1,0,0,0,6.1,0" 
+class="s2_88"
+>w = [1, 0]</text>
+
+<text 
+x="165" 
+y="869" 
+class="s1_88"
+>then</text>
+
+<text 
+x="209" 
+y="869" 
+dx="0,0,0,0,0,0,0,6.1,0" 
+class="s2_88"
+>dot(v, w)</text>
+
+<text 
+x="309" 
+y="869" 
+class="s1_88"
+>is just the first component of</text>
+
+<text 
+x="567" 
+y="869" 
+class="s2_88"
+>v</text>
+
+<text 
+x="578" 
+y="869" 
+class="s1_88"
+>. Another way of saying this is</text>
+
+<text 
+x="55" 
+y="898" 
+dx="0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_88"
+>that it’s the length of the vector you’d get if you</text>
+
+<text 
+x="481" 
+y="898" 
+dx="0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s11_88"
+>projected v</text>
+
+<text 
+x="584" 
+y="898" 
+class="s1_88"
+>onto</text>
+
+<text 
+x="629" 
+y="898" 
+class="s11_88"
+>w</text>
+
+<text 
+x="649" 
+y="898" 
+class="s1_88"
+>(</text>
+
+<text 
+x="656" 
+y="898" 
+class="s12_88"
+>Figure 4-2</text>
+
+<text 
+x="748" 
+y="898" 
+class="s1_88"
+>).</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

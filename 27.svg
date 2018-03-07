@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 27 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_27{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_27{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s3_27{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_27{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_27{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s6_27{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s7_27{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s8_27{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_27"
+>def</text>
+
+<text 
+x="108" 
+y="64" 
+class="s2_27"
+>most_common_interests_with</text>
+
+<text 
+x="314" 
+y="64" 
+class="s3_27"
+>(</text>
+
+<text 
+x="322" 
+y="64" 
+class="s4_27"
+>user</text>
+
+<text 
+x="353" 
+y="64" 
+class="s3_27"
+>):</text>
+
+<text 
+x="108" 
+y="80" 
+class="s1_27"
+>return</text>
+
+<text 
+x="163" 
+y="80" 
+class="s4_27"
+>Counter</text>
+
+<text 
+x="219" 
+y="80" 
+class="s3_27"
+>(</text>
+
+<text 
+x="227" 
+y="80" 
+class="s4_27"
+>interested_user_id</text>
+
+<text 
+x="140" 
+y="95" 
+class="s1_27"
+>for</text>
+
+<text 
+x="171" 
+y="95" 
+class="s4_27"
+>interest</text>
+
+<text 
+x="242" 
+y="95" 
+class="s5_27"
+>in</text>
+
+<text 
+x="266" 
+y="95" 
+class="s4_27"
+>interests_by_user_id</text>
+
+<text 
+x="424" 
+y="95" 
+class="s3_27"
+>[</text>
+
+<text 
+x="432" 
+y="95" 
+class="s4_27"
+>user</text>
+
+<text 
+x="464" 
+y="95" 
+class="s3_27"
+>[</text>
+
+<text 
+x="472" 
+y="95" 
+class="s6_27"
+>"id"</text>
+
+<text 
+x="503" 
+y="95" 
+class="s3_27"
+>]]</text>
+
+<text 
+x="140" 
+y="111" 
+class="s1_27"
+>for</text>
+
+<text 
+x="171" 
+y="111" 
+class="s4_27"
+>interested_user_id</text>
+
+<text 
+x="322" 
+y="111" 
+class="s5_27"
+>in</text>
+
+<text 
+x="345" 
+y="111" 
+class="s4_27"
+>user_ids_by_interest</text>
+
+<text 
+x="503" 
+y="111" 
+class="s3_27"
+>[</text>
+
+<text 
+x="511" 
+y="111" 
+class="s4_27"
+>interest</text>
+
+<text 
+x="574" 
+y="111" 
+class="s3_27"
+>]</text>
+
+<text 
+x="140" 
+y="126" 
+class="s1_27"
+>if</text>
+
+<text 
+x="163" 
+y="126" 
+class="s4_27"
+>interested_user_id</text>
+
+<text 
+x="314" 
+y="126" 
+class="s3_27"
+>!=</text>
+
+<text 
+x="337" 
+y="126" 
+class="s4_27"
+>user</text>
+
+<text 
+x="369" 
+y="126" 
+class="s3_27"
+>[</text>
+
+<text 
+x="377" 
+y="126" 
+class="s6_27"
+>"id"</text>
+
+<text 
+x="408" 
+y="126" 
+class="s3_27"
+>])</text>
+
+<text 
+x="55" 
+y="179" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_27"
+>We could then use this to build a richer “Data Scientists You Should Know” feature based</text>
+
+<text 
+x="55" 
+y="206" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_27"
+>on a combination of mutual friends and mutual interests. We’ll explore these kinds of</text>
+
+<text 
+x="55" 
+y="234" 
+class="s7_27"
+>applications in</text>
+
+<text 
+x="189" 
+y="234" 
+class="s8_27"
+>Chapter 22</text>
+
+<text 
+x="286" 
+y="234" 
+class="s7_27"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

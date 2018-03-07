@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 61 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_61{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_61{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_61{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_61{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #00CCFF;
+}
+.s5_61{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s6_61{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_61{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s8_61{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s9_61{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s10_61{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s11_61{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+dx="0,0,0,0,0,0,0,0,-0.5,0,0,0,-0.5,0,0,0,0,0,0" 
+class="s1_61"
+>Regular Expressions</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_61"
+>Regular expressions provide a way of searching text. They are incredibly useful but also</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0" 
+class="s2_61"
+>fairly complicated, so much so that there are entire books written about them. We will</text>
+
+<text 
+x="55" 
+y="170" 
+class="s2_61"
+>explain their details the few times we encounter them; here are a few examples of how to</text>
+
+<text 
+x="55" 
+y="198" 
+class="s2_61"
+>use them in Python:</text>
+
+<text 
+x="76" 
+y="243" 
+class="s3_61"
+>import</text>
+
+<text 
+x="132" 
+y="243" 
+class="s4_61"
+>re</text>
+
+<text 
+x="76" 
+y="273" 
+class="s3_61"
+>print</text>
+
+<text 
+x="124" 
+y="273" 
+class="s5_61"
+>all</text>
+
+<text 
+x="148" 
+y="273" 
+class="s6_61"
+>([</text>
+
+<text 
+x="416" 
+y="273" 
+dx="0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s7_61"
+># all of these are true, because</text>
+
+<text 
+x="108" 
+y="289" 
+class="s8_61"
+>not</text>
+
+<text 
+x="140" 
+y="289" 
+class="s9_61"
+>re</text>
+
+<text 
+x="156" 
+y="289" 
+class="s6_61"
+>.</text>
+
+<text 
+x="163" 
+y="289" 
+class="s9_61"
+>match</text>
+
+<text 
+x="203" 
+y="289" 
+class="s6_61"
+>(</text>
+
+<text 
+x="211" 
+y="289" 
+class="s10_61"
+>"a"</text>
+
+<text 
+x="235" 
+y="289" 
+class="s6_61"
+>,</text>
+
+<text 
+x="250" 
+y="289" 
+class="s10_61"
+>"cat"</text>
+
+<text 
+x="290" 
+y="289" 
+class="s6_61"
+>),</text>
+
+<text 
+x="416" 
+y="289" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0" 
+class="s7_61"
+># * 'cat' doesn't start with 'a'</text>
+
+<text 
+x="108" 
+y="304" 
+class="s9_61"
+>re</text>
+
+<text 
+x="124" 
+y="304" 
+class="s6_61"
+>.</text>
+
+<text 
+x="132" 
+y="304" 
+class="s9_61"
+>search</text>
+
+<text 
+x="179" 
+y="304" 
+class="s6_61"
+>(</text>
+
+<text 
+x="187" 
+y="304" 
+class="s10_61"
+>"a"</text>
+
+<text 
+x="211" 
+y="304" 
+class="s6_61"
+>,</text>
+
+<text 
+x="227" 
+y="304" 
+class="s10_61"
+>"cat"</text>
+
+<text 
+x="266" 
+y="304" 
+class="s6_61"
+>),</text>
+
+<text 
+x="416" 
+y="304" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s7_61"
+># * 'cat' has an 'a' in it</text>
+
+<text 
+x="108" 
+y="320" 
+class="s8_61"
+>not</text>
+
+<text 
+x="140" 
+y="320" 
+class="s9_61"
+>re</text>
+
+<text 
+x="156" 
+y="320" 
+class="s6_61"
+>.</text>
+
+<text 
+x="163" 
+y="320" 
+class="s9_61"
+>search</text>
+
+<text 
+x="211" 
+y="320" 
+class="s6_61"
+>(</text>
+
+<text 
+x="219" 
+y="320" 
+class="s10_61"
+>"c"</text>
+
+<text 
+x="242" 
+y="320" 
+class="s6_61"
+>,</text>
+
+<text 
+x="258" 
+y="320" 
+class="s10_61"
+>"dog"</text>
+
+<text 
+x="298" 
+y="320" 
+class="s6_61"
+>),</text>
+
+<text 
+x="416" 
+y="320" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,4.6,0,0,0,4.6,0,0,4.6,0" 
+class="s7_61"
+># * 'dog' doesn't have a 'c' in it</text>
+
+<text 
+x="108" 
+y="335" 
+class="s11_61"
+>3</text>
+
+<text 
+x="124" 
+y="335" 
+class="s6_61"
+>==</text>
+
+<text 
+x="148" 
+y="335" 
+class="s5_61"
+>len</text>
+
+<text 
+x="171" 
+y="335" 
+class="s6_61"
+>(</text>
+
+<text 
+x="179" 
+y="335" 
+class="s9_61"
+>re</text>
+
+<text 
+x="195" 
+y="335" 
+class="s6_61"
+>.</text>
+
+<text 
+x="203" 
+y="335" 
+class="s9_61"
+>split</text>
+
+<text 
+x="242" 
+y="335" 
+class="s6_61"
+>(</text>
+
+<text 
+x="250" 
+y="335" 
+class="s10_61"
+>"[ab]"</text>
+
+<text 
+x="298" 
+y="335" 
+class="s6_61"
+>,</text>
+
+<text 
+x="314" 
+y="335" 
+class="s10_61"
+>"carbs"</text>
+
+<text 
+x="369" 
+y="335" 
+class="s6_61"
+>)),</text>
+
+<text 
+x="416" 
+y="335" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,4.6,0,0,4.6,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_61"
+># * split on a or b to ['c','r','s']</text>
+
+<text 
+x="108" 
+y="350" 
+class="s10_61"
+>"R-D-"</text>
+
+<text 
+x="163" 
+y="350" 
+class="s6_61"
+>==</text>
+
+<text 
+x="187" 
+y="350" 
+class="s9_61"
+>re</text>
+
+<text 
+x="203" 
+y="350" 
+class="s6_61"
+>.</text>
+
+<text 
+x="211" 
+y="350" 
+class="s9_61"
+>sub</text>
+
+<text 
+x="235" 
+y="350" 
+class="s6_61"
+>(</text>
+
+<text 
+x="242" 
+y="350" 
+class="s10_61"
+>"[0-9]"</text>
+
+<text 
+x="298" 
+y="350" 
+class="s6_61"
+>,</text>
+
+<text 
+x="314" 
+y="350" 
+class="s10_61"
+>"-"</text>
+
+<text 
+x="337" 
+y="350" 
+class="s6_61"
+>,</text>
+
+<text 
+x="353" 
+y="350" 
+class="s10_61"
+>"R2D2"</text>
+
+<text 
+x="401" 
+y="350" 
+class="s6_61"
+>)</text>
+
+<text 
+x="416" 
+y="350" 
+dx="0,0,4.6,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0" 
+class="s7_61"
+># * replace digits with dashes</text>
+
+<text 
+x="108" 
+y="366" 
+class="s6_61"
+>])</text>
+
+<text 
+x="140" 
+y="366" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,0" 
+class="s7_61"
+># prints True</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 11 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_11{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_11"
+>Over the years, I’ve trained a number of data scientists. While not all of them have gone</text>
+
+<text 
+x="55" 
+y="102" 
+class="s1_11"
+>on to become world-changing data ninja rockstars, I’ve left them all better data scientists</text>
+
+<text 
+x="55" 
+y="129" 
+class="s1_11"
+>than I found them. And I’ve grown to believe that anyone who has some amount of</text>
+
+<text 
+x="55" 
+y="157" 
+class="s1_11"
+>mathematical aptitude and some amount of programming skill has the necessary raw</text>
+
+<text 
+x="55" 
+y="184" 
+class="s1_11"
+>materials to do data science. All she needs is an inquisitive mind, a willingness to work</text>
+
+<text 
+x="55" 
+y="212" 
+class="s1_11"
+>hard, and this book. Hence this book.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

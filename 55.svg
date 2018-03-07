@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 55 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_55{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_55{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s3_55{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s4_55{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_55{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_55{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s1_55"
+>is definitely a number.</text>
+
+<text 
+x="55" 
+y="113" 
+class="s1_55"
+>Python has an</text>
+
+<text 
+x="183" 
+y="113" 
+class="s2_55"
+>all</text>
+
+<text 
+x="221" 
+y="113" 
+class="s1_55"
+>function, which takes a list and returns</text>
+
+<text 
+x="566" 
+y="113" 
+class="s2_55"
+>True</text>
+
+<text 
+x="614" 
+y="113" 
+class="s1_55"
+>precisely when every</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0" 
+class="s1_55"
+>element is truthy, and an</text>
+
+<text 
+x="275" 
+y="143" 
+class="s2_55"
+>any</text>
+
+<text 
+x="312" 
+y="143" 
+class="s1_55"
+>function, which returns</text>
+
+<text 
+x="522" 
+y="143" 
+class="s2_55"
+>True</text>
+
+<text 
+x="570" 
+y="143" 
+class="s1_55"
+>when at least one element is</text>
+
+<text 
+x="55" 
+y="172" 
+class="s1_55"
+>truthy:</text>
+
+<text 
+x="76" 
+y="217" 
+class="s3_55"
+>all</text>
+
+<text 
+x="100" 
+y="217" 
+class="s4_55"
+>([</text>
+
+<text 
+x="116" 
+y="217" 
+class="s3_55"
+>True</text>
+
+<text 
+x="148" 
+y="217" 
+class="s4_55"
+>,</text>
+
+<text 
+x="163" 
+y="217" 
+class="s5_55"
+>1</text>
+
+<text 
+x="171" 
+y="217" 
+dx="0,0,4.6" 
+class="s4_55"
+>, {</text>
+
+<text 
+x="203" 
+y="217" 
+class="s5_55"
+>3</text>
+
+<text 
+x="219" 
+y="217" 
+class="s4_55"
+>}])</text>
+
+<text 
+x="266" 
+y="217" 
+dx="0,0,4.6,0,0,0" 
+class="s6_55"
+># True</text>
+
+<text 
+x="76" 
+y="233" 
+class="s3_55"
+>all</text>
+
+<text 
+x="100" 
+y="233" 
+class="s4_55"
+>([</text>
+
+<text 
+x="116" 
+y="233" 
+class="s3_55"
+>True</text>
+
+<text 
+x="148" 
+y="233" 
+class="s4_55"
+>,</text>
+
+<text 
+x="163" 
+y="233" 
+class="s5_55"
+>1</text>
+
+<text 
+x="171" 
+y="233" 
+dx="0,0,4.6,0,0,0" 
+class="s4_55"
+>, {}])</text>
+
+<text 
+x="266" 
+y="233" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0" 
+class="s6_55"
+># False, {} is falsy</text>
+
+<text 
+x="76" 
+y="248" 
+class="s3_55"
+>any</text>
+
+<text 
+x="100" 
+y="248" 
+class="s4_55"
+>([</text>
+
+<text 
+x="116" 
+y="248" 
+class="s3_55"
+>True</text>
+
+<text 
+x="148" 
+y="248" 
+class="s4_55"
+>,</text>
+
+<text 
+x="163" 
+y="248" 
+class="s5_55"
+>1</text>
+
+<text 
+x="171" 
+y="248" 
+dx="0,0,4.6,0,0,0" 
+class="s4_55"
+>, {}])</text>
+
+<text 
+x="266" 
+y="248" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0" 
+class="s6_55"
+># True, True is truthy</text>
+
+<text 
+x="76" 
+y="264" 
+class="s3_55"
+>all</text>
+
+<text 
+x="100" 
+y="264" 
+class="s4_55"
+>([])</text>
+
+<text 
+x="266" 
+y="264" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0" 
+class="s6_55"
+># True, no falsy elements in the list</text>
+
+<text 
+x="76" 
+y="279" 
+class="s3_55"
+>any</text>
+
+<text 
+x="100" 
+y="279" 
+class="s4_55"
+>([])</text>
+
+<text 
+x="266" 
+y="279" 
+dx="0,0,4.6,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0" 
+class="s6_55"
+># False, no truthy elements in the list</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
