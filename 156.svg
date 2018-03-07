@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 156 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_156{
+}
+
+.s1_156{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_156{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_156" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_156"
+>Chapter 9. Getting Data</text>
+
+<text 
+x="65" 
+y="193" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_156"
+>To write it, it took three months; to conceive it, three minutes; to collect the data in it,</text>
+
+<text 
+x="65" 
+y="218" 
+class="s2_156"
+>all my life.</text>
+
+<text 
+x="65" 
+y="255" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_156"
+>F. Scott Fitzgerald</text>
+
+<text 
+x="55" 
+y="292" 
+class="s2_156"
+>In order to be a data scientist you need data. In fact, as a data scientist you will spend an</text>
+
+<text 
+x="55" 
+y="320" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_156"
+>embarrassingly large fraction of your time acquiring, cleaning, and transforming data. In a</text>
+
+<text 
+x="55" 
+y="347" 
+class="s2_156"
+>pinch, you can always type the data in yourself (or if you have minions, make them do it),</text>
+
+<text 
+x="55" 
+y="375" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0" 
+class="s2_156"
+>but usually this is not a good use of your time. In this chapter, we’ll look at different ways</text>
+
+<text 
+x="55" 
+y="402" 
+class="s2_156"
+>of getting data into Python and into the right formats.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

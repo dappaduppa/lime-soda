@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 109 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_109{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_109{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_109{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_109{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s5_109{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_109"
+>Correlation and Causation</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>You have probably heard at some point that “correlation is not causation,” most likely by</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_109"
+>someone looking at data that posed a challenge to parts of his worldview that he was</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_109"
+>reluctant to question. Nonetheless, this is an important point — if</text>
+
+<text 
+x="635" 
+y="177" 
+class="s3_109"
+>x</text>
+
+<text 
+x="651" 
+y="177" 
+class="s2_109"
+>and</text>
+
+<text 
+x="688" 
+y="177" 
+class="s3_109"
+>y</text>
+
+<text 
+x="704" 
+y="177" 
+class="s2_109"
+>are strongly</text>
+
+<text 
+x="55" 
+y="206" 
+class="s2_109"
+>correlated, that might mean that</text>
+
+<text 
+x="340" 
+y="206" 
+class="s3_109"
+>x</text>
+
+<text 
+x="356" 
+y="206" 
+class="s2_109"
+>causes</text>
+
+<text 
+x="419" 
+y="206" 
+class="s3_109"
+>y</text>
+
+<text 
+x="430" 
+y="206" 
+class="s2_109"
+>, that</text>
+
+<text 
+x="479" 
+y="206" 
+class="s3_109"
+>y</text>
+
+<text 
+x="495" 
+y="206" 
+class="s2_109"
+>causes</text>
+
+<text 
+x="558" 
+y="206" 
+class="s3_109"
+>x</text>
+
+<text 
+x="569" 
+y="206" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0" 
+class="s2_109"
+>, that each causes the other, that</text>
+
+<text 
+x="55" 
+y="236" 
+class="s2_109"
+>some third factor causes both, or it might mean nothing.</text>
+
+<text 
+x="55" 
+y="275" 
+class="s2_109"
+>Consider the relationship between</text>
+
+<text 
+x="360" 
+y="275" 
+class="s3_109"
+>num_friends</text>
+
+<text 
+x="481" 
+y="275" 
+class="s2_109"
+>and</text>
+
+<text 
+x="519" 
+y="275" 
+class="s3_109"
+>daily_minutes</text>
+
+<text 
+x="656" 
+y="275" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>. It’s possible that</text>
+
+<text 
+x="55" 
+y="304" 
+class="s2_109"
+>having more friends on the site</text>
+
+<text 
+x="333" 
+y="304" 
+class="s4_109"
+>causes</text>
+
+<text 
+x="397" 
+y="304" 
+class="s2_109"
+>DataSciencester users to spend more time on the</text>
+
+<text 
+x="55" 
+y="332" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_109"
+>site. This might be the case if each friend posts a certain amount of content each day,</text>
+
+<text 
+x="55" 
+y="359" 
+class="s2_109"
+>which means that the more friends you have, the more time it takes to stay current with</text>
+
+<text 
+x="55" 
+y="387" 
+class="s2_109"
+>their updates.</text>
+
+<text 
+x="55" 
+y="425" 
+dx="0,0,0,0,0,0,0,-0.9,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>However, it’s also possible that the more time you spend arguing in the DataSciencester</text>
+
+<text 
+x="55" 
+y="453" 
+class="s2_109"
+>forums, the more you encounter and befriend like-minded people. That is, spending more</text>
+
+<text 
+x="55" 
+y="480" 
+class="s2_109"
+>time on the site</text>
+
+<text 
+x="195" 
+y="480" 
+class="s4_109"
+>causes</text>
+
+<text 
+x="259" 
+y="480" 
+class="s2_109"
+>users to have more friends.</text>
+
+<text 
+x="55" 
+y="519" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>A third possibility is that the users who are most passionate about data science spend more</text>
+
+<text 
+x="55" 
+y="546" 
+class="s2_109"
+>time on the site (because they find it more interesting) and more actively collect data</text>
+
+<text 
+x="55" 
+y="574" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>science friends (because they don’t want to associate with anyone else).</text>
+
+<text 
+x="55" 
+y="612" 
+class="s2_109"
+>One way to feel more confident about causality is by conducting randomized trials. If you</text>
+
+<text 
+x="55" 
+y="640" 
+class="s2_109"
+>can randomly split your users into two groups with similar demographics and give one of</text>
+
+<text 
+x="55" 
+y="667" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>the groups a slightly different experience, then you can often feel pretty good that the</text>
+
+<text 
+x="55" 
+y="695" 
+dx="0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>different experiences are causing the different outcomes.</text>
+
+<text 
+x="55" 
+y="733" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_109"
+>For instance, if you don’t mind being angrily accused of</text>
+
+<text 
+x="554" 
+y="733" 
+class="s5_109"
+>experimenting on your users</text>
+
+<text 
+x="805" 
+y="733" 
+class="s2_109"
+>, you</text>
+
+<text 
+x="55" 
+y="761" 
+class="s2_109"
+>could randomly choose a subset of your users and show them content from only a fraction</text>
+
+<text 
+x="55" 
+y="788" 
+class="s2_109"
+>of their friends. If this subset subsequently spent less time on the site, this would give you</text>
+
+<text 
+x="55" 
+y="816" 
+class="s2_109"
+>some confidence that having more friends</text>
+
+<text 
+x="429" 
+y="816" 
+class="s4_109"
+>causes</text>
+
+<text 
+x="493" 
+y="816" 
+class="s2_109"
+>more time on the site.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

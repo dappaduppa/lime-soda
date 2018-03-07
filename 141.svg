@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 141 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_141{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s2_141{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<image preserveAspectRatio="none" x="93" y="54" width="724" height="572" xlink:href="141/img/1.png" />
+<text 
+x="286" 
+y="652" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0" 
+class="s1_141"
+>Figure 7-2. Posteriors arising from different priors</text>
+
+<text 
+x="55" 
+y="694" 
+class="s2_141"
+>If you flipped the coin more and more times, the prior would matter less and less until</text>
+
+<text 
+x="55" 
+y="721" 
+class="s2_141"
+>eventually you’d have (nearly) the same posterior distribution no matter which prior you</text>
+
+<text 
+x="55" 
+y="749" 
+class="s2_141"
+>started with.</text>
+
+<text 
+x="55" 
+y="787" 
+class="s2_141"
+>For example, no matter how biased you initially thought the coin was, it would be hard to</text>
+
+<text 
+x="55" 
+y="815" 
+class="s2_141"
+>maintain that belief after seeing 1,000 heads out of 2,000 flips (unless you are a lunatic</text>
+
+<text 
+x="55" 
+y="842" 
+class="s2_141"
+>who picks something like a Beta(1000000,1) prior).</text>
+
+<text 
+x="55" 
+y="881" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_141"
+>What’s interesting is that this allows us to make probability statements about hypotheses:</text>
+
+<text 
+x="55" 
+y="908" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0" 
+class="s2_141"
+>“Based on the prior and the observed data, there is only a 5% likelihood the coin’s heads</text>
+
+<text 
+x="55" 
+y="936" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_141"
+>probability is between 49% and 51%.” This is philosophically very different from a</text>
+
+<text 
+x="55" 
+y="963" 
+class="s2_141"
+>statement like “if the coin were fair we would expect to observe data so extreme only 5%</text>
+
+<text 
+x="55" 
+y="991" 
+class="s2_141"
+>of the time.”</text>
+
+<text 
+x="55" 
+y="1029" 
+class="s2_141"
+>Using Bayesian inference to test hypotheses is considered somewhat controversial — in</text>
+
+<text 
+x="55" 
+y="1057" 
+class="s2_141"
+>part because its mathematics can get somewhat complicated, and in part because of the</text>
+
+<text 
+x="55" 
+y="1084" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,-1.8,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_141"
+>subjective nature of choosing a prior. We won’t use it any further in this book, but it’s</text>
+
+<text 
+x="55" 
+y="1112" 
+class="s2_141"
+>good to know about.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

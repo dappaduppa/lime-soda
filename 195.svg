@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 195 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_195{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_195{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s3_195{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_195{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_195{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s6_195{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_195{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s8_195{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_195"
+>def</text>
+
+<text 
+x="108" 
+y="64" 
+class="s2_195"
+>rescale</text>
+
+<text 
+x="163" 
+y="64" 
+class="s3_195"
+>(</text>
+
+<text 
+x="171" 
+y="64" 
+class="s4_195"
+>data_matrix</text>
+
+<text 
+x="258" 
+y="64" 
+class="s3_195"
+>):</text>
+
+<text 
+x="108" 
+y="80" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0" 
+class="s5_195"
+>"""rescales the input data so that each column</text>
+
+<text 
+x="108" 
+y="95" 
+dx="0,0,0,0,4.6,0,0,0,0,4.6,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6" 
+class="s5_195"
+>has mean 0 and standard deviation 1</text>
+
+<text 
+x="108" 
+y="111" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_195"
+>leaves alone columns with no deviation"""</text>
+
+<text 
+x="108" 
+y="126" 
+class="s4_195"
+>means</text>
+
+<text 
+x="148" 
+y="126" 
+class="s3_195"
+>,</text>
+
+<text 
+x="163" 
+y="126" 
+class="s4_195"
+>stdevs</text>
+
+<text 
+x="219" 
+y="126" 
+class="s3_195"
+>=</text>
+
+<text 
+x="235" 
+y="126" 
+class="s4_195"
+>scale</text>
+
+<text 
+x="274" 
+y="126" 
+class="s3_195"
+>(</text>
+
+<text 
+x="282" 
+y="126" 
+class="s4_195"
+>data_matrix</text>
+
+<text 
+x="369" 
+y="126" 
+class="s3_195"
+>)</text>
+
+<text 
+x="108" 
+y="157" 
+class="s1_195"
+>def</text>
+
+<text 
+x="140" 
+y="157" 
+class="s2_195"
+>rescaled</text>
+
+<text 
+x="203" 
+y="157" 
+class="s3_195"
+>(</text>
+
+<text 
+x="211" 
+y="157" 
+class="s4_195"
+>i</text>
+
+<text 
+x="219" 
+y="157" 
+class="s3_195"
+>,</text>
+
+<text 
+x="235" 
+y="157" 
+class="s4_195"
+>j</text>
+
+<text 
+x="242" 
+y="157" 
+class="s3_195"
+>):</text>
+
+<text 
+x="140" 
+y="172" 
+class="s1_195"
+>if</text>
+
+<text 
+x="163" 
+y="172" 
+class="s4_195"
+>stdevs</text>
+
+<text 
+x="211" 
+y="172" 
+class="s3_195"
+>[</text>
+
+<text 
+x="219" 
+y="172" 
+class="s4_195"
+>j</text>
+
+<text 
+x="227" 
+y="172" 
+dx="0,0,4.6" 
+class="s3_195"
+>] &gt;</text>
+
+<text 
+x="258" 
+y="172" 
+class="s6_195"
+>0</text>
+
+<text 
+x="266" 
+y="172" 
+class="s3_195"
+>:</text>
+
+<text 
+x="171" 
+y="188" 
+class="s1_195"
+>return</text>
+
+<text 
+x="227" 
+y="188" 
+class="s3_195"
+>(</text>
+
+<text 
+x="235" 
+y="188" 
+class="s4_195"
+>data_matrix</text>
+
+<text 
+x="322" 
+y="188" 
+class="s3_195"
+>[</text>
+
+<text 
+x="329" 
+y="188" 
+class="s4_195"
+>i</text>
+
+<text 
+x="337" 
+y="188" 
+class="s3_195"
+>][</text>
+
+<text 
+x="353" 
+y="188" 
+class="s4_195"
+>j</text>
+
+<text 
+x="361" 
+y="188" 
+dx="0,0,4.6" 
+class="s3_195"
+>] -</text>
+
+<text 
+x="393" 
+y="188" 
+class="s4_195"
+>means</text>
+
+<text 
+x="432" 
+y="188" 
+class="s3_195"
+>[</text>
+
+<text 
+x="440" 
+y="188" 
+class="s4_195"
+>j</text>
+
+<text 
+x="448" 
+y="188" 
+dx="0,0,0,4.6" 
+class="s3_195"
+>]) /</text>
+
+<text 
+x="487" 
+y="188" 
+class="s4_195"
+>stdevs</text>
+
+<text 
+x="535" 
+y="188" 
+class="s3_195"
+>[</text>
+
+<text 
+x="543" 
+y="188" 
+class="s4_195"
+>j</text>
+
+<text 
+x="551" 
+y="188" 
+class="s3_195"
+>]</text>
+
+<text 
+x="140" 
+y="203" 
+class="s1_195"
+>else</text>
+
+<text 
+x="171" 
+y="203" 
+class="s3_195"
+>:</text>
+
+<text 
+x="171" 
+y="218" 
+class="s1_195"
+>return</text>
+
+<text 
+x="227" 
+y="218" 
+class="s4_195"
+>data_matrix</text>
+
+<text 
+x="314" 
+y="218" 
+class="s3_195"
+>[</text>
+
+<text 
+x="322" 
+y="218" 
+class="s4_195"
+>i</text>
+
+<text 
+x="329" 
+y="218" 
+class="s3_195"
+>][</text>
+
+<text 
+x="345" 
+y="218" 
+class="s4_195"
+>j</text>
+
+<text 
+x="353" 
+y="218" 
+class="s3_195"
+>]</text>
+
+<text 
+x="108" 
+y="249" 
+class="s4_195"
+>num_rows</text>
+
+<text 
+x="171" 
+y="249" 
+class="s3_195"
+>,</text>
+
+<text 
+x="187" 
+y="249" 
+class="s4_195"
+>num_cols</text>
+
+<text 
+x="258" 
+y="249" 
+class="s3_195"
+>=</text>
+
+<text 
+x="274" 
+y="249" 
+class="s4_195"
+>shape</text>
+
+<text 
+x="314" 
+y="249" 
+class="s3_195"
+>(</text>
+
+<text 
+x="322" 
+y="249" 
+class="s4_195"
+>data_matrix</text>
+
+<text 
+x="408" 
+y="249" 
+class="s3_195"
+>)</text>
+
+<text 
+x="108" 
+y="265" 
+class="s1_195"
+>return</text>
+
+<text 
+x="163" 
+y="265" 
+class="s4_195"
+>make_matrix</text>
+
+<text 
+x="250" 
+y="265" 
+class="s3_195"
+>(</text>
+
+<text 
+x="258" 
+y="265" 
+class="s4_195"
+>num_rows</text>
+
+<text 
+x="322" 
+y="265" 
+class="s3_195"
+>,</text>
+
+<text 
+x="337" 
+y="265" 
+class="s4_195"
+>num_cols</text>
+
+<text 
+x="401" 
+y="265" 
+class="s3_195"
+>,</text>
+
+<text 
+x="416" 
+y="265" 
+class="s4_195"
+>rescaled</text>
+
+<text 
+x="480" 
+y="265" 
+class="s3_195"
+>)</text>
+
+<text 
+x="55" 
+y="317" 
+class="s7_195"
+>As always, you need to use your judgment. If you were to take a huge data set of heights</text>
+
+<text 
+x="55" 
+y="345" 
+class="s7_195"
+>and weights and filter it down to only the people with heights between 69.5 inches and</text>
+
+<text 
+x="55" 
+y="372" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s7_195"
+>70.5 inches, it’s quite likely (depending on the question you’re trying to answer) that the</text>
+
+<text 
+x="55" 
+y="400" 
+class="s7_195"
+>variation remaining is simply</text>
+
+<text 
+x="318" 
+y="400" 
+class="s8_195"
+>noise</text>
+
+<text 
+x="365" 
+y="400" 
+class="s7_195"
+>, and you might not want to put its standard deviation</text>
+
+<text 
+x="55" 
+y="428" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.6,0,0,0,0,0,0,0,0,0,0" 
+class="s7_195"
+>on equal footing with other dimensions’ deviations.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

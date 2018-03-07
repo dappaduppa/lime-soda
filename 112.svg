@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 112 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_112{
+}
+
+.s1_112{
+font-size: 44.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_112{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_112{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_112{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M55,117.7l799.4,0l0,1.1L55,118.8l0,-1.1Z" class="g1_112" />
+<text 
+x="55" 
+y="94" 
+dx="0,0,0,0,0,0,0,0,-0.8,0,0,0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s1_112"
+>Chapter 6. Probability</text>
+
+<text 
+x="65" 
+y="193" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_112"
+>The laws of probability, so true in general, so fallacious in particular.</text>
+
+<text 
+x="65" 
+y="229" 
+class="s2_112"
+>Edward Gibbon</text>
+
+<text 
+x="55" 
+y="267" 
+class="s2_112"
+>It is hard to do data science without some sort of understanding of</text>
+
+<text 
+x="641" 
+y="267" 
+dx="0,0,-0.8,0,0,0,0,0,0,0,0" 
+class="s3_112"
+>probability</text>
+
+<text 
+x="744" 
+y="267" 
+class="s2_112"
+>and its</text>
+
+<text 
+x="55" 
+y="294" 
+class="s2_112"
+>mathematics. As with our treatment of statistics in</text>
+
+<text 
+x="502" 
+y="294" 
+class="s4_112"
+>Chapter 5</text>
+
+<text 
+x="588" 
+y="294" 
+class="s2_112"
+>, we’ll wave our hands a lot</text>
+
+<text 
+x="55" 
+y="322" 
+class="s2_112"
+>and elide many of the technicalities.</text>
+
+<text 
+x="55" 
+y="360" 
+class="s2_112"
+>For our purposes you should think of probability as a way of quantifying the uncertainty</text>
+
+<text 
+x="55" 
+y="388" 
+class="s2_112"
+>associated with</text>
+
+<text 
+x="195" 
+y="388" 
+class="s3_112"
+>events</text>
+
+<text 
+x="255" 
+y="388" 
+class="s2_112"
+>chosen from a some</text>
+
+<text 
+x="437" 
+y="388" 
+class="s3_112"
+>universe</text>
+
+<text 
+x="517" 
+y="388" 
+class="s2_112"
+>of events. Rather than getting</text>
+
+<text 
+x="55" 
+y="415" 
+class="s2_112"
+>technical about what these terms mean, think of rolling a die. The universe consists of all</text>
+
+<text 
+x="55" 
+y="443" 
+class="s2_112"
+>possible outcomes. And any subset of these outcomes is an event; for example, “the die</text>
+
+<text 
+x="55" 
+y="470" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0" 
+class="s2_112"
+>rolls a one” or “the die rolls an even number.”</text>
+
+<text 
+x="55" 
+y="518" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0" 
+class="s2_112"
+>Notationally, we write</text>
+
+<image preserveAspectRatio="none" x="256" y="489" width="59" height="29" xlink:href="112/img/1.png" />
+<text 
+x="320" 
+y="518" 
+class="s2_112"
+>to mean “the probability of the event</text>
+
+<text 
+x="649" 
+y="518" 
+class="s3_112"
+>E</text>
+
+<text 
+x="662" 
+y="518" 
+class="s2_112"
+>.”</text>
+
+<text 
+x="55" 
+y="556" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_112"
+>We’ll use probability theory to build models. We’ll use probability theory to evaluate</text>
+
+<text 
+x="55" 
+y="584" 
+dx="0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_112"
+>models. We’ll use probability theory all over the place.</text>
+
+<text 
+x="55" 
+y="622" 
+class="s2_112"
+>One could, were one so inclined, get really deep into the philosophy of what probability</text>
+
+<text 
+x="55" 
+y="650" 
+class="s2_112"
+>theory</text>
+
+<text 
+x="116" 
+y="650" 
+class="s3_112"
+>means</text>
+
+<text 
+x="172" 
+y="650" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_112"
+>. (This is best done over beers.) We won’t be doing that.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

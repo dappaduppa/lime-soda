@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 171 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_171{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_171{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_171{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_171{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_171{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_171{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s7_171{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_171{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s9_171{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #00CCFF;
+}
+.s10_171{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s11_171{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s12_171{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s13_171{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #330099;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_171"
+>JSON (and XML)</text>
+
+<text 
+x="55" 
+y="115" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_171"
+>Because HTTP is a protocol for transferring</text>
+
+<text 
+x="446" 
+y="115" 
+class="s3_171"
+>text</text>
+
+<text 
+x="478" 
+y="115" 
+class="s2_171"
+>, the data you request through a web API</text>
+
+<text 
+x="55" 
+y="143" 
+class="s2_171"
+>needs to be</text>
+
+<text 
+x="159" 
+y="143" 
+class="s3_171"
+>serialized</text>
+
+<text 
+x="250" 
+y="143" 
+class="s2_171"
+>into a string format. Often this serialization uses JavaScript Object</text>
+
+<text 
+x="55" 
+y="170" 
+class="s2_171"
+>Notation (JSON). JavaScript objects look quite similar to Python</text>
+
+<text 
+x="631" 
+y="170" 
+class="s4_171"
+>dict</text>
+
+<text 
+x="673" 
+y="170" 
+class="s2_171"
+>s, which makes their</text>
+
+<text 
+x="55" 
+y="200" 
+class="s2_171"
+>string representations easy to interpret:</text>
+
+<text 
+x="76" 
+y="245" 
+class="s5_171"
+>{</text>
+
+<text 
+x="92" 
+y="245" 
+class="s6_171"
+>"title"</text>
+
+<text 
+x="156" 
+y="245" 
+class="s5_171"
+>:</text>
+
+<text 
+x="171" 
+y="245" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s6_171"
+>"Data Science Book"</text>
+
+<text 
+x="322" 
+y="245" 
+class="s5_171"
+>,</text>
+
+<text 
+x="92" 
+y="260" 
+class="s6_171"
+>"author"</text>
+
+<text 
+x="163" 
+y="260" 
+class="s5_171"
+>:</text>
+
+<text 
+x="179" 
+y="260" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s6_171"
+>"Joel Grus"</text>
+
+<text 
+x="266" 
+y="260" 
+class="s5_171"
+>,</text>
+
+<text 
+x="92" 
+y="276" 
+class="s6_171"
+>"publicationYear"</text>
+
+<text 
+x="235" 
+y="276" 
+class="s5_171"
+>:</text>
+
+<text 
+x="250" 
+y="276" 
+class="s7_171"
+>2014</text>
+
+<text 
+x="282" 
+y="276" 
+class="s5_171"
+>,</text>
+
+<text 
+x="92" 
+y="291" 
+class="s6_171"
+>"topics"</text>
+
+<text 
+x="163" 
+y="291" 
+dx="0,0,4.6" 
+class="s5_171"
+>: [</text>
+
+<text 
+x="195" 
+y="291" 
+class="s6_171"
+>"data"</text>
+
+<text 
+x="242" 
+y="291" 
+class="s5_171"
+>,</text>
+
+<text 
+x="258" 
+y="291" 
+class="s6_171"
+>"science"</text>
+
+<text 
+x="329" 
+y="291" 
+class="s5_171"
+>,</text>
+
+<text 
+x="345" 
+y="291" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s6_171"
+>"data science"</text>
+
+<text 
+x="456" 
+y="291" 
+dx="0,0,4.6" 
+class="s5_171"
+>] }</text>
+
+<text 
+x="55" 
+y="344" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_171"
+>We can parse JSON using Python’s</text>
+
+<text 
+x="370" 
+y="344" 
+class="s4_171"
+>json</text>
+
+<text 
+x="418" 
+y="344" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_171"
+>module. In particular, we will use its</text>
+
+<text 
+x="745" 
+y="344" 
+class="s4_171"
+>loads</text>
+
+<text 
+x="55" 
+y="374" 
+class="s2_171"
+>function, which deserializes a string representing a JSON object into a Python object:</text>
+
+<text 
+x="76" 
+y="419" 
+class="s8_171"
+>import</text>
+
+<text 
+x="132" 
+y="419" 
+class="s9_171"
+>json</text>
+
+<text 
+x="76" 
+y="434" 
+class="s10_171"
+>serialized</text>
+
+<text 
+x="163" 
+y="434" 
+class="s5_171"
+>=</text>
+
+<text 
+x="179" 
+y="434" 
+dx="0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s6_171"
+>"""{ "title" : "Data Science Book",</text>
+
+<text 
+x="219" 
+y="450" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s6_171"
+>"author" : "Joel Grus",</text>
+
+<text 
+x="219" 
+y="465" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0" 
+class="s6_171"
+>"publicationYear" : 2014,</text>
+
+<text 
+x="219" 
+y="480" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s6_171"
+>"topics" : [ "data", "science", "data science"] }"""</text>
+
+<text 
+x="76" 
+y="511" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0" 
+class="s11_171"
+># parse the JSON to create a Python dict</text>
+
+<text 
+x="76" 
+y="527" 
+class="s10_171"
+>deserialized</text>
+
+<text 
+x="179" 
+y="527" 
+class="s5_171"
+>=</text>
+
+<text 
+x="195" 
+y="527" 
+class="s10_171"
+>json</text>
+
+<text 
+x="227" 
+y="527" 
+class="s5_171"
+>.</text>
+
+<text 
+x="235" 
+y="527" 
+class="s10_171"
+>loads</text>
+
+<text 
+x="274" 
+y="527" 
+class="s5_171"
+>(</text>
+
+<text 
+x="282" 
+y="527" 
+class="s10_171"
+>serialized</text>
+
+<text 
+x="361" 
+y="527" 
+class="s5_171"
+>)</text>
+
+<text 
+x="76" 
+y="542" 
+class="s8_171"
+>if</text>
+
+<text 
+x="100" 
+y="542" 
+dx="0,0,0,0,0,0,4.6,0,0,0,0,0,0,0" 
+class="s6_171"
+>"data science"</text>
+
+<text 
+x="219" 
+y="542" 
+class="s12_171"
+>in</text>
+
+<text 
+x="242" 
+y="542" 
+class="s10_171"
+>deserialized</text>
+
+<text 
+x="337" 
+y="542" 
+class="s5_171"
+>[</text>
+
+<text 
+x="345" 
+y="542" 
+class="s6_171"
+>"topics"</text>
+
+<text 
+x="408" 
+y="542" 
+class="s5_171"
+>]:</text>
+
+<text 
+x="108" 
+y="557" 
+class="s8_171"
+>print</text>
+
+<text 
+x="156" 
+y="557" 
+class="s10_171"
+>deserialized</text>
+
+<text 
+x="55" 
+y="610" 
+class="s2_171"
+>Sometimes an API provider hates you and only provides responses in XML:</text>
+
+<text 
+x="76" 
+y="655" 
+class="s13_171"
+>&lt;Book&gt;</text>
+
+<text 
+x="92" 
+y="671" 
+class="s13_171"
+>&lt;Title&gt;</text>
+
+<text 
+x="148" 
+y="671" 
+dx="0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s5_171"
+>Data Science Book</text>
+
+<text 
+x="282" 
+y="671" 
+class="s13_171"
+>&lt;/Title&gt;</text>
+
+<text 
+x="92" 
+y="686" 
+class="s13_171"
+>&lt;Author&gt;</text>
+
+<text 
+x="156" 
+y="686" 
+dx="0,0,0,0,0,4.6,0,0,0" 
+class="s5_171"
+>Joel Grus</text>
+
+<text 
+x="227" 
+y="686" 
+class="s13_171"
+>&lt;/Author&gt;</text>
+
+<text 
+x="92" 
+y="701" 
+class="s13_171"
+>&lt;PublicationYear&gt;</text>
+
+<text 
+x="227" 
+y="701" 
+class="s5_171"
+>2014</text>
+
+<text 
+x="258" 
+y="701" 
+class="s13_171"
+>&lt;/PublicationYear&gt;</text>
+
+<text 
+x="92" 
+y="717" 
+class="s13_171"
+>&lt;Topics&gt;</text>
+
+<text 
+x="108" 
+y="732" 
+class="s13_171"
+>&lt;Topic&gt;</text>
+
+<text 
+x="163" 
+y="732" 
+class="s5_171"
+>data</text>
+
+<text 
+x="195" 
+y="732" 
+class="s13_171"
+>&lt;/Topic&gt;</text>
+
+<text 
+x="108" 
+y="748" 
+class="s13_171"
+>&lt;Topic&gt;</text>
+
+<text 
+x="163" 
+y="748" 
+class="s5_171"
+>science</text>
+
+<text 
+x="219" 
+y="748" 
+class="s13_171"
+>&lt;/Topic&gt;</text>
+
+<text 
+x="108" 
+y="763" 
+class="s13_171"
+>&lt;Topic&gt;</text>
+
+<text 
+x="163" 
+y="763" 
+dx="0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s5_171"
+>data science</text>
+
+<text 
+x="258" 
+y="763" 
+class="s13_171"
+>&lt;/Topic&gt;</text>
+
+<text 
+x="92" 
+y="778" 
+class="s13_171"
+>&lt;/Topics&gt;</text>
+
+<text 
+x="76" 
+y="794" 
+class="s13_171"
+>&lt;/Book&gt;</text>
+
+<text 
+x="55" 
+y="847" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0" 
+class="s2_171"
+>You can use</text>
+
+<text 
+x="166" 
+y="847" 
+class="s4_171"
+>BeautifulSoup</text>
+
+<text 
+x="309" 
+y="847" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_171"
+>to get data from XML similarly to how we used it to get data</text>
+
+<text 
+x="55" 
+y="876" 
+class="s2_171"
+>from HTML; check its documentation for details.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

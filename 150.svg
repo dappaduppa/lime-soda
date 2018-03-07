@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 150 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_150{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_150{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_150{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s4_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_150{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s8_150{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_150{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s11_150{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_150"
+>Choosing the Right Step Size</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_150"
+>Although the rationale for moving against the gradient is clear, how far to move is not.</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_150"
+>Indeed, choosing the right step size is more of an art than a science. Popular options</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_150"
+>include:</text>
+
+<path d="M61.6,204.6l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_150" />
+<text 
+x="82" 
+y="214" 
+class="s2_150"
+>Using a fixed step size</text>
+
+<path d="M61.6,252l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_150" />
+<text 
+x="82" 
+y="261" 
+class="s2_150"
+>Gradually shrinking the step size over time</text>
+
+<path d="M61.6,299.3l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_150" />
+<text 
+x="82" 
+y="309" 
+class="s2_150"
+>At each step, choosing the step size that minimizes the value of the objective function</text>
+
+<text 
+x="55" 
+y="357" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_150"
+>The last sounds optimal but is, in practice, a costly computation. We can approximate it by</text>
+
+<text 
+x="55" 
+y="385" 
+class="s2_150"
+>trying a variety of step sizes and choosing the one that results in the smallest value of the</text>
+
+<text 
+x="55" 
+y="412" 
+class="s2_150"
+>objective function:</text>
+
+<text 
+x="76" 
+y="457" 
+class="s3_150"
+>step_sizes</text>
+
+<text 
+x="163" 
+y="457" 
+dx="0,0,4.6" 
+class="s4_150"
+>= [</text>
+
+<text 
+x="187" 
+y="457" 
+class="s5_150"
+>100</text>
+
+<text 
+x="211" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="227" 
+y="457" 
+class="s5_150"
+>10</text>
+
+<text 
+x="242" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="258" 
+y="457" 
+class="s5_150"
+>1</text>
+
+<text 
+x="266" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="282" 
+y="457" 
+class="s5_150"
+>0.1</text>
+
+<text 
+x="306" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="322" 
+y="457" 
+class="s5_150"
+>0.01</text>
+
+<text 
+x="353" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="369" 
+y="457" 
+class="s5_150"
+>0.001</text>
+
+<text 
+x="408" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="424" 
+y="457" 
+class="s5_150"
+>0.0001</text>
+
+<text 
+x="472" 
+y="457" 
+class="s4_150"
+>,</text>
+
+<text 
+x="487" 
+y="457" 
+class="s5_150"
+>0.00001</text>
+
+<text 
+x="543" 
+y="457" 
+class="s4_150"
+>]</text>
+
+<text 
+x="55" 
+y="510" 
+class="s2_150"
+>It is possible that certain step sizes will result in invalid inputs for our function. So we’ll</text>
+
+<text 
+x="55" 
+y="538" 
+class="s2_150"
+>need to create a “safe apply” function that returns infinity (which should never be the</text>
+
+<text 
+x="55" 
+y="565" 
+class="s2_150"
+>minimum of anything) for invalid inputs:</text>
+
+<text 
+x="76" 
+y="610" 
+class="s6_150"
+>def</text>
+
+<text 
+x="108" 
+y="610" 
+class="s7_150"
+>safe</text>
+
+<text 
+x="140" 
+y="610" 
+class="s4_150"
+>(</text>
+
+<text 
+x="148" 
+y="610" 
+class="s3_150"
+>f</text>
+
+<text 
+x="156" 
+y="610" 
+class="s4_150"
+>):</text>
+
+<text 
+x="108" 
+y="626" 
+dx="0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0" 
+class="s8_150"
+>"""return a new function that's the same as f,</text>
+
+<text 
+x="108" 
+y="641" 
+dx="0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0" 
+class="s8_150"
+>except that it outputs infinity whenever f produces an error"""</text>
+
+<text 
+x="108" 
+y="656" 
+class="s6_150"
+>def</text>
+
+<text 
+x="140" 
+y="656" 
+class="s7_150"
+>safe_f</text>
+
+<text 
+x="187" 
+y="656" 
+class="s4_150"
+>(*</text>
+
+<text 
+x="203" 
+y="656" 
+class="s3_150"
+>args</text>
+
+<text 
+x="235" 
+y="656" 
+dx="0,0,4.6,0" 
+class="s4_150"
+>, **</text>
+
+<text 
+x="266" 
+y="656" 
+class="s3_150"
+>kwargs</text>
+
+<text 
+x="314" 
+y="656" 
+class="s4_150"
+>):</text>
+
+<text 
+x="140" 
+y="672" 
+class="s6_150"
+>try</text>
+
+<text 
+x="163" 
+y="672" 
+class="s4_150"
+>:</text>
+
+<text 
+x="171" 
+y="687" 
+class="s6_150"
+>return</text>
+
+<text 
+x="227" 
+y="687" 
+class="s3_150"
+>f</text>
+
+<text 
+x="235" 
+y="687" 
+class="s4_150"
+>(*</text>
+
+<text 
+x="250" 
+y="687" 
+class="s3_150"
+>args</text>
+
+<text 
+x="282" 
+y="687" 
+dx="0,0,4.6,0" 
+class="s4_150"
+>, **</text>
+
+<text 
+x="314" 
+y="687" 
+class="s3_150"
+>kwargs</text>
+
+<text 
+x="361" 
+y="687" 
+class="s4_150"
+>)</text>
+
+<text 
+x="140" 
+y="703" 
+class="s6_150"
+>except</text>
+
+<text 
+x="187" 
+y="703" 
+class="s4_150"
+>:</text>
+
+<text 
+x="171" 
+y="718" 
+class="s6_150"
+>return</text>
+
+<text 
+x="227" 
+y="718" 
+class="s9_150"
+>float</text>
+
+<text 
+x="266" 
+y="718" 
+class="s4_150"
+>(</text>
+
+<text 
+x="274" 
+y="718" 
+class="s10_150"
+>'inf'</text>
+
+<text 
+x="314" 
+y="718" 
+class="s4_150"
+>)</text>
+
+<text 
+x="393" 
+y="718" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0" 
+class="s11_150"
+># this means "infinity" in Python</text>
+
+<text 
+x="108" 
+y="733" 
+class="s6_150"
+>return</text>
+
+<text 
+x="163" 
+y="733" 
+class="s3_150"
+>safe_f</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

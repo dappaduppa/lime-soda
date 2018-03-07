@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 149 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_149{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_149{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_149{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_149{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_149{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_149{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_149{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_149{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_149{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_149{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s11_149{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s12_149{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_149"
+>Using the Gradient</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_149"
+>It’s easy to see that the</text>
+
+<text 
+x="260" 
+y="122" 
+class="s3_149"
+>sum_of_squares</text>
+
+<text 
+x="413" 
+y="122" 
+class="s2_149"
+>function is smallest when its input</text>
+
+<text 
+x="719" 
+y="122" 
+class="s3_149"
+>v</text>
+
+<text 
+x="735" 
+y="122" 
+class="s2_149"
+>is a vector of</text>
+
+<text 
+x="55" 
+y="151" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_149"
+>zeroes. But imagine we didn’t know that. Let’s use gradients to find the minimum among</text>
+
+<text 
+x="55" 
+y="179" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_149"
+>all three-dimensional vectors. We’ll just pick a random starting point and then take tiny</text>
+
+<text 
+x="55" 
+y="206" 
+class="s2_149"
+>steps in the opposite direction of the gradient until we reach a point where the gradient is</text>
+
+<text 
+x="55" 
+y="234" 
+class="s2_149"
+>very small:</text>
+
+<text 
+x="76" 
+y="279" 
+class="s4_149"
+>def</text>
+
+<text 
+x="108" 
+y="279" 
+class="s5_149"
+>step</text>
+
+<text 
+x="140" 
+y="279" 
+class="s6_149"
+>(</text>
+
+<text 
+x="148" 
+y="279" 
+class="s7_149"
+>v</text>
+
+<text 
+x="156" 
+y="279" 
+class="s6_149"
+>,</text>
+
+<text 
+x="171" 
+y="279" 
+class="s7_149"
+>direction</text>
+
+<text 
+x="242" 
+y="279" 
+class="s6_149"
+>,</text>
+
+<text 
+x="258" 
+y="279" 
+class="s7_149"
+>step_size</text>
+
+<text 
+x="329" 
+y="279" 
+class="s6_149"
+>):</text>
+
+<text 
+x="108" 
+y="294" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0" 
+class="s8_149"
+>"""move step_size in the direction from v"""</text>
+
+<text 
+x="108" 
+y="310" 
+class="s4_149"
+>return</text>
+
+<text 
+x="163" 
+y="310" 
+class="s6_149"
+>[</text>
+
+<text 
+x="171" 
+y="310" 
+class="s7_149"
+>v_i</text>
+
+<text 
+x="203" 
+y="310" 
+class="s6_149"
+>+</text>
+
+<text 
+x="219" 
+y="310" 
+class="s7_149"
+>step_size</text>
+
+<text 
+x="298" 
+y="310" 
+class="s6_149"
+>*</text>
+
+<text 
+x="314" 
+y="310" 
+class="s7_149"
+>direction_i</text>
+
+<text 
+x="171" 
+y="325" 
+class="s4_149"
+>for</text>
+
+<text 
+x="203" 
+y="325" 
+class="s7_149"
+>v_i</text>
+
+<text 
+x="227" 
+y="325" 
+class="s6_149"
+>,</text>
+
+<text 
+x="242" 
+y="325" 
+class="s7_149"
+>direction_i</text>
+
+<text 
+x="337" 
+y="325" 
+class="s9_149"
+>in</text>
+
+<text 
+x="361" 
+y="325" 
+class="s10_149"
+>zip</text>
+
+<text 
+x="385" 
+y="325" 
+class="s6_149"
+>(</text>
+
+<text 
+x="393" 
+y="325" 
+class="s7_149"
+>v</text>
+
+<text 
+x="401" 
+y="325" 
+class="s6_149"
+>,</text>
+
+<text 
+x="416" 
+y="325" 
+class="s7_149"
+>direction</text>
+
+<text 
+x="487" 
+y="325" 
+class="s6_149"
+>)]</text>
+
+<text 
+x="76" 
+y="356" 
+class="s4_149"
+>def</text>
+
+<text 
+x="108" 
+y="356" 
+class="s5_149"
+>sum_of_squares_gradient</text>
+
+<text 
+x="290" 
+y="356" 
+class="s6_149"
+>(</text>
+
+<text 
+x="298" 
+y="356" 
+class="s7_149"
+>v</text>
+
+<text 
+x="306" 
+y="356" 
+class="s6_149"
+>):</text>
+
+<text 
+x="108" 
+y="371" 
+class="s4_149"
+>return</text>
+
+<text 
+x="163" 
+y="371" 
+class="s6_149"
+>[</text>
+
+<text 
+x="171" 
+y="371" 
+class="s11_149"
+>2</text>
+
+<text 
+x="187" 
+y="371" 
+class="s6_149"
+>*</text>
+
+<text 
+x="203" 
+y="371" 
+class="s7_149"
+>v_i</text>
+
+<text 
+x="235" 
+y="371" 
+class="s4_149"
+>for</text>
+
+<text 
+x="266" 
+y="371" 
+class="s7_149"
+>v_i</text>
+
+<text 
+x="298" 
+y="371" 
+class="s9_149"
+>in</text>
+
+<text 
+x="322" 
+y="371" 
+class="s7_149"
+>v</text>
+
+<text 
+x="329" 
+y="371" 
+class="s6_149"
+>]</text>
+
+<text 
+x="76" 
+y="402" 
+dx="0,0,4.6,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0" 
+class="s12_149"
+># pick a random starting point</text>
+
+<text 
+x="76" 
+y="418" 
+class="s7_149"
+>v</text>
+
+<text 
+x="92" 
+y="418" 
+dx="0,0,4.6" 
+class="s6_149"
+>= [</text>
+
+<text 
+x="116" 
+y="418" 
+class="s7_149"
+>random</text>
+
+<text 
+x="163" 
+y="418" 
+class="s6_149"
+>.</text>
+
+<text 
+x="171" 
+y="418" 
+class="s7_149"
+>randint</text>
+
+<text 
+x="227" 
+y="418" 
+class="s6_149"
+>(-</text>
+
+<text 
+x="242" 
+y="418" 
+class="s11_149"
+>10</text>
+
+<text 
+x="258" 
+y="418" 
+class="s6_149"
+>,</text>
+
+<text 
+x="266" 
+y="418" 
+class="s11_149"
+>10</text>
+
+<text 
+x="282" 
+y="418" 
+class="s6_149"
+>)</text>
+
+<text 
+x="298" 
+y="418" 
+class="s4_149"
+>for</text>
+
+<text 
+x="329" 
+y="418" 
+class="s7_149"
+>i</text>
+
+<text 
+x="345" 
+y="418" 
+class="s9_149"
+>in</text>
+
+<text 
+x="369" 
+y="418" 
+class="s10_149"
+>range</text>
+
+<text 
+x="408" 
+y="418" 
+class="s6_149"
+>(</text>
+
+<text 
+x="416" 
+y="418" 
+class="s11_149"
+>3</text>
+
+<text 
+x="424" 
+y="418" 
+class="s6_149"
+>)]</text>
+
+<text 
+x="76" 
+y="448" 
+class="s7_149"
+>tolerance</text>
+
+<text 
+x="156" 
+y="448" 
+class="s6_149"
+>=</text>
+
+<text 
+x="171" 
+y="448" 
+class="s11_149"
+>0.0000001</text>
+
+<text 
+x="76" 
+y="479" 
+class="s4_149"
+>while</text>
+
+<text 
+x="124" 
+y="479" 
+class="s10_149"
+>True</text>
+
+<text 
+x="156" 
+y="479" 
+class="s6_149"
+>:</text>
+
+<text 
+x="108" 
+y="495" 
+class="s7_149"
+>gradient</text>
+
+<text 
+x="179" 
+y="495" 
+class="s6_149"
+>=</text>
+
+<text 
+x="195" 
+y="495" 
+class="s7_149"
+>sum_of_squares_gradient</text>
+
+<text 
+x="377" 
+y="495" 
+class="s6_149"
+>(</text>
+
+<text 
+x="385" 
+y="495" 
+class="s7_149"
+>v</text>
+
+<text 
+x="393" 
+y="495" 
+class="s6_149"
+>)</text>
+
+<text 
+x="424" 
+y="495" 
+dx="0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6" 
+class="s12_149"
+># compute the gradient at v</text>
+
+<text 
+x="108" 
+y="510" 
+class="s7_149"
+>next_v</text>
+
+<text 
+x="163" 
+y="510" 
+class="s6_149"
+>=</text>
+
+<text 
+x="179" 
+y="510" 
+class="s7_149"
+>step</text>
+
+<text 
+x="211" 
+y="510" 
+class="s6_149"
+>(</text>
+
+<text 
+x="219" 
+y="510" 
+class="s7_149"
+>v</text>
+
+<text 
+x="227" 
+y="510" 
+class="s6_149"
+>,</text>
+
+<text 
+x="242" 
+y="510" 
+class="s7_149"
+>gradient</text>
+
+<text 
+x="306" 
+y="510" 
+dx="0,0,4.6" 
+class="s6_149"
+>, -</text>
+
+<text 
+x="329" 
+y="510" 
+class="s11_149"
+>0.01</text>
+
+<text 
+x="361" 
+y="510" 
+class="s6_149"
+>)</text>
+
+<text 
+x="424" 
+y="510" 
+dx="0,0,4.6,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s12_149"
+># take a negative gradient step</text>
+
+<text 
+x="108" 
+y="525" 
+class="s4_149"
+>if</text>
+
+<text 
+x="132" 
+y="525" 
+class="s7_149"
+>distance</text>
+
+<text 
+x="195" 
+y="525" 
+class="s6_149"
+>(</text>
+
+<text 
+x="203" 
+y="525" 
+class="s7_149"
+>next_v</text>
+
+<text 
+x="250" 
+y="525" 
+class="s6_149"
+>,</text>
+
+<text 
+x="266" 
+y="525" 
+class="s7_149"
+>v</text>
+
+<text 
+x="274" 
+y="525" 
+dx="0,0,4.6" 
+class="s6_149"
+>) &lt;</text>
+
+<text 
+x="306" 
+y="525" 
+class="s7_149"
+>tolerance</text>
+
+<text 
+x="377" 
+y="525" 
+class="s6_149"
+>:</text>
+
+<text 
+x="424" 
+y="525" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s12_149"
+># stop if we're converging</text>
+
+<text 
+x="140" 
+y="541" 
+class="s4_149"
+>break</text>
+
+<text 
+x="108" 
+y="556" 
+class="s7_149"
+>v</text>
+
+<text 
+x="124" 
+y="556" 
+class="s6_149"
+>=</text>
+
+<text 
+x="140" 
+y="556" 
+class="s7_149"
+>next_v</text>
+
+<text 
+x="424" 
+y="556" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,4.6,0,0" 
+class="s12_149"
+># continue if we're not</text>
+
+<text 
+x="55" 
+y="609" 
+class="s2_149"
+>If you run this, you’ll find that it always ends up with a</text>
+
+<text 
+x="545" 
+y="609" 
+class="s3_149"
+>v</text>
+
+<text 
+x="561" 
+y="609" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_149"
+>that’s very close to</text>
+
+<text 
+x="732" 
+y="609" 
+class="s3_149"
+>[0,0,0]</text>
+
+<text 
+x="806" 
+y="609" 
+class="s2_149"
+>. The</text>
+
+<text 
+x="55" 
+y="639" 
+class="s2_149"
+>smaller you make the</text>
+
+<text 
+x="249" 
+y="639" 
+class="s3_149"
+>tolerance</text>
+
+<text 
+x="344" 
+y="639" 
+class="s2_149"
+>, the closer it will get.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

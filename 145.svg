@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 145 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_145{
+fill: #BEBEBE;
+}
+
+.s1_145{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_145{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_145{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_145{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s5_145{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s6_145{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_145{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_145{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s9_145{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s10_145{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s11_145{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s12_145{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s13_145{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s14_145{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s15_145{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s16_145{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,1078.3l722.5,0c3,0,5.5,2.4,5.5,5.5l0,116.6c0,3,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.5l0,-116.6c0,-3.1,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,1.9,4.4,4.4l0,116.6c0,2.4,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.4l0,-116.6c0,-2.5,2,-4.4,4.4,-4.4Z" class="g1_145" />
+<text 
+x="55" 
+y="81" 
+class="s1_145"
+>The Idea Behind Gradient Descent</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_145"
+>Suppose we have some function</text>
+
+<text 
+x="343" 
+y="122" 
+class="s3_145"
+>f</text>
+
+<text 
+x="359" 
+y="122" 
+class="s2_145"
+>that takes as input a vector of real numbers and outputs</text>
+
+<text 
+x="55" 
+y="151" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>a single real number. One simple such function is:</text>
+
+<text 
+x="76" 
+y="196" 
+class="s4_145"
+>def</text>
+
+<text 
+x="108" 
+y="196" 
+class="s5_145"
+>sum_of_squares</text>
+
+<text 
+x="219" 
+y="196" 
+class="s6_145"
+>(</text>
+
+<text 
+x="227" 
+y="196" 
+class="s7_145"
+>v</text>
+
+<text 
+x="235" 
+y="196" 
+class="s6_145"
+>):</text>
+
+<text 
+x="108" 
+y="212" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0" 
+class="s8_145"
+>"""computes the sum of squared elements in v"""</text>
+
+<text 
+x="108" 
+y="227" 
+class="s4_145"
+>return</text>
+
+<text 
+x="163" 
+y="227" 
+class="s9_145"
+>sum</text>
+
+<text 
+x="187" 
+y="227" 
+class="s6_145"
+>(</text>
+
+<text 
+x="195" 
+y="227" 
+class="s7_145"
+>v_i</text>
+
+<text 
+x="227" 
+y="227" 
+class="s6_145"
+>**</text>
+
+<text 
+x="250" 
+y="227" 
+class="s10_145"
+>2</text>
+
+<text 
+x="266" 
+y="227" 
+class="s4_145"
+>for</text>
+
+<text 
+x="298" 
+y="227" 
+class="s7_145"
+>v_i</text>
+
+<text 
+x="329" 
+y="227" 
+class="s11_145"
+>in</text>
+
+<text 
+x="353" 
+y="227" 
+class="s7_145"
+>v</text>
+
+<text 
+x="361" 
+y="227" 
+class="s6_145"
+>)</text>
+
+<text 
+x="55" 
+y="280" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>We’ll frequently need to maximize (or minimize) such functions. That is, we need to find</text>
+
+<text 
+x="55" 
+y="308" 
+class="s2_145"
+>the input</text>
+
+<text 
+x="138" 
+y="308" 
+class="s3_145"
+>v</text>
+
+<text 
+x="154" 
+y="308" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>that produces the largest (or smallest) possible value.</text>
+
+<text 
+x="55" 
+y="348" 
+class="s2_145"
+>For functions like ours, the</text>
+
+<text 
+x="298" 
+y="348" 
+class="s12_145"
+>gradient</text>
+
+<text 
+x="378" 
+y="348" 
+class="s2_145"
+>(if you remember your calculus, this is the vector of</text>
+
+<text 
+x="55" 
+y="376" 
+class="s2_145"
+>partial derivatives) gives the input direction in which the function most quickly increases.</text>
+
+<text 
+x="55" 
+y="403" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>(If you don’t remember your calculus, take my word for it or look it up on the Internet.)</text>
+
+<text 
+x="55" 
+y="442" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>Accordingly, one approach to maximizing a function is to pick a random starting point,</text>
+
+<text 
+x="55" 
+y="469" 
+class="s2_145"
+>compute the gradient, take a small step in the direction of the gradient (i.e., the direction</text>
+
+<text 
+x="55" 
+y="497" 
+class="s2_145"
+>that causes the function to increase the most), and repeat with the new starting point.</text>
+
+<text 
+x="55" 
+y="524" 
+dx="0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_145"
+>Similarly, you can try to minimize a function by taking small steps in the</text>
+
+<text 
+x="701" 
+y="524" 
+class="s12_145"
+>opposite</text>
+
+<text 
+x="55" 
+y="552" 
+class="s2_145"
+>direction, as shown in</text>
+
+<text 
+x="253" 
+y="552" 
+class="s13_145"
+>Figure 8-1</text>
+
+<text 
+x="345" 
+y="552" 
+class="s2_145"
+>.</text>
+
+<image preserveAspectRatio="none" x="174" y="575" width="563" height="456" xlink:href="145/img/1.png" />
+<text 
+x="273" 
+y="1057" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s14_145"
+>Figure 8-1. Finding a minimum using gradient descent</text>
+
+<text 
+x="421" 
+y="1103" 
+dx="0,1.1,1.1,1.1" 
+class="s15_145"
+>NOTE</text>
+
+<text 
+x="97" 
+y="1133" 
+class="s16_145"
+>If a function has a unique global minimum, this procedure is likely to find it. If a function has multiple</text>
+
+<text 
+x="97" 
+y="1153" 
+class="s16_145"
+>(local) minima, this procedure might “find” the wrong one of them, in which case you might re-run the</text>
+
+<text 
+x="97" 
+y="1172" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s16_145"
+>procedure from a variety of starting points. If a function has no minimum, then it’s possible the procedure</text>
+
+<text 
+x="97" 
+y="1192" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9" 
+class="s16_145"
+>might go on forever.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

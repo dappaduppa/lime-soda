@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 102 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_102{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s2_102{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s3_102{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s4_102{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_102{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_102{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_102{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="74" 
+class="s1_102"
+>earlier for the mean. Using the same example, if our friendliest user had instead 200</text>
+
+<text 
+x="55" 
+y="102" 
+class="s1_102"
+>friends, the standard deviation would be 14.89, more than 60% higher!</text>
+
+<text 
+x="55" 
+y="140" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_102"
+>A more robust alternative computes the difference between the 75th percentile value and</text>
+
+<text 
+x="55" 
+y="168" 
+class="s1_102"
+>the 25th percentile value:</text>
+
+<text 
+x="76" 
+y="213" 
+class="s2_102"
+>def</text>
+
+<text 
+x="108" 
+y="213" 
+class="s3_102"
+>interquartile_range</text>
+
+<text 
+x="258" 
+y="213" 
+class="s4_102"
+>(</text>
+
+<text 
+x="266" 
+y="213" 
+class="s5_102"
+>x</text>
+
+<text 
+x="274" 
+y="213" 
+class="s4_102"
+>):</text>
+
+<text 
+x="108" 
+y="228" 
+class="s2_102"
+>return</text>
+
+<text 
+x="163" 
+y="228" 
+class="s5_102"
+>quantile</text>
+
+<text 
+x="227" 
+y="228" 
+class="s4_102"
+>(</text>
+
+<text 
+x="235" 
+y="228" 
+class="s5_102"
+>x</text>
+
+<text 
+x="242" 
+y="228" 
+class="s4_102"
+>,</text>
+
+<text 
+x="258" 
+y="228" 
+class="s6_102"
+>0.75</text>
+
+<text 
+x="290" 
+y="228" 
+dx="0,0,4.6" 
+class="s4_102"
+>) -</text>
+
+<text 
+x="322" 
+y="228" 
+class="s5_102"
+>quantile</text>
+
+<text 
+x="385" 
+y="228" 
+class="s4_102"
+>(</text>
+
+<text 
+x="393" 
+y="228" 
+class="s5_102"
+>x</text>
+
+<text 
+x="401" 
+y="228" 
+class="s4_102"
+>,</text>
+
+<text 
+x="416" 
+y="228" 
+class="s6_102"
+>0.25</text>
+
+<text 
+x="448" 
+y="228" 
+class="s4_102"
+>)</text>
+
+<text 
+x="76" 
+y="259" 
+class="s5_102"
+>interquartile_range</text>
+
+<text 
+x="227" 
+y="259" 
+class="s4_102"
+>(</text>
+
+<text 
+x="235" 
+y="259" 
+class="s5_102"
+>num_friends</text>
+
+<text 
+x="322" 
+y="259" 
+class="s4_102"
+>)</text>
+
+<text 
+x="337" 
+y="259" 
+dx="0,0,4.6" 
+class="s7_102"
+># 6</text>
+
+<text 
+x="55" 
+y="312" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_102"
+>which is quite plainly unaffected by a small number of outliers.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

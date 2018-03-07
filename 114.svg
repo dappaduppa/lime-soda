@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 114 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_114{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_114{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_114{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0" 
+class="s1_114"
+>Conditional Probability</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_114"
+>When two events</text>
+
+<text 
+x="213" 
+y="122" 
+class="s3_114"
+>E</text>
+
+<text 
+x="232" 
+y="122" 
+class="s2_114"
+>and</text>
+
+<text 
+x="269" 
+y="122" 
+class="s3_114"
+>F</text>
+
+<text 
+x="288" 
+y="122" 
+class="s2_114"
+>are independent, then by definition we have:</text>
+
+<image preserveAspectRatio="none" x="55" y="140" width="534" height="60" xlink:href="114/img/1.png" />
+<text 
+x="55" 
+y="232" 
+class="s2_114"
+>If they are not necessarily independent (and if the probability of</text>
+
+<text 
+x="622" 
+y="232" 
+class="s3_114"
+>F</text>
+
+<text 
+x="641" 
+y="232" 
+class="s2_114"
+>is not zero), then we</text>
+
+<text 
+x="55" 
+y="259" 
+class="s2_114"
+>define the probability of</text>
+
+<text 
+x="273" 
+y="259" 
+class="s3_114"
+>E</text>
+
+<text 
+x="292" 
+y="259" 
+class="s2_114"
+>“conditional on</text>
+
+<text 
+x="434" 
+y="259" 
+class="s3_114"
+>F</text>
+
+<text 
+x="447" 
+y="259" 
+class="s2_114"
+>” as:</text>
+
+<image preserveAspectRatio="none" x="55" y="277" width="667" height="66" xlink:href="114/img/2.png" />
+<text 
+x="55" 
+y="375" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_114"
+>You should think of this as the probability that</text>
+
+<text 
+x="468" 
+y="375" 
+class="s3_114"
+>E</text>
+
+<text 
+x="487" 
+y="375" 
+class="s2_114"
+>happens, given that we know that</text>
+
+<text 
+x="787" 
+y="375" 
+class="s3_114"
+>F</text>
+
+<text 
+x="55" 
+y="402" 
+class="s2_114"
+>happens.</text>
+
+<text 
+x="55" 
+y="441" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_114"
+>We often rewrite this as:</text>
+
+<image preserveAspectRatio="none" x="55" y="459" width="625" height="66" xlink:href="114/img/3.png" />
+<text 
+x="55" 
+y="556" 
+class="s2_114"
+>When</text>
+
+<text 
+x="113" 
+y="556" 
+class="s3_114"
+>E</text>
+
+<text 
+x="131" 
+y="556" 
+class="s2_114"
+>and</text>
+
+<text 
+x="169" 
+y="556" 
+class="s3_114"
+>F</text>
+
+<text 
+x="188" 
+y="556" 
+class="s2_114"
+>are independent, you can check that this gives:</text>
+
+<image preserveAspectRatio="none" x="55" y="574" width="424" height="66" xlink:href="114/img/4.png" />
+<text 
+x="55" 
+y="672" 
+class="s2_114"
+>which is the mathematical way of expressing that knowing</text>
+
+<text 
+x="577" 
+y="672" 
+class="s3_114"
+>F</text>
+
+<text 
+x="595" 
+y="672" 
+class="s2_114"
+>occurred gives us no</text>
+
+<text 
+x="55" 
+y="699" 
+class="s2_114"
+>additional information about whether</text>
+
+<text 
+x="388" 
+y="699" 
+class="s3_114"
+>E</text>
+
+<text 
+x="407" 
+y="699" 
+class="s2_114"
+>occurred.</text>
+
+<text 
+x="55" 
+y="738" 
+class="s2_114"
+>One common tricky example involves a family with two (unknown) children.</text>
+
+<text 
+x="55" 
+y="776" 
+class="s2_114"
+>If we assume that:</text>
+
+<text 
+x="75" 
+y="814" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_114"
+>1. Each child is equally likely to be a boy or a girl</text>
+
+<text 
+x="75" 
+y="861" 
+dx="0,0,0,6.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_114"
+>2. The gender of the second child is independent of the gender of the first child</text>
+
+<text 
+x="55" 
+y="909" 
+class="s2_114"
+>then the event “no girls” has probability 1/4, the event “one girl, one boy” has probability</text>
+
+<text 
+x="55" 
+y="937" 
+class="s2_114"
+>1/2, and the event “two girls” has probability 1/4.</text>
+
+<text 
+x="55" 
+y="975" 
+class="s2_114"
+>Now we can ask what is the probability of the event “both children are girls” (</text>
+
+<text 
+x="743" 
+y="975" 
+class="s3_114"
+>B</text>
+
+<text 
+x="756" 
+y="975" 
+class="s2_114"
+>)</text>
+
+<text 
+x="55" 
+y="1003" 
+class="s2_114"
+>conditional on the event “the older child is a girl” (</text>
+
+<text 
+x="503" 
+y="1003" 
+class="s3_114"
+>G</text>
+
+<text 
+x="518" 
+y="1003" 
+class="s2_114"
+>)? Using the definition of conditional</text>
+
+<text 
+x="55" 
+y="1030" 
+class="s2_114"
+>probability:</text>
+
+<image preserveAspectRatio="none" x="55" y="1049" width="799" height="40" xlink:href="114/img/5.png" />
+<text 
+x="55" 
+y="1120" 
+class="s2_114"
+>since the event</text>
+
+<text 
+x="191" 
+y="1120" 
+class="s3_114"
+>B</text>
+
+<text 
+x="210" 
+y="1120" 
+class="s2_114"
+>and</text>
+
+<text 
+x="247" 
+y="1120" 
+class="s3_114"
+>G</text>
+
+<text 
+x="268" 
+y="1120" 
+class="s2_114"
+>(“both children are girls</text>
+
+<text 
+x="484" 
+y="1120" 
+class="s3_114"
+>and</text>
+
+<text 
+x="523" 
+y="1120" 
+class="s2_114"
+>the older child is a girl”) is just the</text>
+
+<text 
+x="55" 
+y="1147" 
+class="s2_114"
+>event</text>
+
+<text 
+x="108" 
+y="1147" 
+class="s3_114"
+>B</text>
+
+<text 
+x="121" 
+y="1147" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_114"
+>. (Once you know that both children are girls, it’s necessarily true that the older</text>
+
+<text 
+x="55" 
+y="1175" 
+class="s2_114"
+>child is a girl.)</text>
+
+<text 
+x="55" 
+y="1213" 
+class="s2_114"
+>Most likely this result accords with your intuition.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

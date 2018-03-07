@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 142 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_142{
+stroke: #000000;
+stroke-width: 1.0996486;
+stroke-linecap: square;
+stroke-linejoin: miter;
+}
+
+.s1_142{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_142{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_142{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+dx="0,0,0,0,-0.6,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0" 
+class="s1_142"
+>For Further Exploration</text>
+
+<path d="M61.6,108.9l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_142" />
+<text 
+x="82" 
+y="118" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_142"
+>We’ve barely scratched the surface of what you should know about statistical inference.</text>
+
+<text 
+x="82" 
+y="144" 
+class="s2_142"
+>The books recommended at the end of</text>
+
+<text 
+x="425" 
+y="144" 
+class="s3_142"
+>Chapter 5</text>
+
+<text 
+x="516" 
+y="144" 
+class="s2_142"
+>go into a lot more detail.</text>
+
+<path d="M61.6,181.5l6.6,0l0,6.6l-6.6,0l0,-6.6Z" class="g1_142" />
+<text 
+x="82" 
+y="191" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_142"
+>Coursera offers a</text>
+
+<text 
+x="238" 
+y="191" 
+class="s3_142"
+>Data Analysis and Statistical Inference</text>
+
+<text 
+x="586" 
+y="191" 
+class="s2_142"
+>course that covers many of</text>
+
+<text 
+x="82" 
+y="216" 
+class="s2_142"
+>these topics.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

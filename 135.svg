@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 135 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_135{
+fill: #BEBEBE;
+}
+
+.s1_135{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_135{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_135{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_135{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s5_135{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s6_135{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s7_135{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s8_135{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s9_135{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s10_135{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s11_135{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,750.4l722.5,0c3,0,5.5,2.4,5.5,5.5l0,96.8c0,3,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.5l0,-96.8c0,-3.1,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,1.9,4.4,4.4l0,96.8c0,2.4,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.4l0,-96.8c0,-2.5,2,-4.4,4.4,-4.4Z" class="g1_135" />
+<text 
+x="55" 
+y="81" 
+class="s1_135"
+>Confidence Intervals</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_135"
+>We’ve been testing hypotheses about the value of the heads probability</text>
+
+<text 
+x="685" 
+y="122" 
+class="s3_135"
+>p</text>
+
+<text 
+x="696" 
+y="122" 
+class="s2_135"
+>, which is a</text>
+
+<text 
+x="55" 
+y="149" 
+class="s3_135"
+>parameter</text>
+
+<text 
+x="152" 
+y="149" 
+class="s2_135"
+>of the unknown “heads” distribution. When this is the case, a third approach is</text>
+
+<text 
+x="55" 
+y="177" 
+class="s2_135"
+>to construct a</text>
+
+<text 
+x="178" 
+y="177" 
+class="s3_135"
+>confidence interval</text>
+
+<text 
+x="353" 
+y="177" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2" 
+class="s2_135"
+>around the observed value of the parameter.</text>
+
+<text 
+x="55" 
+y="215" 
+class="s2_135"
+>For example, we can estimate the probability of the unfair coin by looking at the average</text>
+
+<text 
+x="55" 
+y="243" 
+class="s2_135"
+>value of the Bernoulli variables corresponding to each flip — 1 if heads, 0 if tails. If we</text>
+
+<text 
+x="55" 
+y="270" 
+class="s2_135"
+>observe 525 heads out of 1,000 flips, then we estimate</text>
+
+<text 
+x="538" 
+y="270" 
+class="s3_135"
+>p</text>
+
+<text 
+x="555" 
+y="270" 
+class="s2_135"
+>equals 0.525.</text>
+
+<text 
+x="55" 
+y="309" 
+class="s2_135"
+>How</text>
+
+<text 
+x="103" 
+y="309" 
+class="s3_135"
+>confident</text>
+
+<text 
+x="190" 
+y="309" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_135"
+>can we be about this estimate? Well, if we knew the exact value of</text>
+
+<text 
+x="780" 
+y="309" 
+class="s3_135"
+>p</text>
+
+<text 
+x="791" 
+y="309" 
+class="s2_135"
+>, the</text>
+
+<text 
+x="55" 
+y="336" 
+class="s2_135"
+>central limit theorem (recall</text>
+
+<text 
+x="306" 
+y="336" 
+class="s4_135"
+>“The Central Limit Theorem”</text>
+
+<text 
+x="569" 
+y="336" 
+class="s2_135"
+>) tells us that the average of</text>
+
+<text 
+x="55" 
+y="364" 
+class="s2_135"
+>those Bernoulli variables should be approximately normal, with mean</text>
+
+<text 
+x="674" 
+y="364" 
+class="s3_135"
+>p</text>
+
+<text 
+x="690" 
+y="364" 
+class="s2_135"
+>and standard</text>
+
+<text 
+x="55" 
+y="391" 
+class="s2_135"
+>deviation:</text>
+
+<text 
+x="76" 
+y="436" 
+class="s5_135"
+>math</text>
+
+<text 
+x="108" 
+y="436" 
+class="s6_135"
+>.</text>
+
+<text 
+x="116" 
+y="436" 
+class="s5_135"
+>sqrt</text>
+
+<text 
+x="148" 
+y="436" 
+class="s6_135"
+>(</text>
+
+<text 
+x="156" 
+y="436" 
+class="s5_135"
+>p</text>
+
+<text 
+x="171" 
+y="436" 
+dx="0,0,4.6" 
+class="s6_135"
+>* (</text>
+
+<text 
+x="195" 
+y="436" 
+class="s7_135"
+>1</text>
+
+<text 
+x="211" 
+y="436" 
+class="s6_135"
+>-</text>
+
+<text 
+x="227" 
+y="436" 
+class="s5_135"
+>p</text>
+
+<text 
+x="235" 
+y="436" 
+dx="0,0,4.6" 
+class="s6_135"
+>) /</text>
+
+<text 
+x="266" 
+y="436" 
+class="s7_135"
+>1000</text>
+
+<text 
+x="298" 
+y="436" 
+class="s6_135"
+>)</text>
+
+<text 
+x="55" 
+y="489" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0" 
+class="s2_135"
+>Here we don’t know</text>
+
+<text 
+x="240" 
+y="489" 
+class="s3_135"
+>p</text>
+
+<text 
+x="251" 
+y="489" 
+class="s2_135"
+>, so instead we use our estimate:</text>
+
+<text 
+x="76" 
+y="534" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="124" 
+y="534" 
+class="s6_135"
+>=</text>
+
+<text 
+x="140" 
+y="534" 
+class="s7_135"
+>525</text>
+
+<text 
+x="171" 
+y="534" 
+class="s6_135"
+>/</text>
+
+<text 
+x="187" 
+y="534" 
+class="s7_135"
+>1000</text>
+
+<text 
+x="76" 
+y="550" 
+class="s5_135"
+>mu</text>
+
+<text 
+x="100" 
+y="550" 
+class="s6_135"
+>=</text>
+
+<text 
+x="116" 
+y="550" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="76" 
+y="565" 
+class="s5_135"
+>sigma</text>
+
+<text 
+x="124" 
+y="565" 
+class="s6_135"
+>=</text>
+
+<text 
+x="140" 
+y="565" 
+class="s5_135"
+>math</text>
+
+<text 
+x="171" 
+y="565" 
+class="s6_135"
+>.</text>
+
+<text 
+x="179" 
+y="565" 
+class="s5_135"
+>sqrt</text>
+
+<text 
+x="211" 
+y="565" 
+class="s6_135"
+>(</text>
+
+<text 
+x="219" 
+y="565" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="266" 
+y="565" 
+dx="0,0,4.6" 
+class="s6_135"
+>* (</text>
+
+<text 
+x="290" 
+y="565" 
+class="s7_135"
+>1</text>
+
+<text 
+x="306" 
+y="565" 
+class="s6_135"
+>-</text>
+
+<text 
+x="322" 
+y="565" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="361" 
+y="565" 
+dx="0,0,4.6" 
+class="s6_135"
+>) /</text>
+
+<text 
+x="393" 
+y="565" 
+class="s7_135"
+>1000</text>
+
+<text 
+x="424" 
+y="565" 
+class="s6_135"
+>)</text>
+
+<text 
+x="456" 
+y="565" 
+dx="0,0,4.6,0,0,0,0,0" 
+class="s8_135"
+># 0.0158</text>
+
+<text 
+x="55" 
+y="618" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_135"
+>This is not entirely justified, but people seem to do it anyway. Using the normal</text>
+
+<text 
+x="55" 
+y="645" 
+class="s2_135"
+>approximation, we conclude that we are “95% confident” that the following interval</text>
+
+<text 
+x="55" 
+y="673" 
+class="s2_135"
+>contains the true parameter</text>
+
+<text 
+x="299" 
+y="673" 
+class="s3_135"
+>p</text>
+
+<text 
+x="310" 
+y="673" 
+class="s2_135"
+>:</text>
+
+<text 
+x="76" 
+y="718" 
+class="s5_135"
+>normal_two_sided_bounds</text>
+
+<text 
+x="258" 
+y="718" 
+class="s6_135"
+>(</text>
+
+<text 
+x="266" 
+y="718" 
+class="s7_135"
+>0.95</text>
+
+<text 
+x="298" 
+y="718" 
+class="s6_135"
+>,</text>
+
+<text 
+x="314" 
+y="718" 
+class="s5_135"
+>mu</text>
+
+<text 
+x="329" 
+y="718" 
+class="s6_135"
+>,</text>
+
+<text 
+x="345" 
+y="718" 
+class="s5_135"
+>sigma</text>
+
+<text 
+x="385" 
+y="718" 
+class="s6_135"
+>)</text>
+
+<text 
+x="456" 
+y="718" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s8_135"
+># [0.4940, 0.5560]</text>
+
+<text 
+x="421" 
+y="775" 
+dx="0,1.1,1.1,1.1" 
+class="s9_135"
+>NOTE</text>
+
+<text 
+x="97" 
+y="805" 
+class="s10_135"
+>This is a statement about the</text>
+
+<text 
+x="290" 
+y="805" 
+class="s11_135"
+>interval</text>
+
+<text 
+x="341" 
+y="805" 
+class="s10_135"
+>, not about</text>
+
+<text 
+x="415" 
+y="805" 
+class="s11_135"
+>p</text>
+
+<text 
+x="423" 
+y="805" 
+dx="0,0,0,-1.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s10_135"
+>. You should understand it as the assertion that if you were</text>
+
+<text 
+x="97" 
+y="825" 
+class="s10_135"
+>to repeat the experiment many times, 95% of the time the “true” parameter (which is the same every time)</text>
+
+<text 
+x="97" 
+y="844" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s10_135"
+>would lie within the observed confidence interval (which might be different every time).</text>
+
+<text 
+x="55" 
+y="890" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_135"
+>In particular, we do not conclude that the coin is unfair, since 0.5 falls within our</text>
+
+<text 
+x="55" 
+y="917" 
+class="s2_135"
+>confidence interval.</text>
+
+<text 
+x="55" 
+y="956" 
+class="s2_135"
+>If instead we’d seen 540 heads, then we’d have:</text>
+
+<text 
+x="76" 
+y="1001" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="124" 
+y="1001" 
+class="s6_135"
+>=</text>
+
+<text 
+x="140" 
+y="1001" 
+class="s7_135"
+>540</text>
+
+<text 
+x="171" 
+y="1001" 
+class="s6_135"
+>/</text>
+
+<text 
+x="187" 
+y="1001" 
+class="s7_135"
+>1000</text>
+
+<text 
+x="76" 
+y="1016" 
+class="s5_135"
+>mu</text>
+
+<text 
+x="100" 
+y="1016" 
+class="s6_135"
+>=</text>
+
+<text 
+x="116" 
+y="1016" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="76" 
+y="1032" 
+class="s5_135"
+>sigma</text>
+
+<text 
+x="124" 
+y="1032" 
+class="s6_135"
+>=</text>
+
+<text 
+x="140" 
+y="1032" 
+class="s5_135"
+>math</text>
+
+<text 
+x="171" 
+y="1032" 
+class="s6_135"
+>.</text>
+
+<text 
+x="179" 
+y="1032" 
+class="s5_135"
+>sqrt</text>
+
+<text 
+x="211" 
+y="1032" 
+class="s6_135"
+>(</text>
+
+<text 
+x="219" 
+y="1032" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="266" 
+y="1032" 
+dx="0,0,4.6" 
+class="s6_135"
+>* (</text>
+
+<text 
+x="290" 
+y="1032" 
+class="s7_135"
+>1</text>
+
+<text 
+x="306" 
+y="1032" 
+class="s6_135"
+>-</text>
+
+<text 
+x="322" 
+y="1032" 
+class="s5_135"
+>p_hat</text>
+
+<text 
+x="361" 
+y="1032" 
+dx="0,0,4.6" 
+class="s6_135"
+>) /</text>
+
+<text 
+x="393" 
+y="1032" 
+class="s7_135"
+>1000</text>
+
+<text 
+x="424" 
+y="1032" 
+class="s6_135"
+>)</text>
+
+<text 
+x="440" 
+y="1032" 
+dx="0,0,4.6,0,0,0,0,0" 
+class="s8_135"
+># 0.0158</text>
+
+<text 
+x="76" 
+y="1047" 
+class="s5_135"
+>normal_two_sided_bounds</text>
+
+<text 
+x="258" 
+y="1047" 
+class="s6_135"
+>(</text>
+
+<text 
+x="266" 
+y="1047" 
+class="s7_135"
+>0.95</text>
+
+<text 
+x="298" 
+y="1047" 
+class="s6_135"
+>,</text>
+
+<text 
+x="314" 
+y="1047" 
+class="s5_135"
+>mu</text>
+
+<text 
+x="329" 
+y="1047" 
+class="s6_135"
+>,</text>
+
+<text 
+x="345" 
+y="1047" 
+class="s5_135"
+>sigma</text>
+
+<text 
+x="385" 
+y="1047" 
+class="s6_135"
+>)</text>
+
+<text 
+x="401" 
+y="1047" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0" 
+class="s8_135"
+># [0.5091, 0.5709]</text>
+
+<text 
+x="55" 
+y="1100" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4" 
+class="s2_135"
+>Here, “fair coin” doesn’t lie in the confidence interval. (The “fair coin” hypothesis doesn’t</text>
+
+<text 
+x="55" 
+y="1127" 
+class="s2_135"
+>pass a test that you’d expect it to pass 95% of the time if it were true.)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

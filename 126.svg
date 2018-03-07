@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 126 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_126{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s2_126{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s3_126{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_126{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s5_126{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s6_126{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_126{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s8_126{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s9_126{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s10_126{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s11_126{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s12_126{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s13_126{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="108" 
+y="80" 
+dx="0,0,4.6,0,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_126"
+># use a line chart to show the normal approximation</text>
+
+<text 
+x="108" 
+y="95" 
+class="s2_126"
+>xs</text>
+
+<text 
+x="132" 
+y="95" 
+class="s3_126"
+>=</text>
+
+<text 
+x="148" 
+y="95" 
+class="s4_126"
+>range</text>
+
+<text 
+x="187" 
+y="95" 
+class="s3_126"
+>(</text>
+
+<text 
+x="195" 
+y="95" 
+class="s4_126"
+>min</text>
+
+<text 
+x="219" 
+y="95" 
+class="s3_126"
+>(</text>
+
+<text 
+x="227" 
+y="95" 
+class="s2_126"
+>data</text>
+
+<text 
+x="258" 
+y="95" 
+class="s3_126"
+>),</text>
+
+<text 
+x="282" 
+y="95" 
+class="s4_126"
+>max</text>
+
+<text 
+x="306" 
+y="95" 
+class="s3_126"
+>(</text>
+
+<text 
+x="314" 
+y="95" 
+class="s2_126"
+>data</text>
+
+<text 
+x="345" 
+y="95" 
+dx="0,0,4.6" 
+class="s3_126"
+>) +</text>
+
+<text 
+x="377" 
+y="95" 
+class="s5_126"
+>1</text>
+
+<text 
+x="385" 
+y="95" 
+class="s3_126"
+>)</text>
+
+<text 
+x="108" 
+y="111" 
+class="s2_126"
+>ys</text>
+
+<text 
+x="132" 
+y="111" 
+dx="0,0,4.6" 
+class="s3_126"
+>= [</text>
+
+<text 
+x="156" 
+y="111" 
+class="s2_126"
+>normal_cdf</text>
+
+<text 
+x="235" 
+y="111" 
+class="s3_126"
+>(</text>
+
+<text 
+x="242" 
+y="111" 
+class="s2_126"
+>i</text>
+
+<text 
+x="258" 
+y="111" 
+class="s3_126"
+>+</text>
+
+<text 
+x="274" 
+y="111" 
+class="s5_126"
+>0.5</text>
+
+<text 
+x="298" 
+y="111" 
+class="s3_126"
+>,</text>
+
+<text 
+x="314" 
+y="111" 
+class="s2_126"
+>mu</text>
+
+<text 
+x="329" 
+y="111" 
+class="s3_126"
+>,</text>
+
+<text 
+x="345" 
+y="111" 
+class="s2_126"
+>sigma</text>
+
+<text 
+x="385" 
+y="111" 
+dx="0,0,4.6" 
+class="s3_126"
+>) -</text>
+
+<text 
+x="416" 
+y="111" 
+class="s2_126"
+>normal_cdf</text>
+
+<text 
+x="495" 
+y="111" 
+class="s3_126"
+>(</text>
+
+<text 
+x="503" 
+y="111" 
+class="s2_126"
+>i</text>
+
+<text 
+x="519" 
+y="111" 
+class="s3_126"
+>-</text>
+
+<text 
+x="535" 
+y="111" 
+class="s5_126"
+>0.5</text>
+
+<text 
+x="559" 
+y="111" 
+class="s3_126"
+>,</text>
+
+<text 
+x="574" 
+y="111" 
+class="s2_126"
+>mu</text>
+
+<text 
+x="590" 
+y="111" 
+class="s3_126"
+>,</text>
+
+<text 
+x="606" 
+y="111" 
+class="s2_126"
+>sigma</text>
+
+<text 
+x="646" 
+y="111" 
+class="s3_126"
+>)</text>
+
+<text 
+x="156" 
+y="126" 
+class="s6_126"
+>for</text>
+
+<text 
+x="187" 
+y="126" 
+class="s2_126"
+>i</text>
+
+<text 
+x="203" 
+y="126" 
+class="s7_126"
+>in</text>
+
+<text 
+x="227" 
+y="126" 
+class="s2_126"
+>xs</text>
+
+<text 
+x="242" 
+y="126" 
+class="s3_126"
+>]</text>
+
+<text 
+x="108" 
+y="141" 
+class="s2_126"
+>plt</text>
+
+<text 
+x="132" 
+y="141" 
+class="s3_126"
+>.</text>
+
+<text 
+x="140" 
+y="141" 
+class="s2_126"
+>plot</text>
+
+<text 
+x="171" 
+y="141" 
+class="s3_126"
+>(</text>
+
+<text 
+x="179" 
+y="141" 
+class="s2_126"
+>xs</text>
+
+<text 
+x="195" 
+y="141" 
+class="s3_126"
+>,</text>
+
+<text 
+x="203" 
+y="141" 
+class="s2_126"
+>ys</text>
+
+<text 
+x="219" 
+y="141" 
+class="s3_126"
+>)</text>
+
+<text 
+x="108" 
+y="157" 
+class="s2_126"
+>plt</text>
+
+<text 
+x="132" 
+y="157" 
+class="s3_126"
+>.</text>
+
+<text 
+x="140" 
+y="157" 
+class="s2_126"
+>title</text>
+
+<text 
+x="179" 
+y="157" 
+class="s3_126"
+>(</text>
+
+<text 
+x="187" 
+y="157" 
+dx="0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_126"
+>"Binomial Distribution vs. Normal Approximation"</text>
+
+<text 
+x="567" 
+y="157" 
+class="s3_126"
+>)</text>
+
+<text 
+x="108" 
+y="172" 
+class="s2_126"
+>plt</text>
+
+<text 
+x="132" 
+y="172" 
+class="s3_126"
+>.</text>
+
+<text 
+x="140" 
+y="172" 
+class="s2_126"
+>show</text>
+
+<text 
+x="171" 
+y="172" 
+class="s3_126"
+>()</text>
+
+<text 
+x="55" 
+y="225" 
+class="s9_126"
+>For example, when you call</text>
+
+<text 
+x="305" 
+y="225" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.1,0,0,0,0,6.1,0,0,0,0,0" 
+class="s10_126"
+>make_hist(0.75, 100, 10000)</text>
+
+<text 
+x="590" 
+y="225" 
+class="s9_126"
+>, you get the graph in</text>
+
+<text 
+x="55" 
+y="255" 
+class="s11_126"
+>Figure 6-4</text>
+
+<text 
+x="147" 
+y="255" 
+class="s9_126"
+>.</text>
+
+<image preserveAspectRatio="none" x="79" y="278" width="751" height="587" xlink:href="126/img/1.png" />
+<text 
+x="324" 
+y="891" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0" 
+class="s12_126"
+>Figure 6-4. The output from</text>
+
+<text 
+x="513" 
+y="891" 
+class="s13_126"
+>make_hist</text>
+
+<text 
+x="55" 
+y="933" 
+class="s9_126"
+>The moral of this approximation is that if you want to know the probability that (say) a</text>
+
+<text 
+x="55" 
+y="960" 
+class="s9_126"
+>fair coin turns up more than 60 heads in 100 flips, you can estimate it as the probability</text>
+
+<text 
+x="55" 
+y="988" 
+class="s9_126"
+>that a Normal(50,5) is greater than 60, which is easier than computing the</text>
+
+<text 
+x="55" 
+y="1015" 
+class="s9_126"
+>Binomial(100,0.5) cdf. (Although in most applications you’d probably be using statistical</text>
+
+<text 
+x="55" 
+y="1043" 
+class="s9_126"
+>software that would gladly compute whatever probabilities you want.)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 136 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_136{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_136{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_136{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s4_136{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s5_136{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s6_136{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #CC3300;
+}
+.s7_136{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s8_136{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s9_136{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s10_136{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s11_136{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s12_136{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s13_136{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="81" 
+class="s1_136"
+>P-hacking</text>
+
+<text 
+x="55" 
+y="122" 
+dx="0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_136"
+>A procedure that erroneously rejects the null hypothesis only 5% of the time will — by</text>
+
+<text 
+x="55" 
+y="149" 
+class="s2_136"
+>definition — 5% of the time erroneously reject the null hypothesis:</text>
+
+<text 
+x="76" 
+y="194" 
+class="s3_136"
+>def</text>
+
+<text 
+x="108" 
+y="194" 
+class="s4_136"
+>run_experiment</text>
+
+<text 
+x="219" 
+y="194" 
+class="s5_136"
+>():</text>
+
+<text 
+x="108" 
+y="210" 
+dx="0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0" 
+class="s6_136"
+>"""flip a fair coin 1000 times, True = heads, False = tails"""</text>
+
+<text 
+x="108" 
+y="225" 
+class="s3_136"
+>return</text>
+
+<text 
+x="163" 
+y="225" 
+class="s5_136"
+>[</text>
+
+<text 
+x="171" 
+y="225" 
+class="s7_136"
+>random</text>
+
+<text 
+x="219" 
+y="225" 
+class="s5_136"
+>.</text>
+
+<text 
+x="227" 
+y="225" 
+class="s7_136"
+>random</text>
+
+<text 
+x="274" 
+y="225" 
+dx="0,0,0,4.6" 
+class="s5_136"
+>() &lt;</text>
+
+<text 
+x="314" 
+y="225" 
+class="s8_136"
+>0.5</text>
+
+<text 
+x="345" 
+y="225" 
+class="s3_136"
+>for</text>
+
+<text 
+x="377" 
+y="225" 
+class="s7_136"
+>_</text>
+
+<text 
+x="393" 
+y="225" 
+class="s9_136"
+>in</text>
+
+<text 
+x="416" 
+y="225" 
+class="s10_136"
+>range</text>
+
+<text 
+x="456" 
+y="225" 
+class="s5_136"
+>(</text>
+
+<text 
+x="464" 
+y="225" 
+class="s8_136"
+>1000</text>
+
+<text 
+x="495" 
+y="225" 
+class="s5_136"
+>)]</text>
+
+<text 
+x="76" 
+y="256" 
+class="s3_136"
+>def</text>
+
+<text 
+x="108" 
+y="256" 
+class="s4_136"
+>reject_fairness</text>
+
+<text 
+x="227" 
+y="256" 
+class="s5_136"
+>(</text>
+
+<text 
+x="235" 
+y="256" 
+class="s7_136"
+>experiment</text>
+
+<text 
+x="314" 
+y="256" 
+class="s5_136"
+>):</text>
+
+<text 
+x="108" 
+y="271" 
+dx="0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s6_136"
+>"""using the 5% significance levels"""</text>
+
+<text 
+x="108" 
+y="287" 
+class="s7_136"
+>num_heads</text>
+
+<text 
+x="187" 
+y="287" 
+class="s5_136"
+>=</text>
+
+<text 
+x="203" 
+y="287" 
+class="s10_136"
+>len</text>
+
+<text 
+x="227" 
+y="287" 
+class="s5_136"
+>([</text>
+
+<text 
+x="242" 
+y="287" 
+class="s7_136"
+>flip</text>
+
+<text 
+x="282" 
+y="287" 
+class="s3_136"
+>for</text>
+
+<text 
+x="314" 
+y="287" 
+class="s7_136"
+>flip</text>
+
+<text 
+x="353" 
+y="287" 
+class="s9_136"
+>in</text>
+
+<text 
+x="377" 
+y="287" 
+class="s7_136"
+>experiment</text>
+
+<text 
+x="464" 
+y="287" 
+class="s3_136"
+>if</text>
+
+<text 
+x="487" 
+y="287" 
+class="s7_136"
+>flip</text>
+
+<text 
+x="519" 
+y="287" 
+class="s5_136"
+>])</text>
+
+<text 
+x="108" 
+y="302" 
+class="s3_136"
+>return</text>
+
+<text 
+x="163" 
+y="302" 
+class="s7_136"
+>num_heads</text>
+
+<text 
+x="242" 
+y="302" 
+class="s5_136"
+>&lt;</text>
+
+<text 
+x="258" 
+y="302" 
+class="s8_136"
+>469</text>
+
+<text 
+x="290" 
+y="302" 
+class="s9_136"
+>or</text>
+
+<text 
+x="314" 
+y="302" 
+class="s7_136"
+>num_heads</text>
+
+<text 
+x="393" 
+y="302" 
+class="s5_136"
+>&gt;</text>
+
+<text 
+x="408" 
+y="302" 
+class="s8_136"
+>531</text>
+
+<text 
+x="76" 
+y="333" 
+class="s7_136"
+>random</text>
+
+<text 
+x="124" 
+y="333" 
+class="s5_136"
+>.</text>
+
+<text 
+x="132" 
+y="333" 
+class="s7_136"
+>seed</text>
+
+<text 
+x="163" 
+y="333" 
+class="s5_136"
+>(</text>
+
+<text 
+x="171" 
+y="333" 
+class="s8_136"
+>0</text>
+
+<text 
+x="179" 
+y="333" 
+class="s5_136"
+>)</text>
+
+<text 
+x="76" 
+y="348" 
+class="s7_136"
+>experiments</text>
+
+<text 
+x="171" 
+y="348" 
+dx="0,0,4.6" 
+class="s5_136"
+>= [</text>
+
+<text 
+x="195" 
+y="348" 
+class="s7_136"
+>run_experiment</text>
+
+<text 
+x="306" 
+y="348" 
+class="s5_136"
+>()</text>
+
+<text 
+x="329" 
+y="348" 
+class="s3_136"
+>for</text>
+
+<text 
+x="361" 
+y="348" 
+class="s7_136"
+>_</text>
+
+<text 
+x="377" 
+y="348" 
+class="s9_136"
+>in</text>
+
+<text 
+x="401" 
+y="348" 
+class="s10_136"
+>range</text>
+
+<text 
+x="440" 
+y="348" 
+class="s5_136"
+>(</text>
+
+<text 
+x="448" 
+y="348" 
+class="s8_136"
+>1000</text>
+
+<text 
+x="480" 
+y="348" 
+class="s5_136"
+>)]</text>
+
+<text 
+x="76" 
+y="364" 
+class="s7_136"
+>num_rejections</text>
+
+<text 
+x="195" 
+y="364" 
+class="s5_136"
+>=</text>
+
+<text 
+x="211" 
+y="364" 
+class="s10_136"
+>len</text>
+
+<text 
+x="235" 
+y="364" 
+class="s5_136"
+>([</text>
+
+<text 
+x="250" 
+y="364" 
+class="s7_136"
+>experiment</text>
+
+<text 
+x="250" 
+y="379" 
+class="s3_136"
+>for</text>
+
+<text 
+x="282" 
+y="379" 
+class="s7_136"
+>experiment</text>
+
+<text 
+x="369" 
+y="379" 
+class="s9_136"
+>in</text>
+
+<text 
+x="393" 
+y="379" 
+class="s7_136"
+>experiments</text>
+
+<text 
+x="250" 
+y="394" 
+class="s3_136"
+>if</text>
+
+<text 
+x="274" 
+y="394" 
+class="s7_136"
+>reject_fairness</text>
+
+<text 
+x="393" 
+y="394" 
+class="s5_136"
+>(</text>
+
+<text 
+x="401" 
+y="394" 
+class="s7_136"
+>experiment</text>
+
+<text 
+x="480" 
+y="394" 
+class="s5_136"
+>)])</text>
+
+<text 
+x="76" 
+y="425" 
+class="s3_136"
+>print</text>
+
+<text 
+x="124" 
+y="425" 
+class="s7_136"
+>num_rejections</text>
+
+<text 
+x="258" 
+y="425" 
+dx="0,0,4.6,0" 
+class="s11_136"
+># 46</text>
+
+<text 
+x="55" 
+y="478" 
+class="s2_136"
+>What this means is that if you’re setting out to find “significant” results, you usually can.</text>
+
+<text 
+x="55" 
+y="506" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_136"
+>Test enough hypotheses against your data set, and one of them will almost certainly appear</text>
+
+<text 
+x="55" 
+y="533" 
+class="s2_136"
+>significant. Remove the right outliers, and you can probably get your</text>
+
+<text 
+x="667" 
+y="533" 
+class="s12_136"
+>p</text>
+
+<text 
+x="683" 
+y="533" 
+class="s2_136"
+>value below 0.05.</text>
+
+<text 
+x="55" 
+y="561" 
+dx="0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_136"
+>(We did something vaguely similar in</text>
+
+<text 
+x="391" 
+y="561" 
+class="s13_136"
+>“Correlation”</text>
+
+<text 
+x="511" 
+y="561" 
+class="s2_136"
+>; did you notice?)</text>
+
+<text 
+x="55" 
+y="599" 
+class="s2_136"
+>This is sometimes called</text>
+
+<text 
+x="277" 
+y="599" 
+class="s13_136"
+>P-hacking</text>
+
+<text 
+x="371" 
+y="599" 
+class="s2_136"
+>and is in some ways a consequence of the “inference</text>
+
+<text 
+x="55" 
+y="627" 
+class="s2_136"
+>from</text>
+
+<text 
+x="103" 
+y="627" 
+class="s12_136"
+>p</text>
+
+<text 
+x="114" 
+y="627" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_136"
+>-values framework.” A good article criticizing this approach is</text>
+
+<text 
+x="668" 
+y="627" 
+class="s13_136"
+>“The Earth Is</text>
+
+<text 
+x="55" 
+y="654" 
+class="s13_136"
+>Round.”</text>
+
+<text 
+x="55" 
+y="693" 
+class="s2_136"
+>If you want to do good</text>
+
+<text 
+x="261" 
+y="693" 
+class="s12_136"
+>science</text>
+
+<text 
+x="326" 
+y="693" 
+class="s2_136"
+>, you should determine your hypotheses before looking at</text>
+
+<text 
+x="55" 
+y="720" 
+class="s2_136"
+>the data, you should clean your data without the hypotheses in mind, and you should keep</text>
+
+<text 
+x="55" 
+y="748" 
+class="s2_136"
+>in mind that</text>
+
+<text 
+x="166" 
+y="748" 
+class="s12_136"
+>p</text>
+
+<text 
+x="177" 
+y="748" 
+class="s2_136"
+>-values are not substitutes for common sense. (An alternative approach is</text>
+
+<text 
+x="55" 
+y="775" 
+class="s13_136"
+>“Bayesian Inference”</text>
+
+<text 
+x="243" 
+y="775" 
+class="s2_136"
+>.)</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

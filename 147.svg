@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 147 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_147{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s2_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC00FF;
+}
+.s3_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s4_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s5_147{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s6_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s7_147{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s8_147{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+.s9_147{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s10_147{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #00CCFF;
+}
+.s11_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #336666;
+}
+.s12_147{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s13_147{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="76" 
+y="64" 
+class="s1_147"
+>def</text>
+
+<text 
+x="108" 
+y="64" 
+class="s2_147"
+>square</text>
+
+<text 
+x="156" 
+y="64" 
+class="s3_147"
+>(</text>
+
+<text 
+x="163" 
+y="64" 
+class="s4_147"
+>x</text>
+
+<text 
+x="171" 
+y="64" 
+class="s3_147"
+>):</text>
+
+<text 
+x="108" 
+y="80" 
+class="s1_147"
+>return</text>
+
+<text 
+x="163" 
+y="80" 
+class="s4_147"
+>x</text>
+
+<text 
+x="179" 
+y="80" 
+class="s3_147"
+>*</text>
+
+<text 
+x="195" 
+y="80" 
+class="s4_147"
+>x</text>
+
+<text 
+x="55" 
+y="133" 
+class="s5_147"
+>has the derivative:</text>
+
+<text 
+x="76" 
+y="178" 
+class="s1_147"
+>def</text>
+
+<text 
+x="108" 
+y="178" 
+class="s2_147"
+>derivative</text>
+
+<text 
+x="187" 
+y="178" 
+class="s3_147"
+>(</text>
+
+<text 
+x="195" 
+y="178" 
+class="s4_147"
+>x</text>
+
+<text 
+x="203" 
+y="178" 
+class="s3_147"
+>):</text>
+
+<text 
+x="108" 
+y="193" 
+class="s1_147"
+>return</text>
+
+<text 
+x="163" 
+y="193" 
+class="s6_147"
+>2</text>
+
+<text 
+x="179" 
+y="193" 
+class="s3_147"
+>*</text>
+
+<text 
+x="195" 
+y="193" 
+class="s4_147"
+>x</text>
+
+<text 
+x="55" 
+y="246" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0" 
+class="s5_147"
+>which you can check — if you are so inclined — by explicitly computing the difference</text>
+
+<text 
+x="55" 
+y="273" 
+class="s5_147"
+>quotient and taking the limit.</text>
+
+<text 
+x="55" 
+y="312" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_147"
+>What if you couldn’t (or didn’t want to) find the gradient? Although we can’t take limits</text>
+
+<text 
+x="55" 
+y="339" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_147"
+>in Python, we can estimate derivatives by evaluating the difference quotient for a very</text>
+
+<text 
+x="55" 
+y="367" 
+class="s5_147"
+>small</text>
+
+<text 
+x="108" 
+y="367" 
+class="s7_147"
+>e</text>
+
+<text 
+x="118" 
+y="367" 
+class="s5_147"
+>.</text>
+
+<text 
+x="129" 
+y="367" 
+class="s8_147"
+>Figure 8-3</text>
+
+<text 
+x="227" 
+y="367" 
+class="s5_147"
+>shows the results of one such estimation:</text>
+
+<text 
+x="76" 
+y="414" 
+class="s4_147"
+>derivative_estimate</text>
+
+<text 
+x="235" 
+y="414" 
+class="s3_147"
+>=</text>
+
+<text 
+x="250" 
+y="414" 
+class="s4_147"
+>partial</text>
+
+<text 
+x="306" 
+y="414" 
+class="s3_147"
+>(</text>
+
+<text 
+x="314" 
+y="414" 
+class="s4_147"
+>difference_quotient</text>
+
+<text 
+x="464" 
+y="414" 
+class="s3_147"
+>,</text>
+
+<text 
+x="480" 
+y="414" 
+class="s4_147"
+>square</text>
+
+<text 
+x="527" 
+y="414" 
+class="s3_147"
+>,</text>
+
+<text 
+x="543" 
+y="414" 
+class="s4_147"
+>h</text>
+
+<text 
+x="551" 
+y="414" 
+class="s3_147"
+>=</text>
+
+<text 
+x="559" 
+y="414" 
+class="s6_147"
+>0.00001</text>
+
+<text 
+x="614" 
+y="414" 
+class="s3_147"
+>)</text>
+
+<text 
+x="76" 
+y="445" 
+dx="0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0" 
+class="s9_147"
+># plot to show they're basically the same</text>
+
+<text 
+x="76" 
+y="461" 
+class="s1_147"
+>import</text>
+
+<text 
+x="132" 
+y="461" 
+class="s10_147"
+>matplotlib.pyplot</text>
+
+<text 
+x="274" 
+y="461" 
+class="s1_147"
+>as</text>
+
+<text 
+x="298" 
+y="461" 
+class="s10_147"
+>plt</text>
+
+<text 
+x="76" 
+y="476" 
+class="s4_147"
+>x</text>
+
+<text 
+x="92" 
+y="476" 
+class="s3_147"
+>=</text>
+
+<text 
+x="108" 
+y="476" 
+class="s11_147"
+>range</text>
+
+<text 
+x="148" 
+y="476" 
+class="s3_147"
+>(-</text>
+
+<text 
+x="163" 
+y="476" 
+class="s6_147"
+>10</text>
+
+<text 
+x="179" 
+y="476" 
+class="s3_147"
+>,</text>
+
+<text 
+x="187" 
+y="476" 
+class="s6_147"
+>10</text>
+
+<text 
+x="203" 
+y="476" 
+class="s3_147"
+>)</text>
+
+<text 
+x="76" 
+y="491" 
+class="s4_147"
+>plt</text>
+
+<text 
+x="100" 
+y="491" 
+class="s3_147"
+>.</text>
+
+<text 
+x="108" 
+y="491" 
+class="s4_147"
+>title</text>
+
+<text 
+x="148" 
+y="491" 
+class="s3_147"
+>(</text>
+
+<text 
+x="156" 
+y="491" 
+dx="0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s12_147"
+>"Actual Derivatives vs. Estimates"</text>
+
+<text 
+x="424" 
+y="491" 
+class="s3_147"
+>)</text>
+
+<text 
+x="76" 
+y="507" 
+class="s4_147"
+>plt</text>
+
+<text 
+x="100" 
+y="507" 
+class="s3_147"
+>.</text>
+
+<text 
+x="108" 
+y="507" 
+class="s4_147"
+>plot</text>
+
+<text 
+x="140" 
+y="507" 
+class="s3_147"
+>(</text>
+
+<text 
+x="148" 
+y="507" 
+class="s4_147"
+>x</text>
+
+<text 
+x="156" 
+y="507" 
+class="s3_147"
+>,</text>
+
+<text 
+x="171" 
+y="507" 
+class="s11_147"
+>map</text>
+
+<text 
+x="195" 
+y="507" 
+class="s3_147"
+>(</text>
+
+<text 
+x="203" 
+y="507" 
+class="s4_147"
+>derivative</text>
+
+<text 
+x="282" 
+y="507" 
+class="s3_147"
+>,</text>
+
+<text 
+x="298" 
+y="507" 
+class="s4_147"
+>x</text>
+
+<text 
+x="306" 
+y="507" 
+class="s3_147"
+>),</text>
+
+<text 
+x="329" 
+y="507" 
+class="s12_147"
+>'rx'</text>
+
+<text 
+x="361" 
+y="507" 
+class="s3_147"
+>,</text>
+
+<text 
+x="377" 
+y="507" 
+class="s4_147"
+>label</text>
+
+<text 
+x="416" 
+y="507" 
+class="s3_147"
+>=</text>
+
+<text 
+x="424" 
+y="507" 
+class="s12_147"
+>'Actual'</text>
+
+<text 
+x="487" 
+y="507" 
+class="s3_147"
+>)</text>
+
+<text 
+x="598" 
+y="507" 
+dx="0,0,4.6,0,0" 
+class="s9_147"
+># red</text>
+
+<text 
+x="653" 
+y="507" 
+class="s9_147"
+>x</text>
+
+<text 
+x="76" 
+y="522" 
+class="s4_147"
+>plt</text>
+
+<text 
+x="100" 
+y="522" 
+class="s3_147"
+>.</text>
+
+<text 
+x="108" 
+y="522" 
+class="s4_147"
+>plot</text>
+
+<text 
+x="140" 
+y="522" 
+class="s3_147"
+>(</text>
+
+<text 
+x="148" 
+y="522" 
+class="s4_147"
+>x</text>
+
+<text 
+x="156" 
+y="522" 
+class="s3_147"
+>,</text>
+
+<text 
+x="171" 
+y="522" 
+class="s11_147"
+>map</text>
+
+<text 
+x="195" 
+y="522" 
+class="s3_147"
+>(</text>
+
+<text 
+x="203" 
+y="522" 
+class="s4_147"
+>derivative_estimate</text>
+
+<text 
+x="353" 
+y="522" 
+class="s3_147"
+>,</text>
+
+<text 
+x="369" 
+y="522" 
+class="s4_147"
+>x</text>
+
+<text 
+x="377" 
+y="522" 
+class="s3_147"
+>),</text>
+
+<text 
+x="401" 
+y="522" 
+class="s12_147"
+>'b+'</text>
+
+<text 
+x="432" 
+y="522" 
+class="s3_147"
+>,</text>
+
+<text 
+x="448" 
+y="522" 
+class="s4_147"
+>label</text>
+
+<text 
+x="487" 
+y="522" 
+class="s3_147"
+>=</text>
+
+<text 
+x="495" 
+y="522" 
+class="s12_147"
+>'Estimate'</text>
+
+<text 
+x="574" 
+y="522" 
+class="s3_147"
+>)</text>
+
+<text 
+x="598" 
+y="522" 
+dx="0,0,4.6,0,0,0,0,4.6" 
+class="s9_147"
+># blue +</text>
+
+<text 
+x="76" 
+y="538" 
+class="s4_147"
+>plt</text>
+
+<text 
+x="100" 
+y="538" 
+class="s3_147"
+>.</text>
+
+<text 
+x="108" 
+y="538" 
+class="s4_147"
+>legend</text>
+
+<text 
+x="156" 
+y="538" 
+class="s3_147"
+>(</text>
+
+<text 
+x="163" 
+y="538" 
+class="s4_147"
+>loc</text>
+
+<text 
+x="187" 
+y="538" 
+class="s3_147"
+>=</text>
+
+<text 
+x="195" 
+y="538" 
+class="s6_147"
+>9</text>
+
+<text 
+x="203" 
+y="538" 
+class="s3_147"
+>)</text>
+
+<text 
+x="76" 
+y="553" 
+class="s4_147"
+>plt</text>
+
+<text 
+x="100" 
+y="553" 
+class="s3_147"
+>.</text>
+
+<text 
+x="108" 
+y="553" 
+class="s4_147"
+>show</text>
+
+<text 
+x="140" 
+y="553" 
+class="s3_147"
+>()</text>
+
+<image preserveAspectRatio="none" x="81" y="585" width="747" height="587" xlink:href="147/img/1.png" />
+<text 
+x="260" 
+y="1198" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0" 
+class="s13_147"
+>Figure 8-3. Goodness of difference quotient approximation</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

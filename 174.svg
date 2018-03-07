@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 174 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+
+.s1_174{
+font-size: 25.31px;
+font-family: LiberationSerif-Bold_b;
+fill: #000000;
+}
+.s2_174{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_174{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_174{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<text 
+x="55" 
+y="77" 
+class="s1_174"
+>Finding APIs</text>
+
+<text 
+x="55" 
+y="115" 
+class="s2_174"
+>If you need data from a specific site, look for a developers or API section of the site for</text>
+
+<text 
+x="55" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_174"
+>details, and try searching the Web for “python</text>
+
+<text 
+x="465" 
+y="143" 
+class="s3_174"
+>__</text>
+
+<text 
+x="492" 
+y="143" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_174"
+>api” to find a library. There is a Rotten</text>
+
+<text 
+x="55" 
+y="170" 
+dx="0,-1.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_174"
+>Tomatoes API for Python. There are multiple Python wrappers for the Klout API, for the</text>
+
+<text 
+x="55" 
+y="198" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_174"
+>Yelp API, for the IMDB API, and so on.</text>
+
+<text 
+x="55" 
+y="236" 
+class="s2_174"
+>If you’re looking for lists of APIs that have Python wrappers, two directories are at</text>
+
+<text 
+x="791" 
+y="236" 
+class="s4_174"
+>Python</text>
+
+<text 
+x="55" 
+y="264" 
+class="s4_174"
+>API</text>
+
+<text 
+x="95" 
+y="264" 
+class="s2_174"
+>and</text>
+
+<text 
+x="133" 
+y="264" 
+class="s4_174"
+>Python for Beginners</text>
+
+<text 
+x="321" 
+y="264" 
+class="s2_174"
+>.</text>
+
+<text 
+x="55" 
+y="302" 
+class="s2_174"
+>If you want a directory of web APIs more broadly (without Python wrappers necessarily),</text>
+
+<text 
+x="55" 
+y="330" 
+class="s2_174"
+>a good resource is</text>
+
+<text 
+x="219" 
+y="330" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.8,0" 
+class="s4_174"
+>Programmable Web</text>
+
+<text 
+x="394" 
+y="330" 
+class="s2_174"
+>, which has a huge directory of categorized APIs.</text>
+
+<text 
+x="55" 
+y="368" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_174"
+>And if after all that you can’t find what you need, there’s always scraping, the last refuge</text>
+
+<text 
+x="55" 
+y="396" 
+class="s2_174"
+>of the data scientist.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 157 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_157{
+fill: #BEBEBE;
+}
+
+.s1_157{
+font-size: 30.81px;
+font-family: LiberationSerif-Bold_b;
+fill: #8E0012;
+}
+.s2_157{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_157{
+font-size: 22.01px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s4_157{
+font-size: 17.60px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s5_157{
+font-size: 13.20px;
+font-family: LiberationMono-Italic_10;
+fill: #0099FF;
+}
+.s6_157{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #006699;
+}
+.s7_157{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #00CCFF;
+}
+.s8_157{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000000;
+}
+.s9_157{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #000088;
+}
+.s10_157{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #FF6600;
+}
+.s11_157{
+font-size: 13.20px;
+font-family: LiberationMono-Bold_1w;
+fill: #000000;
+}
+.s12_157{
+font-size: 13.20px;
+font-family: LiberationMono_1q;
+fill: #CC3300;
+}
+.s13_157{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s14_157{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s15_157{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,951.7l722.5,0c3,0,5.5,2.5,5.5,5.5l0,149.7c0,3,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.5,-5.5,-5.5L88,957.2c0,-3,2.5,-5.5,5.5,-5.5m0,1.1l722.5,0c2.4,0,4.4,2,4.4,4.4l0,149.7c0,2.4,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-2,-4.4,-4.4l0,-149.7c0,-2.4,2,-4.4,4.4,-4.4Z" class="g1_157" />
+<text 
+x="55" 
+y="81" 
+class="s1_157"
+>stdin and stdout</text>
+
+<text 
+x="55" 
+y="122" 
+class="s2_157"
+>If you run your Python scripts at the command line, you can</text>
+
+<text 
+x="589" 
+y="122" 
+class="s3_157"
+>pipe</text>
+
+<text 
+x="632" 
+y="122" 
+class="s2_157"
+>data through them using</text>
+
+<text 
+x="55" 
+y="149" 
+class="s4_157"
+>sys.stdin</text>
+
+<text 
+x="155" 
+y="149" 
+class="s2_157"
+>and</text>
+
+<text 
+x="192" 
+y="149" 
+class="s4_157"
+>sys.stdout</text>
+
+<text 
+x="298" 
+y="149" 
+class="s2_157"
+>. For example, here is a script that reads in lines of text and</text>
+
+<text 
+x="55" 
+y="179" 
+class="s2_157"
+>spits back out the ones that match a regular expression:</text>
+
+<text 
+x="76" 
+y="224" 
+dx="0,0,4.6,0,0,0,0,0,0,0" 
+class="s5_157"
+># egrep.py</text>
+
+<text 
+x="76" 
+y="239" 
+class="s6_157"
+>import</text>
+
+<text 
+x="132" 
+y="239" 
+class="s7_157"
+>sys</text>
+
+<text 
+x="156" 
+y="239" 
+class="s8_157"
+>,</text>
+
+<text 
+x="171" 
+y="239" 
+class="s7_157"
+>re</text>
+
+<text 
+x="76" 
+y="270" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0" 
+class="s5_157"
+># sys.argv is the list of command-line arguments</text>
+
+<text 
+x="76" 
+y="286" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,0,0" 
+class="s5_157"
+># sys.argv[0] is the name of the program itself</text>
+
+<text 
+x="76" 
+y="301" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,4.6,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0" 
+class="s5_157"
+># sys.argv[1] will be the regex specified at the command line</text>
+
+<text 
+x="76" 
+y="316" 
+class="s9_157"
+>regex</text>
+
+<text 
+x="124" 
+y="316" 
+class="s8_157"
+>=</text>
+
+<text 
+x="140" 
+y="316" 
+class="s9_157"
+>sys</text>
+
+<text 
+x="163" 
+y="316" 
+class="s8_157"
+>.</text>
+
+<text 
+x="171" 
+y="316" 
+class="s9_157"
+>argv</text>
+
+<text 
+x="203" 
+y="316" 
+class="s8_157"
+>[</text>
+
+<text 
+x="211" 
+y="316" 
+class="s10_157"
+>1</text>
+
+<text 
+x="219" 
+y="316" 
+class="s8_157"
+>]</text>
+
+<text 
+x="76" 
+y="347" 
+dx="0,0,4.6,0,0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0" 
+class="s5_157"
+># for every line passed into the script</text>
+
+<text 
+x="76" 
+y="363" 
+class="s6_157"
+>for</text>
+
+<text 
+x="108" 
+y="363" 
+class="s9_157"
+>line</text>
+
+<text 
+x="148" 
+y="363" 
+class="s11_157"
+>in</text>
+
+<text 
+x="171" 
+y="363" 
+class="s9_157"
+>sys</text>
+
+<text 
+x="195" 
+y="363" 
+class="s8_157"
+>.</text>
+
+<text 
+x="203" 
+y="363" 
+class="s9_157"
+>stdin</text>
+
+<text 
+x="242" 
+y="363" 
+class="s8_157"
+>:</text>
+
+<text 
+x="108" 
+y="378" 
+dx="0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,4.6,0,0,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,4.6,0,0,4.6,0,0,4.6,0,0,0,0,0" 
+class="s5_157"
+># if it matches the regex, write it to stdout</text>
+
+<text 
+x="108" 
+y="393" 
+class="s6_157"
+>if</text>
+
+<text 
+x="132" 
+y="393" 
+class="s9_157"
+>re</text>
+
+<text 
+x="148" 
+y="393" 
+class="s8_157"
+>.</text>
+
+<text 
+x="156" 
+y="393" 
+class="s9_157"
+>search</text>
+
+<text 
+x="203" 
+y="393" 
+class="s8_157"
+>(</text>
+
+<text 
+x="211" 
+y="393" 
+class="s9_157"
+>regex</text>
+
+<text 
+x="250" 
+y="393" 
+class="s8_157"
+>,</text>
+
+<text 
+x="266" 
+y="393" 
+class="s9_157"
+>line</text>
+
+<text 
+x="298" 
+y="393" 
+class="s8_157"
+>):</text>
+
+<text 
+x="140" 
+y="409" 
+class="s9_157"
+>sys</text>
+
+<text 
+x="163" 
+y="409" 
+class="s8_157"
+>.</text>
+
+<text 
+x="171" 
+y="409" 
+class="s9_157"
+>stdout</text>
+
+<text 
+x="219" 
+y="409" 
+class="s8_157"
+>.</text>
+
+<text 
+x="227" 
+y="409" 
+class="s9_157"
+>write</text>
+
+<text 
+x="266" 
+y="409" 
+class="s8_157"
+>(</text>
+
+<text 
+x="274" 
+y="409" 
+class="s9_157"
+>line</text>
+
+<text 
+x="306" 
+y="409" 
+class="s8_157"
+>)</text>
+
+<text 
+x="55" 
+y="462" 
+dx="0,0,0,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_157"
+>And here’s one that counts the lines it receives and then writes out the count:</text>
+
+<text 
+x="76" 
+y="507" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_157"
+># line_count.py</text>
+
+<text 
+x="76" 
+y="522" 
+class="s6_157"
+>import</text>
+
+<text 
+x="132" 
+y="522" 
+class="s7_157"
+>sys</text>
+
+<text 
+x="76" 
+y="553" 
+class="s9_157"
+>count</text>
+
+<text 
+x="124" 
+y="553" 
+class="s8_157"
+>=</text>
+
+<text 
+x="140" 
+y="553" 
+class="s10_157"
+>0</text>
+
+<text 
+x="76" 
+y="568" 
+class="s6_157"
+>for</text>
+
+<text 
+x="108" 
+y="568" 
+class="s9_157"
+>line</text>
+
+<text 
+x="148" 
+y="568" 
+class="s11_157"
+>in</text>
+
+<text 
+x="171" 
+y="568" 
+class="s9_157"
+>sys</text>
+
+<text 
+x="195" 
+y="568" 
+class="s8_157"
+>.</text>
+
+<text 
+x="203" 
+y="568" 
+class="s9_157"
+>stdin</text>
+
+<text 
+x="242" 
+y="568" 
+class="s8_157"
+>:</text>
+
+<text 
+x="108" 
+y="584" 
+class="s9_157"
+>count</text>
+
+<text 
+x="156" 
+y="584" 
+class="s8_157"
+>+=</text>
+
+<text 
+x="179" 
+y="584" 
+class="s10_157"
+>1</text>
+
+<text 
+x="76" 
+y="615" 
+dx="0,0,4.6,0,0,0,0,0,4.6,0,0,0,0,4.6,0,0,4.6,0,0,0,0,0,0,0,0,0" 
+class="s5_157"
+># print goes to sys.stdout</text>
+
+<text 
+x="76" 
+y="630" 
+class="s6_157"
+>print</text>
+
+<text 
+x="124" 
+y="630" 
+class="s9_157"
+>count</text>
+
+<text 
+x="55" 
+y="683" 
+dx="0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0" 
+class="s2_157"
+>You could then use these to count how many lines of a file contain numbers. In Windows,</text>
+
+<text 
+x="55" 
+y="710" 
+class="s2_157"
+>you’d use:</text>
+
+<text 
+x="76" 
+y="755" 
+dx="0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6" 
+class="s8_157"
+>type SomeFile.txt |</text>
+
+<text 
+x="235" 
+y="755" 
+class="s9_157"
+>python</text>
+
+<text 
+x="290" 
+y="755" 
+class="s8_157"
+>egrep.py</text>
+
+<text 
+x="361" 
+y="755" 
+class="s12_157"
+>"[0-9]"</text>
+
+<text 
+x="424" 
+y="755" 
+class="s8_157"
+>|</text>
+
+<text 
+x="440" 
+y="755" 
+class="s9_157"
+>python</text>
+
+<text 
+x="495" 
+y="755" 
+class="s8_157"
+>line_count.py</text>
+
+<text 
+x="55" 
+y="808" 
+class="s2_157"
+>whereas in a Unix system you’d use:</text>
+
+<text 
+x="76" 
+y="853" 
+dx="0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_157"
+>cat SomeFile.txt | python egrep.py "[0-9]" | python line_count.py</text>
+
+<text 
+x="55" 
+y="906" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_157"
+>The | is the pipe character, which means “use the output of the left command as the input</text>
+
+<text 
+x="55" 
+y="934" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s2_157"
+>of the right command.” You can build pretty elaborate data-processing pipelines this way.</text>
+
+<text 
+x="421" 
+y="977" 
+dx="0,1.1,1.1,1.1" 
+class="s13_157"
+>NOTE</text>
+
+<text 
+x="97" 
+y="1006" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s14_157"
+>If you are using Windows, you can probably leave out the</text>
+
+<text 
+x="483" 
+y="1006" 
+class="s8_157"
+>python</text>
+
+<text 
+x="535" 
+y="1006" 
+class="s14_157"
+>part of this command:</text>
+
+<text 
+x="119" 
+y="1051" 
+dx="0,0,0,0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,4.6,0,0,0,0,0,0,0,4.6,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s8_157"
+>type SomeFile.txt | egrep.py "[0-9]" | line_count.py</text>
+
+<text 
+x="97" 
+y="1099" 
+class="s14_157"
+>If you are on a Unix system, doing so might require a little</text>
+
+<text 
+x="488" 
+y="1099" 
+class="s15_157"
+>more work</text>
+
+<text 
+x="560" 
+y="1099" 
+class="s14_157"
+>.</text>
+
+<text 
+x="55" 
+y="1144" 
+dx="0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s2_157"
+>Similarly, here’s a script that counts the words in its input and writes out the most common</text>
+
+<text 
+x="55" 
+y="1171" 
+class="s2_157"
+>ones:</text>
+
+<text 
+x="76" 
+y="1216" 
+dx="0,0,4.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_157"
+># most_common_words.py</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Bold_1w;
+	src: url("fonts/LiberationMono-Bold_1w.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono_1q;
+	src: url("fonts/LiberationMono_1q.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationMono-Italic_10;
+	src: url("fonts/LiberationMono-Italic_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

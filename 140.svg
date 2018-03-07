@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 140 -->
+<svg x="0" y="0" width="909" height="1286" viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_140{
+fill: #BEBEBE;
+}
+
+.s1_140{
+font-size: 22.01px;
+font-family: LiberationSerif-Bold_b;
+fill: #737373;
+}
+.s2_140{
+font-size: 16.50px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s3_140{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #8E0012;
+}
+.s4_140{
+font-size: 16.50px;
+font-family: LiberationSerif-Italic_l;
+fill: #000000;
+}
+.s5_140{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #000000;
+}
+.s6_140{
+font-size: 22.01px;
+font-family: LiberationSerif_e;
+fill: #8E0012;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1286
+L909,1286
+L909,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path fill-rule="evenodd" d="M93.5,53.9l722.5,0c3,0,5.5,2.5,5.5,5.5l0,116.6c0,3.1,-2.5,5.5,-5.5,5.5l-722.5,0c-3,0,-5.5,-2.4,-5.5,-5.5L88,59.4c0,-3,2.5,-5.5,5.5,-5.5m0,1.1L816,55c2.4,0,4.4,2,4.4,4.4l0,116.6c0,2.5,-2,4.4,-4.4,4.4l-722.5,0c-2.4,0,-4.4,-1.9,-4.4,-4.4l0,-116.6c0,-2.4,2,-4.4,4.4,-4.4Z" class="g1_140" />
+<text 
+x="421" 
+y="79" 
+dx="0,1.1,1.1,1.1" 
+class="s1_140"
+>NOTE</text>
+
+<text 
+x="97" 
+y="108" 
+class="s2_140"
+>It is no coincidence that the posterior distribution was again a Beta distribution. The number of heads is</text>
+
+<text 
+x="97" 
+y="128" 
+class="s2_140"
+>given by a Binomial distribution, and the Beta is the</text>
+
+<text 
+x="446" 
+y="128" 
+class="s3_140"
+>conjugate prior</text>
+
+<text 
+x="553" 
+y="128" 
+class="s2_140"
+>to the Binomial distribution. This</text>
+
+<text 
+x="97" 
+y="148" 
+class="s2_140"
+>means that whenever you update a Beta prior using observations from the corresponding binomial, you will</text>
+
+<text 
+x="97" 
+y="168" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.9" 
+class="s2_140"
+>get back a Beta posterior.</text>
+
+<image preserveAspectRatio="none" x="93" y="198" width="724" height="572" xlink:href="140/img/1.png" />
+<text 
+x="325" 
+y="796" 
+dx="0,0,0,0,0,-0.6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s4_140"
+>Figure 7-1. Example Beta distributions</text>
+
+<text 
+x="55" 
+y="838" 
+dx="0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_140"
+>Let’s say you flip the coin 10 times and see only 3 heads.</text>
+
+<text 
+x="55" 
+y="876" 
+class="s5_140"
+>If you started with the uniform prior (in some sense refusing to take a stand about the</text>
+
+<text 
+x="55" 
+y="904" 
+dx="0,0,0,0,0,-1.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_140"
+>coin’s fairness), your posterior distribution would be a Beta(4, 8), centered around 0.33.</text>
+
+<text 
+x="55" 
+y="931" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_140"
+>Since you considered all probabilities equally likely, your best guess is something pretty</text>
+
+<text 
+x="55" 
+y="959" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4" 
+class="s5_140"
+>close to the observed probability.</text>
+
+<text 
+x="55" 
+y="997" 
+class="s5_140"
+>If you started with a Beta(20, 20) (expressing the belief that the coin was roughly fair),</text>
+
+<text 
+x="55" 
+y="1025" 
+class="s5_140"
+>your posterior distribution would be a Beta(23, 27), centered around 0.46, indicating a</text>
+
+<text 
+x="55" 
+y="1052" 
+class="s5_140"
+>revised belief that maybe the coin is slightly biased toward tails.</text>
+
+<text 
+x="55" 
+y="1091" 
+class="s5_140"
+>And if you started with a Beta(30, 10) (expressing a belief that the coin was biased to flip</text>
+
+<text 
+x="55" 
+y="1118" 
+class="s5_140"
+>75% heads), your posterior distribution would be a Beta(33, 17), centered around 0.66. In</text>
+
+<text 
+x="55" 
+y="1146" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.4,0,0,0,0,0,0" 
+class="s5_140"
+>that case you’d still believe in a heads bias, but less strongly than you did initially. These</text>
+
+<text 
+x="55" 
+y="1173" 
+dx="0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s5_140"
+>three different posteriors are plotted in</text>
+
+<text 
+x="398" 
+y="1173" 
+class="s6_140"
+>Figure 7-2</text>
+
+<text 
+x="491" 
+y="1173" 
+class="s5_140"
+>.</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSerif-Italic_l;
+	src: url("fonts/LiberationSerif-Italic_l.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Bold_b;
+	src: url("fonts/LiberationSerif-Bold_b.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_e;
+	src: url("fonts/LiberationSerif_e.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
